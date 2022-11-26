@@ -1,24 +1,17 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/chinese-traditional",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Chinese (Traditional) language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/chinese-traditional",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"zh_Hant-locale"
 	],
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
-		}
-	],
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/chinese-traditional/issues",
+		"source": "https://github.com/flarum-lang/chinese-traditional"
 	},
 	"require": {
 		"flarum/core": "^1.5"
@@ -27,7 +20,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Chinese (Traditional)",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
@@ -35,8 +28,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "zh-Hant",
+			"title": "Chinese (Traditional)"
 		},
 		"extiverse": {
 			"discuss": ""
