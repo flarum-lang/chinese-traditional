@@ -8,8 +8,6 @@ core:
       hot_button: 趨勢
 fof-gamification:
   admin:
-    nav:
-      desc: '增強 Flarum 論壇遊戲性'
     page:
       convert:
         button: 轉換「喜歡」為「讚」
@@ -68,7 +66,6 @@ fof-gamification:
       name: 用戶
       rank: 排位
     user:
-      points: '👍: {points}'
       rank: '{rank}'
     vote_title: 顯示點讚的人
     votes: 點讚

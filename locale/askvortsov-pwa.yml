@@ -12,13 +12,11 @@ askvortsov-pwa:
         description_text: 您可以在管理後台的「基本設定」頁面修改描述。
         heading: 關於
         long_name_text: '顯示給用戶的 web 應用名稱'
-        name_text: '填入一個用於 PWA 的較長的名字。'
         short_name_text: 您可以在管理後台的「基本設定」頁面修改短名稱。
       colors:
         background_color_text: '這是用於啟動螢幕的佔位顏色，將在 PWA 載入時顯示，當 App 載入完成後將不會被使用。'
         heading: 顏色
         theme_color_text: '裝置顯示應用時可能會使用到這個顏色，比如 Android 的任務切換。您可以在管理後台的「外觀設定」中修改主要顏色。'
-      enable_label: 啟用？
       heading: 'PWA 設定'
       logo_heading: 'Logo 及圖示'
       logo_size_text: '上傳的 Logo 將被縮放至 {size}x{size}px。'
@@ -35,17 +33,12 @@ askvortsov-pwa:
       text: '將您的 Flarum 論壇配置為 PWA！請注意，這不會將您的站點提交到應用程式商店，而是增加一個「新增至主螢幕」的選項。'
     status:
       config_no_https: 'config.php 檔中的連結未使用 HTTPS。PWA 必須使用 HTTPS。'
-      disabled: '您必須啟用 PWA。'
       key_gen_failed: '推送通知所需的密鑰生成失敗。錯誤信息：{error}'
-      manifest_does_not_exist: 'Web Manifest 檔不存在，請儲存設定來重載配置。'
-      manifest_not_accessible: 'Web Manifest 檔不可訪問，檔案應當位於 https://YOUR_FLARUM_SITE_URL/webmanifest.json。如果位置不正確，請檢查服務區配置；如果位置正確，請忽略。'
       no_logo: '您至少需要上傳一個 Logo。'
       no_name: 您必須提供全名。
       possible_https_disabled: '您的站點可能未運行於 HTTPS 上，如果是 HTTPS，請忽略；如果不是，請啟用 HTTPS，PWA 必須使用 HTTPS。'
       success: 未發現潛在問題！
       suggest_gmp: '你的服務器似乎沒有啟用 gmp PHP 擴展。此擴展非必需，但可提高應用性能，建議使用。不過有些共享主機可能不支持安裝。'
-      sw_does_not_exist: 'Service Worker 檔不存在，請儲存設定來重載配置。'
-      sw_not_accessible: 'Service Worker 檔不可訪問，檔案應當位於 https://YOUR_FLARUM_SITE_URL/sw.js。如果位置不正確，請檢查服務區配置；如果位置正確，請忽略。'
   forum:
     alerts:
       optin: 您已啟用推送通知，但還沒有配置此設備。

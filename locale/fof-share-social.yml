@@ -3,9 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-share-social:
-  admin:
-    settings:
-      title: 'FoF 社群分享'
   forum:
     discussion:
       share_button: 分享

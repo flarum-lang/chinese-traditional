@@ -12,9 +12,6 @@ fof-byobu:
       edit_user_recipients: 編輯參與私密討論的參與者
       make_private_into_public: 轉換私密貼文為公開貼文
       view_private_discussions-when-flagged: 若有旗標則允許查看其他人的私密貼文
-    settings:
-      use_tag_slug: 指定節點的貼文將被強制作為私密貼文
-      use_tag_slug_help: 留空以允許使用者自己選擇節點，僅適用於新增的私密貼文
   forum:
     badges:
       is_private:
@@ -36,7 +33,6 @@ fof-byobu:
       search_recipients: '輸入 ID 前三個字符進行搜尋'
     labels:
       recipients: '僅 {count} 人可見'
-      user_deleted: '--已刪除--'
     modal:
       help:
         add_recipients: 私密貼文僅對受邀者可見，除你之外需要至少一位參與者。
@@ -69,12 +65,3 @@ fof-byobu:
       dropdown_label: 私密貼文
       settings:
         block_pd: 阻止私密貼文
-  notifications:
-    private_discussion_added:
-      title: '[私密貼文] 有人將您加入私密貼文'
-    private_discussion_created:
-      title: '[私密貼文] 有人創建私密貼文並邀請你參與'
-    private_discussion_replied:
-      title: '[私密貼文] 有人回覆了私密貼文'
-    recipient_removed:
-      title: '[私密貼文] 有人離開來私密貼文'

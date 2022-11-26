@@ -5,7 +5,6 @@
 fof-forum-statistics-widget:
   admin:
     settings:
-      title: 'Widget 設定'
       widget_helper_text: '編輯此設定以調整 widget 在論壇側邊上的位置。 值越大位置越高（此值可以為負數）。'
       widget_order_label: 'Widget 順序'
   forum:

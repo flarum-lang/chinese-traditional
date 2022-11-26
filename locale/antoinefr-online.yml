@@ -6,7 +6,6 @@ antoinefr-online:
   admin:
     settings:
       displaymax: 顯示數量
-      title: 設定
       titleoflist: 列表標題
   forum:
     andmore: '還有 {more} 人 ...'

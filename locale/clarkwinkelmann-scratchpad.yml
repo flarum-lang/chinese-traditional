@@ -31,9 +31,6 @@ clarkwinkelmann-scratchpad:
       forum_less: '論壇前台 Less'
       php: PHP
       title: 便簽簿名稱
-    menu:
-      description: 在開發環境中方便地測試程式碼
-      title: 便簽簿
     placeholders:
       js-log: 'Hello, {frontend}!'
       php-comment: '於此註冊 extender'

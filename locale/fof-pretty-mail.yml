@@ -13,7 +13,6 @@ fof-pretty-mail:
     settings:
       confirm: 您確定要復原郵件模板為
       default: 預設模板
-      help: '"$body" 為郵件正文，"$forumStyle" 為<strong>完整的論壇 CSS</strong>，"$baseUrl" 為論壇連結，"$settings" 允許您與 SettingsRepositoryInterface 進行交互，"$link" 為郵件中的連結。請查看模板了解如何使用變數。'
       label: 郵件模板
       newPost: 'Flarum/subscriptions 新貼文提醒郵件'
       notificationHelp: '對於這些郵件，推薦使用 "$forumStyle"，因為它們可能包含 BBCODE。這些郵件也可以使用 "$user" 來引用收件人的完整資料。'

@@ -3,15 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-author-change:
-  admin:
-    permissions:
-      edit: 更改貼文及回覆作者
   forum:
     controls:
       edit: 更改作者
     modal:
       cancel: 放棄
-      search_placeholder: 搜尋用戶
       submit: 儲存
       title-discussion: 更改貼文作者
       title-post: 更改回帖作者

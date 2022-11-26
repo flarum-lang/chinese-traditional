@@ -15,6 +15,5 @@ fof-passport:
         button-icon: 登入按鈕圖示
         button-title: 登入按鈕標簽
         button-title-placeholder: '=> fof-passport.api.default-login-button-title'
-      title: 'Flagrow 護照'
   api:
     default-login-button-title: '=> core.ref.log_in'

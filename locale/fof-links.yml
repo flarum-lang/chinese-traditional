@@ -16,12 +16,8 @@ fof-links:
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
     links:
-      about_text: 管理主選單連結
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
-    nav:
-      links_button: '=> fof-links.ref.links'
-      links_text: 管理主導航項目
   ref:
     create_link: 新增連結
     links: 連結

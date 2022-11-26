@@ -8,7 +8,6 @@ fof-discussion-language:
       allow_change_language_label: 允許更改語言
     settings:
       native_label: 使用原生語言名稱
-      title: 'FoF 貼文語言'
   api:
     discussion:
       validation_error: 您必須為貼文設定語言。

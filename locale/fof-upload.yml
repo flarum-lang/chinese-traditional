@@ -4,12 +4,9 @@
 
 fof-upload:
   admin:
-    buttons:
-      save: 儲存更改
     help_texts:
       client_extension: "默認情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n"
       composer_buttons: "默認情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
-      description: 配置上載服務及偏好設定
       disable-download-logging: 開啟此設定可查看下載量及未來可能的統計數據。
       disable-hotlink-protection: '熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID'
       download_templates: '下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：'
@@ -49,13 +46,6 @@ fof-upload:
       local:
         cdn_url: 'CDN 連結 (在檔案前)'
         title: 本地存儲設定
-      ovh-svfs:
-        container: 容器
-        password: 密碼
-        region: 區域
-        tenantid: 'Tenant ID'
-        title: 'OVH SVFS 存儲設定'
-        username: 使用者名稱
       preferences:
         max_file_size: '最大檔案大小 (單位 KB)'
         mime_types: '設定 MIME 類型以及上載接口'

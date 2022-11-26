@@ -38,10 +38,8 @@ flarum-tags:
       about_tags_text: 標籤用於分類貼文。主標籤類似於傳統論壇的板塊；次標籤無層級或順序，可作為子分類。
       create_primary_tag_button: 新建主標籤
       create_secondary_tag_button: 新建次標籤
-      create_tag_button: 新增標籤
       primary_heading: 主標籤
       secondary_heading: 次標籤
-      settings_button: 設定
       settings_heading: 設置
   forum:
     all_tags:
@@ -74,6 +72,5 @@ flarum-tags:
   lib:
     deleted_tag_text: 已刪除
   ref:
-    create_tag: 新增標籤
     name: 標籤名稱
     tags: 標籤

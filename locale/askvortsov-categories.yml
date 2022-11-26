@@ -37,8 +37,6 @@ askvortsov-categories:
       categories_link: 分類
     last_discussion_widget:
       no_discussions: 暫無貼文
-    meta:
-      categories_title: 分類
     stat-widgets:
       discussion_label: 貼文
       post_label: 回覆

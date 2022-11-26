@@ -5,8 +5,6 @@
 maicol07-sso:
   admin:
     settings:
-      disable_login_btn: 停用登入按鈕
-      disable_signup_btn: 停用註冊按鈕
       login_url: 登入連結
       logout_url: 登出連結
       signup_url: 註冊連結

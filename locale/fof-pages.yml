@@ -25,11 +25,7 @@ fof-pages:
       title_placeholder: 標題
       url_label: 連結
       url_placeholder: 連結
-    nav:
-      pages_button: 頁面
-      pages_text: 新增自定義靜態頁面
     pages:
-      about_text: 新增及管理靜態頁面
       create_button: 新增頁面
     pages_list:
       empty_text: 看起來這裡一片空白。

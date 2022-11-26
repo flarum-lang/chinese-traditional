@@ -4,11 +4,6 @@
 
 core:
   admin:
-    add_extension:
-      developer_text: 如果你是開發者，你可以<a>閱讀文檔</a>並自行開發延伸套件。
-      install_text: '在此期間你可以造訪<a>Flarum 社群</a>搜尋延伸套件，並通過 Composer 手動安裝。'
-      temporary_text: 終有一天，在不遠的將來，此對話框將讓你輕鬆地新增延伸套件。如我們所說，我們將建立一套生態系統！
-      title: 新增延伸套件
     appearance:
       colored_header_label: 導航欄上色
       colors_heading: 顏色
@@ -29,7 +24,6 @@ core:
       favicon_text: 上傳圖片做為論壇的站點圖示。
       logo_heading: Logo
       logo_text: 上傳圖片做為論壇標題。
-      submit_button: 儲存更改
       title: 外觀
     basics:
       all_discussions_label: 全部主題
@@ -42,11 +36,9 @@ core:
       forum_title_heading: 論壇名稱
       home_page_heading: 論壇首頁
       home_page_text: 選擇一個頁面作為論壇首頁。
-      saved_message: 更改已儲存
       show_language_selector_label: 顯示語言選擇選單
       slug_driver_heading: '個人主頁 URL 格式：{model}'
       slug_driver_text: '切換個人主頁 URL 格式，默認 u/用戶名。'
-      submit_button: 儲存更改
       title: 常規
       welcome_banner_heading: 歡迎橫幅
       welcome_banner_text: 橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。
@@ -84,36 +76,25 @@ core:
       description: 配置論壇郵件服務
       driver_heading: 選取驅動
       driver_label: 驅動
-      encryption_label: 加密
       from_label: 發信人
-      heading: 郵箱
       mail_encryption_label: 加密
       mail_host_label: 主機
       mail_mailgun_domain_label: 域名
       mail_mailgun_region_label: 區域
       mail_mailgun_secret_label: 'Secret key'
-      mail_mandrill_secret_label: 'Secret key'
       mail_password_label: 密碼
       mail_port_label: 連接埠
-      mail_ses_key_label: Key
-      mail_ses_region_label: 地區
-      mail_ses_secret_label: Secret
       mail_username_label: 會員
       mailgun_heading: 'Mailgun 設定'
-      mandrill_heading: 'Mandrill 設定'
       not_sending_message: 'Flarum 未能傳送郵件，可能是由於驅動選擇或者配置錯誤所致'
       send_test_mail_button: 發送
       send_test_mail_heading: 發送測試郵件
       send_test_mail_success: 測試郵件發送成功！
       send_test_mail_text: '使用上述設置發送測試郵件到您的郵箱：{email}'
-      ses_heading: 'SES 設定'
       smtp_heading: 'SMTP 設定'
-      submit_button: 儲存更改
-      text: 配置用於發信的驅動、設置及地址。
       title: 信箱
     extension:
       configure_scopes: 設置範圍
-      confirm_uninstall: 此擴展的的數據庫和文件資源都將被永久性刪除，確定要繼續嗎？
       disabled: 關閉
       enable_to_see: 開啟擴展程序以查看或修改設置。
       enabled: 開啟
@@ -128,11 +109,6 @@ core:
       no_settings: 此擴展無設置項。
       open_modal: 打開設置
       permissions_title: 權限
-      uninstall_button: 卸載
-    extensions:
-      add_button: 新增延伸套件
-      settings_button: 設定
-      uninstall_button: 移除
     header:
       get_help: 幫助
       log_out_button: 登出
@@ -140,10 +116,8 @@ core:
       title: 請稍候...
     nav:
       appearance_button: 外觀設定
-      appearance_text: 客製化論壇色調、徽標以及其他元素
       appearance_title: 自定義論壇色調、圖標以及其他元素
       basics_button: 基本設定
-      basics_text: 設定論壇名稱、語言以及其他基本設定
       basics_title: 設置論壇名稱、語言以及其他基礎設置
       categories:
         authentication: 驗證
@@ -156,15 +130,10 @@ core:
         other: 其他
         theme: 樣式
       dashboard_button: 論壇概覽
-      dashboard_text: 論壇資料綜覽
       dashboard_title: 論壇各項數據一覽
       email_button: 郵箱
-      email_text: 配置論壇郵箱設定。
       email_title: 配置論壇郵件服務
-      extensions_button: 延伸套件
-      extensions_text: 為你的論壇新增額外功能
       permissions_button: 權限設定
-      permissions_text: 設定會員訪問及操作權限
       permissions_title: 設置各用戶組訪問及操作權限
       search_placeholder: 搜索擴展程序
       userlist_button: 用戶
@@ -194,12 +163,10 @@ core:
       sign_up_label: 註冊帳戶
       start_discussions_label: 新增貼文
       title: 權限
-      view_discussions_label: 查看貼文
       view_forum_label: 瀏覽論壇（討論和用戶）
       view_hidden_groups_label: 查看隱藏群組
       view_last_seen_at_label: 查看最後活動時間
       view_post_ips_label: '查看 IP 地址'
-      view_user_list_label: 查看會員列表
     permissions_controls:
       allow_indefinitely_button: 無限期
       allow_some_minutes_button: '{count} 分鐘|{count} 分鐘'
@@ -309,21 +276,8 @@ core:
     discussion_list:
       empty_text: 因為什麼都沒有，所以什麼都做得到
       load_more_button: 載入更多
-      mark_as_read_tooltip: 標記為已讀
       replied_text: '{username} 回覆於 {ago}'
       started_text: '{username} 發佈於 {ago}'
-    edit_user:
-      activate_button: 激活會員
-      email_heading: 郵箱
-      email_label: 郵箱
-      groups_heading: 群組
-      password_heading: 密碼
-      password_label: 密碼
-      set_password_label: 設定新密碼
-      submit_button: 儲存更改
-      title: 編輯會員
-      username_heading: 會員
-      username_label: 會員
     forgot_password:
       dismiss_button: 好
       email_placeholder: 郵箱
@@ -353,15 +307,12 @@ core:
       start_discussion_button: 新增貼文
       toggle_sidenav_dropdown_accessible_label: 導航欄下拉選單開關
     index_sort:
-      hot_button: 趨勢
       latest_button: 最後回覆
       newest_button: 最新貼文
       oldest_button: 最舊貼文
-      popular_button: 最多人看
       relevance_button: 關聯推薦
       toggle_dropdown_accessible_label: 更改「全部主題」排序
       top_button: 最熱貼文
-      unpopular_button: 最少人看
     log_in:
       forgot_password_link: 忘記密碼？
       invalid_login_message: 登入信息有誤
@@ -491,7 +442,6 @@ core:
     number_suffix:
       kilo_text: 千
       mega_text: 百萬
-      ten_kilo_text: 萬
     series:
       glue_text: ', '
       three_text: '{first}, {second} 以及 {third}'
@@ -516,7 +466,6 @@ core:
     edit_user: 編輯用戶
     email: 郵箱
     icon: 圖示
-    icon_label: 圖示
     icon_text: '鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>'
     load_more: 載入更多
     loading: Loading...

@@ -3,9 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-follow-tags:
-  email:
-    newDiscussionInTag: '[節點 | 新貼文] 標題'
-    newPostInTag: '[節點 | 新回覆] 標題'
   forum:
     index:
       follow_tag_button: 關注

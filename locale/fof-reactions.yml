@@ -4,8 +4,6 @@
 
 fof-reactions:
   admin:
-    nav:
-      desc: 新增自定義回應及更改設定
     page:
       convert:
         button: 轉換舊地回應

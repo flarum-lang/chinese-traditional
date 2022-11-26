@@ -12,4 +12,3 @@ fof-html-errors:
         503: '503 服務不可用（或下線維護）'
       placeholder:
         empty_for_default: '留空則使用預設 Flarum 錯誤頁面'
-      title: '客製 HTML 錯誤頁面'

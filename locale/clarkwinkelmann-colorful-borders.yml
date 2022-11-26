@@ -7,7 +7,6 @@ clarkwinkelmann-colorful-borders:
     permissions:
       editAnyPost: 編輯任意貼文的樣式
       editOwnPost: 編輯自己貼文的樣式
-      heading: 多彩邊框
     settings:
       colors:
         all: 任意顏色
@@ -21,7 +20,6 @@ clarkwinkelmann-colorful-borders:
       enableTextColor: 文字顏色
       max: 最大
       min: 最小
-      title: 多彩邊框設定
   forum:
     apply: 套用
     backgroundColor: 背景顏色
