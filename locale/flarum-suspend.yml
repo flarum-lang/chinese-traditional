@@ -8,7 +8,7 @@ flarum-suspend:
       suspend_users_label: 封禁使用者
   forum:
     notifications:
-      user_suspended_text: '{username} 封禁了你 {timeReadable}'
+      user_suspended_text: '你已被封禁 {timeReadable}'
       user_unsuspended_text: '{username} 封禁了你'
     suspend_user:
       indefinitely_label: 無限期封禁
