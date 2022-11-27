@@ -42,6 +42,8 @@ validation:
   ends_with: ':attribute 必須以「:values」結尾'
   exists: '選擇的 :attribute 無效'
   file: ':attribute 必須是文件。'
+  file_too_large: ':attribute 過大。'
+  file_upload_failed: ':attribute 上傳失敗。'
   filled: ':attribute 不能為空'
   gt:
     array: ':attribute 必須多於 :value 項'

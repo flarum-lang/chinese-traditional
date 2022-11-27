@@ -6,6 +6,9 @@ flarum-likes:
   admin:
     permissions:
       like_posts_label: 讚
+    settings:
+      like_own_posts_help: 啟用此項，以允許用戶點讚自己的帖子。
+      like_own_posts_label: 允許自讚
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
@@ -21,3 +24,5 @@ flarum-likes:
       title: 按讚的用戶
     settings:
       notify_post_liked_label: 有人讚了你的貼文
+    user:
+      likes_link: 讚
