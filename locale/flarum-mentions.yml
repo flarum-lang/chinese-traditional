@@ -14,10 +14,10 @@ flarum-mentions:
       body: "嘿 {recipient_display_name}！\n\n{mentioner_display_name} 在 {title} 中提到了您所屬的群組。\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} 在 {title} 中提到了您所屬的群組'
     post_mentioned:
-      body: "{recipient_display_name}，你好！\n\n{replier_display_name} 回覆了你在《{title}》(#{post_number}) 的發言：\n\n{url}\n\n---\n\n{content}"
+      body: "{recipient_display_name}，你好！\n\n{replier_display_name} 回覆了你在《{title}》(#{post_number}) 的發言：\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} 回覆你【{title}】'
     user_mentioned:
-      body: "{recipient_display_name}，你好！\n\n{mentioner_display_name} 在《{title}》提到了你：\n\n{url}\n\n---\n\n{content}"
+      body: "{recipient_display_name}，你好！\n\n{mentioner_display_name} 在《{title}》提到了你：\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} 提到你【{title}】'
   forum:
     composer:
@@ -27,13 +27,13 @@ flarum-mentions:
       deleted_text: '[未知群組]'
     notifications:
       group_mentioned_text: '{username} 提到了您所屬的組群'
-      others_text: '{count} 人|{count} 人'
+      others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} 回覆了你的貼文'
       user_mentioned_text: '{username} 提到了你'
     post:
       mentioned_by_self_text: '{users} 回覆了貼文'
       mentioned_by_text: '{users} 回覆了貼文'
-      others_text: '{count} 人|{count} 人'
+      others_text: '=> core.ref.some_others'
       quote_button: 引用
       reply_link: 回覆
       you_text: 你

@@ -18,7 +18,7 @@ flarum-suspend:
     notifications:
       user_suspended_indefinite_text: 你已被永久封禁
       user_suspended_text: '你已被封禁 {timeReadable}'
-      user_unsuspended_text: '{username} 封禁了你'
+      user_unsuspended_text: 你已解封
     suspend_user:
       display_message: 封禁原因（用戶)
       indefinitely_label: 無限期封禁

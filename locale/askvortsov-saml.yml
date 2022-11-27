@@ -4,6 +4,8 @@
 
 askvortsov-saml:
   admin:
+    header:
+      text: '請確保元數據 URL 或元數據都已填寫。'
     labels:
       idp_metadata: '身分識別提供者資料檔案 XML（替代 URL）'
       idp_metadata_url: '身分識別提供者資料檔案 URL（替代 XML）'
