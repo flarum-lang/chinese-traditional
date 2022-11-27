@@ -12,6 +12,22 @@ fof-byobu:
       edit_user_recipients: 編輯參與私密討論的參與者
       make_private_into_public: 轉換私密貼文為公開貼文
       view_private_discussions-when-flagged: 若有旗標則允許查看其他人的私密貼文
+    settings:
+      badge-icon: 'Byobu 主題帖徽章'
+      enable-make-public-option: 啟用「私密轉公開」功能
+      enable-make-public-option-help: 轉公開時，所有參與者自動退出私密主題，私密主題轉為普通公開主題。
+      post-event-icon: 'Byobu 發帖事件'
+  email:
+    body:
+      private_discussion_added: "{recipient_display_name}，你好！\n\n{actor_display_name} 將您加入私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登錄方可訪問鏈結。\n"
+      private_discussion_created: "{recipient_display_name}，你好！\n\n{actor_display_name} 與您創建了一個私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登錄方可訪問鏈接。\n"
+      private_discussion_replied: "{recipient_display_name}，你好！\n\n{actor_display_name} 發表新內容於您參與的私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{post_url}\n\n您需要登錄方可訪問連結。\n"
+      recipient_removed: "{recipient_display_name}，你好！\n\n{actor_display_name} 離開了您參與的私密主題《{discussion_title}》，他們將無法再查看此主題的任何內容。\n\n點此查看主題帖：\n{discussion_url}\n\n您需要登錄方可訪問鏈結。\n"
+    subject:
+      private_discussion_added: '【私密主題】{display_name} 將您加入私密主題'
+      private_discussion_created: '【私密主題】{display_name} 與您創建私密主題'
+      private_discussion_replied: '【私密主題】{display_name} 發表新帖'
+      recipient_removed: '【私密主題】{display_name} 退出'
   forum:
     badges:
       is_private:
@@ -36,11 +52,17 @@ fof-byobu:
     modal:
       help:
         add_recipients: 私密貼文僅對受邀者可見，除你之外需要至少一位參與者。
+        click_user_to_remove_tooltip: 單擊移除
+        selected_users: 單擊以移除用戶。
         update_recipients: 私密貼文僅對受邀者可見。
+      labels:
+        search_field: 搜尋用户
+        selected_users: 已選用戶
       titles:
         add_recipients: 新增參與者到私密貼文
         update_recipients: '更新私密貼文「{title}」的參與者'
     nav:
+      nav_item: 私密貼文
       start_button: 新增私密貼文
     notifications:
       pd_added_label: 有人將我加入私密貼文
@@ -55,6 +77,7 @@ fof-byobu:
       recipients_modified:
         added: '{username} 新增「{added}」'
         added_and_removed: '{username} 新增「{added}」並移除「{removed}」'
+        made_public: '{username} 將主題公開'
         removed: '{username} 移除「{removed}」'
         removed_self: '{username} 離開私密貼文'
     search:
