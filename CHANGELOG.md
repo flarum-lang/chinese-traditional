@@ -66,6 +66,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
