@@ -6,7 +6,10 @@
 	"keywords": [
 		"locale",
 		"flarum",
-		"zh_Hant-locale"
+		"zh_Hant-locale",
+                "中文",
+                "繁體中文",
+                "正體中文"
 	],
 	"license": "MIT",
 	"support": {
@@ -20,7 +23,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Chinese (Traditional)",
+			"title": "正體中文",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
