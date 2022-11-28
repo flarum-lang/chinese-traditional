@@ -5,50 +5,49 @@
 the-turk-mathren:
   admin:
     settings:
-      aliasBlockDelimiters: 塊表示式的定界符別名
-      aliasDelimitersHelp: '它們是<em>主要 BBCode 定界符</em>的<strong>別名</strong>。如果在你的定界符別名列表中有特殊的定界符（比如 <code>$$</code>）， MathRen 將會在儲存貼文時掃描整篇貼文來查找額外的定界符，並將用主要 BBCode 定界符替換它們，這將導致儲存貼文的時間變長。 你可能需要使用額外的 BBCode 定界符來代替指定的定界符以避免出現類似情形。'
-      aliasInlineDelimiters: 行內表示式的定界符別名
-      blockMathClass: '用於塊表示式的 <code>span</code> 標籤'
-      decisiveKeywords: 忽略表示式的關鍵詞列表
-      decisiveKeywordsHelp: '你要在<em>指定的</em>右定界符旁邊寫上用花括號括起的某個關鍵詞（例子： <code>$$%e%$${<strong>keyword</strong>}</code>） 或者在 BBCode 內（例子： <code>[math=<strong>keyword</strong>]%e%[/math]</code>）來阻止渲染表示式。 <strong>請注意</strong> <code>[math]%e%[/math]{<strong>keyword</strong>}</code> 是一個<u>無效用法</u>的示例。'
-      decisiveKeywordsInfo: 此列表中的第一個關鍵詞將作為預設文字編輯器。
-      decisiveKeywordsWarning: 不要使用特殊字符！不然會拋出異常。
-      delimiters: 定界符
-      delimitersHelp: '以逗號分隔，<strong>%e%</strong> 表示數學表示式。'
-      description: '配置 TeX 數學渲染器'
-      enableColorIsTextColor: '允許 <code>\color</code> 指令接受兩個引數 (colorIsTextColor)'
-      enableFleqn: '啟用方程式左對齊 (fleqn)'
-      enableLeqno: '啟用方程式左編號 (leqno)'
-      enableTextEditorButtons: 於文字編輯器上顯示按鈕
-      enableThrowOnError: '對於不支援的指令或者無效 LaTeX 拋出錯誤'
-      errorColor: 用於渲染錯誤的顏色
-      errorColorHelp: '選擇渲染不支援指令或者無效 LaTeX 的顏色。'
-      ignoredClasses: '遞歸時需要忽略的 DOM 節點類名列表'
-      ignoredClassesInfo: 列表中的第一個類名將作為預設包裹被忽略的表示式。
-      ignoredTags: '遞歸時需要忽略的 DOM 節點類型列表'
-      ignoringExpressions: 忽略表示式
-      ignoringExpressionsHelp: 以逗號分隔。
-      inlineMathClass: '用於行內表示式的 <code>span</code> 標籤'
-      katexOptionsHeading: 'KaTeX 選項'
-      katexOptionsInfo: '前往 https://katex.org/ 了解更多 KaTeX 資訊'
-      macros: 巨集
-      macrosHelp: 自定義巨集集合。
-      mainBlockDelimiter: '用於塊表示式的主要 <strong>BBCode</strong> 定界符'
-      mainInlineDelimiter: '用於行內表示式的主要 <strong>BBCode</strong> 定界符'
-      mathClasses: '<code>span</code> 標籤類名'
-      mathClassesHelp: '可以透過類名來輕鬆客製化 <code>span</code> 的樣式。'
-      maxExpand: 最大展開極限
-      maxSize: '最大高度 (em)'
-      minRuleThickness: '最小高度 (em)'
-      otherOptionsHeading: 其它選項
-      outputMode: 輸出模式
-      outputModeHelp: 選擇用於輸出的標示語言
-      sizeSettings: 大小選項
-      sizeSettingsHelp: '使用 <strong>點（point）</strong>作為小數點。不接受<em>無限值</em>!'
-      title: MathRen
-      wrapperOptionsHeading: 'Wrapper 選項'
-      wrapperStyle: '<code>span</code> 樣式'
+      alias_block_asciimath_delimiters_text: '<strong>Alias</strong> block AsciiMath 表達式的分隔符'
+      alias_block_delimiters_text: 段落表達式定界符<strong>別名</strong>
+      alias_inline_asciimath_delimiters_text: '<strong>Alias</strong> inline AsciiMath 表達式的分隔符'
+      alias_inline_delimiters_text: 行內表達式定界符<strong>別名</strong>
+      aliases_as_primary_label: 將別名分隔符轉換為主分隔符
+      allow_asciimath_label: '允許 AsciiMath 語法'
+      bbcode_delimiters_rule_text: 'BBCode 分隔符只能由大小寫字母和破折號組成。'
+      block_asciimath_delimiters_text: '<strong>BBCode</strong> block AsciiMath 表達式的分隔符'
+      block_delimiters_text: '<strong>BBCode</strong> 段落表達式定界符'
+      cdn_asciimath2tex_text: '<strong>asciimath2tex</strong> 的 CDN 連結'
+      cdn_katex_text: '<strong>KaTeX</strong>的 CDN 連結'
+      cdn_options_heading: 'CDN 選項'
+      color_is_text_color_label: '允許 <code>\color</code> 命令接收雙參數 (colorIsTextColor)'
+      delimiters_label: 定界符
+      delimiters_text: '多個定界符使用英文逗號分隔。<strong>%e%</strong> 表示數學表達式。'
+      enable_copy_tex_label: '允許覆制 KaTeX 公式源碼'
+      enable_editor_buttons_label: 文本編輯器顯示公式按鈕
+      enable_fleqn_label: '多行公式左對齊 (fleqn)'
+      enable_leqno_label: '多行公式自動編號 (leqno)'
+      error_color_label: '命令不支持或 LaTeX 格式錯誤時的提示顏色'
+      error_color_text: '<strong>禁用錯誤拋出時</strong>，命令不支持或 LaTex 格式錯誤的提示顏色。'
+      inline_asciimath_delimiters_text: '<strong>BBCode</strong> inline AsciiMath 表達式的分隔符'
+      inline_delimiters_text: '<strong>BBCode</strong> 行內表達式定界符'
+      java_syntax_text: '請使用JavaScript 語法編寫。'
+      katex_options_heading: 'KaTeX 引擎設置'
+      macros_label: Macros
+      macros_text: 自定義macros集合。
+      maximum_expand_limit_text: 最大擴展極限
+      maximum_size_text: '最大尺寸 (em)'
+      minimum_thickness_text: 最小厚度(em)
+      other_options_heading: 其它選項
+      output_mode_label: 輸出模式
+      output_mode_text: 選擇輸出的標記語言
+      primary_delimiters_text: 列表中的第一個分隔符將作為主分隔符。
+      quote_button_text: '要使用引用按鈕，請啟用 <code>flarum/mentions</code> 擴展程序。'
+      sizing_options_heading: 尺寸調整
+      sri_asciimath2tex_text: '<strong>asciimath2tex</strong> 的 SRI 哈希'
+      sri_katex_text: '<strong>KaTeX</strong> 的 SRI 哈希'
+      throw_on_error_label: '命令不支持或 LaTex 格式錯誤時拋出錯誤'
   forum:
-    textEditor:
-      blockExpression: 塊表示式
-      inlineExpression: 行內表示式
+    composer:
+      asciimath_only: '僅限 AsciiMath'
+      block_expression: 段落公式
+      block_expression_asciimath: 'block表達式 (AsciiMath)'
+      inline_expression: 行內公式
+      inline_expression_asciimath: 'Inline 表達式 (AsciiMath)'

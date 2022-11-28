@@ -5,9 +5,7 @@
 the-turk-quiet-edits:
   admin:
     settings:
-      gracePeriod: 寬限期（秒）
-      gracePeriodHelp: 貼文發佈後的寬限期內進行的編輯操作不被視為正式的編輯。
-      ignoreCase: 忽略大小寫差異
-      ignoreWhitespace: 忽略空白差異
-      onlyUnsigned: 僅允許<strong>無符號整數</strong>！
-      title: 静默编辑设定
+      grace_period_label: 默認期限()
+      grace_period_text: 發帖後開始計時，在靜默期限內進行編輯不會被記載到編輯記錄。
+      ignore_case_differences_label: 忽略大小寫差異
+      ignore_whitespace_differences_label: 忽略空格差異
