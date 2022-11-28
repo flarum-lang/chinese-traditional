@@ -11,7 +11,7 @@ askvortsov-markdown-tables:
         insert_column_before: 插入前列
         insert_row_after: 插入後行
         insert_row_before: 插入前行
-        label_cells: 預設命名
+        label_cells: 預設命名？
         num_cols: 列數
         num_rows: 行數（含標題行）
         remove_column: 刪除列
