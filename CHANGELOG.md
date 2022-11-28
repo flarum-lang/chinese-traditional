@@ -40,6 +40,7 @@ CHANGELOG
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
 * [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
+* [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
@@ -50,6 +51,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
 * [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
 * [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
@@ -79,6 +81,7 @@ CHANGELOG
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
@@ -141,5 +144,6 @@ CHANGELOG
 * [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 
 
