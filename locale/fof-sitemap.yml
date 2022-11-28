@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 高級選項
+      exclude_users: 'Sitemap 去除所有用戶頁面'
+      exclude_users_help: 默認情況下，任何訪客可見的用戶都將被索引
       frequency:
         daily: 每天一次
         hourly: 每小時一次
@@ -14,7 +16,7 @@ fof-sitemap:
       mode_help: 根據您的論壇規模選擇正確的模式極為重要。
       mode_help_large: '技術限制，一個站點地圖文件最多含有 5 萬條鏈接。如果您有更多條目存儲的需求，請使用以下選項！'
       mode_help_multi: '適用於大型論壇，最低有 5 萬條目。生成的多個壓縮站點地圖文件將會存儲在 /public 文件夾中'
-      mode_help_multi_label: 'Multi-file Mode'
+      mode_help_multi_label: 多文件模式
       mode_help_runtime: '適用於小型論壇，比如在共享主機環境下，主題數、用戶數、標籤數和頁面數的總和小於 1 萬（最終生成的對應鏈接數小於 1 萬）。此模式下，站點地圖是在每次請求時即時生成的。'
       mode_help_runtime_label: 運行時模式
       mode_help_schedule: '以下模式會將相應的計劃任務添加到 Flarum 調度器。'
@@ -23,3 +25,5 @@ fof-sitemap:
       modes:
         multi_file: 多文件
         runtime: 運行時
+      risky_performance_improvements: 改善性能(風險)
+      risky_performance_improvements_help: 改善定時任務在數據量達到百萬行時的運行速度，可能不兼容某些擴展程序。

@@ -48,7 +48,7 @@ fof-terms:
       updated-recently: 自你上次訪問後服務條款已更新
     signup:
       i-accept: '我接受服務條款 <a>{policy}</a>'
-      must-accept: '必須接受服務條款 {policy}'
+      must-accept: '必須接受服務條款 {policy}。'
     state-modal:
       accepted-at: '接受於 {date}'
       not-accepted: 不接受

@@ -11,6 +11,8 @@ fof-polls:
       start: 發起投票
       view_results_without_voting: 無需參與投票直接查看結果
       vote: 參與投票
+    settings:
+      allow_option_image: 允許圖片選項
   forum:
     composer_discussion:
       add_poll: 新增投票
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 新增投票
       date_placeholder: 投票結束時間（可選）
       edit_title: 編輯投票
+      image_option_placeholder: 圖面連結(可選)
       include_question: 必須包含至少一個問題
       max: '最多只能有 10 個選項'
       min: '最少只能有 2 個選項'
@@ -39,6 +42,6 @@ fof-polls:
     public_poll: 查看投票人
     tooltip:
       badge: 投票
-      votes: '已有 1 投票|已有 {count} 人投票'
+      votes: '{count, plural, one {#} other {#}} 人投票'
     votes_modal:
       title: 投票人

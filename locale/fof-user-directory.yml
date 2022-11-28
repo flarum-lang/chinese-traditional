@@ -20,9 +20,15 @@ fof-user-directory:
       load_more_button: 加載更多
       nav: 會員列表
       refresh_tooltip: 重整
+      usercard:
+        discussion-count: '{count, plural, one {主題 {count}} other {主題 {count}}}'
+        post-count: '{count, plural, one {回覆 {count}} other {回覆 {count}}}'
     search:
       field:
         placeholder: 搜索用戶
+      kinds:
+        group: 用戶組
+        text: 關鍵詞
       users_heading: '在全部用戶中搜尋「{query}」'
   lib:
     sort:

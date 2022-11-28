@@ -46,7 +46,7 @@ fof-drafts:
       unschedule_warning: 確定要取消定時發佈這個草稿？
     user:
       settings:
-        draft_autosave_enable: 自動保存草稿
+        draft_autosave_enable: 自動保存草稿？
         draft_autosave_interval_button: 更新頻率
         draft_autosave_interval_invalid: 請輸入大於4的整數。
         draft_autosave_interval_label: 自動保存頻率（秒）

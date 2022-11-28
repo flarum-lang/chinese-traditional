@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-share-social:
+  admin:
+    settings:
+      canonical-urls: '分享權威連結 (canonical URL)'
   forum:
     discussion:
       share_button: 分享
@@ -13,9 +16,12 @@ fof-share-social:
       facebook: Facebook
       linkedin: LinkedIn
       my_mail: 'My World'
+      native: 系統分享
       odnoklassniki: Odnoklassniki
       qq: QQ
       qzone: 'QQ 空間'
       reddit: Reddit
+      telegram: Telegram
       twitter: Twitter
       vkontakte: VKontakte
+      whatsapp: WhatsApp

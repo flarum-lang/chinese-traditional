@@ -9,8 +9,15 @@ fof-pretty-mail:
       label: 'CSS 設定'
       switch_label: '包含全部論壇 CSS'
     nav:
-      desc: '客製化 HTML 郵件模板'
+      desc: '客製化 HTML 郵件模板。'
     settings:
+      attributes:
+        body: 包含郵件內容
+        forumStyle: '包含<strong>所有論譚 CSS</strong>'
+        link: 包含郵件中的連結
+        settings: 允許與設置儲存庫界面交互
+        url: 'Flarum <code>連結生成器</code>'
+      attributes_label: 可用屬性
       confirm: 您確定要復原郵件模板為
       default: 預設模板
       label: 郵件模板
@@ -19,4 +26,5 @@ fof-pretty-mail:
       notifications: 通知模板
       postMentioned: 'Flarum/mentions 貼文被提及郵件'
       reset: 復原預設
+      template_help: 請參閱郵件模板以了解屬性用法。
       userMentioned: 'Flarum/mentions 用戶被提及郵件'
