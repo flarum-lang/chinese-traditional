@@ -9,7 +9,7 @@ afrux-theme-base:
         content: 主設置
         permissions: 權限
     extensions:
-      description: 已安裝的擴展程式
+      description: 已安裝的擴展程式。
       title: 擴展程式
     header:
       go_back: 返回討論區

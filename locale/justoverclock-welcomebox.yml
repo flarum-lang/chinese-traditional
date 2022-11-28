@@ -4,16 +4,16 @@
 
 flarum-ext-welcomebox:
   admin:
-    UseWidget: 'Use Widget Version'
+    UseWidget: 使用小部件
     enablepostbox: 向訪客展示歡迎卡片
     img: 'Image url (Guest Box)'
-    img-help: 'put here the url of image for guest box'
+    img-help: 在此填寫向訪客展示的圖片連結
   forum:
     SettingsLink: 設置
     discussion: 主題發表
     goToProfile: 個資
     lastSeen: 上次訪問
-    notregistered: 您尚未註冊
+    notregistered: 您尚未註冊。
     npost: 回覆
     tooltipDisclist: 我的討論列表
     tooltipMentions: 被提及

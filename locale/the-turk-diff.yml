@@ -59,7 +59,7 @@ the-turk-diff:
     revertChangesButton: 撤回變更
     revisionInfo: '已編輯 {revisionCount} 次, 最新版顯示於頂部'
     revisions: '{revisionCount, plural, one {共 {revisionCount} 次修訂} other {共 {revisionCount} 次修訂}}'
-    rollbackButton: 轉返至這個修訂版本
+    rollbackButton: '轉返至這個修訂版本{number}'
     rollbackErrorMessage: 回復失敗。
     rollbackSuccessMessage: 您的修改已回復。
     rollbackToOriginalButton: 回滾至原始版本

@@ -9,7 +9,7 @@ fof-passport:
         app-auth-url: 'OAuth 授權連結'
         app-id: 'OAuth application id'
         app-scopes: 'OAuth scopes to request'
-        app-secret: 'OAuth application secret'
+        app-secret: 'OAuth 應用 secret'
         app-token-url: 'OAuth token 連結'
         app-user-url: '在驗證成功後 Api URL 將提供使用者資訊'
         button-icon: 登入按鈕圖示

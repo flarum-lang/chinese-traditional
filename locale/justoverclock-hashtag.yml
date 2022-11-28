@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-hashtag:
+  admin:
+    settings:
+      oldregexdesc: '原正則表達式：<code>{regex}</code>'
+      regexdesc: 根據占位文本填寫正則表達式。如果您不懂正則表達式，請勿修改。
+      regexlabel: 話題正則式表達
   forum:
     post:
       hashtag_link_tooltip: 搜尋此hashtag

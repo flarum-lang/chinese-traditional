@@ -11,3 +11,19 @@ migratetoflarum-fake-data:
       title: 產生假回覆
     link:
       generate-replies: 產生假回覆
+  lib:
+    generator:
+      bulk-mode: 複用
+      bulk-mode-description: 隨機生成單條數據，並應用於全部條目
+      date: 種子日期
+      date-interval-placeholder: 間隔(預設1秒)
+      date-start-placeholder: 起始日期(默認當天)
+      discussion-count: 主題生成數量
+      discussion-tags: 主題標籤
+      discussion-tags-none: 無
+      discussion-tags-random: 隨機
+      post-count: 回文生成數量
+      refresh: 完成並刷新頁面
+      reset: 成生成功！點擊重置
+      send: 生成數據
+      user-count: 用戶生成數量

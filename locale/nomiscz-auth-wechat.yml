@@ -24,7 +24,7 @@ nomiscz-auth-wechat:
         title: '關聯 WeChat 帳號'
       unlink:
         buttons:
-          cancel: 否
+          cancel: 取消！
           confirm: 是
         info:
           confirm: '確定要解除關聯 WeChat 帳號？'

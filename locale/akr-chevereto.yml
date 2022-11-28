@@ -5,4 +5,9 @@
 akr-chevereto:
   admin:
     setting:
+      insert_type: 嵌入代碼以自動插入目標可編輯內容
       url: '遠端 Chevereto 網站地址'
+  forum:
+    composer:
+      upload_button: 上傳圖片
+      upload_button_details: 上傳並插入圖片
