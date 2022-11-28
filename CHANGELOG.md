@@ -121,6 +121,7 @@ CHANGELOG
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
