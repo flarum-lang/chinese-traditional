@@ -168,7 +168,11 @@ php flarum cache:clear
 | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/askvortsov-rich-text/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text/zh_Hant/) |
 | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/askvortsov-saml/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-saml/zh_Hant/) |
 | [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blessing-oauth-client/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blessing-oauth-client/zh_Hant/) |
+| [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-conversations/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-conversations/zh_Hant/) |
 | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-mark-unread/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/zh_Hant/) |
+| [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-secondary-tags-toggler/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler/zh_Hant/) |
+| [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-sort-order-toggle/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle/zh_Hant/) |
+| [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-turnstile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-turnstile/zh_Hant/) |
 | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/clarkwinkelmann-author-change/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change/zh_Hant/) |
 | [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/clarkwinkelmann-colorful-borders/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-colorful-borders/zh_Hant/) |
 | [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/clarkwinkelmann-create-user-modal/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-create-user-modal/zh_Hant/) |
@@ -214,6 +218,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/zh_Hant/) |
 
 <!-- premium-extensions-list-stop -->
 
