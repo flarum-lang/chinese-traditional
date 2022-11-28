@@ -10,6 +10,8 @@ v17development-flarum-blog:
       auto_approve_posts: 發布文章無需審核
       write_articles: 撰寫和編輯部落格文章
     settings:
+      add_hero_label: 展示歡迎橫幅
+      add_hero_text: 允許在部落格頁面展示首頁的歡迎橫幅。
       add_sidebar_nav_label: 添加到側邊欄
       add_sidebar_nav_text: 在側邊欄添加部落格入口。
       allow_comments_label: 允許評論
@@ -41,9 +43,22 @@ v17development-flarum-blog:
       slug: 別名
       summary: 摘要
       title: 標題
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 使用大尺寸圖片展示本文章。
+          title: 頭條貼文
+        image:
+          helper_text: '最佳分辨率 1200x630'
+          title: 主題圖像
+        summary:
+          helper_text: '摘要用於 SEO，以及部落格主頁的預覽。'
+          placeholder: 請輸入摘要
+          title: 摘要
+      title: 部落格文章設置
     blog: 部落格
     categories: 分類目錄
-    category_empty: 此分類目錄中沒有文章
+    category_empty: 此分類目錄中沒有文章。
     comment_section:
       comments: 評論
       locked: 評論已關閉
@@ -64,10 +79,10 @@ v17development-flarum-blog:
       write: 寫作
     forum_nav: 論壇導航列
     hidden: 隱藏
-    no_more_posts: 沒有更多文章了
+    no_more_posts: 沒有更多文章了。
     read_more: 閱讀更多
     recent_posts: 近期文章
-    return_to_overview: 返回部落格首頁
+    return_to_overview: '返回部落格首頁 '
     review_article:
       approve_article: 批准文章
       approve_article_approved: 已批准發布此文章

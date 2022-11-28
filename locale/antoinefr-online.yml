@@ -9,4 +9,5 @@ antoinefr-online:
       titleoflist: 列表標題
   forum:
     andmore: '還有 {more} 人 ...'
+    online_users: '{more, plural, one {#} other {#}} 人在線'
     title: 線上會員

@@ -53,6 +53,18 @@ fof-webhooks:
             deleted: '=> fof-webhooks.ref.delete'
             renamed: '=> fof-webhooks.ref.rename'
             title: 'Flarum 用戶組'
+          post:
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
+            posted: 回覆
+            restored: '=> fof-webhooks.ref.restored'
+            revised: 編輯
+            title: 'Flarum 回覆'
+          user:
+            deleted: '=> fof-webhooks.ref.deleted'
+            registered: 注冊
+            renamed: '=> fof-webhooks.ref.renamed'
+            title: 'Flarum 用戶'
       debug_help: '當 Webhook 或事件工作不正常時，你可以啟用此項。 更多日誌資訊會輸出到 Flarum 紀錄檔，以説明你調試問題。'
       debug_label: 調試
       help:
@@ -73,6 +85,11 @@ fof-webhooks:
         title: 'Webhook 設置'
         use_plain_text_label: 減少貼文內容的格式化數量
       services:
-        discord: 不和
-        microsoft-teams: 微軟團隊
-        slack: 鬆弛
+        discord: Discord
+        microsoft-teams: 'Microsoft Teams'
+        slack: Slack
+  ref:
+    deleted: 刪除
+    hidden: 隱藏
+    renamed: 重新命名
+    restored: 恢復

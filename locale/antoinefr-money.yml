@@ -4,10 +4,15 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: 獎勵資產
+      metric_name: 資產
     permissions:
       edit_money_label: 修改資產
     settings:
+      helpextensionlikes: '需要 <code>flarum/likes</code> 擴展程序'
       moneyfordiscussion: 每篇貼文可獲取
+      moneyforlike: 獲得點讚時獎勵資產
       moneyforpost: 每條回覆可獲取
       moneyname: '貨幣名稱（例如： [money] 元）'
       noshowzero: '若值為 0 則不顯示'
