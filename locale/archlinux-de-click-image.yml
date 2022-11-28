@@ -4,4 +4,5 @@
 
 archlinux-de-flarum-click-image:
   forum:
+    error_message: '無法從 {domain} 加載圖像'
     load_button: '由 {domain} 加載圖像'
