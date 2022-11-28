@@ -4,6 +4,8 @@
 
 fof-filter:
   admin:
+    auto_merge_title: 自動合併
+    bad_words_help: 請輸入要過濾的敏感詞，一行一個。當用戶發表的帖子內容包含敏感詞時，自動送入審核列表。
     cooldownLabel: 冷卻時間
     countLabel: 敏感度
     email:
@@ -24,6 +26,8 @@ fof-filter:
     nav:
       desc: 依照關鍵字過濾貼文
       text: 過濾器
+    permission:
+      bypass_filter_label: 無視過濾器
     title: 過濾器
   forum:
     flag_message: 包含遮擋的字串

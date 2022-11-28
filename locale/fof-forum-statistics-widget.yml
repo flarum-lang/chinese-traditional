@@ -4,8 +4,14 @@
 
 fof-forum-statistics-widget:
   admin:
+    permissions:
+      view_discussions_count_label: 查看論譚小部件主題數
+      view_lastest_member_label: 查看論壇小部件最新會員
+      view_posts_count_label: 查看論壇小部件回覆數
+      view_users_count_label: 查看論壇小部件用戶數
     settings:
       widget_helper_text: '編輯此設定以調整 widget 在論壇側邊上的位置。 值越大位置越高（此值可以為負數）。'
+      widget_ignore_private_discussions_label: 不統計私密主題
       widget_order_label: 'Widget 順序'
   forum:
     navbar:

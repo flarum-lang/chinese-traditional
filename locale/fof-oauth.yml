@@ -38,6 +38,7 @@ fof-oauth:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
           description: '在 {link} 創建一個應用。您需要提供服務協議和隱私政策 URL，然後確保添加請求郵件權限。'
+    settings_accessibility_label: '{name} 設置'
   forum:
     error:
       bad_verification_code: 無效或過期的驗證令牌，請重試。
@@ -61,6 +62,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 請選擇一個會員名稱
+    unlink: 解除綁定
+    user:
+      settings:
+        linked-account:
+          help: 綁定第三方帳戶，啟用登錄捷徑。
+          identifier-label: '{provider} ID'
+          label: 第三方登錄
+          last-used-label: 上次使用
+          link-created-label: 已綁定
+          orphaned-account: 您以前已通過此賬號登錄，但是目前論壇已關閉此登錄方式。
+          unlink-confirm: '確定要解除綁定 {provider} 賬號嗎？您將無法使用此賬號登錄。'
   lib:
     providers:
       discord: Discord
