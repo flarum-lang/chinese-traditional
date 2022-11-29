@@ -3,7 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-keywords:
+  admin:
+    removedef: 刪除
+    word: 詞條
   forum:
     pagetitle: 詞彙表頁面
+    searchtext: 搜索術語…
     tagline: 想了解更多本站使用的術語嗎？請查看詞彙表
     title: 詞彙表

@@ -8,3 +8,5 @@ custom-header:
     headerTagline-help: 你可以修改標語
     headerTitle: 橫幅標題
     headerTitle-help: 你可以修改橫幅的標題
+    twitterIcon: '連結至 Twitter'
+    twitterIcon-help: '在此處粘貼指向您的 Twitter 頁面的有效 URL'

@@ -8,6 +8,8 @@ clarkwinkelmann-translation-inspector:
       inspect: 檢查翻譯
   lib:
     modal:
+      actual: 當前語言翻譯
+      extension: 語言包
       key: 翻譯鍵
       original: 原始英文字符
       title: 翻譯檢查

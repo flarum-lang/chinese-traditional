@@ -5,6 +5,8 @@
 clarkwinkelmann-collapsible-posts:
   admin:
     settings:
+      add: 添加原因
+      explanationUrl: '詳情 URL'
       header:
         explanation: 自定義詳情信息
         key: 數據庫主鍵

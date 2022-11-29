@@ -9,3 +9,5 @@ datlechin-more-discussions:
       block_name_label: 區塊名稱
       discussion_limit_help: '要顯示的討論數（默認 <code>5</code>）'
       discussion_limit_label: 貼文限制
+      filter_by_help: 過濾討論（默認：<code>最新</code>）
+      filter_by_label: 進行過濾

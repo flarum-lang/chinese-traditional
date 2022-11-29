@@ -7,6 +7,8 @@ clarkwinkelmann-post-bookmarks:
     alert:
       added: 已加入書籤！
       removed: 已從書籤中移除！
+      show-bookmarks: 查看書籤
+    badge: 已加入書籤
     button:
       add: 書籤
       remove: 已加入書籤

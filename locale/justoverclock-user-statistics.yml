@@ -5,5 +5,8 @@
 justoverclock-user-statistics:
   forum:
     joinTime: 註冊日期
+    likeReceived: 收到讚
+    likes: 讚
+    totalBestAnswer: 最佳答案
     totalDiscussions: 全部討論
     totalPosts: 全部貼文

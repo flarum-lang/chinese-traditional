@@ -9,3 +9,5 @@ tohsakarat-tags-filter:
         accessible_label: 標籤過濾器
         all: 所有
         label: '{text}'
+        no_results: 無结果
+        search_label: 搜尋...

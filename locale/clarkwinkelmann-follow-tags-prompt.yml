@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-follow-tags-prompt:
+  admin:
+    settings:
+      allDiscussionsOnFollowingPageForGuests: 給訪客在關注頁面顯示所有主題帖
+      buttonOnFollowingPage: 在關注頁面顯示按鈕
   forum:
     controls:
       choose: 選擇要關注的標簽

@@ -8,5 +8,8 @@ signature:
       save: 保存
       signature: 簽名
     modal:
+      error:
+        title: 哎呀！保存時遇到一些錯誤...
       loading:
+        content: 請稍后…
         title: 保存中

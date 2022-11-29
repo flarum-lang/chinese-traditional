@@ -6,6 +6,8 @@ clarkwinkelmann-mass-actions:
   forum:
     select:
       all: 全選
+      hidden: 軟刪除
       none: 取消全選
       read: 已讀
       unread: 未讀
+      visible: 未刪除

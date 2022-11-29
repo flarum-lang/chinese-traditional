@@ -5,5 +5,8 @@
 flarum-ext-dontgoaway:
   admin:
     modtext: 對話框本文
+    modtextdesc: 自定義對話框描述文本。
     modtitle: 對話框標題
     modtitledesc: 自定義彈窗標題
+    urltext: '自定義圖片 URL'
+    urltextdesc: '粘貼自定義圖片 URL'

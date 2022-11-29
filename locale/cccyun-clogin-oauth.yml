@@ -8,3 +8,5 @@ cccyun-clogin-oauth:
     appkey_label: APPKEY
     appurl_help: '必須以 http:// 或 https:// 開頭，以 / 結尾'
     appurl_label: 'API 連結'
+    openqq_label: '啟用 QQ 登入'
+    openwx_label: '啟用 Wechat 登入'

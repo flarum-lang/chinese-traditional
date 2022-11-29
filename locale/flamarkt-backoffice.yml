@@ -8,5 +8,8 @@ flamarkt-backoffice:
   backoffice:
     nav:
       dashboard: 儀表板
+      searchPlaceholder: '=> core.admin.nav.search_placeholder'
       users: 用戶
     settingsNotAvailableForNonAdmin: 此擴展程序有設置，但只有管理員帳戶可以查看和編輯它們。
+    users:
+      title: 用戶

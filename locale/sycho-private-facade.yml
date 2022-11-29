@@ -8,5 +8,7 @@ sycho-private-facade:
       force_redirect: 未登錄時強制跳轉到注冊登錄頁
       header_layout:
         options:
+          hide_secondary_items: 隱藏次級元素（搜索、登錄注冊按鈕）
           show_header: 展示橫幅
           show_only_logo: '僅顯示 Logo'
+        title: 橫幅樣式

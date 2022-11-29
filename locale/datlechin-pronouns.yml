@@ -9,3 +9,7 @@ datlechin-pronouns:
       icon_label: 代表圖標
       prefix_help: 此文本將顯示在用戶的代詞之前。留空不顯示任何內容。
       prefix_label: 代詞前綴
+  forum:
+    change_pronouns:
+      help: '您的代詞將顯示在您的個人資料和用戶名片上。 <a>什麼是人稱代詞及其重要性？</a>'
+      title: 更改代詞

@@ -8,3 +8,8 @@ nearata-embed-twitch:
     autoplay: 自動播放
     permissions:
       create_twitch: '嵌入 Twitch'
+  forum:
+    modal:
+      label:
+        channel: 頻道名稱
+        collection: 'Collection ID'

@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 expired-posts:
+  admin:
+    settings:
+      days_help: '距最新回覆日期超過一定天數，仍未收到回覆的主題帖會被標記為過期。輸入 <code>0</code> 禁用此功能。'
+      days_label: 時效
   forum:
     composer:
       warning:

@@ -10,3 +10,8 @@ clarkwinkelmann-featured-discussions:
       duration: 默認過期時間（秒）
       eventPost: 修改日程任務時生成事件帖子
       schedule: '計劃任務（CRON 語法）'
+  forum:
+    modal:
+      fields:
+        from: 從
+      title: 精選主題

@@ -7,5 +7,7 @@ ianm-html-head:
     create_button: 新建
     table:
       active_label: 啟用
+      delete_button: 删除
       description_label: 描述
+      empty_text: 尚無條目
       header_label: 頭部

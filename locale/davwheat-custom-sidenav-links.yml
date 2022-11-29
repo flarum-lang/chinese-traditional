@@ -9,7 +9,9 @@ davwheat:
         display_options:
           heading: 顯示設置
           labels:
+            bottom_spacer: 顯示底部分割線
             position: 連結位置
+            top_spacer: 顯示頂部分割線
           options:
             position:
               above-tags-link: 顯示於「全部標簽」按鈕上方

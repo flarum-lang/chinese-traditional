@@ -6,4 +6,7 @@ flarum-ext-infocards:
   forum:
     forumstats: 論壇統計
     geninfo: 其它信息
+    opthread: 瀏覽主題
+    totalpost: 總計發帖
+    totdisc: 總計發佈主題
     welcome_back: 歡迎回來！

@@ -6,6 +6,8 @@ kilowhat-custom-paths:
   admin:
     settings:
       extensions:
+        flarum-flags: 'Flarum 小黑屋'
+        flarum-subscriptions: 'Flarum 我的關注'
         flarum-tags: 'Flarum 標籤'
       head:
         name: 頁面名稱

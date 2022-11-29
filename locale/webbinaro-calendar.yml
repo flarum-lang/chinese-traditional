@@ -8,3 +8,7 @@ flarum-calendar:
       create: 新活動
       landing: 活動日程
       login: '添加你的活動 '
+    event:
+      details: 添加活動細節
+    modal:
+      submit: 提交

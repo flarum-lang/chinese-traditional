@@ -3,7 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 swaggymacro:
+  admin:
+    setting_only_starter: '僅限 OP'
+    setting_show_topic_starter: '顯示 OP 旗誌'
   forum:
     blog_article_author: 作者
+    not_only_starter: '不僅顯示 OP'
     only_starter: '僅顯示 OP'
     topic_starter: 原創作者

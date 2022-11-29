@@ -8,5 +8,7 @@ flamarkt-matomo:
       siteId: 'Site ID'
       trackAccounts: 跟踪個人用戶帳戶
       trackAccountsOptions:
+        email: 按郵箱追踪
         none: 不要追踪
+        username: 按用戶名追踪
       url: 'Matomo 服務器或 URL'

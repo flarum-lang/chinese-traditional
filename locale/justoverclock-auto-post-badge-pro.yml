@@ -4,7 +4,9 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    levelFive: LV5
     levelFour: LV4
     levelOne: LV1
+    levelSix: LV6
     levelTree: LV3
     levelTwo: LV2

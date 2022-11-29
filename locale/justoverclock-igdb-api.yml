@@ -7,3 +7,7 @@ justoverclock-igdb-api:
     composerAlert: '在新討論中顯示 Composer Alert'
     rawgApi: 'RawG Api Key'
     rawgApi-help: '在此處粘貼從 https://rawg.io/signup 檢索到的免費 Api 密鑰'
+  forum:
+    genres: Genres
+    publisher: 出版商
+    seeOnMetaCritic: 在Metacritic上查看

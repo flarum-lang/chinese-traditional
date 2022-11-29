@@ -10,3 +10,5 @@ clarkwinkelmann-scout:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': 'Null'
+        tntsearch: TNTSearch
+      prefix: 索引名稱前綴（可選）

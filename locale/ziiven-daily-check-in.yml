@@ -3,7 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-checkin:
+  admin:
+    settings:
+      auto-check-in: 自動簽到
   forum:
     check-in: 簽到
+    check-in-success: 簽到成功
     checked-in-day: '簽到 {count} 天'
     checked-in-days: '簽到 {count} 天'

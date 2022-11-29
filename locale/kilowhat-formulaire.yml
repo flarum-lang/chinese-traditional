@@ -8,3 +8,5 @@ kilowhat-formulaire:
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: 方程式
       heading-advanced: Formulaire（第三方擴展選項）
+      seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
+      seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'

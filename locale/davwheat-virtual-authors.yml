@@ -8,5 +8,7 @@ davwheat-virtual-authors:
       set_virtual_authors: 在討論中設置虛擬作者
       view_virtual_authors_page: 查看詳細介紹所有虛擬作者的頁面
     settings:
+      auto_save_message: 創建新的或編輯現有的虛擬作者時會自動保存。
       create_new: 創建新的虛擬作者
       errored: 無法從服務器加載虛擬作者。
+      search_placeholder: 搜索用戶名

@@ -7,5 +7,7 @@ ganuonglachanh-sonic:
     settings:
       GNOptionsHeading: 設置
       host: 主機
+      locale: 語言
       password: 密碼
       port: 端口
+      timeout: 時間超時

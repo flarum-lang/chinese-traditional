@@ -9,3 +9,6 @@ clarkwinkelmann-catch-the-fish:
       delete: 刪除
       edit: 編輯
       fishes: 魚
+      rounds: 回合
+    nav:
+      rankings: 捕魚排行榜

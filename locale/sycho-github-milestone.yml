@@ -4,6 +4,8 @@
 
 sycho-github-milestone:
   admin:
+    closed: '=> sycho-github-milestone.ref.closed'
+    default_filter: 默認過濾條件
     milestone: 'Milestone ID'
     repository: 'GitHub 儲存庫'
     repository_example: '示例: flarum/core'

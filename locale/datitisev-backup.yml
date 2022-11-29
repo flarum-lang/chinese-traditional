@@ -8,4 +8,6 @@ datitisev-backup:
       aliyun: 阿里雲（Aliyun）
       aws: 'Amazon AWS S3'
       azure: 'Microsoft Azure'
+      dospaces: 'Digital Ocean Spaces'
+      dropbox: Dropbox
       local: 本地儲存

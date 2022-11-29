@@ -5,5 +5,9 @@
 flarum-ext-newsletter:
   admin:
     listn: 列表名稱
+    listndesc: '填寫在 Elastic Email 創建的列表名稱'
     pubacc: '公共帳戶 ID'
     pubaccdesc: '在這裡複製你的公共賬號ID https://elasticemail.com/account#/account/security'
+  forum:
+    submitbutton: 提交
+    subscribe: 開啟郵件訂閱。請輸入郵箱地址並提交。

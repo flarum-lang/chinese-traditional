@@ -4,6 +4,9 @@
 
 clarkwinkelmann-money-rewards:
   admin:
+    permissions:
+      rewardWithMoney: 使用貨幣打賞其他用戶
+      seeMoneyRewardHistory: 查看其他用戶的打賞記錄
     settings:
       decimals: 自定義金額的小數位數上限
       max: 自定義金額的最大值

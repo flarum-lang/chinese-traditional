@@ -9,4 +9,6 @@ ffans-clipboardjs:
       copy_enable_label: 開啟複制功能
       themes:
         cnblog: cnBlogs
+        csdn: CSDN
+        default: '原生 Clipboardjs 風格'
       themes_label: 複制按鈕風格

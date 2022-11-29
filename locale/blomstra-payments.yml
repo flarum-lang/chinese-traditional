@@ -8,6 +8,10 @@ blomstra-payments:
       accept_label: 我已閱讀並接受<link>付款條款</link>。
       continue_button: 繼續付款
       title: 接受條款
+    stripe:
+      interval_once: 一次
+    subscription-card:
+      bounty: 賞金
 core:
   forum:
     index_sort:

@@ -4,6 +4,9 @@
 
 nomiscz-auth-steam:
   forum:
+    alerts:
+      already_linked: 'Steam 帳戶已關聯！'
+      already_used: 'Steam 帳號已關聯至其它帳號！'
     buttons:
       link: 綁定Steam賬號
       login: 'Steam 帳號登錄'

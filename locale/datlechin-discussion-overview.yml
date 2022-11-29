@@ -6,5 +6,7 @@ datlechin-discussion-overview:
   forum:
     created: 創建
     last_reply: 最後回覆
+    likes: 讚
     replies: 回覆
+    users: 用戶
     views: 已查看

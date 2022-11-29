@@ -3,7 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 jslirola-login2seeplus:
+  admin:
+    title: Login2SeePlus
   forum:
+    code: 代碼登錄後可見
     image: 圖片登錄後可見
     link: 連結登錄後可見
     post: '此內容 {login} 或 {register} 後可見'

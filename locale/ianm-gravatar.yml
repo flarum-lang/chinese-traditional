@@ -5,6 +5,9 @@
 ianm-gravatar:
   admin:
     settings:
+      defaults:
+        helptext: '如果用戶的郵箱地址沒有匹配的 Gravatar 頭像時會發生什麽？Gravatar 有幾種默認頭像類型可選，無匹配頭像時，通過郵箱地址的哈希值來生成獨一無二的頭像。'
+        title: 預設
       proxy:
         helptext: '默認情況下，Gravatar 頭像的 URL 直接從 gravatar.com 獲取。代理可以允許站點自己提供 Gravatar 請求服務。'
         title: 'Gravatars 頭像代理'

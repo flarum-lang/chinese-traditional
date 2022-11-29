@@ -5,6 +5,8 @@
 clarkwinkelmann-predefined-avatars:
   admin:
     settings:
+      predefinedAvatarsDefault: 默認頭像
+      predefinedAvatarsDefaultHelp: 適用於新用戶的注冊。
       predefinedAvatarsNoRemove: 禁止移除頭像
       predefinedAvatarsNoRemoveHelp: 已設置頭像的用戶將不能回到默認的「字母」樣頭像，擁有以下權限的用戶除外。
       predefinedAvatarsOnly: 僅允許挑選給定頭像

@@ -9,3 +9,5 @@ kilowhat-rich-embeds:
       layoutOptions:
         block: 段落
         inline: Inline
+        separated: 分離
+      position: 位置

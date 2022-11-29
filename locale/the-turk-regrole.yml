@@ -5,6 +5,8 @@
 the-turk-regrole:
   admin:
     settings:
+      allow_multiple_roles_label: 允許一個用戶擁有多個角色
       allowed_roles_label: 允許的角色
       allowed_roles_text: 這裡的角色用戶可以自行選擇分配。
+      force_users_label: 強制一個用戶必須有一個角色
       other_options_heading: 其它選項

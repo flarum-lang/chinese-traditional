@@ -6,5 +6,7 @@ nearata-tags-color-generator:
   admin:
     color_luminosity_label: 顏色亮度
     color_luminosity_options:
+      bright: 鮮艷
+      dark: 深色
       light: 淺色
       random: 隨機

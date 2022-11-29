@@ -7,4 +7,7 @@ justoverclock-steam-api:
     steamApiKey: 'Steam Api Key'
     steamApiKey-help: '在 https://steamcommunity.com/dev/apikey 上獲取免費的 api 密鑰'
   forum:
+    LatestGamesPlayed: 最近玩的Games
+    statusOffline: 下線
     steamId: 'Steam Profile ID'
+    steamIdSaved: 'Steam ID 保存成功'

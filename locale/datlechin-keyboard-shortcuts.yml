@@ -8,5 +8,7 @@ datlechin-keyboard-shortcuts:
       title: 鍵盤快捷鍵
   lib:
     discussion_list: 主題列表
+    discussion_list_heading: 主題列表
     discussion_page: 貼文頁面
+    discussion_page_heading: 貼文頁面
     global_heading: 全局

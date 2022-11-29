@@ -9,3 +9,5 @@ nearata-embed-video:
         airplay: 隔空播放
         hotkey: 熱鍵
         lang: 播放器語言
+        logo: 'Logo URL'
+        quality_switching: 切換視頻畫質

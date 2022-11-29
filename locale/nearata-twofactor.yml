@@ -10,3 +10,6 @@ nearata-twofactor:
       generate_backups: 生成恢復代碼。
   forum:
     invalid_twofa_code: 兩步驟驗証碼錯誤。
+    invalid_twofa_setup: 密碼或驗證碼錯誤。
+    log_in_modal:
+      submit_button: 登錄

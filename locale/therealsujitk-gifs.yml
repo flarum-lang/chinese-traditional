@@ -5,5 +5,7 @@
 therealsujitk-gifs:
   forum:
     label: '插入 GIF'
+    search: 搜索
     searchGiphy: '搜索 Giphy'
+    searchTenor: '搜索 Tenor'
     title: '插入 GIF'

@@ -10,3 +10,6 @@ blomstra-trello:
         forum_tags: 選擇一個論壇標籤來映射
         trello_label: 選擇一個Trello標簽
       no_available_labels_label: 沒有可用標籤
+      no_available_tags_label: 沒有可用的論譠標籤
+    permissions:
+      add_to_trello: '可以將討論連結到 Trello'
