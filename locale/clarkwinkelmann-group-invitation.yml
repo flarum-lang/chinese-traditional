@@ -5,6 +5,8 @@
 clarkwinkelmann-group-invitation:
   forum:
     generic-title: 用戶組邀請
+    invitation:
+      not-found: 很抱歉，這個用戶的邀請不存在。
     title: '您被邀请加入「{group}」用户组！'
     user:
       already-connected: "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登錄到另一個帳號</a>。\n"

@@ -6,6 +6,7 @@ justoverclock-user-pc-specs:
   forum:
     cabinet: 櫃子：
     gpu: 'Gpu:'
+    ram: 'Ram:'
     savePcSpecs: '保存 Pc 規格'
     so: 操作系統：
     storage: 儲存：

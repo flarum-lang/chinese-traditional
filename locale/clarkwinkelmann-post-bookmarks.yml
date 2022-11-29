@@ -12,3 +12,5 @@ clarkwinkelmann-post-bookmarks:
     button:
       add: 書籤
       remove: 已加入書籤
+    page:
+      link: 書籤

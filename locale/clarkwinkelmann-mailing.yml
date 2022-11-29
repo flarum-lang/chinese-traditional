@@ -13,4 +13,5 @@ clarkwinkelmann-mailing:
       mail_individual: 發送郵件
     modal_mail:
       recipients_label: 收件人
+      recipients_placeholder: 添加其他收件人...
       title_text: 寫信

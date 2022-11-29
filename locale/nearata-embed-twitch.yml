@@ -13,3 +13,4 @@ nearata-embed-twitch:
       label:
         channel: 頻道名稱
         collection: 'Collection ID'
+        layout: 樣式

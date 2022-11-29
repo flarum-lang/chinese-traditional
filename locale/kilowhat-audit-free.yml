@@ -11,3 +11,6 @@ kilowhat-audit:
       upgrade: 升級到專業版
     permissions:
       view: 查看審計日誌
+  forum:
+    link:
+      discussion-audit: 審計日誌

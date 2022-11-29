@@ -10,6 +10,7 @@ flarum-mentions:
   forum:
     composer:
       mention_tooltip: 提及用戶或帖子
+      reply_to_post_text: '回覆#{number}'
 kyrne-evergreen:
   forum:
     post:

@@ -13,3 +13,5 @@ sycho-move-posts:
   forum:
     badge:
       first_moved_tooltip: 已移動
+    discussion:
+      move_posts: '=> sycho-move-posts.ref.move_posts'

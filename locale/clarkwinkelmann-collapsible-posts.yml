@@ -7,6 +7,7 @@ clarkwinkelmann-collapsible-posts:
     settings:
       add: 添加原因
       explanationUrl: '詳情 URL'
+      explanationUrlHelp: 可選，在折疊帖下方顯示。
       header:
         explanation: 自定義詳情信息
         key: 數據庫主鍵

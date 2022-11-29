@@ -11,3 +11,4 @@ nearata-embed-video:
         lang: 播放器語言
         logo: 'Logo URL'
         quality_switching: 切換視頻畫質
+        theme: 主題色

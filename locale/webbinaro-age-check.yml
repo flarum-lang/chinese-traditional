@@ -11,3 +11,5 @@ webbinaro-age-check:
         'yes': 輸入按鈕標籤
         yes_default: 確認
         yes_help: 通常是「確認」或「是」
+      messages:
+        consent_prompt: 提示用於協定？

@@ -12,3 +12,4 @@ sycho-private-facade:
           show_header: 展示橫幅
           show_only_logo: '僅顯示 Logo'
         title: 橫幅樣式
+      illustration_path: 壁紙

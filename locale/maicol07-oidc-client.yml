@@ -5,6 +5,7 @@
 maicol07-oidc-client:
   admin:
     settings:
+      callback_title: 登入後導回的網址
       client_id: 'Client ID'
       client_secret: 'Client secret'
       client_settings_subtitle: '在此處添加您的 OpenID Connect 提供商提供的客戶信息。如需進一步幫助，請查看文檔。'

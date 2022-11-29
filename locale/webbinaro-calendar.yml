@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-calendar:
+  admin:
+    permissions:
+      add: 創建新活動日程
   forum:
     button:
       create: 新活動

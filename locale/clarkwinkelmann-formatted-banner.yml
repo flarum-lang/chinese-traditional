@@ -8,6 +8,7 @@ clarkwinkelmann-formatted-banner:
       dismissible: 允許關閉橫幅
       guestContent: 訪客格式化內容
       guestHtml: '訪客 HTML 內容'
+      hideWelcomeHero: 隱藏系統歡迎橫幅
       memberContent: 用戶格式化內容
       memberHtml: '用戶 HTML 內容'
       replaceWelcomeHero: 取代系統歡迎橫幅

@@ -10,5 +10,6 @@ michaelbelgium-mybb-to-flarum:
       form:
         options:
           migrate_avatars_label: 遷移頭像
+          migrate_soft_posts_label: 遷移軟刪除的貼文
           migrate_soft_threads_label: 遷移軟刪除的線程
           title: 其它選項

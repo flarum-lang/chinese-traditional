@@ -8,6 +8,7 @@ kilowhat-audit:
       free: 免費版
       pro: 專業版
       title: 審計
+      upgrade: 升級到專業版
     permissions:
       view: 查看審計日誌
       viewLimited: 查看有限審計日誌

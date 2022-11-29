@@ -7,5 +7,6 @@ sycho-github-milestone:
     closed: '=> sycho-github-milestone.ref.closed'
     default_filter: 默認過濾條件
     milestone: 'Milestone ID'
+    open: '=> sycho-github-milestone.ref.open'
     repository: 'GitHub 儲存庫'
     repository_example: '示例: flarum/core'

@@ -4,6 +4,7 @@
 
 nearata-tags-color-generator:
   admin:
+    color_hue_label: 色調
     color_luminosity_label: 顏色亮度
     color_luminosity_options:
       bright: 鮮艷

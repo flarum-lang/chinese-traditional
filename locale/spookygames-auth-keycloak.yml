@@ -7,6 +7,7 @@ flarum-ext-auth-keycloak:
     keycloak_settings:
       client_id_label: 'Client ID'
       client_secret_label: 'Client Secret'
+      encryption_algorithm_label: 加密算法
       realm_label: Realm
       server_url_label: 服務器網址
       title: 'Keycloak 設置'

@@ -9,6 +9,7 @@ clarkwinkelmann-carving-contest:
     page:
       already-participated: 已參加
       delete-confirmation: '您確定要刪除 {username} 的「{name}」嗎？'
+      like: 讚
       loading: 作品載入中…
       participate: 參加
       title: 南瓜雕刻比賽

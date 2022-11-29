@@ -9,3 +9,4 @@ v17development-flarum-support:
     knowledge_base: 知識庫
     or: 或
     return_to_home: 返回知識庫首頁
+    settings: '=> core.ref.settings'

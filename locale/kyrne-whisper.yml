@@ -13,3 +13,5 @@ kyrne-whisper:
   forum:
     dropdown:
       tooltip: 消息
+    setup:
+      title: 設置私人信息

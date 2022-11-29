@@ -6,6 +6,7 @@ nearata-auth-minecraft:
   admin:
     settings:
       api_secret:
+        help: '可以在 <strong>Plugins/OAuth/config.json</strong> 中找到'
         label: 'API Secret'
       api_url:
         help: '示例：http://localhost:4567/verify'

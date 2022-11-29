@@ -12,4 +12,5 @@ nearata-twofactor:
     invalid_twofa_code: 兩步驟驗証碼錯誤。
     invalid_twofa_setup: 密碼或驗證碼錯誤。
     log_in_modal:
+      otp_placeholder: 兩步驗証碼
       submit_button: 登錄

@@ -9,5 +9,6 @@ xelson-chat:
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'
     toolbar:
       disable_sounds: 關閉聲效
+      enable_notifications: 開啟通知
       enable_sounds: 啟用聲效
       title: 聊天室

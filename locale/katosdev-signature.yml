@@ -9,6 +9,7 @@ signature:
       signature: 簽名
     modal:
       error:
+        content: 錯誤列表：
         title: 哎呀！保存時遇到一些錯誤...
       loading:
         content: 請稍后…

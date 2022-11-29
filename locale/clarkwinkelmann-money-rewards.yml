@@ -5,6 +5,7 @@
 clarkwinkelmann-money-rewards:
   admin:
     permissions:
+      customAmounts: 選擇自定義打賞金額
       rewardWithMoney: 使用貨幣打賞其他用戶
       seeMoneyRewardHistory: 查看其他用戶的打賞記錄
     settings:

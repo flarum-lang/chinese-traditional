@@ -10,4 +10,5 @@ nearata-minecraft-avatars:
   forum:
     help_text: '用戶名將被轉換為 UUID。'
     submit_button: 保存
+    username_not_found: 用戶名不存在。
     username_uuid_not_valid: 使用者名稱或UUID無效。

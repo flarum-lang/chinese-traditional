@@ -10,4 +10,5 @@ clarkwinkelmann-money-to-all:
       messageHelp: 該消息將覆蓋默認通知文本。您應該在文本中提及金額，因為它不會再顯示了(可選)。
       messagePlaceholder: 啟用通知以包含消息
       notify: 向用戶發送網路通知
+      suspended: 包含被封禁的用戶
       title: 向所有用戶發放論壇貨幣

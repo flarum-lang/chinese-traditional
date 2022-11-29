@@ -11,3 +11,5 @@ kilowhat-rich-embeds:
         inline: Inline
         separated: 分離
       position: 位置
+      positionOptions:
+        replace: 替換超連結

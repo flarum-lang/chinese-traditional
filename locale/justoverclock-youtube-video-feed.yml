@@ -5,6 +5,7 @@
 justoverclock-youtube-video-feed:
   admin:
     ytChannelId: 'Youtube 頻道 ID'
+    ytChannelId-help: '你的頻道 ID（如 UCc7SyfF1ioDP2QwYGe0S-pg）'
     ytHeight: 視頻縮圖高度
     ytHeight-help: 單位像素
     ytWidth: 視頻縮略圖寬度

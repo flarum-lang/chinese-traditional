@@ -4,6 +4,7 @@
 
 therealsujitk-gifs:
   forum:
+    favourites: 我的最愛
     label: '插入 GIF'
     search: 搜索
     searchGiphy: '搜索 Giphy'
