@@ -12,4 +12,5 @@ kilowhat-rich-embeds:
         separated: 分離
       position: 位置
       positionOptions:
+        above: 超連結上方
         replace: 替換超連結

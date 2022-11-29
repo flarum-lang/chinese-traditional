@@ -7,6 +7,8 @@ signature:
     buttons:
       save: 保存
       signature: 簽名
+    errors:
+      max_char_limit_exceed: 字元數量超過上限.
     modal:
       error:
         content: 錯誤列表：

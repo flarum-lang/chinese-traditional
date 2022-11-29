@@ -9,5 +9,6 @@ justoverclock-igdb-api:
     rawgApi-help: '在此處粘貼從 https://rawg.io/signup 檢索到的免費 Api 密鑰'
   forum:
     genres: Genres
+    metacriticScore: 'MetaCritic Score'
     publisher: 出版商
     seeOnMetaCritic: 在Metacritic上查看

@@ -14,4 +14,5 @@ flagrow-ads:
         placeholder: 在此處粘貼廣告代碼。
         title: 【橫廣廣告位】位於網頁頂部導航欄下方
       under-nav-items:
+        placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
         title: 【側邊欄廣告位】首頁左側側邊欄下方的廣告位

@@ -9,4 +9,5 @@ flarum-ext-infocards:
     opthread: 瀏覽主題
     totalpost: 總計發帖
     totdisc: 總計發佈主題
+    viscounter: 訪問量
     welcome_back: 歡迎回來！

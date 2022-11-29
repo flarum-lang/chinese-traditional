@@ -9,6 +9,7 @@ kilowhat-custom-paths:
         flarum-flags: 'Flarum 小黑屋'
         flarum-subscriptions: 'Flarum 我的關注'
         flarum-tags: 'Flarum 標籤'
+        fof-user-directory: 'FriendsOfFlarum''s 會員名冊'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
       head:
         name: 頁面名稱

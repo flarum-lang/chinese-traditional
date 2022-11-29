@@ -9,5 +9,6 @@ flarum-ext-newsletter:
     pubacc: '公共帳戶 ID'
     pubaccdesc: '在這裡複製你的公共賬號ID https://elasticemail.com/account#/account/security'
   forum:
+    modalthanku: 謝謝！
     submitbutton: 提交
     subscribe: 開啟郵件訂閱。請輸入郵箱地址並提交。

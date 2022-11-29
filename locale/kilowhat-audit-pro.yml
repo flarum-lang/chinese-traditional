@@ -9,6 +9,8 @@ kilowhat-audit:
       pro: 專業版
       title: 審計
       upgrade: 升級到專業版
+    limitedSettings:
+      configure: 配置
     permissions:
       view: 查看審計日誌
       viewLimited: 查看有限審計日誌

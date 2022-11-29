@@ -10,3 +10,5 @@ justoverclock-last-tweet:
     theme-help: '切換明亮或深色主題（默認 light 主題）'
     tweet_number: 推文數量
     tweet_number-help: 指定要展示的推文數量（默認2）
+  forum:
+    widget-title: 最新推文

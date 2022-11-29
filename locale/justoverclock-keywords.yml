@@ -4,6 +4,7 @@
 
 flarum-ext-keywords:
   admin:
+    definition: 定義
     removedef: 刪除
     word: 詞條
   forum:

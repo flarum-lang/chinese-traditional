@@ -5,6 +5,7 @@
 kilowhat-formulaire:
   admin:
     permissions:
+      editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: 方程式

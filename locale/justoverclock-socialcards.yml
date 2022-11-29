@@ -6,6 +6,7 @@ flarum-ext-socialcards:
   admin:
     settings:
       fblink: 'Facebook 連結'
+      ghlink: 'GitHub 連結'
       showfacebook: 臉書
       showtwitter: Twitter
       showyoutube: Youtube

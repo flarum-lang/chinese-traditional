@@ -9,5 +9,6 @@ justoverclock-steam-api:
   forum:
     LatestGamesPlayed: 最近玩的Games
     statusOffline: 下線
+    statusOnline: 正在線上
     steamId: 'Steam Profile ID'
     steamIdSaved: 'Steam ID 保存成功'
