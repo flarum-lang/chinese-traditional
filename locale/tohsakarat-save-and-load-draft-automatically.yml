@@ -6,3 +6,5 @@ tohsakarat-save-and-load-draft-automatically:
   forum:
     buttons:
       load: 載入本地編輯紀錄
+    states:
+      ask-for-save: 您想在線保存草稿嗎？

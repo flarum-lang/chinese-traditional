@@ -4,5 +4,7 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 啟動兩步驗證
     settings:
       generate_backups: 生成恢復代碼。

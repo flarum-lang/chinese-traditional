@@ -6,4 +6,5 @@ nearata-auth-minecraft:
   admin:
     settings:
       minecraft_server:
+        help: 示例：mydomain.tld
         label: 'Minecraft 伺服器 IP'

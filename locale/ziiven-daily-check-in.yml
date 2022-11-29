@@ -5,3 +5,4 @@
 ziven-checkin:
   forum:
     check-in: 簽到
+    checked-in-day: '簽到 {count} 天'

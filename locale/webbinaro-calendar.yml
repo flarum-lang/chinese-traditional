@@ -5,4 +5,5 @@
 flarum-calendar:
   forum:
     button:
+      create: 新活動
       landing: 活動日程

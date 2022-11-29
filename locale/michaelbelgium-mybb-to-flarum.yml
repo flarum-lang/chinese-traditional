@@ -5,4 +5,5 @@
 michaelbelgium-mybb-to-flarum:
   admin:
     content:
+      convert_button: 遷移
       description_text: '將 MyBB 論壇遷移到這個 Flarum 實例中。填寫所需數據，然後點擊“遷移”。'

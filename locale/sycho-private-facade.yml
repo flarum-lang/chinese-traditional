@@ -6,3 +6,6 @@ sycho-private-facade:
   admin:
     settings:
       force_redirect: 未登錄時強制跳轉到注冊登錄頁
+      header_layout:
+        options:
+          show_header: 展示橫幅

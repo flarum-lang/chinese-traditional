@@ -5,4 +5,5 @@
 flarum-bbcode-button:
   admin:
     settings:
+      codedesc: '輸入開始和結束的 BBCode 標籤。'
       codelabel: '1. BBCode標籤'

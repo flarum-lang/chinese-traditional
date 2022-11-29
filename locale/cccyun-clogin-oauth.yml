@@ -4,5 +4,6 @@
 
 cccyun-clogin-oauth:
   admin:
+    appid_label: APPID
     appurl_help: '必須以 http:// 或 https:// 開頭，以 / 結尾'
     appurl_label: 'API 連結'

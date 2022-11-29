@@ -5,3 +5,4 @@
 sycho-github-milestone:
   admin:
     repository: 'GitHub 儲存庫'
+    repository_example: '示例: flarum/core'

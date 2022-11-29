@@ -5,6 +5,7 @@
 clarkwinkelmann-discussion-lists:
   admin:
     permissions:
+      createPrivate: 創建私人討論列表
       viewPublic: 查看公共討論列表
     settings:
       collapseSeries: 討論串默認折疊

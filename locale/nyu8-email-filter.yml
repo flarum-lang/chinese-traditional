@@ -4,4 +4,5 @@
 
 nyu8-email-filter:
   admin:
+    custom_failure_message_label: 自定義提示信息
     general: 常規

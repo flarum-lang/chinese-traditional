@@ -7,4 +7,5 @@ blomstra-trello:
     modals:
       fields:
         board: 選擇一個Trello板塊
+        forum_tags: 選擇一個論壇標籤來映射
         trello_label: 選擇一個Trello標簽

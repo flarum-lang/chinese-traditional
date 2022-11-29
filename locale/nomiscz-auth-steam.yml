@@ -5,4 +5,5 @@
 nomiscz-auth-steam:
   forum:
     buttons:
+      link: 綁定Steam賬號
       login: 'Steam 帳號登錄'

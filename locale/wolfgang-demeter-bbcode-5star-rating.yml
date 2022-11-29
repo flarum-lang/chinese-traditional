@@ -5,4 +5,5 @@
 flarum-ext-bbcode-5star-rating:
   forum:
     button:
+      label: '5 星評級'
       tooltip: '選擇 5 星級'

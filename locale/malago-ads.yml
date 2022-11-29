@@ -6,3 +6,6 @@ flagrow-ads:
   admin:
     buttons:
       save: 保存設置
+    positions:
+      under-header:
+        title: 【橫廣廣告位】位於網頁頂部導航欄下方

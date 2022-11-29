@@ -7,3 +7,4 @@ webbinaro-age-check:
     labels:
       buttons:
         'yes': 輸入按鈕標籤
+        yes_help: 通常是「確認」或「是」

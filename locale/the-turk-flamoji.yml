@@ -5,4 +5,5 @@
 the-turk-flamoji:
   admin:
     settings:
+      category_settings_heading: 分類設置
       emoji_settings_heading: 表情設置

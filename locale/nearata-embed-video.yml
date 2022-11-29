@@ -7,3 +7,4 @@ nearata-embed-video:
     settings:
       options:
         airplay: 隔空播放
+        hotkey: 熱鍵

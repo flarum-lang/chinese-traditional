@@ -6,6 +6,7 @@ blomstra-payments:
   forum:
     accept-terms-modal:
       accept_label: 我已閱讀並接受<link>付款條款</link>。
+      continue_button: 繼續付款
 core:
   forum:
     index_sort:

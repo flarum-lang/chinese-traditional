@@ -7,4 +7,5 @@ clarkwinkelmann-follow-tags-prompt:
     controls:
       choose: 選擇要關注的標簽
     modal:
+      later: 稍後提醒我
       title: 選擇要關注的標簽

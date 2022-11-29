@@ -6,4 +6,5 @@ expired-posts:
   forum:
     composer:
       warning:
+        description: 此貼文已過期。
         title: 過期內容

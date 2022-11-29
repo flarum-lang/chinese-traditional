@@ -6,4 +6,5 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist:
+        guest: 訪客
         title: 最後訪客

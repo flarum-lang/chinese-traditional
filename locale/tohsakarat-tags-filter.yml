@@ -7,3 +7,4 @@ tohsakarat-tags-filter:
     index_page:
       filter_tags:
         accessible_label: 標籤過濾器
+        all: 所有

@@ -4,4 +4,6 @@
 
 xelson-chat:
   forum:
+    index:
+      chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'

@@ -6,4 +6,5 @@ clarkwinkelmann-catch-the-fish:
   forum:
     moderate:
       add: 添加
+      delete: 刪除
       edit: 編輯

@@ -7,4 +7,5 @@ clarkwinkelmann-collapsible-posts:
     settings:
       header:
         key: 數據庫主鍵
+        label: 標題
       reasons: 原因

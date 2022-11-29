@@ -5,5 +5,6 @@
 clarkwinkelmann-money-rewards:
   admin:
     settings:
+      max: 自定義金額的最大值
       min: 自定義金額的最小值
       preselection: '預選金額（英文逗號分隔,可選）'

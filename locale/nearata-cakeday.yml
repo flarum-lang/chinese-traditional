@@ -6,3 +6,5 @@ nearata-cakeday:
   admin:
     permissions:
       can_view_anniversaries_page: 查看紀念日頁面
+    settings:
+      anniversaries_page_label: 啟動紀念日頁面

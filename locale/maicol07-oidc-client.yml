@@ -5,4 +5,5 @@
 maicol07-oidc-client:
   admin:
     settings:
+      client_settings_title: 'Client 設置'
       provider_name: 'OpenID Connect 提供商名稱'

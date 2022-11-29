@@ -6,4 +6,5 @@ clarkwinkelmann-anonymous-posting:
   admin:
     settings:
       composerHelpTextPosition: 文本編輯器提示方式
+      composerHelpTextPositionTooltip: 圖標
       composerHelpTextPositionVisible: 可見（標籤下方）

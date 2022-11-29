@@ -7,3 +7,4 @@ clarkwinkelmann-mass-actions:
     select:
       all: 全選
       none: 取消全選
+      read: 已讀
