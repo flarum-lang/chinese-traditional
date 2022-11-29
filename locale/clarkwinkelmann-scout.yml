@@ -12,3 +12,4 @@ clarkwinkelmann-scout:
         'null': 'Null'
         tntsearch: TNTSearch
       prefix: 索引名稱前綴（可選）
+      queue: 處理隊列中的索引更新

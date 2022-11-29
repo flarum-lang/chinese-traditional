@@ -4,6 +4,7 @@
 
 jslirola-login2seeplus:
   admin:
+    hide: 隱藏
     title: Login2SeePlus
   forum:
     code: 代碼登錄後可見

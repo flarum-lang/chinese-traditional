@@ -15,3 +15,4 @@ clarkwinkelmann-shadow-ban:
       restore: 陰影還原
     postControl:
       hide: 影藏
+      restore: 隱藏恢復

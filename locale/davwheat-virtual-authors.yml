@@ -11,4 +11,5 @@ davwheat-virtual-authors:
       auto_save_message: 創建新的或編輯現有的虛擬作者時會自動保存。
       create_new: 創建新的虛擬作者
       errored: 無法從服務器加載虛擬作者。
+      link_to_va_from_discussion: 在“作者”框中顯示虛擬作者的所有討論連結
       search_placeholder: 搜索用戶名

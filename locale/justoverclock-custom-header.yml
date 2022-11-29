@@ -4,6 +4,7 @@
 
 custom-header:
   admin:
+    facebookIcon: 臉書主頁連結
     headerTagline: 標幅標語
     headerTagline-help: 你可以修改標語
     headerTitle: 橫幅標題

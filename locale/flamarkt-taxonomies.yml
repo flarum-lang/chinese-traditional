@@ -12,4 +12,5 @@ flamarkt-taxonomies:
     page:
       create:
         taxonomy: 創建分類
+        term: 創建術語
       title: 分類法

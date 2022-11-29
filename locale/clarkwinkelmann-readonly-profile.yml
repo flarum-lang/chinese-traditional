@@ -12,4 +12,5 @@ clarkwinkelmann-readonly-profile:
       disablePasswordChange: 禁用密碼更改和重置
   api:
     blocked_actions:
+      accessToken: 禁用訪問令牌創建
       login: 登錄端點已禁用

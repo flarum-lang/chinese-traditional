@@ -12,4 +12,5 @@ ianm-syndication:
       tag_new_discussions: '在{tag} 標籤中進行討論'
     feeds:
       titles:
+        main_subtitle: 論壇最新回文
         main_title: '{forum_name}'

@@ -10,4 +10,5 @@ datitisev-backup:
       azure: 'Microsoft Azure'
       dospaces: 'Digital Ocean Spaces'
       dropbox: Dropbox
+      gdrive: 'Google Drive'
       local: 本地儲存

@@ -5,6 +5,7 @@
 clarkwinkelmann-typewriter:
   admin:
     settings:
+      add: 增加音效
       defaultFile: 預設音效
       head:
         file: 文件

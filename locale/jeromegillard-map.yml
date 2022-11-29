@@ -5,6 +5,8 @@
 jeromegillard-map:
   admin:
     settings:
+      style:
+        label: '{provider} 預設樣式'
       tiles_provider:
         help: '選擇出現在背景中的 tiles layer 提供者'
         label: 默認圖層提供者

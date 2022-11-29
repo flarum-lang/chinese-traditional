@@ -16,3 +16,5 @@ davwheat:
             position:
               above-tags-link: 顯示於「全部標簽」按鈕上方
               below-tags-link: 顯示於「全部標簽」按鈕下方
+        link_table:
+          heading: 自定義連結

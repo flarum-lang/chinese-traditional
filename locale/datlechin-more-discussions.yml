@@ -11,3 +11,5 @@ datlechin-more-discussions:
       discussion_limit_label: 貼文限制
       filter_by_help: 過濾討論（默認：<code>最新</code>）
       filter_by_label: 進行過濾
+      filter_dropdown:
+        latest: 最後回覆
