@@ -2,6 +2,10 @@
 # Use https://weblate.rob006.net/projects/flarum/kyrne-evergreen/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-mentions:
+  admin:
+    settings:
+      allow_username_format_label: 允許@用戶名
 kyrne-evergreen:
   forum:
     post:

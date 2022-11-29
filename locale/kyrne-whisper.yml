@@ -6,4 +6,5 @@ kyrne-whisper:
   admin:
     settings:
       return_key: 返回鍵發送消息
+      set_own_password: '讓用戶設置獨立密碼 - SSO兼容'
       title: 'Whisper 設置'

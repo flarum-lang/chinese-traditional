@@ -5,6 +5,7 @@
 michaelbelgium-flarum-profile-views:
   forum:
     user:
+      view_count_text: '訪問量 {viewcount, plural, one {{viewcount}} other {{viewcount}}}'
       viewlist:
         guest: 訪客
         title: 最後訪客

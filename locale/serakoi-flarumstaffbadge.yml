@@ -7,3 +7,5 @@ serakoi-flarumstaffbadge:
     staffBadge:
       help: 'The Staff Badge Text (預設為''STAFF'')'
       label: 員工徽章文字
+    staffBadgeTextColor:
+      label: 職員徽章顏色

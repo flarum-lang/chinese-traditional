@@ -6,4 +6,5 @@ nearata-dsts:
   admin:
     permissions:
       can_bypass_like: 無需點讚即可查看首貼
+      can_bypass_login: 無需登錄
       can_bypass_reply: 無需回覆即可查看首貼

@@ -8,3 +8,4 @@ nearata-embed-video:
       options:
         airplay: 隔空播放
         hotkey: 熱鍵
+        lang: 播放器語言

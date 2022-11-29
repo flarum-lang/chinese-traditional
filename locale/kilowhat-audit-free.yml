@@ -5,6 +5,7 @@
 kilowhat-audit:
   admin:
     header:
+      free: 免費版
       title: 審計
     permissions:
       view: 查看審計日誌

@@ -9,3 +9,4 @@ sycho-private-facade:
       header_layout:
         options:
           show_header: 展示橫幅
+          show_only_logo: '僅顯示 Logo'

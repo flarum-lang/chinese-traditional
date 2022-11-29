@@ -8,3 +8,5 @@ nearata-twofactor:
       can_enable_twofactor: 啟動兩步驗證
     settings:
       generate_backups: 生成恢復代碼。
+  forum:
+    invalid_twofa_code: 兩步驟驗証碼錯誤。

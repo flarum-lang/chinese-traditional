@@ -7,3 +7,4 @@ nomiscz-auth-steam:
     buttons:
       link: 綁定Steam賬號
       login: 'Steam 帳號登錄'
+      unlink: '取消關聯 Steam 帳戶'

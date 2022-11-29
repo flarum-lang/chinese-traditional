@@ -7,3 +7,6 @@ signature:
     buttons:
       save: 保存
       signature: 簽名
+    modal:
+      loading:
+        title: 保存中

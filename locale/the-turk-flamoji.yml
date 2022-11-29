@@ -7,3 +7,4 @@ the-turk-flamoji:
     settings:
       category_settings_heading: 分類設置
       emoji_settings_heading: 表情設置
+      general_ui_settings_heading: 一般界面設置

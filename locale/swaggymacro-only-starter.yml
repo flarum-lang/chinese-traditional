@@ -5,4 +5,5 @@
 swaggymacro:
   forum:
     blog_article_author: 作者
+    only_starter: '僅顯示 OP'
     topic_starter: 原創作者

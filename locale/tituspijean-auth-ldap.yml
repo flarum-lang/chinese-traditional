@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 tituspijean-auth-ldap:
+  admin:
+    settings:
+      title: 'LDAP 設置'
   forum:
     log_in_with: '以 {server} 登錄'
     log_out: '=> core.ref.log_out'

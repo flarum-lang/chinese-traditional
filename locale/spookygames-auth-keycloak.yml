@@ -5,5 +5,6 @@
 flarum-ext-auth-keycloak:
   admin:
     keycloak_settings:
+      realm_label: Realm
       server_url_label: 服務器網址
       title: 'Keycloak 設置'

@@ -5,6 +5,8 @@
 kilowhat-custom-paths:
   admin:
     settings:
+      extensions:
+        flarum-tags: 'Flarum 標籤'
       head:
         name: 頁面名稱
         path: 路徑

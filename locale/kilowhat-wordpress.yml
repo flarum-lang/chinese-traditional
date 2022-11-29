@@ -7,3 +7,4 @@ kilowhat-wordpress:
     settings:
       api_key: 'Flarum API Key'
       section_general_intro: 本插件工作所需的基本設置。
+      wordpress_url: 'WordPress URL'

@@ -8,3 +8,4 @@ nearata-cakeday:
       can_view_anniversaries_page: 查看紀念日頁面
     settings:
       anniversaries_page_label: 啟動紀念日頁面
+      cake_bg_color_label: 背景顏色

@@ -6,3 +6,5 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 允許全屏
     autoplay: 自動播放
+    permissions:
+      create_twitch: '嵌入 Twitch'

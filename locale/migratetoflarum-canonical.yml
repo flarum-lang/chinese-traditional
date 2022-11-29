@@ -6,5 +6,6 @@ migratetoflarum-canonical:
   admin:
     settings:
       step:
+        admin_on_canonical: 通過規範網址訪問後台管理面板
         check_config_url: '檢查config.php中定義的網址是否是您首選的規範網址（當前：{url}）'
         how_to: 如何開啟規範重定向

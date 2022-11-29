@@ -7,4 +7,5 @@ the-turk-miserable-users:
     permissions:
       miserable_user_label: '=> the-turk-miserable-users.ref.miserable_user'
     settings:
+      range_seconds_text: ' 秒'
       range_separator_text: ' 到 '

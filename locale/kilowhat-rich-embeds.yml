@@ -7,4 +7,5 @@ kilowhat-rich-embeds:
     settings:
       layout: 佈局
       layoutOptions:
+        block: 段落
         inline: Inline
