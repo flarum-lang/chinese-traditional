@@ -238,6 +238,7 @@ php flarum cache:clear
 | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/zh_Hant/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/zh_Hant/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/zh_Hant/) |
+| [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/zh_Hant/) |
 
 <!-- various-extensions-list-stop -->
 
