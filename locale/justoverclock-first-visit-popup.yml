@@ -4,5 +4,6 @@
 
 justoverclock-first-visit-popup:
   admin:
+    CookieExp: 'Cookie 存活時間（以小時為單位）'
     modalContent: '模態內容 (HTML)'
     modalTitle: 對話框標題

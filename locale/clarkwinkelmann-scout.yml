@@ -7,4 +7,5 @@ clarkwinkelmann-scout:
     setting:
       driver: 驅動
       driverOption:
+        algolia: Algolia
         'null': 'Null'

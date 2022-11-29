@@ -4,5 +4,6 @@
 
 flarum-ext-infocards:
   forum:
+    forumstats: 論壇統計
     geninfo: 其它信息
     welcome_back: 歡迎回來！

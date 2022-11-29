@@ -4,5 +4,7 @@
 
 justoverclock-discussion-info:
   forum:
+    createdAt: 發佈於
     lastReadAt: 最近查看
     participantCount: 參與人數
+    tag: 標籤

@@ -4,5 +4,6 @@
 
 header-slideshow:
   admin:
+    TitleSlide1: '幻燈片 1 的標題'
     TransitionTime: '輪播間隔時間（默認 5 秒）'
     TransitionTime-help: 動畫過場時間（秒）

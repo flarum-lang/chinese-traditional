@@ -6,3 +6,4 @@ flarum-ext-guestengagement:
   forum:
     hello: 你好！您似乎對這個論壇感興趣，但您還沒有註冊帳戶。
     signupbtn: 註冊
+    whenucreate: 註冊賬號後，你可以保留自己的閱讀記錄，方便下次接著閱讀。

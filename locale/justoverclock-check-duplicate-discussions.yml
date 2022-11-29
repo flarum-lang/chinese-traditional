@@ -6,3 +6,5 @@ justoverclock-check-duplicate-discussions:
   admin:
     similarNumber: 類似的討論顯示
     similarNumber-help: '在 Composer 中顯示類似討論的數量'
+  forum:
+    title: 找到類似主題！

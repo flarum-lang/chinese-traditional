@@ -7,3 +7,5 @@ datitisev-maintenance:
     dashboard:
       disable_maintenance_mode_button: 禁用維護模式
       enable_maintenance_mode_button: 啟用維護模式
+    settings:
+      title: 維護模式

@@ -7,3 +7,4 @@ flarum-ext-socialcards:
     settings:
       fblink: 'Facebook 連結'
       showfacebook: 臉書
+      showyoutube: Youtube

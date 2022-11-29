@@ -5,4 +5,5 @@
 justoverclock-frontend-blog:
   admin:
     numberOfPost: 文章數量
+    numberOfPost-help: 在此設置您要顯示的貼文最大數量
     setBlogIndexPage: '將 Frontend Blog 擴展設置為主頁'

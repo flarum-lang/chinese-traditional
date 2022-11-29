@@ -6,4 +6,5 @@ clarkwinkelmann-readonly-profile:
   admin:
     settings:
       disableAccessTokens: 禁用訪問令牌創建
+      disableEmailChange: 禁止郵箱變更
       disableLogin: 禁止登錄

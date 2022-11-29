@@ -7,3 +7,4 @@ datlechin-more-discussions:
     settings:
       block_name_help: '區塊名稱（默認 <code>Latest Discussions</code>）'
       block_name_label: 區塊名稱
+      discussion_limit_label: 貼文限制

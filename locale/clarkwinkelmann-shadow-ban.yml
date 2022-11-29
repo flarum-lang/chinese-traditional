@@ -6,5 +6,6 @@ clarkwinkelmann-shadow-ban:
   admin:
     permission:
       ban: '隱匿用户 (Shadow ban)'
+      hide: '影藏 (Shadow hide) 主題和回覆'
     setting:
       hideUsers: '隱藏影匿用戶 (Shadow ban) 的資料'

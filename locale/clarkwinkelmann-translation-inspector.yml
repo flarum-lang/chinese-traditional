@@ -8,4 +8,5 @@ clarkwinkelmann-translation-inspector:
       inspect: 檢查翻譯
   lib:
     modal:
+      key: 翻譯鍵
       title: 翻譯檢查

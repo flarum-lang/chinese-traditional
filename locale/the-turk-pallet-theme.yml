@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 the-turk-pallet-theme:
+  admin:
+    info: '感謝使用 Pallet 主題！以下配色調整僅會在管理面板生效。'
   forum:
     howdy: 歡迎光臨！
     involve: 歡迎訪問本站，您可以點擊下方按鈕加入我們！

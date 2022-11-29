@@ -5,5 +5,6 @@
 clarkwinkelmann-typewriter:
   admin:
     settings:
+      defaultFile: 預設音效
       muteByDefault: 默認靜音
       showIntroductionPopup: 第一次顯示介紹彈窗

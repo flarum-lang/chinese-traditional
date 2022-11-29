@@ -4,5 +4,7 @@
 
 flarum-ext-realtimecode:
   forum:
+    description: '歡迎使用 HTML/CSS 代碼編輯器，支持實時預覽。'
     htmleditor: 'HTML 編輯器'
+    outputtitle: 實時預覽
     title: 'HTML 編輯器'

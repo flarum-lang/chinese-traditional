@@ -6,5 +6,6 @@ justoverclock-auto-post-count-badge:
   admin:
     settings:
       icon-manager:
+        help_text: '=> core.ref.icon_text'
         title: 圖示管理
       tier: '{tier}：達成 {from} 至 {to} 次回帖'

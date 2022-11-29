@@ -4,6 +4,8 @@
 
 clarkwinkelmann-post-bookmarks:
   forum:
+    alert:
+      added: 已加入書籤！
     button:
       add: 書籤
       remove: 已加入書籤

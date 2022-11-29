@@ -7,5 +7,8 @@ clarkwinkelmann-roll-die:
     settings:
       clearOnEdit: 編輯帖子時刷新骰子
   forum:
+    composer:
+      rollDie: 隨機骰子
     tooltip:
+      preview: 保存時刷新骰子
       render: '骰子：{number}'

@@ -4,5 +4,6 @@
 
 justoverclock-related-discussions:
   admin:
+    DiscussionPageLayout: 在主題頁面底部顯示相關討論
     relatedLimit: '要顯示的相關討論數量（默認 4）'
     relatedLimit-help: 設置要顯示的相關討論帖數

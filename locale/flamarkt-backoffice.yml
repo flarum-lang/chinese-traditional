@@ -6,4 +6,6 @@ flamarkt-backoffice:
   admin:
     settingsInBackoffice: 後台設置
   backoffice:
+    nav:
+      dashboard: 儀表板
     settingsNotAvailableForNonAdmin: 此擴展程序有設置，但只有管理員帳戶可以查看和編輯它們。

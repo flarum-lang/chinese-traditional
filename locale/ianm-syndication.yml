@@ -7,3 +7,4 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 論壇活動
       forum_new_discussions: 論壇的新討論
+      tag_activity: '{tag} 標簽活動'

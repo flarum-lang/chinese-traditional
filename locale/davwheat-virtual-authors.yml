@@ -7,3 +7,5 @@ davwheat-virtual-authors:
     permissions:
       set_virtual_authors: 在討論中設置虛擬作者
       view_virtual_authors_page: 查看詳細介紹所有虛擬作者的頁面
+    settings:
+      errored: 無法從服務器加載虛擬作者。

@@ -5,4 +5,5 @@
 flarum-ext-keywords:
   forum:
     pagetitle: 詞彙表頁面
+    tagline: 想了解更多本站使用的術語嗎？請查看詞彙表
     title: 詞彙表
