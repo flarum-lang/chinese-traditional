@@ -7,4 +7,6 @@ ffans-clipboardjs:
     settings:
       codeLang_label: 顯示代碼語言
       copy_enable_label: 開啟複制功能
+      themes:
+        cnblog: cnBlogs
       themes_label: 複制按鈕風格

@@ -8,4 +8,5 @@ datlechin-birthdays:
       edit_own_birthday_label: 修改個人生日
       view_birthday_label: 查看生日
     settings:
+      required_label: 強制注冊時設置生日
       set_on_registration_label: 允許註冊時設置生日

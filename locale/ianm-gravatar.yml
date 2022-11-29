@@ -9,4 +9,5 @@ ianm-gravatar:
         helptext: '默認情況下，Gravatar 頭像的 URL 直接從 gravatar.com 獲取。代理可以允許站點自己提供 Gravatar 請求服務。'
         title: 'Gravatars 頭像代理'
       replace-flarum-custom:
+        helptext: '用 Gravatar 替換已上傳到論壇的自定義頭像'
         title: 替換上傳到論壇的自定義頭像

@@ -6,5 +6,6 @@ ianm-html-head:
   admin:
     create_button: 新建
     table:
+      active_label: 啟用
       description_label: 描述
       header_label: 頭部

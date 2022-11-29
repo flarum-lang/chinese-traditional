@@ -9,4 +9,5 @@ clarkwinkelmann-translation-inspector:
   lib:
     modal:
       key: 翻譯鍵
+      original: 原始英文字符
       title: 翻譯檢查

@@ -6,6 +6,7 @@ clarkwinkelmann-collapsible-posts:
   admin:
     settings:
       header:
+        explanation: 自定義詳情信息
         key: 數據庫主鍵
         label: 標題
       reasons: 原因

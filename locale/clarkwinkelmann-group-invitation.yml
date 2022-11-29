@@ -8,3 +8,4 @@ clarkwinkelmann-group-invitation:
     title: '您被邀请加入「{group}」用户组！'
     user:
       already-connected: "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登錄到另一個帳號</a>。\n"
+      not-connected: '<a>登錄</a> 以接受邀請。'

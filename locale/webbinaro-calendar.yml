@@ -7,3 +7,4 @@ flarum-calendar:
     button:
       create: 新活動
       landing: 活動日程
+      login: '添加你的活動 '

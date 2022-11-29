@@ -7,4 +7,5 @@ datlechin-title-length:
     settings:
       limit_help: '允許使用者自定義標題長度限制。如果禁用，將使用 Flarum 的默認標題長度限制。'
       limit_label: 啟用標題長度限制
+      min_help: 標題的最小長度，最小值為1。
       min_label: 最小長度

@@ -9,3 +9,6 @@ clarkwinkelmann-shadow-ban:
       hide: '影藏 (Shadow hide) 主題和回覆'
     setting:
       hideUsers: '隱藏影匿用戶 (Shadow ban) 的資料'
+  forum:
+    discussionControl:
+      hide: 影藏

@@ -6,5 +6,6 @@ flamarkt-taxonomies:
   admin:
     menu:
       discussions: 討論文章分類法
+      products: 產品分類
       title: 分類法
       users: 用戶分類

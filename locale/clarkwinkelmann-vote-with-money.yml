@@ -8,3 +8,6 @@ clarkwinkelmann-vote-with-money:
       max: 最大值
       min: 最小值
       preselection: 預選金額（逗號分隔，可選）
+  forum:
+    vote:
+      title: 確認投票

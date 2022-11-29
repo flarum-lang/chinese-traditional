@@ -4,6 +4,8 @@
 
 clarkwinkelmann-featured-discussions:
   admin:
+    permissions:
+      feature: 管理精選主題
     settings:
       duration: 默認過期時間（秒）
       eventPost: 修改日程任務時生成事件帖子

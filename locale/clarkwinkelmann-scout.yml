@@ -8,4 +8,5 @@ clarkwinkelmann-scout:
       driver: 驅動
       driverOption:
         algolia: Algolia
+        meilisearch: Meilisearch
         'null': 'Null'

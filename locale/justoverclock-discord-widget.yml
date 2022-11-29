@@ -7,4 +7,5 @@ justoverclock-discord-widget:
     channelId: 'Channel ID'
     channelId-help: '在您的服務器上打開 Widget 並在此處粘貼您的頻道 ID'
   forum:
+    joinUs: 加入我們
     onlineUsers: '在線用戶 '

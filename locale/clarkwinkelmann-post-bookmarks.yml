@@ -6,6 +6,7 @@ clarkwinkelmann-post-bookmarks:
   forum:
     alert:
       added: 已加入書籤！
+      removed: 已從書籤中移除！
     button:
       add: 書籤
       remove: 已加入書籤

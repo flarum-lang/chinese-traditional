@@ -7,3 +7,5 @@ xelson-chat:
     index:
       chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'
+    toolbar:
+      title: 聊天室

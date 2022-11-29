@@ -6,5 +6,6 @@ datitisev-backup:
   admin:
     adapters:
       aliyun: 阿里雲（Aliyun）
+      aws: 'Amazon AWS S3'
       azure: 'Microsoft Azure'
       local: 本地儲存
