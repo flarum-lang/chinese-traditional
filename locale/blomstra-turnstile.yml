@@ -5,7 +5,10 @@
 blomstra-turnstile:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       secret_key: '私鑰（Secret key）'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key: '站點金鑰（Site key）'
   forum:
     not_loaded_error: '未能正確加載Cloudflare Turnstile，請刷新本頁面，並檢查您的廣告攔截程序是否關閉。'
