@@ -7,3 +7,4 @@ kilowhat-custom-paths:
     settings:
       head:
         name: 頁面名稱
+        path: 路徑

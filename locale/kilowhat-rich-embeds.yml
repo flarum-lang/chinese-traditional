@@ -6,3 +6,5 @@ kilowhat-rich-embeds:
   admin:
     settings:
       layout: 佈局
+      layoutOptions:
+        inline: Inline

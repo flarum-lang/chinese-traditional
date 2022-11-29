@@ -5,3 +5,4 @@
 justoverclock-users-map-location:
   admin:
     adminLocationField: 區域
+    mapBox-api-key: 'MapBox Public Token'

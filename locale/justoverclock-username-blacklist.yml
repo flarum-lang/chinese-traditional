@@ -4,4 +4,5 @@
 
 username-blacklist:
   forum:
+    modal-body-first-line: 此用戶名<strong>禁止</strong>註冊
     modal-title: 警告

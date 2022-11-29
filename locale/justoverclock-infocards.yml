@@ -5,3 +5,4 @@
 flarum-ext-infocards:
   forum:
     geninfo: 其它信息
+    welcome_back: 歡迎回來！

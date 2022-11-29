@@ -4,4 +4,5 @@
 
 flarum-ext-keywords:
   forum:
+    pagetitle: 詞彙表頁面
     title: 詞彙表

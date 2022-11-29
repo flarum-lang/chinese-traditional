@@ -5,4 +5,5 @@
 signature:
   forum:
     buttons:
+      save: 保存
       signature: 簽名

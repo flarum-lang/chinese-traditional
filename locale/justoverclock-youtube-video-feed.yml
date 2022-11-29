@@ -5,3 +5,4 @@
 justoverclock-youtube-video-feed:
   admin:
     ytWidth: 視頻縮略圖寬度
+    ytWidth-help: 設置縮圖的寬度（以像素為單位）
