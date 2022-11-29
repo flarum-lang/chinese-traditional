@@ -6,3 +6,4 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 修改個人生日
+      view_birthday_label: 查看生日

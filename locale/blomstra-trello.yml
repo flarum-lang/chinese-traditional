@@ -7,3 +7,4 @@ blomstra-trello:
     modals:
       fields:
         board: 選擇一個Trello板塊
+        trello_label: 選擇一個Trello標簽

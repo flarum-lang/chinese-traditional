@@ -5,4 +5,5 @@
 datlechin-pronouns:
   admin:
     settings:
+      prefix_help: 此文本將顯示在用戶的代詞之前。留空不顯示任何內容。
       prefix_label: 代詞前綴

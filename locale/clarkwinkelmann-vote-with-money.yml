@@ -5,4 +5,5 @@
 clarkwinkelmann-vote-with-money:
   admin:
     settings:
+      min: 最小值
       preselection: 預選金額（逗號分隔，可選）

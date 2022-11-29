@@ -6,3 +6,6 @@ clarkwinkelmann-roll-die:
   admin:
     settings:
       clearOnEdit: 編輯帖子時刷新骰子
+  forum:
+    tooltip:
+      render: '骰子：{number}'

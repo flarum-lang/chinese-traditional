@@ -8,3 +8,6 @@ davwheat:
       settings_page:
         display_options:
           heading: 顯示設置
+          options:
+            position:
+              above-tags-link: 顯示於「全部標簽」按鈕上方

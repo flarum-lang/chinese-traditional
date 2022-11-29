@@ -6,3 +6,5 @@ clarkwinkelmann-scout:
   admin:
     setting:
       driver: 驅動
+      driverOption:
+        'null': 'Null'

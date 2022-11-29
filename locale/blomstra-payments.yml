@@ -2,6 +2,10 @@
 # Use https://weblate.rob006.net/projects/flarum/blomstra-payments/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-payments:
+  forum:
+    accept-terms-modal:
+      accept_label: 我已閱讀並接受<link>付款條款</link>。
 core:
   forum:
     index_sort:

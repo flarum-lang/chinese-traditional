@@ -4,4 +4,5 @@
 
 justoverclock-first-visit-popup:
   admin:
+    modalContent: '模態內容 (HTML)'
     modalTitle: 對話框標題

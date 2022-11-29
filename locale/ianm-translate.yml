@@ -6,3 +6,4 @@ ianm-translate:
   admin:
     permission:
       refresh-translation: 強制重新翻譯緩存的翻譯
+      translate-to-locale: 查看當前語言環境的翻譯

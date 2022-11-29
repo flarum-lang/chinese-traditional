@@ -5,4 +5,5 @@
 fof-github-sponsors:
   admin:
     account_types:
+      organization: 組織
       user: 用戶

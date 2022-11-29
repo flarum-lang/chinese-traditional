@@ -6,3 +6,6 @@ clarkwinkelmann-sudo-mode:
   admin:
     settings:
       duration: 權限確認冷靜期（秒）
+  lib:
+    sudo:
+      title: 權限確認

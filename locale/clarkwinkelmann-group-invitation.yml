@@ -4,4 +4,5 @@
 
 clarkwinkelmann-group-invitation:
   forum:
+    generic-title: 用戶組邀請
     title: '您被邀请加入「{group}」用户组！'

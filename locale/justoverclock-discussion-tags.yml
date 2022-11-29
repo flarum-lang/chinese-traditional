@@ -6,3 +6,5 @@ justoverclock-discussion-tags:
   admin:
     permissions:
       canEditDiscussionTags: 可以編輯討論標籤
+  forum:
+    dTags: 文章標籤

@@ -5,4 +5,5 @@
 clarkwinkelmann-readonly-profile:
   admin:
     settings:
+      disableAccessTokens: 禁用訪問令牌創建
       disableLogin: 禁止登錄

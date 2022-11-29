@@ -5,4 +5,5 @@
 finteger-ratings:
   admin:
     permissions:
+      submit: 提交評分
       view: 查看評分

@@ -4,5 +4,7 @@
 
 clarkwinkelmann-shadow-ban:
   admin:
+    permission:
+      ban: '隱匿用户 (Shadow ban)'
     setting:
       hideUsers: '隱藏影匿用戶 (Shadow ban) 的資料'

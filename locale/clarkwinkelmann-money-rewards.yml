@@ -5,4 +5,5 @@
 clarkwinkelmann-money-rewards:
   admin:
     settings:
+      min: 自定義金額的最小值
       preselection: '預選金額（英文逗號分隔,可選）'

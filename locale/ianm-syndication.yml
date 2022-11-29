@@ -6,3 +6,4 @@ ianm-syndication:
   forum:
     autodiscovery:
       forum_activity: 論壇活動
+      forum_new_discussions: 論壇的新討論

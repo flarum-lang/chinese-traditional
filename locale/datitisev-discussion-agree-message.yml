@@ -5,4 +5,5 @@
 datitisev-discussion-agree-message:
   admin:
     settings:
+      description_label: 描述
       title_label: 標題

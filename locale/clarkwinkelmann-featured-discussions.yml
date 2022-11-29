@@ -5,4 +5,5 @@
 clarkwinkelmann-featured-discussions:
   admin:
     settings:
+      duration: 默認過期時間（秒）
       schedule: '計劃任務（CRON 語法）'

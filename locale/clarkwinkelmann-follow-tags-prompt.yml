@@ -6,3 +6,5 @@ clarkwinkelmann-follow-tags-prompt:
   forum:
     controls:
       choose: 選擇要關注的標簽
+    modal:
+      title: 選擇要關注的標簽

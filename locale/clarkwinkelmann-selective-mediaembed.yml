@@ -5,3 +5,4 @@
 clarkwinkelmann-selective-mediaembed:
   admin:
     selectAll: 全選
+    unselectAll: 取消全選

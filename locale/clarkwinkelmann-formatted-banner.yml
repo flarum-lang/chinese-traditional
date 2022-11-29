@@ -6,3 +6,4 @@ clarkwinkelmann-formatted-banner:
   admin:
     settings:
       guestContent: 訪客格式化內容
+      guestHtml: '訪客 HTML 內容'

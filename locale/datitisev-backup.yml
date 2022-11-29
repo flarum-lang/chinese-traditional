@@ -5,4 +5,5 @@
 datitisev-backup:
   admin:
     adapters:
+      aliyun: 阿里雲（Aliyun）
       local: 本地儲存

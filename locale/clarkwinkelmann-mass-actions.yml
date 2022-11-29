@@ -6,3 +6,4 @@ clarkwinkelmann-mass-actions:
   forum:
     select:
       all: 全選
+      none: 取消全選

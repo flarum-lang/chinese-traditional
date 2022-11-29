@@ -5,4 +5,5 @@
 fof-webhooks:
   actions:
     poll:
+      created: '發起投票 `{1}`'
       voted: '投票結果 `{1}`'

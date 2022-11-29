@@ -3,5 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-popular-discussion-badge:
+  admin:
+    settings:
+      mode: 工作模式
   forum:
     badge_label: 熱門

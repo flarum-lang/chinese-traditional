@@ -5,4 +5,5 @@
 flamarkt-taxonomies:
   admin:
     menu:
+      discussions: 討論文章分類法
       title: 分類法

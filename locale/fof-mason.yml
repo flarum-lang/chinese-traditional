@@ -4,5 +4,7 @@
 
 fof-mason:
   forum:
+    answers-modal:
+      edit-title: '編輯{title}的字段'
     discussion-controls:
       edit-answers: 編輯字段

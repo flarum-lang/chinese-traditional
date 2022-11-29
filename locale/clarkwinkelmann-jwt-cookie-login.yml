@@ -5,4 +5,5 @@
 clarkwinkelmann-jwt-cookie-login:
   admin:
     settings:
+      actorId: '用於管理操作的 Flarum 用戶 ID'
       cookieName: Cookie名稱

@@ -5,3 +5,4 @@
 flarum-ext-dontgoaway:
   admin:
     modtitle: 對話框標題
+    modtitledesc: 自定義彈窗標題

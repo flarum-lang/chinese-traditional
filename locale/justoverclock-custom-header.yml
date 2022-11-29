@@ -5,3 +5,4 @@
 custom-header:
   admin:
     headerTitle: 橫幅標題
+    headerTitle-help: 你可以修改橫幅的標題

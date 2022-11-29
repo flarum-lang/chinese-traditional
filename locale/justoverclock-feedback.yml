@@ -5,3 +5,4 @@
 justoverclock-feedback:
   admin:
     contactmail: 反饋接收郵箱地址
+    feedback1-title: '反饋類型 1'

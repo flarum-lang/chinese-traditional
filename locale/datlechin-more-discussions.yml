@@ -5,4 +5,5 @@
 datlechin-more-discussions:
   admin:
     settings:
+      block_name_help: '區塊名稱（默認 <code>Latest Discussions</code>）'
       block_name_label: 區塊名稱
