@@ -28,3 +28,4 @@ nearata-cakeday:
         today: 今天
         tomorrow: 明天
         upcoming: 即將到來
+      load_more_button: 載入更多

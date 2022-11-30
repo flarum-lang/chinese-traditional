@@ -21,6 +21,7 @@ davwheat-virtual-authors:
       virtual_authors_page_disabled: 禁用所有用戶的虛擬作者列表。
       virtual_authors_page_disabled_help: 這會覆蓋為此功能設置的任何權限。
     virtual_author_item:
+      delete_confirmation: 刪除虛擬作者？
       description: 描述
       edit: 編輯虛擬作者
       id: ID

@@ -6,6 +6,7 @@ flamarkt-taxonomies:
   admin:
     edit-taxonomy:
       field:
+        color: '=> flamarkt-taxonomies.ref.field.color'
         description: '=> flamarkt-taxonomies.ref.field.description'
         name: '=> flamarkt-taxonomies.ref.field.name'
         slug: '=> flamarkt-taxonomies.ref.field.slug'

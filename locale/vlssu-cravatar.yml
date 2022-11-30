@@ -15,6 +15,7 @@ vlssu-flarum-cravatar:
         title: 預設
         wavatar_label: wavatar：生成具有不同特徵和背景的面孔
       force-default:
+        helptext: 強制使用默認集，即使電子郵件哈希鏈接到自定義用戶上傳的頭像
         title: 強制默認
       proxy:
         helptext: '默認情況下，cravatar URL 直接從 cravatar.cn 獲取。這使得所有 cravatar 請求都可以直接由論壇本身提供服務。'

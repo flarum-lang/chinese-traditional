@@ -13,6 +13,7 @@ header-slideshow:
     LinkOne: '按鈕連結 - 幻燈片 1'
     LinkOne-help: '為第一個幻燈片按鈕輸入一個有效的 url'
     LinkTwo: '按鈕連結 - 幻燈片 2'
+    LinkTwo-help: '為第二個幻燈片按鈕輸入一個有效的 url'
     TextSlide1: '幻燈片 1 的文本'
     TextSlide1-help: 在此處設置第一張幻燈片的文本
     TextSlide2: '幻燈片 2 的文本'

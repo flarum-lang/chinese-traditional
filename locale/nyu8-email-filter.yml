@@ -27,4 +27,5 @@ nyu8-email-filter:
       label: 白名單正則式表達
       placeholder: 輸入正則表達式……
   forum:
+    blacklist_exception: 禁止使用此郵箱或域名注冊。
     generic_exception: 出了點問題，請聯系論壇管理員。

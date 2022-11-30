@@ -13,6 +13,7 @@ clarkwinkelmann-catch-the-fish:
       placement-help: 您可以把魚藏在最新的主題和活動用戶的個人主頁。不過您不能捕捉您自己放置的魚。
       submit-name: 保存名字
       submit-name-place-later: 保存名字並選擇藏身之處
+      submit-place-later: 好的，我會選個藏身之地
       title: 你抓到了一條魚！
     edit-fish-modal:
       title: '編輯魚「{name}」'

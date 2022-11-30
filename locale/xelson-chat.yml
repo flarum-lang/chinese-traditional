@@ -6,6 +6,9 @@ xelson-chat:
   forum:
     chat:
       edit_modal:
+        form:
+          title:
+            label: 聊天名稱
         moderator:
           got: '你已成為「{chatname}」的管理員！'
           lost: '「{chatname}」已取消你的管理員身份。'

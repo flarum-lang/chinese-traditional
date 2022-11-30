@@ -18,6 +18,7 @@ justoverclock-frontend-blog:
   forum:
     allDiscussions: 論壇
     linkToDiscussion: ' 連結到主題'
+    loginButton: 登錄
     menuButton: 選單
     post: '{count, plural, one {# POST} other {# POSTS}}'
     postedOn: ' 發佈： '

@@ -29,4 +29,5 @@ blomstra-trello:
       include_secondary_tags_help: 當禁用時，只有主要討論標簽將被發送到Trello。當啟用時，所有標簽將被發送到Trello。
       include_secondary_tags_label: 包括次要標簽
       label:
+        boards: 看板設置
         general: 一般

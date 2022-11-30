@@ -17,6 +17,7 @@ kyrne-websocket:
       local_cert_path: '本地 SSL 證書路徑'
       local_pk_path: '本地 SSL 私鑰路徑'
       passphrase: '（可選）SSL 密鑰密碼'
+      reverse_proxy: 反向代理支持
       secure: '強制 WebSocket WSS/HTTPS'
       stats_label: 統計間隔
       title: 'WebSocket / Pusher 設置'

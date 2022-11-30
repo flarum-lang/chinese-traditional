@@ -24,6 +24,8 @@ the-turk-miserable-users:
       shuffle_post_chance_label: 胡言亂語
       shuffle_post_chance_text: '以百分比概率打亂用戶的帖子內容。此功能暫時只支持英文內容，UTF-8 字符會報錯。'
   forum:
+    miserable_user:
+      title: '制裁 {username}'
     user_badge:
       miserable_user_tooltip: '=> the-turk-miserable-users.ref.miserable_user'
     user_controls:

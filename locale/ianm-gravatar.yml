@@ -15,6 +15,7 @@ ianm-gravatar:
         title: 預設
         wavatar_label: wavatar：自動生成不同特徵和背景的幾個面孔
       force-default:
+        helptext: 強制使用默認頭像，即使有匹配到用戶上傳的自定義頭像
         title: 強制默認
       proxy:
         helptext: '默認情況下，Gravatar 頭像的 URL 直接從 gravatar.com 獲取。代理可以允許站點自己提供 Gravatar 請求服務。'

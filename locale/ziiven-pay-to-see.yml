@@ -17,6 +17,7 @@ pay-to-see:
     purchase_confirmation: 購買內容
     purchase_confirmation_text: '您確定要支付 {costText} 嗎？'
     purchase_success: 推送成功
+    purchase_unlocked_button: 內容解鎖
     purchased_content: 購買的內容
     remove: 移除
     remove_pay_to_see_price_success: 付費查看內容已刪除

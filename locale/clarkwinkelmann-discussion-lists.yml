@@ -24,6 +24,7 @@ clarkwinkelmann-discussion-lists:
         createdAsc: 討論創建（從最早到最新）
         createdDesc: 討論創建（從最新到最舊）
         manual: 手動
+      save: 保存
       title: 編輯列表
       visibility: 可見
       visibilityOptions:

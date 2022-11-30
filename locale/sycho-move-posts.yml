@@ -32,3 +32,5 @@ sycho-move-posts:
       title: '=> sycho-move-posts.ref.move_posts'
     notifications:
       post_moved_text: '你的帖子已被移動到「{targetDiscussionTitle}」'
+    post:
+      unmove: 取消選中

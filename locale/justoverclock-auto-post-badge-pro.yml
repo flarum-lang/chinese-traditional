@@ -5,6 +5,7 @@
 justoverclock-auto-post-badge-pro:
   admin:
     colorBg: 進度條背景
+    colorBgTwo: 背景顏色
     levelEight: LV8
     levelEighteen: LV18
     levelEleven: LV11

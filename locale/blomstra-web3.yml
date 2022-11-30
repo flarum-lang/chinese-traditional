@@ -28,4 +28,5 @@ blomstra-web3:
       connection-request-rejected: 連接請求被拒絕
       disconnect: '=> blomstra-web3.ref.disconnect'
       goback: 返回錢包
+      select: '=> blomstra-web3.ref.select'
       title: '=> blomstra-web3.ref.polkadot-wallets'

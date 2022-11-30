@@ -25,5 +25,6 @@ justoverclock-auto-post-count-badge:
         title: 本文管理
       tier: '{tier}：達成 {from} 至 {to} 次回帖'
   forum:
+    less100post: 吐槽
     less10post: 潛水
     less50post: 最新的

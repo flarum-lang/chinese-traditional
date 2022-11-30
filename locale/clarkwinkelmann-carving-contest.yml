@@ -5,6 +5,7 @@
 clarkwinkelmann-carving-contest:
   forum:
     modal:
+      name: 替您的作品取名
       title: 參加
     nav:
       contest: 雕刻比賽

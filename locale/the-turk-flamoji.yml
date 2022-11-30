@@ -24,3 +24,4 @@ the-turk-flamoji:
       show_variants_label: 顯示膚色
       show_variants_text: 一些表情有不同的膚色。開啟此項後，點擊有膚色的表情時，會彈出膚色選擇框。
       specify_categories_label: 啟用分類
+      specify_categories_text: 勾選要顯示的表情分類。

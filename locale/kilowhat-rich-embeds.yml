@@ -25,5 +25,6 @@ kilowhat-rich-embeds:
       styleOptions:
         horizontal: 水平
         vertical: 垂直
+      whitelist: 'URL 白名單'
       withoutOpengraph: 為無OpenGraph數據的頁面生成富文本容器
       withoutOpengraphHelp: '標題、描述和圖像將從頁面 HTML 中轉譯'

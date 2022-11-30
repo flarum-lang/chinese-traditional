@@ -8,6 +8,8 @@ blomstra-payments:
       accept_label: 我已閱讀並接受<link>付款條款</link>。
       continue_button: 繼續付款
       title: 接受條款
+    pay-to-bump:
+      description: '{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.'
     pay-to-post:
       purchase: 付款
       purchase-control: 付費發佈
