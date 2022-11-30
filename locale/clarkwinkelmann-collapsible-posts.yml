@@ -16,5 +16,8 @@ clarkwinkelmann-collapsible-posts:
         label: 標題
       reasons: 原因
   forum:
+    modal:
+      title: 折疊帖子
     postControl:
       collapse: 折疊
+      uncollapse: 取消折疊

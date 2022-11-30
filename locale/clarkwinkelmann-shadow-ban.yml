@@ -11,7 +11,9 @@ clarkwinkelmann-shadow-ban:
       hideUsers: '隱藏影匿用戶 (Shadow ban) 的資料'
   forum:
     banUser:
+      quick: 快速選擇
       title: '封禁{username}'
+      until: '截止日期（UTC 時間）'
     discussionControl:
       hide: 影藏
       restore: 陰影還原

@@ -5,6 +5,8 @@
 clarkwinkelmann-anonymous-posting:
   admin:
     settings:
+      avatarAdd: 添加頭像規則
+      avatarAvatarUrl: '頭像 URL'
       avatarFieldKey: 字段名
       avatarFieldValue: 字段值
       avatarFormId: '表單 ID'

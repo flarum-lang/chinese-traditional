@@ -16,3 +16,6 @@ clarkwinkelmann-translation-inspector:
       original: 原始英文字符
       path: 語言文件
       title: 翻譯檢查
+    tooltip:
+      description: 點擊你想要檢查的高亮翻譯
+      title: 檢查翻譯

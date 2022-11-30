@@ -6,6 +6,8 @@ clarkwinkelmann-post-bookmarks:
   admin:
     settings:
       buttonPosition: 按鈕位置
+      buttonPositionActions: 帖子下方（快速操作）
+      buttonPositionHeader: 帖子上方（標題）
   forum:
     alert:
       added: 已加入書籤！

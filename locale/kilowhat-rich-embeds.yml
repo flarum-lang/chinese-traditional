@@ -15,3 +15,7 @@ kilowhat-rich-embeds:
         above: 超連結上方
         below: 超連結下方
         replace: 替換超連結
+      style: 樣式
+      styleOptions:
+        horizontal: 水平
+        vertical: 垂直

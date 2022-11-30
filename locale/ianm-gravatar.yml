@@ -10,7 +10,9 @@ ianm-gravatar:
         identicon_label: identicon：抽象圖形，基於郵箱地址哈希值自動生成
         monsterid_label: monsterid：小怪物，自動生成不同的膚色、面孔等
         mp_label: mp：神秘人士，通用二維人像剪影
+        retro_label: 'retro：復古，8-bit 街機像素風頭像'
         title: 預設
+        wavatar_label: wavatar：自動生成不同特徵和背景的幾個面孔
       proxy:
         helptext: '默認情況下，Gravatar 頭像的 URL 直接從 gravatar.com 獲取。代理可以允許站點自己提供 Gravatar 請求服務。'
         title: 'Gravatars 頭像代理'

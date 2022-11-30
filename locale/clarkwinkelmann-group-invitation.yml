@@ -3,12 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-group-invitation:
+  admin:
+    permissions:
+      use: 使用用戶組邀請鏈接
   forum:
     apply: 加入用戶組
     generic-title: 用戶組邀請
     invitation:
       no-usages-left: 很抱歉，這個用戶組的邀請失效了。
       not-found: 很抱歉，這個用戶的邀請不存在。
+    success-alert: 您已經成功加入了這個用戶組！
     title: '您被邀请加入「{group}」用户组！'
     user:
       already-connected: "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登錄到另一個帳號</a>。\n"

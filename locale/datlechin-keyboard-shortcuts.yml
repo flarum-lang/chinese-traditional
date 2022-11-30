@@ -15,4 +15,6 @@ datlechin-keyboard-shortcuts:
     shortcuts:
       close: 關閉
       help: 幫助
+      new_discussion: 新討論
+      notifications: 通知
       search: 搜索

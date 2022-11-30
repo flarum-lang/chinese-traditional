@@ -13,4 +13,8 @@ the-turk-regrole:
       other_options_heading: 其它選項
   forum:
     choose_role_button_label: '=> the-turk-regrole.ref.choose_a_role'
+    choose_role_modal:
+      choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
+      choose_role_text: 要繼續使用論壇，請選擇一個角色。
+    required_role_message: 您必須選擇一個角色。
     suspended_temporarily_message: 我們暫時封禁了您的賬號，請選擇一個角色以解禁。

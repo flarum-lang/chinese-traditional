@@ -8,8 +8,11 @@ justoverclock-igdb-api:
     rawgApi: 'RawG Api Key'
     rawgApi-help: '在此處粘貼從 https://rawg.io/signup 檢索到的免費 Api 密鑰'
   forum:
+    gamesPage: 新遊戲和即將推出的遊戲
     genres: Genres
     metacriticScore: 'MetaCritic Score'
     offwebsite: 官網
+    pagetitle: 新遊戲和即將推出的遊戲
     publisher: 出版商
+    relDate: 發布日期
     seeOnMetaCritic: 在Metacritic上查看

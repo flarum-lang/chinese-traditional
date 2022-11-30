@@ -5,7 +5,10 @@
 flamarkt-taxonomies:
   admin:
     edit-taxonomy:
+      section:
+        info: 資訊
       title:
+        edit: 編輯分類
         new: 創建分類
     menu:
       discussions: 討論文章分類法

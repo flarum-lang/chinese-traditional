@@ -12,5 +12,7 @@ clarkwinkelmann-money-to-all:
       messagePlaceholder: 啟用通知以包含消息
       notify: 向用戶發送網路通知
       preview: '當前設置匹配 {count} 個用戶。'
+      submit: 發送
+      success: '已向 {count} 位用戶匯款！'
       suspended: 包含被封禁的用戶
       title: 向所有用戶發放論壇貨幣

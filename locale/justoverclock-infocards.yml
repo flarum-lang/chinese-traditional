@@ -6,7 +6,10 @@ flarum-ext-infocards:
   forum:
     forumstats: 論壇統計
     geninfo: 其它信息
+    groups: 您的用戶組
     opthread: 瀏覽主題
+    sunday: 星期日
+    times: 次
     totalpost: 總計發帖
     totdisc: 總計發佈主題
     viscounter: 訪問量

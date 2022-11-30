@@ -5,11 +5,14 @@
 kilowhat-formulaire:
   admin:
     permissions:
+      editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
       editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
+      editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: 方程式
       heading-advanced: Formulaire（第三方擴展選項）
+      seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'

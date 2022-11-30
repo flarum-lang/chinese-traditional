@@ -16,3 +16,7 @@ nearata-embed-twitch:
         layout: 樣式
         type: 內容類型
         video: '視頻 ID'
+      options:
+        channel: 頻道
+        video: 視頻
+      save_changes: 保存更改

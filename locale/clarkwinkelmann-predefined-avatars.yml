@@ -6,7 +6,9 @@ clarkwinkelmann-predefined-avatars:
   admin:
     settings:
       defaultOptions:
+        first: 列表中的第一個頭像
         none: 無頭像
+        random: 從列表中隨機選用頭像
       predefinedAvatars: 可用的頭像
       predefinedAvatarsDefault: 默認頭像
       predefinedAvatarsDefaultHelp: 適用於新用戶的注冊。

@@ -6,8 +6,11 @@ nearata-tags-color-generator:
   admin:
     color_hue_label: 色調
     color_hue_options:
+      green: 綠色
+      orange: 橙色
       random: 隨機
       red: 紅色
+      yellow: 黃色
     color_luminosity_label: 顏色亮度
     color_luminosity_options:
       bright: 鮮艷

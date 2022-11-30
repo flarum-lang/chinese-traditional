@@ -14,6 +14,10 @@ flarum-mentions:
     notifications:
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} 回覆了您'
+      user_mentioned_text: '{username} 提到了你'
+    post:
+      mentioned_by_self_text: '{users} 參與回覆。'
+      mentioned_by_text: '{users} 參與回覆。'
 kyrne-evergreen:
   forum:
     post:

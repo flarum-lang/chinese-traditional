@@ -16,3 +16,6 @@ clarkwinkelmann-post-stream-search:
       noResults: 在這個主題中搜尋不到相關發文
       otherAuthorsGap: '{count, plural, one {One post by another author hidden} other {{count} posts by other authors hidden}}'
       unmatchedGap: '{count, plural, one {One non-matching post hidden} other {{count} non-matching posts hidden}}'
+    toolbar:
+      authorPlaceholder: 篩選作者…
+      searchPlaceholder: 在討論中查找...

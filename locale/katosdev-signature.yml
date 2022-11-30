@@ -3,12 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 signature:
+  admin:
+    title: 簽名
   forum:
     buttons:
       save: 保存
       signature: 簽名
     errors:
       max_char_limit_exceed: 字元數量超過上限.
+      max_image_count_exceed: 圖片寬度超過上限.
+      max_image_height_exceed: 圖片高度超過上限。
       max_image_width_exceed: 圖片數量超過上限。
     modal:
       error:

@@ -4,6 +4,10 @@
 
 clarkwinkelmann-catch-the-fish:
   forum:
+    edit-fish-modal:
+      title: '編輯魚「{name}」'
+    edit-round-modal:
+      title: '編輯回合 {name}'
     moderate:
       add: 添加
       delete: 刪除

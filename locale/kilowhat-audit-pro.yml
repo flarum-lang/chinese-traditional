@@ -11,7 +11,11 @@ kilowhat-audit:
       upgrade: 升級到專業版
     limitedSettings:
       configure: 配置
+      introduction: 選擇「有限審計」權限用戶可見的日志類型
+      requiresExtension: '需要先啟用擴展程序「{extension}」'
       title: 有限審計
     permissions:
       view: 查看審計日誌
       viewLimited: 查看有限審計日誌
+    settings:
+      limitedIpAddress: '查看 IP 地址'

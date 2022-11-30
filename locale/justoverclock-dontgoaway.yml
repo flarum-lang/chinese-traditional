@@ -4,6 +4,9 @@
 
 flarum-ext-dontgoaway:
   admin:
+    altext: '圖片 Alt 屬性'
+    heightdesc: '設置圖片的高度（如 450）'
+    heightext: 圖片高度
     modtext: 對話框本文
     modtextdesc: 自定義對話框描述文本。
     modtitle: 對話框標題

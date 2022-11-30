@@ -12,4 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 顯示摘要
     showTooltip: 顯示帶摘錄的工具提示
   forum:
+    participants: 參與者
+    postedOn: 於：
+    postnumber: 回覆數
     reldiscussion: 相關主題：

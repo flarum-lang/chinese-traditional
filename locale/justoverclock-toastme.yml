@@ -6,7 +6,10 @@ flarum-ext-toastme:
   admin:
     dest: 目標連結
     destdesc: '單擊 toast 時瀏覽器前往的 URL'
+    duration: 'Toast 彈窗提示的持續時長，-1 為持久提示'
+    durdesc: '使用毫秒 - 例如「3000」為 3 秒'
     enabletoast: '啟用/禁用 Toast 彈窗提示'
+    gravity: 'Gravity - 可以是“頂部”或“底部”'
     helpenable: '使用此設置啟動或禁止使用 Toast 彈窗提示'
     offsetxdesc: '橫軸外邊距 - 像素數。例如 20（像素）'
     offsetxx: 'X 軸偏移 - 橫軸外邊距 (px)（默認為空）'

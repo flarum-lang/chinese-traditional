@@ -3,10 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 therealsujitk-gifs:
+  admin:
+    apiKey: 'API Key'
+    engine: 搜尋引擎
   forum:
     addFavourite: 加入我的最愛
     favourites: 我的最愛
     label: '插入 GIF'
+    removeFavourite: 刪除表情
     search: 搜索
     searchGiphy: '搜索 Giphy'
     searchTenor: '搜索 Tenor'

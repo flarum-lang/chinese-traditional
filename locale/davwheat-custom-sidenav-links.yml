@@ -18,5 +18,10 @@ davwheat:
               below-tags-link: 顯示於「全部標簽」按鈕下方
         link_table:
           add_link_btn: 新增連結
+          alert:
+            fix_errors: 在保存更改之前，您需要解決上述問題。
           confirm_delete: '確認刪除鏈接「{link}」'
           heading: 自定義連結
+          table:
+            header:
+              position: 位置

@@ -16,3 +16,7 @@ kilowhat-audit:
       actor-audit: 審計日志（用戶作為行為人）
       discussion-audit: 審計日誌
       user-audit: 審計日誌（賬戶編輯）
+    modal:
+      actor-title: 行為人審計日誌
+      discussion-title: 討論審計日誌
+      user-title: 用戶審計日志

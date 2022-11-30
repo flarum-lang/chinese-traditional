@@ -17,4 +17,7 @@ flagrow-ads:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
         title: 【側邊欄廣告位】首頁左側側邊欄下方的廣告位
     settings:
+      adsense-client-id: '請提供您的 publisher ID'
+      adsense-enable: 'AdSense 已啟用'
       adsense-title: 'AdSense 設置'
+      position-title: 廣告位置

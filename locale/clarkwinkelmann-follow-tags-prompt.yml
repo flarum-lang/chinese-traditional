@@ -11,6 +11,8 @@ clarkwinkelmann-follow-tags-prompt:
       tagStrategy:
         primary: 一級主標籤
         primaryAndChildren: 任何級別的主標簽
+        primaryAndSecondary: 一級主標籤和次標籤
+        secondary: 次級標籤
   forum:
     controls:
       choose: 選擇要關注的標簽

@@ -5,7 +5,9 @@
 clarkwinkelmann-mass-actions:
   forum:
     actions:
+      hide: 刪除所選
       markAsRead: 標示為已讀
+      restore: 恢復已選
     select:
       all: 全選
       hidden: 軟刪除

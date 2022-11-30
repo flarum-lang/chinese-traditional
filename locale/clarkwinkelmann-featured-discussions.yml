@@ -16,6 +16,9 @@ clarkwinkelmann-featured-discussions:
         from: 從
         until: 到
       from:
+        manual: 自定義日期
         next: 下一區間
         not: 取消精選
       title: 精選主題
+      until:
+        auto: 自動

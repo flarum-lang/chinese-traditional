@@ -5,6 +5,9 @@
 tituspijean-auth-ldap:
   admin:
     settings:
+      account_prefix: 賬號前綴
+      account_suffix: 賬號後綴
+      admin_dn: 'LDAP 管理員識別名稱（匿名綁定時留空）'
       base_dn: 'Base DNs（分號分隔）'
       filter: 過濾器(可選)
       hosts: 'LDAP 域或服務器 IP 地址（以逗號分隔）'

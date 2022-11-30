@@ -15,6 +15,9 @@ nearata-auth-minecraft:
         help: 示例：mydomain.tld
         label: 'Minecraft 伺服器 IP'
   forum:
+    log_in_button_title: 'Minecraft 帳號登入'
     log_in_modal:
       submit_button: 驗証
+      title: 'Minecraft 帳號登入'
     login_error: 會話未開始或已過期。
+    modal_help: '加入服務器 <strong>{server}</strong> 然後點擊下面的按鈕。'

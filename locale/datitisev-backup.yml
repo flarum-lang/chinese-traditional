@@ -14,3 +14,5 @@ datitisev-backup:
       gdrive: 'Google Drive'
       gridfs: GridFS
       local: 本地儲存
+      rackspace: Rackspace
+      sftp: SFTP

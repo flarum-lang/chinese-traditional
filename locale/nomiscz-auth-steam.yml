@@ -14,3 +14,10 @@ nomiscz-auth-steam:
       link: 綁定Steam賬號
       login: 'Steam 帳號登錄'
       unlink: '取消關聯 Steam 帳戶'
+    modals:
+      link:
+        title: 綁定Steam賬號
+      unlink:
+        info:
+          confirm: '確定要解除關聯 Steam 帳號？'
+        title: '取消關聯 Steam 帳戶'

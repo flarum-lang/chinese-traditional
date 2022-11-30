@@ -12,6 +12,8 @@ datlechin-more-discussions:
       filter_by_help: 過濾討論（默認：<code>最新</code>）
       filter_by_label: 進行過濾
       filter_dropdown:
+        hot: '追蹤（需要 fof/gamification）'
         latest: 最後回覆
         newest: 最新
+        oldest: 最舊的
         top: 最熱貼文

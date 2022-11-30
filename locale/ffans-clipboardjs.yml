@@ -14,4 +14,7 @@ ffans-clipboardjs:
         github: GitHub
         jianshu: 簡書
         lingcoder: LingCoder
+        segmentfault: SegmentFault
       themes_label: 複制按鈕風格
+  forum:
+    action_copy: 複制

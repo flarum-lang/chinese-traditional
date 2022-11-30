@@ -16,4 +16,6 @@ clarkwinkelmann-discussion-lists:
       collapseSeries: 討論串默認折疊
   forum:
     edit:
+      name: 名稱
       title: 編輯列表
+      visibility: 可見

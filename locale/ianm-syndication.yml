@@ -12,6 +12,9 @@ ianm-syndication:
       tag_new_discussions: '在{tag} 標籤中進行討論'
     feeds:
       titles:
+        main_d_subtitle: 論壇新帖
         main_d_title: '{forum_name} 的新貼文'
         main_subtitle: 論壇最新回文
         main_title: '{forum_name}'
+        tag_subtitle: '{tag} 標籤新回帖'
+        tag_title: '{tag} 標籤活動'

@@ -4,8 +4,12 @@
 
 jslirola-login2seeplus:
   admin:
+    code: 代碼
     hide: 隱藏
+    image: 圖片
     link: 連結
+    post:
+      title: '隱藏超過此長度的內容（<em>-1</em> 表示顯示全部）'
     title: Login2SeePlus
   forum:
     code: 代碼登錄後可見

@@ -12,8 +12,10 @@ blomstra-payments:
       interval_once: 一次
     subscription-card:
       bounty: 賞金
+      cancel-control: 取消
       pta: 付費訪問
       ptb: 快捷支付
+      ptp: 付費發佈
       ptv: 付費觀看
 core:
   forum:

@@ -14,3 +14,8 @@ nearata-embed-video:
         modal_enabled_help: '啟用對話框或直接在文本編輯器中鍵入 BBCode。'
         quality_switching: 切換視頻畫質
         theme: 主題色
+      permissions:
+        can_create_video_player: 允許創建視頻播放器
+        can_view_video_player: 允許使用視頻播放器
+      video_types:
+        dash: Dash

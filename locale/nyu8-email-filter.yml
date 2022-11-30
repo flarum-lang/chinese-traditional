@@ -13,3 +13,7 @@ nyu8-email-filter:
     whitelist_literal:
       description: 請填寫完整的郵箱地址
       label: 白名單
+      placeholder: 輸入郵箱地址…
+    whitelist_regex:
+      description: 白名單郵箱正則表達式
+      label: 白名單正則式表達

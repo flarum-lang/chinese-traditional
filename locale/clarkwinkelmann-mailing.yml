@@ -7,13 +7,28 @@ clarkwinkelmann-mailing:
     permissions:
       mail_all: 向用戶或組群發郵件
       mail_individual: 向用戶單獨發送郵件
+  api:
+    no_recipients: 没有匹配的收件人
+  email:
+    default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
   forum:
     links:
       mail_all: 發送郵件
       mail_individual: 發送郵件
     modal_mail:
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
+      message_label: 正文
       recipients_label: 收件人
       recipients_placeholder: 添加其他收件人...
       subject_label: 主題
+      submit_button: 發送
       title_text: 寫信
+    modal_sent:
+      on_its_way: '不錯！您的郵件正發送給 {recipientsCount} 位收件人！'
+      title_text: 已發送！
+    recipient_kinds:
+      email: 郵箱
+      group: 用戶組
+      user: 用戶
+  ref:
+    default_subject: 來自論壇管理員的消息

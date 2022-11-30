@@ -4,13 +4,19 @@
 
 xelson-chat:
   forum:
+    chat:
+      welcome:
+        header: '歡迎來到 Neon 聊天室！'
     index:
       chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'
     toolbar:
+      chat:
+        settings: 聊天設置
       disable_notifications: 關閉通知
       disable_sounds: 關閉聲效
       enable_notifications: 開啟通知
       enable_sounds: 啟用聲效
+      maximize: 最大化
       minimize: 最小化
       title: 聊天室

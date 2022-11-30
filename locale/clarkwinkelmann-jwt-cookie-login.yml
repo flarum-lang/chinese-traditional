@@ -10,6 +10,8 @@ clarkwinkelmann-jwt-cookie-login:
       audience: 'JWT Audience / Firebase 項目 ID'
       audienceHelp: '驗證令牌的 <code>aud</code> 屬性。 不使用 Firebase 時可選'
       cookieName: Cookie名稱
+      expirationLeeway: 過期餘地（秒）
+      expirationLeewayHelp: "JWT 過期後多少秒會話仍應開始。此值最差的情況下僅為幾分鐘，以解決服務器之間的偏差時間。但是，如果這是解決來自外部庫的 JWT 固定較短生命週期的唯一方法，也可以將其設置為更長的值。\n"
       publicKey: 公鑰
       publicKeyAlgorithm: 公鑰演算法
       publicKeyAlgorithmHelp: '只有公鑰才需要。 示例：RS256'

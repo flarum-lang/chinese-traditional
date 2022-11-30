@@ -15,4 +15,5 @@ clarkwinkelmann-typewriter:
       sounds: 額外的音效
   forum:
     enable: 啟用打字音效
+    introductionMessage: 單擊以啟用或靜音打字
     mute: 關閉打字音效

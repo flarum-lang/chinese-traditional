@@ -15,3 +15,5 @@ davwheat-virtual-authors:
       errored: 無法從服務器加載虛擬作者。
       link_to_va_from_discussion: 在“作者”框中顯示虛擬作者的所有討論連結
       search_placeholder: 搜索用戶名
+      virtual_authors_page_disabled: 禁用所有用戶的虛擬作者列表。
+      virtual_authors_page_disabled_help: 這會覆蓋為此功能設置的任何權限。
