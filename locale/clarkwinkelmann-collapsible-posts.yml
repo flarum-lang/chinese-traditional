@@ -4,6 +4,8 @@
 
 clarkwinkelmann-collapsible-posts:
   admin:
+    permission:
+      collapse: 折疊帖子
     settings:
       add: 添加原因
       explanationUrl: '詳情 URL'
@@ -13,3 +15,6 @@ clarkwinkelmann-collapsible-posts:
         key: 數據庫主鍵
         label: 標題
       reasons: 原因
+  forum:
+    postControl:
+      collapse: 折疊

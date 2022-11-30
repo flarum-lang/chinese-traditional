@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-guestengagement:
+  admin:
+    afterxpost: '在第 X 個帖子後顯示'
   forum:
     hello: 你好！您似乎對這個論壇感興趣，但您還沒有註冊帳戶。
     hellops: 你好！你似乎對這篇文章感興趣！

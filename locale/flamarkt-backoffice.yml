@@ -12,5 +12,8 @@ flamarkt-backoffice:
       users: 用戶
     settingsNotAvailableForNonAdmin: 此擴展程序有設置，但只有管理員帳戶可以查看和編輯它們。
     users:
+      head:
+        email: 郵箱
       new: 創建用戶
+      searchPlaceholder: 搜索用戶…
       title: 用戶

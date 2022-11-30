@@ -5,6 +5,7 @@
 justoverclock-user-pc-specs:
   forum:
     cabinet: 櫃子：
+    cpu: 'Cpu:'
     gpu: 'Gpu:'
     motherboard: 母板：
     ram: 'Ram:'

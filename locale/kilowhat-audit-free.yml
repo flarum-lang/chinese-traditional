@@ -13,5 +13,6 @@ kilowhat-audit:
       view: 查看審計日誌
   forum:
     link:
+      actor-audit: 審計日志（用戶作為行為人）
       discussion-audit: 審計日誌
       user-audit: 審計日誌（賬戶編輯）

@@ -12,4 +12,6 @@ ffans-clipboardjs:
         csdn: CSDN
         default: '原生 Clipboardjs 風格'
         github: GitHub
+        jianshu: 簡書
+        lingcoder: LingCoder
       themes_label: 複制按鈕風格

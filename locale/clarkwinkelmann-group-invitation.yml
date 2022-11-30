@@ -4,8 +4,10 @@
 
 clarkwinkelmann-group-invitation:
   forum:
+    apply: 加入用戶組
     generic-title: 用戶組邀請
     invitation:
+      no-usages-left: 很抱歉，這個用戶組的邀請失效了。
       not-found: 很抱歉，這個用戶的邀請不存在。
     title: '您被邀请加入「{group}」用户组！'
     user:

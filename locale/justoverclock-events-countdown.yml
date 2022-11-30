@@ -11,4 +11,5 @@ justoverclock-events-countdown:
     fontaw: '自定義 Font Awesome 圖示'
     fontaw-help: '使用自定義 Font Awesome 圖標 （如 fas fa-bullhorn）'
   forum:
+    days: 天
     widget-title: 活動開始還有...

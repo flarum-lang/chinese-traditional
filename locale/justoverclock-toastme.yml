@@ -5,6 +5,7 @@
 flarum-ext-toastme:
   admin:
     dest: 目標連結
+    destdesc: '單擊 toast 時瀏覽器前往的 URL'
     enabletoast: '啟用/禁用 Toast 彈窗提示'
     helpenable: '使用此設置啟動或禁止使用 Toast 彈窗提示'
     offsetxdesc: '橫軸外邊距 - 像素數。例如 20（像素）'

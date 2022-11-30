@@ -7,6 +7,7 @@ miniflar-sidenav-download-button:
     permissions:
       view_download_button_label: 查看側邊欄的下載按鈕
     settings:
+      button_link_heading: 下載連結
       button_order_heading: 按鈕順序
       button_order_text: '此設置可調整小部件在 Flrum 論壇側邊欄中的位置。數字越大，部件在側邊欄列表中的位置越靠前（這個值可以為正，也可以為負）。'
       labels:

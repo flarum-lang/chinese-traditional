@@ -5,6 +5,8 @@
 ianm-html-head:
   admin:
     create_button: 新建
+    modal:
+      create_title: 創建項目
     table:
       active_label: 啟用
       delete_button: 删除

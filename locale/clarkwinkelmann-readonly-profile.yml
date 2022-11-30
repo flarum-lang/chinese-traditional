@@ -13,4 +13,6 @@ clarkwinkelmann-readonly-profile:
   api:
     blocked_actions:
       accessToken: 禁用訪問令牌創建
+      email: 無法在這個頁面中變更郵箱
       login: 登錄端點已禁用
+      password: 無法在這個頁面中變更密碼

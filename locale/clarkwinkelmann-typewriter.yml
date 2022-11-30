@@ -13,3 +13,6 @@ clarkwinkelmann-typewriter:
       muteByDefault: 默認靜音
       showIntroductionPopup: 第一次顯示介紹彈窗
       sounds: 額外的音效
+  forum:
+    enable: 啟用打字音效
+    mute: 關閉打字音效

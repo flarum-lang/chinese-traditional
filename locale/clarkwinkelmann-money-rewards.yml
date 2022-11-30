@@ -5,6 +5,7 @@
 clarkwinkelmann-money-rewards:
   admin:
     permissions:
+      createMoney: 重新設定新的賞金金額
       customAmounts: 選擇自定義打賞金額
       rewardWithMoney: 使用貨幣打賞其他用戶
       seeMoneyRewardHistory: 查看其他用戶的打賞記錄
@@ -13,3 +14,6 @@ clarkwinkelmann-money-rewards:
       max: 自定義金額的最大值
       min: 自定義金額的最小值
       preselection: '預選金額（英文逗號分隔,可選）'
+  forum:
+    modal:
+      title: 打賞該帖

@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-post-bookmarks:
+  admin:
+    settings:
+      buttonPosition: 按鈕位置
   forum:
     alert:
       added: 已加入書籤！
@@ -14,3 +17,4 @@ clarkwinkelmann-post-bookmarks:
       remove: 已加入書籤
     page:
       link: 書籤
+      title: 書籤

@@ -4,6 +4,9 @@
 
 flamarkt-taxonomies:
   admin:
+    edit-taxonomy:
+      title:
+        new: 創建分類
     menu:
       discussions: 討論文章分類法
       products: 產品分類
@@ -13,4 +16,5 @@ flamarkt-taxonomies:
       create:
         taxonomy: 創建分類
         term: 創建術語
+      reset-term-order: 將術語列表重置為字母排序
       title: 分類法

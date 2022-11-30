@@ -12,3 +12,8 @@ clarkwinkelmann-formatted-banner:
       memberContent: 用戶格式化內容
       memberHtml: '用戶 HTML 內容'
       replaceWelcomeHero: 取代系統歡迎橫幅
+  forum:
+    alert:
+      login: 會話已連接。
+      logout: 您的登錄信息已過期。
+      refresh: 刷新頁面

@@ -7,6 +7,8 @@ vlssu-flarum-cravatar:
     settings:
       defaults:
         helptext: 當電子郵件地址沒有匹配的Cravatar圖像時會發生什麼？Cravatar有許多內置選項，您可以將其用作預設值。其中大多數通過獲取請求的電子郵件哈希並使用它來生成該電子郵件位址唯一的主題圖像來工作。
+        identicon_label: identicon：基於電子郵件哈希的幾何圖案
+        mp_label: 'mp: (mystery-person) 一個簡單的，卡通風格的人物輪廓（不因電子郵件哈希而異）'
         title: 預設
       proxy:
         helptext: '默認情況下，cravatar URL 直接從 cravatar.cn 獲取。這使得所有 cravatar 請求都可以直接由論壇本身提供服務。'

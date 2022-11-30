@@ -9,7 +9,9 @@ dem13n:
       badges: 顯示徽章
       choose_tags: 選擇標籤
       default_img: 預設圖像
+      preview_text: 顯示短文本
       settings_error: 清除緩存，禁用那個擴展，點擊右上角的卸載按鈕，確認刪除數據。然後重新啟用本擴展
+      show_replies: 顯示回覆數
       small_cards: 主卡片數量
   forum:
     replies: '{count} 回覆'

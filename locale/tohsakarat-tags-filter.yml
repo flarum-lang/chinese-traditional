@@ -8,7 +8,10 @@ tohsakarat-tags-filter:
       filter_tags:
         accessible_label: 標籤過濾器
         all: 所有
+        comment_filter: 點擊置頂標籤取消~
+        keep_typing: 輸入中…
         label: '{text}'
         no_results: 無结果
+        remove_filter: 停止搜索;
         search_label: 搜尋...
         start_typing: 開始輸入…

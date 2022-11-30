@@ -8,6 +8,8 @@ davwheat-virtual-authors:
       set_virtual_authors: 在討論中設置虛擬作者
       view_virtual_authors_page: 查看詳細介紹所有虛擬作者的頁面
     settings:
+      authors_in_sidebar: 在側邊欄而不是首文上方顯示作者
+      authors_in_sidebar_help: '這對 Blog 擴展沒有影響。'
       auto_save_message: 創建新的或編輯現有的虛擬作者時會自動保存。
       create_new: 創建新的虛擬作者
       errored: 無法從服務器加載虛擬作者。

@@ -8,6 +8,8 @@ michaelbelgium-mybb-to-flarum:
       convert_button: 遷移
       description_text: '將 MyBB 論壇遷移到這個 Flarum 實例中。填寫所需數據，然後點擊“遷移”。'
       form:
+        mybb:
+          title: 'MyBB 設置'
         options:
           migrate_attachments_label: 遷移附件
           migrate_avatars_label: 遷移頭像

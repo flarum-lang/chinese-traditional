@@ -9,6 +9,7 @@ signature:
       signature: 簽名
     errors:
       max_char_limit_exceed: 字元數量超過上限.
+      max_image_width_exceed: 圖片數量超過上限。
     modal:
       error:
         content: 錯誤列表：

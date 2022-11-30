@@ -13,4 +13,5 @@ kilowhat-rich-embeds:
       position: 位置
       positionOptions:
         above: 超連結上方
+        below: 超連結下方
         replace: 替換超連結

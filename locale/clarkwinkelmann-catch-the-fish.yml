@@ -13,3 +13,7 @@ clarkwinkelmann-catch-the-fish:
     nav:
       rankings: 捕魚排行榜
       settings: 捕魚設置
+    new-fish-modal:
+      title: 新魚
+    new-round-modal:
+      title: 新回合

@@ -5,6 +5,7 @@
 flarum-ext-keywords:
   admin:
     definition: 定義
+    parseonce: 在帖子中解析首次出現的術語
     removedef: 刪除
     word: 詞條
   forum:

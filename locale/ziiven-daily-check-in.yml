@@ -7,6 +7,8 @@ ziven-checkin:
     settings:
       auto-check-in: 自動簽到
       auto-check-in-delay: 自動簽到延遲（百萬秒）
+      reward-money: 簽到獎勵
+      timezone: 時區設置
   forum:
     check-in: 簽到
     check-in-success: 簽到成功

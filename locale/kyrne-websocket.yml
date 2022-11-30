@@ -8,6 +8,7 @@ kyrne-websocket:
       title: 'Websocket 統計'
     pusher_settings:
       local_cert_path: '本地 SSL 證書路徑'
+      local_pk_path: '本地 SSL 私鑰路徑'
   forum:
     discussion_list:
       show_updates_text: '有 {count, plural, one {#} other {#}} 條新內容，點擊查看'

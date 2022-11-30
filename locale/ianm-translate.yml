@@ -16,3 +16,6 @@ ianm-translate:
         en_choice:
           help: 翻譯成英語時，選擇應使用的變體。
           label: 英語變體
+          options:
+            en-GB: 'English (UK) en-GB'
+            en-US: 'English (US) en-US'

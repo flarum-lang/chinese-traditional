@@ -16,3 +16,5 @@ flagrow-ads:
       under-nav-items:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
         title: 【側邊欄廣告位】首頁左側側邊欄下方的廣告位
+    settings:
+      adsense-title: 'AdSense 設置'

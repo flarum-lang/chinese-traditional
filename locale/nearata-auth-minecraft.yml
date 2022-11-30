@@ -15,4 +15,6 @@ nearata-auth-minecraft:
         help: 示例：mydomain.tld
         label: 'Minecraft 伺服器 IP'
   forum:
+    log_in_modal:
+      submit_button: 驗証
     login_error: 會話未開始或已過期。

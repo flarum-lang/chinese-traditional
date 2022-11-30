@@ -11,3 +11,6 @@ the-turk-regrole:
       force_users_label: 強制一個用戶必須有一個角色
       force_users_text: 啟用後，沒有任何角色的用戶將被封禁，在他們選擇一個角色後才可繼續使用論壇（不含有用戶組編輯權限的用戶）。
       other_options_heading: 其它選項
+  forum:
+    choose_role_button_label: '=> the-turk-regrole.ref.choose_a_role'
+    suspended_temporarily_message: 我們暫時封禁了您的賬號，請選擇一個角色以解禁。

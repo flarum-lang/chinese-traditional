@@ -7,9 +7,11 @@ clarkwinkelmann-carving-contest:
     nav:
       contest: 雕刻比賽
     page:
+      already-liked: 我喜歡
       already-participated: 已參加
       delete-confirmation: '您確定要刪除 {username} 的「{name}」嗎？'
       like: 讚
       loading: 作品載入中…
       participate: 參加
       title: 南瓜雕刻比賽
+      unlike: 踩

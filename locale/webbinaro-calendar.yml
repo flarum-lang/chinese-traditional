@@ -4,8 +4,12 @@
 
 flarum-calendar:
   admin:
+    basics:
+      homepage: 當前月份
     permissions:
       add: 創建新活動日程
+      moderate: 移除或編輯日程活動（所有用戶都可以編輯他們自己的活動）
+      view: 瀏覽活動
   forum:
     button:
       create: 新活動

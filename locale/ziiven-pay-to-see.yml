@@ -8,5 +8,7 @@ pay-to-see:
     pay_to_see_content_bypass: '付費查看內容 [無視權限]'
     pay_to_see_owner_bypass: '付費查看內容 [不限所有者]'
     purchased_content: 購買的內容
+    remove_pay_to_see_price_success: 付費查看內容已刪除
     set_pay_to_see_price: 設置內容價格
+    set_pay_to_see_price_success: 內容價格設置
     toolbar_tooltip: 付費以查看內容

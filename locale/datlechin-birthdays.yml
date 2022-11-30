@@ -8,6 +8,8 @@ datlechin-birthdays:
       edit_own_birthday_label: 修改個人生日
       view_birthday_label: 查看生日
     settings:
+      date_format_help: '請使用 <a>dayjs</a> 日期格式，留空以使用默認設置。'
+      date_format_label: 日期格式
       min_age_help: 最低註冊年齡
       min_age_label: 最小年齡
       required_help: 請先啟用「允許注冊時設置生日」

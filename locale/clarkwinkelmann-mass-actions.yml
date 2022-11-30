@@ -4,11 +4,14 @@
 
 clarkwinkelmann-mass-actions:
   forum:
+    actions:
+      markAsRead: 標示為已讀
     select:
       all: 全選
       hidden: 軟刪除
       locked: 鎖定
       none: 取消全選
       read: 已讀
+      unlocked: 解鎖
       unread: 未讀
       visible: 未刪除

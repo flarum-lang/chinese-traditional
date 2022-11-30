@@ -13,3 +13,5 @@ datlechin-more-discussions:
       filter_by_label: 進行過濾
       filter_dropdown:
         latest: 最後回覆
+        newest: 最新
+        top: 最熱貼文

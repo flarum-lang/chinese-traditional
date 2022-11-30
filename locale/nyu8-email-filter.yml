@@ -10,3 +10,6 @@ nyu8-email-filter:
     invalid_regular_expression: 無效的正則式表達
     name_placeholder: 規則名
     rule_settings: 規則設置
+    whitelist_literal:
+      description: 請填寫完整的郵箱地址
+      label: 白名單

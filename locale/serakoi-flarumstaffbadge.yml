@@ -13,3 +13,7 @@ serakoi-flarumstaffbadge:
     staffBadgeTextColor:
       help: '徽章顏色（默認為“#fff”）'
       label: 職員徽章顏色
+  forum:
+    edit_user:
+      heading: 啟用成員徽章
+      placeholder: 將輸入設置“true”以激活徽章

@@ -10,5 +10,7 @@ datitisev-backup:
       azure: 'Microsoft Azure'
       dospaces: 'Digital Ocean Spaces'
       dropbox: Dropbox
+      ftp: FTP
       gdrive: 'Google Drive'
+      gridfs: GridFS
       local: 本地儲存

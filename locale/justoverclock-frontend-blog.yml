@@ -6,6 +6,7 @@ justoverclock-frontend-blog:
   admin:
     charLim: 字數限制
     charLim-help: 設定最大字元顯示數
+    defaultImage: 預設貼文圖片
     numberOfPost: 文章數量
     numberOfPost-help: 在此設置您要顯示的貼文最大數量
     setBlogIndexPage: '將 Frontend Blog 擴展設置為主頁'

@@ -10,5 +10,6 @@ justoverclock-igdb-api:
   forum:
     genres: Genres
     metacriticScore: 'MetaCritic Score'
+    offwebsite: 官網
     publisher: 出版商
     seeOnMetaCritic: 在Metacritic上查看

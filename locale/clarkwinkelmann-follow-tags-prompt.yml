@@ -8,6 +8,9 @@ clarkwinkelmann-follow-tags-prompt:
       allDiscussionsOnFollowingPageForGuests: 給訪客在關注頁面顯示所有主題帖
       availableTagStrategy: 供用戶選擇的標籤
       buttonOnFollowingPage: 在關注頁面顯示按鈕
+      tagStrategy:
+        primary: 一級主標籤
+        primaryAndChildren: 任何級別的主標簽
   forum:
     controls:
       choose: 選擇要關注的標簽

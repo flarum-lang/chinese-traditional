@@ -11,4 +11,5 @@ justoverclock-last-tweet:
     tweet_number: 推文數量
     tweet_number-help: 指定要展示的推文數量（默認2）
   forum:
+    loading: 加載推文中…
     widget-title: 最新推文

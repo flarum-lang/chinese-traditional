@@ -9,8 +9,10 @@ clarkwinkelmann-translation-inspector:
   lib:
     modal:
       actual: 當前語言翻譯
+      edit: '前往 GitHub 編輯'
       extension: 語言包
       extension-unknown: 未知擴展程序
       key: 翻譯鍵
       original: 原始英文字符
+      path: 語言文件
       title: 翻譯檢查

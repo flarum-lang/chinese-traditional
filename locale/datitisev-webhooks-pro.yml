@@ -4,6 +4,9 @@
 
 fof-webhooks:
   actions:
+    extension:
+      installed: '安裝擴展 `{1}`'
+      updated: '更新擴展 `{1}`'
     poll:
       created: '發起投票 `{1}`'
       voted: '投票結果 `{1}`'

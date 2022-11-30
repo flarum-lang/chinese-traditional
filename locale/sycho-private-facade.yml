@@ -13,3 +13,5 @@ sycho-private-facade:
           show_only_logo: '僅顯示 Logo'
         title: 橫幅樣式
       illustration_path: 壁紙
+      primary_color_bg: 使用主色調背景
+      route_exclusions: 登錄注冊頁重定向的排除路由。

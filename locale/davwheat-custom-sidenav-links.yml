@@ -17,4 +17,6 @@ davwheat:
               above-tags-link: 顯示於「全部標簽」按鈕上方
               below-tags-link: 顯示於「全部標簽」按鈕下方
         link_table:
+          add_link_btn: 新增連結
+          confirm_delete: '確認刪除鏈接「{link}」'
           heading: 自定義連結

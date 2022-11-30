@@ -10,4 +10,5 @@ flarum-ext-dontgoaway:
     modtitledesc: 自定義彈窗標題
     urltext: '自定義圖片 URL'
     urltextdesc: '粘貼自定義圖片 URL'
+    widthdesc: '設置圖片的寬度（如 450）'
     widthtext: 圖片寬度

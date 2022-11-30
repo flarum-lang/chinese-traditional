@@ -12,6 +12,8 @@ clarkwinkelmann-mailing:
       mail_all: 發送郵件
       mail_individual: 發送郵件
     modal_mail:
+      default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       recipients_label: 收件人
       recipients_placeholder: 添加其他收件人...
+      subject_label: 主題
       title_text: 寫信

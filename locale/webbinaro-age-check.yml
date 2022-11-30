@@ -13,3 +13,5 @@ webbinaro-age-check:
         yes_help: 通常是「確認」或「是」
       messages:
         consent_prompt: 提示用於協定？
+        consent_prompt_help: 確認按鈕上方的閱讀同意內容。
+        left_blurb: 宣告同意書

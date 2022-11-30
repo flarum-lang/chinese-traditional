@@ -9,6 +9,8 @@ nearata-minecraft-avatars:
       label: 在註冊中檢索頭像
   forum:
     help_text: '用戶名將被轉換為 UUID。'
+    placeholder: 使用者名稱或UUID
     submit_button: 保存
     username_not_found: 用戶名不存在。
     username_uuid_not_valid: 使用者名稱或UUID無效。
+    userpage_nav_button: 'Minecraft 頭像'
