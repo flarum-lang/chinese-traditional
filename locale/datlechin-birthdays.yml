@@ -23,6 +23,10 @@ datlechin-birthdays:
       title: 編輯生日
     header:
       edit_dob_button: 編輯生日
+    settings:
+      change_dob_label: 修改生日
+      dob_heading: 生日
+      show_dob_date_label: 顯示生日的月份和具體日期
     user:
       age_text: '年齡：{age}'
       birthday_text: '生日：{date}'

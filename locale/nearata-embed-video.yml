@@ -23,3 +23,9 @@ nearata-embed-video:
         hls: Hls
         shaka: Shaka
         webtorrent: WebTorrent
+  forum:
+    button_tooltip_title: 嵌入視頻
+    modal:
+      live_mode: 直播模式
+      submit_button: 保存
+      title: 嵌入視頻

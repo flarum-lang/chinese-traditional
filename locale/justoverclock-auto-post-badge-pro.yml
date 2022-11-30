@@ -4,7 +4,9 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    colorBg: 進度條背景
     levelEight: LV8
+    levelEighteen: LV18
     levelEleven: LV11
     levelFifteen: LV15
     levelFive: LV5
@@ -13,6 +15,7 @@ justoverclock-auto-post-badge-pro:
     levelNine: LV9
     levelOne: LV1
     levelSeven: LV7
+    levelSeventeen: LV17
     levelSix: LV6
     levelSixteen: LV16
     levelTen: LV10

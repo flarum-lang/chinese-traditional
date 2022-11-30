@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-infocards:
+  admin:
+    apikeyhelp: '前往 https://countapi.xyz/ 創建免費 api 密鑰'
+    createapikey: 'Api Key'
   forum:
     forumstats: 論壇統計
     friday: 星期五
@@ -10,6 +13,7 @@ flarum-ext-infocards:
     groups: 您的用戶組
     monday: 星期一
     opthread: 瀏覽主題
+    saturday: 星期六
     sunday: 星期日
     thursday: 星期四
     times: 次

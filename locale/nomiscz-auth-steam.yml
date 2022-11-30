@@ -5,7 +5,9 @@
 nomiscz-auth-steam:
   admin:
     settings:
+      api_key_label: 'API Key'
       title: 'Steam 登錄設置'
+      use_steam_powered_domain: '使用 steampowered.com 域而不是 steamcommunity.com（在中國被阻止）'
   forum:
     alerts:
       already_linked: 'Steam 帳戶已關聯！'

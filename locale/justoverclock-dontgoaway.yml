@@ -20,4 +20,7 @@ flarum-ext-dontgoaway:
     widthdesc: '設置圖片的寬度（如 450）'
     widthtext: 圖片寬度
   forum:
+    cancelbutton: 留下
+    confbutton: 繼續
+    extlinktext: 點擊繼續以訪問外鏈地址
     extlinktitle: 外鍵

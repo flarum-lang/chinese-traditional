@@ -25,4 +25,5 @@ flagrow-ads:
       position-title: 廣告位置
       start-from-post: '【信息流廣告位】指定從幾樓開始顯示廣告（0 表示從一樓開始顯示廣告）'
     tab:
+      description: 廣告位置及偏好設置。
       title: 廣告

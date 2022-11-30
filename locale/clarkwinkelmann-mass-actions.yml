@@ -12,7 +12,11 @@ clarkwinkelmann-mass-actions:
       markAsRead: 標示為已讀
       restore: 恢復已選
       sticky: 置頂
+      tags: 標籤
+      tags-add: '添加 <em>{tag}</em>'
+      tags-edit: 編輯標籤
       unlock: 解鎖所選
+      unsticky: 取消置頂
     select:
       all: 全選
       hidden: 軟刪除

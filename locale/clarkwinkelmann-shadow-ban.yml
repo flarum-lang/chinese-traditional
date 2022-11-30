@@ -12,6 +12,7 @@ clarkwinkelmann-shadow-ban:
   forum:
     badge:
       discussion: 影藏中
+      post: 影藏中
       user: 影匿中
     banUser:
       quick: 快速選擇

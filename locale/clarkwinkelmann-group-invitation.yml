@@ -7,6 +7,8 @@ clarkwinkelmann-group-invitation:
     permissions:
       use: 使用用戶組邀請鏈接
     settings:
+      create: 創建
+      empty: 目前還沒有創建任何邀請鏈接。
       head:
         code: 代碼
         group: 用戶組
@@ -14,6 +16,8 @@ clarkwinkelmann-group-invitation:
       placeholder:
         code: 自動生成
         group: 選擇…
+        usage: 留空表示無限制
+      unlimited: 無限制
   forum:
     apply: 加入用戶組
     generic-title: 用戶組邀請

@@ -30,6 +30,10 @@ fof-webhooks:
             title: 'Extiverse 市場'
         fof:
           banips:
+            ipwasbanned: 已封禁
+            ipwasunbanned: 取消拉黑
             title: 'FriendsOfFlarum 拉黑 IP'
+          byobu:
+            title: 'FriendsOfFlarum 私密主題'
       services:
         custom: 自定義

@@ -15,7 +15,11 @@ v17development-flarum-support:
     knowledge_base: 知識庫
     or: 或
     overview:
+      back_to: '返回 {category}'
+      back_to_main_categories: 返回主分類目錄
+      back_to_overview: 返回知識庫概覽
       knowledge_base_overview: 知識庫概覽
+      loading_articles: 正在加載文章
     reopen: 重新打開
     return_to_home: 返回知識庫首頁
     send: 發送

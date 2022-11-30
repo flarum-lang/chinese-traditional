@@ -8,7 +8,12 @@ blomstra-payments:
       accept_label: 我已閱讀並接受<link>付款條款</link>。
       continue_button: 繼續付款
       title: 接受條款
+    pay-to-post:
+      purchase: 付款
+      purchase-control: 付費發佈
+      purchase_required: "通過第三方支付平台 Stripe 完成付款後，您的主題即可發布。點擊付款，查看費用並選擇付款方式。\n"
     pay-to-view:
+      description: "帖子被鎖定在付費專區，您可以通過我們的支付提供商 Stripe 完成支付來解鎖它們。\n"
       purchase-completed: 解鎖
       purchase-control: 付費觀看
       purchase-log-in: 登錄並付費瀏覽

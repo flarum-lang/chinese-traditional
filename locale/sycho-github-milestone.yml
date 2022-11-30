@@ -20,3 +20,7 @@ sycho-github-milestone:
     open: '=> sycho-github-milestone.ref.open'
     tasks_done: '{number} / {total}'
     title: 里程碑
+  ref:
+    all: 全部
+    closed: 已關閉
+    open: 進行中

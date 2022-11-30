@@ -14,9 +14,13 @@ flarum-ext-toastme:
     gravdesc: '設置 Toast 彈窗的位置，top 頂部或 bottom 底部均可'
     gravity: 'Gravity - 可以是“頂部”或“底部”'
     helpenable: '使用此設置啟動或禁止使用 Toast 彈窗提示'
+    message: 'Toast 彈窗提示文本'
+    messagedesc: '你可以在此輸入 Toast 彈窗文本'
     offsetxdesc: '橫軸外邊距 - 像素數。例如 20（像素）'
     offsetxx: 'X 軸偏移 - 橫軸外邊距 (px)（默認為空）'
     offsetydesc: '縱軸外邊距 - 像素數。例如 20 （像素）'
     offsetyy: 'Y 軸偏移 - 縱軸外邊距 (px)（默認為空）'
     posdesc: '你想讓 Toast 彈窗出現在哪？左邊，右邊，還是中間？'
     position: '位置 - 可以為「left」「right」或「center」'
+  forum:
+    message1: 一個早已確立的事實是，讀者在查看頁面佈局時會被頁面的可讀內容分散注意力。

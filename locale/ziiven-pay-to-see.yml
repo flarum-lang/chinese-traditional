@@ -13,6 +13,10 @@ pay-to-see:
     pay_to_see_content: 付費觀看內容
     pay_to_see_content_bypass: '付費查看內容 [無視權限]'
     pay_to_see_owner_bypass: '付費查看內容 [不限所有者]'
+    purchase_button: 購買內容
+    purchase_confirmation: 購買內容
+    purchase_confirmation_text: '您確定要支付 {costText} 嗎？'
+    purchase_success: 推送成功
     purchased_content: 購買的內容
     remove: 移除
     remove_pay_to_see_price_success: 付費查看內容已刪除

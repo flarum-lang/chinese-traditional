@@ -20,3 +20,6 @@ justoverclock-feedback:
     feedback3-icon-help: '輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐'
     feedback3-title: '反饋類型 3'
     feedback3-title-help: 自定義反饋類型3名稱
+    position: 部件位置
+    position-help: 反饋按鈕的顯示位置
+    right_label: 右側

@@ -21,3 +21,10 @@ the-turk-miserable-users:
       redirection_chance_text: '百分比概率在制裁用戶訪問論壇頁面時，將其重定向至指定的頁面 URL。'
       redirection_page_url_label: '重定向頁面 URL'
       redirection_page_url_text: 你可以把制裁的用戶重定向到不是他想要訪問的頁面，留空則默認跳轉到論壇首頁。
+      shuffle_post_chance_label: 胡言亂語
+      shuffle_post_chance_text: '以百分比概率打亂用戶的帖子內容。此功能暫時只支持英文內容，UTF-8 字符會報錯。'
+  forum:
+    user_badge:
+      miserable_user_tooltip: '=> the-turk-miserable-users.ref.miserable_user'
+    user_controls:
+      miserable_user_button: '=> the-turk-miserable-users.ref.miserable_user'

@@ -7,8 +7,12 @@ clarkwinkelmann-catch-the-fish:
     caught-fish-modal:
       congratulation: '恭喜，你抓到魚了！你一共捕獲了 {catch_count} 條魚。'
       name: 魚的名字
+      name-help: 您可以根據需要重命名魚兒，不過名稱要遵守論壇守則。
       named-by: 命名人：
       placed-by: 放置人：
+      placement-help: 您可以把魚藏在最新的主題和活動用戶的個人主頁。不過您不能捕捉您自己放置的魚。
+      submit-name: 保存名字
+      submit-name-place-later: 保存名字並選擇藏身之處
       title: 你抓到了一條魚！
     edit-fish-modal:
       title: '編輯魚「{name}」'

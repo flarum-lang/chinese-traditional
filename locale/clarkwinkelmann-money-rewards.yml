@@ -23,5 +23,11 @@ clarkwinkelmann-money-rewards:
         custom: 自定義金額
       optionCustom: 自定義
       submit: 提交
+      success: 已打賞給發帖作者！
       target: '由{username}打賞了{number}帖子'
       title: 打賞該帖
+    post:
+      action: 打賞
+    profile:
+      nav: 打賞
+      title: 打賞

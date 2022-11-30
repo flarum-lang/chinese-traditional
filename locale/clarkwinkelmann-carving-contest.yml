@@ -4,6 +4,8 @@
 
 clarkwinkelmann-carving-contest:
   forum:
+    modal:
+      title: 參加
     nav:
       contest: 雕刻比賽
     page:
@@ -12,6 +14,9 @@ clarkwinkelmann-carving-contest:
       delete-confirmation: '您確定要刪除 {username} 的「{name}」嗎？'
       like: 讚
       likes:
+        liked_by_self_text: '{users} 覺的很讚。'
+        liked_by_text: '{count, plural, one {{users} 覺得很讚} other {{users} 覺得很讚}}'
+        others_link: '=> core.ref.some_others'
         you_text: '=> core.ref.you'
       load-more: 加載更多作品
       loading: 作品載入中…

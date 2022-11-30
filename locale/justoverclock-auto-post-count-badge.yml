@@ -11,6 +11,7 @@ justoverclock-auto-post-count-badge:
     levelOne: '自定義等級頭銜 LV1「潛水」'
     levelOne-help: '在此黏貼LV1的FontAwesome圖標代碼（如fas fa-square）'
     levelSix: 自定義等級頭銜LV6「傳說」
+    levelSix-help: '在此粘貼 LV6 的 FontAwesome 圖標代碼（如 fas fa-square）'
     levelTree: 自定義等級頭銜LV3「吐槽」
     levelTree-help: '在此粘貼 LV3 的 FontAwesome 圖標代碼（如 fas fa-square）'
     levelTwo: '自定義等級頭銜 LV2「冒泡」'
@@ -23,3 +24,6 @@ justoverclock-auto-post-count-badge:
         help: 自定義頭銜
         title: 本文管理
       tier: '{tier}：達成 {from} 至 {to} 次回帖'
+  forum:
+    less10post: 潛水
+    less50post: 最新的

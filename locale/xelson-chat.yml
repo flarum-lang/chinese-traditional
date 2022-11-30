@@ -5,9 +5,15 @@
 xelson-chat:
   forum:
     chat:
+      edit_modal:
+        moderator:
+          got: '你已成為「{chatname}」的管理員！'
+          lost: '「{chatname}」已取消你的管理員身份。'
+        title: 聊天設置
       kick: 抖一抖
       leave: 離開
       moder: 管理員
+      rejoin: 重新加入
       welcome:
         header: '歡迎來到 Neon 聊天室！'
         subheader: 選擇一個聊天以開始會話

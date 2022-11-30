@@ -8,9 +8,11 @@ justoverclock-steam-api:
     steamApiKey-help: '在 https://steamcommunity.com/dev/apikey 上獲取免費的 api 密鑰'
   forum:
     LatestGamesPlayed: 最近玩的Games
+    accountCreated: '成員自： '
     country: '國籍 '
     gamesOwned: '遊戲擁有者： '
     lastLogin: '最後登入： '
+    realName: '真實名字： '
     status: '狀態 '
     statusAway: 離開
     statusBusy: 忙錄
@@ -21,3 +23,4 @@ justoverclock-steam-api:
     statusTrade: 尋求交易
     steamId: 'Steam Profile ID'
     steamIdSaved: 'Steam ID 保存成功'
+    visitProfile: 查看資料

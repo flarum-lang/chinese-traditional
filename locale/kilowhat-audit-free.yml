@@ -22,6 +22,10 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      deletedResource:
+        discussion: '主題 #{id}'
+        group: '用戶組 #{id}'
+        post: '回覆 #{id}'
       empty: 未找到任何內容
       filterApply: 套用
       filterPlaceholder: 篩選日志

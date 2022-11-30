@@ -22,3 +22,7 @@ datitisev-backup:
     settings_button: 配置
     you-need-for:
       aliyun: aliyuncs/aliyun-oss-flysystem
+      aws: league/flysystem-aws-s3-v3
+      azure: league/flysystem-azure
+      copy: league/flysystem-copy
+      dospaces: league/flysystem-aws-s3-v3

@@ -30,3 +30,7 @@ davwheat:
               position: 位置
               text: 連結文字
               url: '連結 URL'
+            placeholders:
+              icon: 'fas fa-link'
+              text: 我的小酷站
+              url: 'https://flarum.org'

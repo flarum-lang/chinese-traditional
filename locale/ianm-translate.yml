@@ -30,3 +30,7 @@ ianm-translate:
         api_key:
           help: '在 {link} 註冊 API 密鑰。此驅動程序使用 V2 API - Basic。'
           label: '=> ianm-translate.lib.settings.api-key'
+      provider: 翻譯提供商
+      readme-info: '有關擴展信息，請參閱 README 文檔。'
+  forum:
+    unknown-language: （未檢測到）

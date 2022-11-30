@@ -21,3 +21,4 @@ nearata-tags-color-generator:
       dark: 深色
       light: 淺色
       random: 隨機
+    generate_color_button: 生成隨機顏色

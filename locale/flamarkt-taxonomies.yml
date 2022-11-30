@@ -6,6 +6,9 @@ flamarkt-taxonomies:
   admin:
     edit-taxonomy:
       field:
+        description: '=> flamarkt-taxonomies.ref.field.description'
+        name: '=> flamarkt-taxonomies.ref.field.name'
+        slug: '=> flamarkt-taxonomies.ref.field.slug'
         type: 類別
         typeDescription: "分類信息可以被用在論壇的多個方面。創建分類信息後，類別無法改變。你可以創建同名分類名和英語短語應用到不同的類別。\n"
       section:

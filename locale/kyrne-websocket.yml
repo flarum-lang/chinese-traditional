@@ -11,11 +11,15 @@ kyrne-websocket:
       app_id_label: 'App ID'
       app_key_label: 'App Key'
       app_port_label: 端口
+      app_secret_label: 'App Secret'
       auto_update: 自動更新主題帖
       cert_self_signed: 自簽證書支持
       local_cert_path: '本地 SSL 證書路徑'
       local_pk_path: '本地 SSL 私鑰路徑'
       passphrase: '（可選）SSL 密鑰密碼'
+      secure: '強制 WebSocket WSS/HTTPS'
+      stats_label: 統計間隔
+      title: 'WebSocket / Pusher 設置'
   forum:
     discussion_list:
       show_updates_text: '有 {count, plural, one {#} other {#}} 條新內容，點擊查看'

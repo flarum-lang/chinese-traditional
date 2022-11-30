@@ -3,6 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ianm-syndication:
+  admin:
+    settings:
+      full-text:
+        help: '如果禁用此項，訂閱信息流將僅展示摘要，查看完整內容需要轉至論壇。建議開啟此項以尊重 RSS 用戶。'
+        label: 全文輸出
+      html:
+        label: 格式化內容
   forum:
     autodiscovery:
       discussion_last_posts: 這個主題

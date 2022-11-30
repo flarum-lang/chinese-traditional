@@ -22,6 +22,13 @@ flarum-mentions:
       quote_button: 引用
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
+    post_mention:
+      deleted_text: '[未知]'
+    settings:
+      notify_post_mentioned_label: 有人回覆了我
+      notify_user_mentioned_label: 有人在帖子中提到我
+    user:
+      mentions_link: 提到
 kyrne-evergreen:
   forum:
     post:
