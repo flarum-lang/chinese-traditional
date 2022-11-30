@@ -28,6 +28,7 @@ clarkwinkelmann-money-rewards:
       title: 打賞該帖
     post:
       action: 打賞
+      disallowedOwn: 您不能打賞自己的帖子。
     profile:
       nav: 打賞
       title: 打賞

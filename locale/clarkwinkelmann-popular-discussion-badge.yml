@@ -26,5 +26,6 @@ clarkwinkelmann-popular-discussion-badge:
       views: 瀏覽量
       views_placeholder: '0'
       within: 在
+      within_placeholder: 所有
   forum:
     badge_label: 熱門

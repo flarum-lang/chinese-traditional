@@ -13,6 +13,7 @@ clarkwinkelmann-post-stream-search:
       originalPosterBadgeHelp: 'OP 將在帖子旁邊添加徽章。單擊徽章將自動篩選該用戶。'
   forum:
     cannotGoToPost:
+      action: 嘗試清除過濾器
       message: 無法前往貼文
     discussionControls:
       searchInDiscussion: 在主題中搜索

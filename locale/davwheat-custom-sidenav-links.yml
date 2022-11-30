@@ -35,4 +35,5 @@ davwheat:
               text: 我的小酷站
               url: 'https://flarum.org'
             tooltips:
+              move_down: 下移
               move_up: 上移

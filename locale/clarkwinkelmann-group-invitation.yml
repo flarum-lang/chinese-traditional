@@ -8,6 +8,7 @@ clarkwinkelmann-group-invitation:
       use: 使用用戶組邀請鏈接
     settings:
       create: 創建
+      delete: 删除
       empty: 目前還沒有創建任何邀請鏈接。
       head:
         code: 代碼

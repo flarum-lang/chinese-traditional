@@ -36,5 +36,7 @@ fof-webhooks:
           byobu:
             discussionmadepublic: 討論轉公開
             title: 'FriendsOfFlarum 私密主題'
+          gamification:
+            title: 'FriendsOfFlarum Gamification'
       services:
         custom: 自定義

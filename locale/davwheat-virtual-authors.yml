@@ -21,9 +21,56 @@ davwheat-virtual-authors:
       virtual_authors_page_disabled: 禁用所有用戶的虛擬作者列表。
       virtual_authors_page_disabled_help: 這會覆蓋為此功能設置的任何權限。
     virtual_author_item:
+      delete_a11y_tooltip: 删除
       delete_confirmation: 刪除虛擬作者？
       description: 描述
       edit: 編輯虛擬作者
       id: ID
       name: 顯示名稱
       no_description: '=> davwheat-virtual-authors.ref.no_description'
+  forum:
+    discussion_controls:
+      set_virtual_authors: 設置虛擬作者
+    set_modal:
+      add_button: 增加
+      add_new: 選擇新的虛擬作者
+      added_button: 已增加
+      credit_placeholder: 信用（可選）
+      delete_button: 移除
+      delete_confirmation: 從主題中移除虛擬作者？
+      existing: 現有虛擬作者
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
+      none_existing: 尚未選擇。
+      save: 保存
+      search: 搜尋虛擬作者
+      title: 設置虛擬作者
+      virtual_author_exists: 已選擇！
+    virtual_author_page:
+      credited_discussions: '主題由{displayName}創建'
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      meta_title: '{displayName}-作者'
+    virtual_authors_list:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      empty_text: 沒有作者。
+      filter_name_placeholder: 以名字篩選
+      meta_title: 所有作者
+      no_description: 這位作者對他們保持著神秘的氣氛。
+      sidebar_link: 作者
+      title: 所有作者
+    virtual_authors_panel:
+      error: 載入作者失敗。
+      heading: 作者
+      item_link_tooltip: '查看{displayName}的所有主題'
+  lib:
+    discussion-badge: '{count, plural, one {Has virtual author}, other {Has virtual authors}}'
+    edit_modal:
+      fields:
+        description: 描述（關於作者）
+        name: 顯示名稱
+      submit_edit: 保存修改
+      submit_new: 創建虛擬作者
+      title_edit: 編輯虛擬作者
+      title_new: 創建虛擬作者
+  ref:
+    discussion_count: '{count, plural, one {# discussion}, other {# discussions}}'
+    no_description: （未設置說明）

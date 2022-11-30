@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-mass-actions:
+  admin:
+    permissions:
+      controls: 顯示多選選擇器
   forum:
     actions:
       delete: 永久刪除

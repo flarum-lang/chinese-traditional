@@ -4,12 +4,41 @@
 
 the-turk-flamoji:
   admin:
+    custom_emojis_section:
+      edit_emoji:
+        delete_emoji_button: '删除 Emoji'
+        delete_emoji_confirmation: '確定要刪除這個 Emoji ？'
+        emoji_title_label: 'Emoji 標題'
+        modal_title: '添加 Emoji'
+        path_or_url_label: '圖片路徑或 URL'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 表情代碼
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: '導出 JSON'
+      heading_title: '自訂義 Emojis'
+      import_emojis_message: '僅導入 Emoji 配置，Emoji 圖片需要手動上傳到相應的目錄中。'
+      import_json_button: '導入 JSON'
     settings:
       auto_hide_label: 自動隱藏
       auto_hide_text: 選擇表情后自動關閉表情選擇器。
       category_settings_heading: 分類設置
+      emoji_categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      emoji_data_label: 'Emoji 資料'
+      emoji_data_text: 鼠標懸浮在表情上時，要用哪種語言顯示表情描述。
       emoji_settings_heading: 表情設置
       emoji_style_label: 表情樣式
+      emoji_style_native_option: 原生
       emoji_version_label: 表情版本
       emoji_version_text: '要使用的 Emoji 表情版本。'
       general_ui_settings_heading: 一般界面設置
@@ -25,3 +54,34 @@ the-turk-flamoji:
       show_variants_text: 一些表情有不同的膚色。開啟此項後，點擊有膚色的表情時，會彈出膚色選擇框。
       specify_categories_label: 啟用分類
       specify_categories_text: 勾選要顯示的表情分類。
+  forum:
+    composer:
+      emoji_tooltip: 'Emoji 表情'
+    emoji-button:
+      categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        custom: '=> the-turk-flamoji.ref.emoji_categories.custom'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        recents: '=> the-turk-flamoji.ref.emoji_categories.recents'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      no_emojis_found_message: 未找到相關表情
+      search_placeholder: '搜索 Emoji'
+  ref:
+    emoji_categories:
+      activities: 活動
+      animals: '動物 & 自然'
+      custom: 自定義
+      flags: 旗幟
+      food: '食物 & 飲料'
+      objects: 物品
+      people: '人物 & 身體'
+      recents: 最近使用
+      smileys: '笑臉&情感'
+      symbols: 標誌
+      travel: '旅行 & 地點'
