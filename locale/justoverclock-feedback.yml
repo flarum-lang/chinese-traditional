@@ -36,7 +36,10 @@ justoverclock-feedback:
     button-title: 意見
     feedback-widget:
       back: 返回
+      contact-text: 或發送一個郵件！
       email-placeholder: 郵箱(可選)
       placeholder: 在此填寫內容
       submit: 提交
+      success: 非常感謝！👊
       title: 'Flarum 意見反饋'
+      type-message: 你想反饋什麼內容？

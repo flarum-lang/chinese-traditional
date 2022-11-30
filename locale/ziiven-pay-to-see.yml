@@ -6,6 +6,7 @@ pay-to-see:
   admin:
     permission:
       allow_bypass_pay2see: 允許跳過付費以查看內容
+      allow_purchase_pay2see: 允許購買付費查看內容
       allow_use_pay2see: 同意使用付費瀏覽
     settings:
       badge_icon: 徽章圖示

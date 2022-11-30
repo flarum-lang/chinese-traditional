@@ -29,7 +29,10 @@ kilowhat-audit:
         session: 'Web Session'
         unknown: 未知客戶端
       controls:
+        filterActor: 篩選行為人
+        filterIp: 篩選IP
         hideRaw: 隱藏原始日誌
+        showRaw: 顯示原始日誌
       deletedResource:
         discussion: '主題 #{id}'
         group: '用戶組 #{id}'

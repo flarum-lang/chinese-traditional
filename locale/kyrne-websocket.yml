@@ -9,6 +9,7 @@ kyrne-websocket:
     help:
       app_id: 'Pusher App ID - 如果使用內置 WebSocket 服務器，請保持默認值。'
       app_key: 'Pusher App Key - 如果使用內置 WebSocket 服務器，請保持默認值。'
+      auth_only: '只允許經過身份驗證的用戶連接到 websocket 服務器，可以減少 CPU 負載。'
       auto_update: 即時更新全部主題列表，不再顯示「有新內容」黃色橫幅。
       cert_path: '僅在使用 SSL 而非反代理時啟動。您服務器上的 SSL (HTTPS) 證書路徑 - 通常是一個 .crt 或 .pem 文件。'
       host: '您的 WebSocket 服務器主機 - 如果服務器和管理員位於同一主機，請保持默認值。'
@@ -18,6 +19,7 @@ kyrne-websocket:
       reverse_proxy: '啟用此功能後，WebSocket 將通過 443 端口連接 - 如果您從端口 443 反向代理到 WebSocket 服務器，請使用此功能。'
       secret: 'Pusher App Secret - 如果使用內置 WebSocket 服務器，請保持默認值。'
       secure: '強制 WebSocket 使用安全協議 - 如果您使用的是安全的 WebSocket 服務器而非網站，請啟用此功能。'
+      self_signed: '僅在使用 SSL 而非反代理時啟動。如果您的 SSL (HTTPS) 證明書是自簽證明，請啟動此項。'
       stats: '兩次統計的間隔時間，單位秒。推薦填寫一小時共 3600 秒至六小時共 21600 秒之間。默認為 7200 秒。'
     pusher_settings:
       app_host_label: 主機

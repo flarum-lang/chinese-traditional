@@ -26,12 +26,15 @@ nearata-embed-video:
   forum:
     button_tooltip_title: 嵌入視頻
     modal:
+      add_pointer: 添加指示器
       add_quality: 添加質量
       live_mode: 直播模式
       pointer_label: 指示器
       pointer_option_new: 新建
       quality_option_new: 新建
       quality_switching_tutorial: 視頻質量切換教程
+      remove_pointer: 移除指示器
+      remove_quality: 移除質量
       submit_button: 保存
       title: 嵌入視頻
       video_type_label: 視頻類型

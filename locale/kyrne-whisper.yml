@@ -12,11 +12,14 @@ kyrne-whisper:
       title: 'Whisper 設置'
   forum:
     chat:
+      cant_send: '在{username}恢復之前,您不能發送消息(僅限首次會話)'
       cant_start: 無法開始會話
       chat_with: '{username}'
+      failed_message: '無法解密消息，正在嘗試恢復方法 #{method}'
       messages_multiple: '{count}條消息'
       messages_single: 新建會話
       read: 已讀
+      recovery_message: 系統消息：加密同步丟失，已恢復。
       send: 發送
       start: 開始會話
       text_placeholder: 輸入你的訊息

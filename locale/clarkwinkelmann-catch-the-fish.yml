@@ -20,6 +20,10 @@ clarkwinkelmann-catch-the-fish:
       title: 你抓到了一條魚！
     edit-fish-modal:
       title: '編輯魚「{name}」'
+    edit-fish:
+      create: 造魚
+      name: 名字
+      name-help: 這條魚的名字。如果玩家有權限，就可以編輯魚的名字
     edit-round-modal:
       title: '編輯回合 {name}'
     edit-round:

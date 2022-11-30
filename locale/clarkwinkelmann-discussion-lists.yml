@@ -49,3 +49,7 @@ clarkwinkelmann-discussion-lists:
       expand: 擴大
       kind: 系列
       visit: 顯示所有內容
+core:
+  forum:
+    index_sort:
+      discussionListDefault_button: 在列表中排序

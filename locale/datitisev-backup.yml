@@ -7,7 +7,10 @@ datitisev-backup:
     adapter-settings-modal:
       aliyun:
         access-id:
+          description: '你的身份認證訪問令牌 ID'
           label: 'Access ID'
+        access-key:
+          label: 'Access Key'
         endpoint:
           description: 終端儲存的URL。
           label: 終端

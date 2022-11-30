@@ -32,6 +32,8 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      client:
+        session: 'Web session'
       deletedResource:
         discussion: '主題 #{id}'
         group: '用戶組 #{id}'
@@ -45,6 +47,8 @@ kilowhat-audit:
         comment: 回覆
         post: 回覆
       loadMore: 載入更多
+      noReason: (無原因)
+      noValue: (無值)
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'

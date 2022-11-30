@@ -45,5 +45,8 @@ blomstra-web3:
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
       with-wallet: '以 web3 wallet 登入'
   ref:
+    bind: 綁定地址
+    disconnect: 斷開
     select: 選擇地址
     select-wallet-account: '選擇錢包帳戶{rightArrow}'
+    unbind: 解綁賬戶地址
