@@ -10,6 +10,7 @@ datitisev-backup:
           description: '你的身份認證訪問令牌 ID'
           label: 'Access ID'
         access-key:
+          description: 您的身份驗證訪問令牌密鑰
           label: 'Access Key'
         endpoint:
           description: 終端儲存的URL。
