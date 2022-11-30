@@ -14,6 +14,10 @@ clarkwinkelmann-money-rewards:
       max: 自定義金額的最大值
       min: 自定義金額的最小值
       preselection: '預選金額（英文逗號分隔,可選）'
+  api:
+    error:
+      decimals: '金額限制為 {decimals} 小數。'
+      notEnoughFunds: 資金不足。
   forum:
     modal:
       balance: '您的餘額：{amount}'

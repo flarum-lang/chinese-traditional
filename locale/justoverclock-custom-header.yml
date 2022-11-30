@@ -28,6 +28,7 @@ custom-header:
     youtubeIcon-help: '在此處粘貼指向您的 Youtube 頁面的有效 URL'
   forum:
     facebook: 在臉書上關注我們
+    github: 'GitHub 主頁'
     login: 登錄
     signup: 註冊
     twitter: 關注我們的推特

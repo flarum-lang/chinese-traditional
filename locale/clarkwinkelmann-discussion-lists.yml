@@ -14,9 +14,14 @@ clarkwinkelmann-discussion-lists:
       viewPublic: 查看公共討論列表
     settings:
       collapseSeries: 討論串默認折疊
+  api:
+    manualLimit: 手動排序的列表不能包含超過50個主題
+    seriesAnyAddNotAllowed: 您只能將自己的主題添加到系列列表中
+    seriesAnyConversionNotAllowed: 無法將列表轉換為系列，因為它包含不屬於您自己的主題
   forum:
     badge:
       private: 私人列表
+      series: 公開系列
     discussion:
       add: 添加到列表
       new: 新列表
@@ -40,3 +45,7 @@ clarkwinkelmann-discussion-lists:
         series: 公開系列
     profile:
       link: 列表
+    series:
+      expand: 擴大
+      kind: 系列
+      visit: 顯示所有內容

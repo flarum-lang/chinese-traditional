@@ -45,6 +45,10 @@ fof-webhooks:
             title: 'FriendsOfFlarum 投票'
           reactions:
             postwasreacted: 戳表情
+            postwasunreacted: 移除表情
             title: 'FriendsOfFlarum Reactions'
+          twofactor:
+            title: 'FriendsOfFlarum 兩步驗証'
+            userenabledtwofactor: '用戶啟用 2FA'
       services:
         custom: 自定義

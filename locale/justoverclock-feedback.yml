@@ -32,3 +32,11 @@ justoverclock-feedback:
     right_label: 右側
   api:
     validation_error: 反饋內容為空
+  forum:
+    button-title: 意見
+    feedback-widget:
+      back: 返回
+      email-placeholder: 郵箱(可選)
+      placeholder: 在此填寫內容
+      submit: 提交
+      title: 'Flarum 意見反饋'

@@ -26,7 +26,12 @@ nearata-embed-video:
   forum:
     button_tooltip_title: 嵌入視頻
     modal:
+      add_quality: 添加質量
       live_mode: 直播模式
+      pointer_label: 指示器
+      pointer_option_new: 新建
+      quality_option_new: 新建
+      quality_switching_tutorial: 視頻質量切換教程
       submit_button: 保存
       title: 嵌入視頻
       video_type_label: 視頻類型
@@ -37,3 +42,5 @@ nearata-embed-video:
         normal: 普通
         shaka: Shaka
         webtorrent: WebTorrent
+      video_url_label: 視頻地址
+      video_url_placeholder: '示例：https://example.com/filename.mp4'

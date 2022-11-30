@@ -4,6 +4,18 @@
 
 datitisev-backup:
   admin:
+    adapter-settings-modal:
+      aliyun:
+        access-id:
+          label: 'Access ID'
+        endpoint:
+          description: 終端儲存的URL。
+          label: 終端
+      local:
+        target:
+          description: 指定用於儲存備份的本地目錄。
+          label: 目標路徑
+      title: '配置{adapter}'
     adapters:
       aliyun: 阿里雲（Aliyun）
       aws: 'Amazon AWS S3'
@@ -19,6 +31,7 @@ datitisev-backup:
       webdav: Webdav
       zip: 'Zip Archive'
     required-package-modal:
+      content: "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
       title: '{adapter} 所需的軟件包'
     required_package_button: 安裝
     settings_button: 配置

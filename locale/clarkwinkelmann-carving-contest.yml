@@ -4,9 +4,18 @@
 
 clarkwinkelmann-carving-contest:
   admin:
+    colors:
+      all: 隨機顏色
+      custom: 自定義顏色表
+      simple: 簡單顏色設置
     permissions:
       like: 為作品點讚
+      moderate: 管理
+      participate: 參加比賽
       view: 查看作品
+    settings:
+      colorMode: 使用色彩模式而不是雕刻模式
+      maxEntriesPerUser: 每位用戶提交數量限制
   forum:
     likes_modal:
       title: 說讚的人

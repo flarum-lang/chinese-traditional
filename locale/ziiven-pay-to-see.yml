@@ -3,6 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 pay-to-see:
+  admin:
+    permission:
+      allow_bypass_pay2see: 允許跳過付費以查看內容
+    settings:
+      badge_icon: 徽章圖示
+      badge_icon_desc: '輸入任何 FontAwesome 圖標類的名稱，包括 <code>fas fa-</code> 前綴。留空以移除徽章。'
   forum:
     cancel: 取消
     confirm: 確認
@@ -11,6 +17,7 @@ pay-to-see:
     not_support_anonymous: 匿名帖子不支持付費查看內容
     notifications:
       discussion_purchased: '{username} 購買了您的內容'
+      discussion_purchased_cost: '您已收到{cost}'
       notification_setting_some_one_purchase_content: 有人購買了我的內容
     ok: OK
     pay_to_see_content: 付費觀看內容

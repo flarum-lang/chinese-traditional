@@ -33,4 +33,5 @@ clarkwinkelmann-jwt-cookie-login:
   forum:
     alert:
       login: 已自動連接。
+      logout: 您的登錄信息已過期。
       refresh: 刷新頁面

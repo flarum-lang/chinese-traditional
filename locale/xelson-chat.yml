@@ -10,9 +10,16 @@ xelson-chat:
           color:
             label: 顏色
             validator: 十六進制格式
+          delete:
+            button: 刪除聊天
+            desc: 複製並貼上聊天室名稱以繼續
+            placeholder: 聊天名稱
+            title: 確定要刪除這個聊天嗎？
           icon:
             label: '=> core.ref.icon'
             validator: '=> core.ref.icon_text'
+          leave: 退出聊天
+          return: 加入聊天
           title:
             label: 聊天名稱
             validator: 至少1個字元
@@ -21,9 +28,23 @@ xelson-chat:
         moderator:
           got: '你已成為「{chatname}」的管理員！'
           lost: '「{chatname}」已取消你的管理員身份。'
+        save_button: '=> core.ref.save_changes'
+        search:
+          failed: 找不到此用戶
+          invited: 已經邀請
+          placeholder: 搜索用戶
         title: 聊天設置
       kick: 抖一抖
       leave: 離開
+      list:
+        add_modal:
+          chat: 聊天
+          title: 選擇用戶
+        pin: 置頂
+        placeholder: 篩選會話
+        preview:
+          empty: 暫無消息
+        unpin: 取消置頂
       moder: 管理員
       rejoin: 重新加入
       welcome:

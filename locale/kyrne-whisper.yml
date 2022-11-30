@@ -12,7 +12,14 @@ kyrne-whisper:
       title: 'Whisper 設置'
   forum:
     chat:
+      cant_start: 無法開始會話
       chat_with: '{username}'
+      messages_multiple: '{count}條消息'
+      messages_single: 新建會話
+      read: 已讀
+      send: 發送
+      start: 開始會話
+      text_placeholder: 輸入你的訊息
     dropdown:
       tooltip: 消息
     modal:

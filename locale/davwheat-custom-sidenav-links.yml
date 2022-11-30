@@ -44,4 +44,13 @@ davwheat:
               move_down: 下移
               move_up: 上移
         new_link_modal:
+          labels:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url'
+          submit_btn:
+            add: 鍵結
+            fix_url: 連結無效
+            invalid_form: 填充到所有字段
+            loading: 新增連結
           title: 新增連結

@@ -32,3 +32,9 @@ maicol07-oidc-client:
       remove_signup_btn: 移除註冊按鈕
       sso_mode: 'SSO 模式'
       sync_avatars: 同步用戶頭像
+  forum:
+    buttons:
+      connect_account: '與{name}聯繫'
+      disconnect_account: '與{name}斷開連結'
+      login: '以{name}登入'
+      manage_account: 管理帳戶

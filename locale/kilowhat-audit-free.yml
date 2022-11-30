@@ -22,6 +22,14 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      client:
+        access_token: 'Access token'
+        api_key: 'API key'
+        cli: 命令行
+        session: 'Web Session'
+        unknown: 未知客戶端
+      controls:
+        hideRaw: 隱藏原始日誌
       deletedResource:
         discussion: '主題 #{id}'
         group: '用戶組 #{id}'
@@ -35,6 +43,7 @@ kilowhat-audit:
         comment: 回覆
         post: 帖子
       loadMore: 載入更多
+      noReason: (無原因)
       noValue: (無值)
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'

@@ -31,4 +31,5 @@ justoverclock-auto-post-badge-pro:
     toPost: 終點回帖數
   forum:
     hasWritten: 該用戶已寫
+    nextBadge: 晉級頭銜
     posts: 回帖數
