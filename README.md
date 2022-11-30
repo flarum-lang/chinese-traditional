@@ -415,6 +415,7 @@ php flarum cache:clear
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/zh_Hant/) |
 | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/ziiven-daily-check-in/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in/zh_Hant/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/zh_Hant/) |
+| [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/ziiven-view-history/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/zh_Hant/) |
 
 <!-- various-extensions-list-stop -->
 
