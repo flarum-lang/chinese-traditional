@@ -3,6 +3,29 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xelson-chat:
+  admin:
+    permissions:
+      create:
+        channel: 发起聊天频道
+        chat: 发起聊天
+      delete: 删除聊天消息
+      edit: 编辑聊天消息
+      enabled: 启用聊天
+      moderate:
+        delete: 删除聊天消息
+        vision: 查看删除的消息
+      post: 发送聊天消息
+    settings:
+      charlimit: 最大消息字符数
+      display:
+        censor: 审查为授权用户的消息
+        minimize: 最小化
+        title: 显示
+      floodgate:
+        number: 连续发送消息数
+        time: 冷静期
+        title: 防刷屏
+      title: 聊天设置
   forum:
     chat:
       edit_modal:
@@ -38,18 +61,77 @@ xelson-chat:
       leave: 離開
       list:
         add_modal:
+          alerts:
+            exists: 已存在與此用戶的私人會話！
+          channel: 頻道
           chat: 聊天
+          create:
+            channel: 創建頻道
+            chat: 發起聊天
+          form:
+            color:
+              label: '=> xelson-chat.forum.chat.edit_modal.form.color.label'
+              validator: '=> xelson-chat.forum.chat.edit_modal.form.color.validator'
+            icon:
+              label: '=> core.ref.icon'
+              validator: '=> core.ref.icon_text'
+            title:
+              channel: 頻道名稱
+              chat: 聊天名稱
+              validator: 至少1個字元
+            users: 已選擇用戶
+          search:
+            failed: 找不到此用戶
+            invited: 已經邀請
+            placeholder: 搜索用戶
           title: 選擇用戶
         pin: 置頂
         placeholder: 篩選會話
         preview:
           empty: 暫無消息
         unpin: 取消置頂
+      message:
+        actions:
+          hide: 隱藏
+          resend: 重試
+        censored: 登入以查看消息！
+        deleted: 已刪除
+        deleted_forever: 永久刪除
+        events:
+          channel:
+            created: '{creatorname} 创建频道 {chatname}'
+          chat:
+            created: '{creatorname} 创建 {chatname} 并邀请 {usernames}'
+          color:
+            edited: '{editorname} 将聊天颜色 {old} 修改为 {new}'
+          icon:
+            edited: '{editorname} 将聊天图标 {old} 修改为 {new}'
+          pm:
+            created: '{creatorname} 创建了与 {username} 的会话'
+          self:
+            entered: '{username} 进入聊天'
+            leaved: '{username} 离开了聊天'
+          title:
+            edited: '{editorname} 将聊天 {old} 重命名为 {new}'
+          users:
+            invited: '{editorname} 邀请 {usernames}'
+            invited_kicked: '{editorname} 邀请 {invitednames} 并移出 {kickednames}'
+            kicked: '{editorname} 移出 {usernames}'
+        type:
+          code: '<Code />'
+          event: 事件
+          url: URL
+        you: 你
       moder: 管理員
+      placeholder: 輸入消息...
       rejoin: 重新加入
       welcome:
         header: '歡迎來到 Neon 聊天室！'
         subheader: 選擇一個聊天以開始會話
+    errors:
+      chatdenied: 你的用户组无权限发送消息
+      removed: 你被移出聊天
+      unauthenticated: 此聊天仅限注册用户加入
     index:
       chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'
