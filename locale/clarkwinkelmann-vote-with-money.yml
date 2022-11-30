@@ -10,6 +10,8 @@ clarkwinkelmann-vote-with-money:
       preselection: 預選金額（逗號分隔，可選）
   forum:
     poll:
+      max: 最高保證金（可選）
+      min: 最低保證金（可選）
       voteWithMoney: 用錢投票
     vote:
       balance: '您的餘額：{amount}'

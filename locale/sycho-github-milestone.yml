@@ -12,7 +12,9 @@ sycho-github-milestone:
     repository: 'GitHub 儲存庫'
     repository_example: '示例: flarum/core'
   forum:
+    all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: '{progress} 已完成'
     last_updated: '最近更新{time}'
     open: '=> sycho-github-milestone.ref.open'
     title: 里程碑

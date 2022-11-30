@@ -3,6 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-money-to-all:
+  admin:
+    settings:
+      send: 向所有用戶匯款
+  forum:
+    notification:
+      moneyReceived: '您已收到 {amount}'
   lib:
     modal:
       amount: 數量

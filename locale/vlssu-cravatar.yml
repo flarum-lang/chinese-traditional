@@ -11,11 +11,14 @@ vlssu-flarum-cravatar:
         monsterid_label: monsterid：生成的具有不同顏色、面孔等的“怪物”
         mp_label: 'mp: (mystery-person) 一個簡單的，卡通風格的人物輪廓（不因電子郵件哈希而異）'
         retro_label: 'retro：復古，8-bit 街機像素風頭像'
+        robohash_label: robohash：生成的具有不同顏色、面孔等的機器人
         title: 預設
         wavatar_label: wavatar：生成具有不同特徵和背景的面孔
       proxy:
         helptext: '默認情況下，cravatar URL 直接從 cravatar.cn 獲取。這使得所有 cravatar 請求都可以直接由論壇本身提供服務。'
         title: 頭像代理
+      rating:
+        title: 最高評級
       replace-flarum-custom:
         helptext: '用 Gravatar 替換已上傳到論壇的自定義頭像'
         title: 上傳要替換的自定義頭像到論壇

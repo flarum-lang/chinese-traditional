@@ -9,6 +9,7 @@ nearata-embed-twitch:
     permissions:
       create_twitch: '嵌入 Twitch'
   forum:
+    button_tooltip_title: '嵌入 Twitch'
     modal:
       label:
         channel: 頻道名稱
@@ -18,5 +19,6 @@ nearata-embed-twitch:
         video: '視頻 ID'
       options:
         channel: 頻道
+        collection: Collection
         video: 視頻
       save_changes: 保存更改

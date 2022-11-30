@@ -20,3 +20,11 @@ fof-webhooks:
       upvoted: 頂帖
     user:
       enabled2fa: 啟用兩步驟認證
+  admin:
+    settings:
+      actions:
+        extiverse:
+          bazaar:
+            title: 'Extiverse 市場'
+      services:
+        custom: 自定義

@@ -10,6 +10,8 @@ nearata-dsts:
       can_bypass_reply: 無需回覆即可查看首貼
     settings:
       fof_upload:
+        require_like: 需要點讚
+        require_like_help: '需要 <strong>flarum/likes</strong> 擴展。'
         section_title: 'FoF Upload'
       hide_only_files: 只隱藏文件
       hide_only_files_help: '需要 <strong>fof/upload</strong> 擴展。'

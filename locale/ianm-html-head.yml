@@ -9,6 +9,8 @@ ianm-html-head:
       create_title: 創建項目
       description_label: 描述
       edit_title: 編輯元素
+      header_label: 自定義頭部元素
+      save_button: 保存
       text: '確保您的語法正確，因為在標題項上提供不正確的數據可能會破壞論壇。 保存後，使用提供的切換開關啟用新的標題項。'
     table:
       active_label: 啟用

@@ -17,3 +17,5 @@ the-turk-miserable-users:
       range_separator_text: ' 到 '
       redirection_chance_label: 重定向機會
       redirection_chance_text: '百分比概率在制裁用戶訪問論壇頁面時，將其重定向至指定的頁面 URL。'
+      redirection_page_url_label: '重定向頁面 URL'
+      redirection_page_url_text: 你可以把制裁的用戶重定向到不是他想要訪問的頁面，留空則默認跳轉到論壇首頁。

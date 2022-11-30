@@ -12,6 +12,9 @@ clarkwinkelmann-featured-discussions:
       schedule: '計劃任務（CRON 語法）'
   forum:
     modal:
+      action:
+        cancel: 取消
+        submit: 提交
       fields:
         from: 從
         until: 到
@@ -22,3 +25,4 @@ clarkwinkelmann-featured-discussions:
       title: 精選主題
       until:
         auto: 自動
+        manual: 自定義日期

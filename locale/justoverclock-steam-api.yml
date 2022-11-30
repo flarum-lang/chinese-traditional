@@ -8,10 +8,12 @@ justoverclock-steam-api:
     steamApiKey-help: '在 https://steamcommunity.com/dev/apikey 上獲取免費的 api 密鑰'
   forum:
     LatestGamesPlayed: 最近玩的Games
+    lastLogin: '最後登入： '
     statusAway: 離開
     statusBusy: 忙錄
     statusOffline: 下線
     statusOnline: 正在線上
+    statusPlay: 尋求參加
     statusSnooze: Snooze
     statusTrade: 尋求交易
     steamId: 'Steam Profile ID'

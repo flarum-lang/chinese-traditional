@@ -5,7 +5,10 @@
 clarkwinkelmann-mass-actions:
   forum:
     actions:
+      delete: 永久刪除
+      deleteConfirmation: '{count, plural, one {確定要永久刪除所選的主題嗎？} other {確定要永久刪除所選的 # 個主題嗎？}}'
       hide: 刪除所選
+      lock: 鎖定所選
       markAsRead: 標示為已讀
       restore: 恢復已選
     select:

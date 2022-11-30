@@ -18,4 +18,6 @@ clarkwinkelmann-post-stream-search:
       unmatchedGap: '{count, plural, one {One non-matching post hidden} other {{count} non-matching posts hidden}}'
     toolbar:
       authorPlaceholder: 篩選作者…
+      pin: 始終在討論中打開篩選器工具欄
       searchPlaceholder: 在討論中查找...
+      summary: '{matching} of {total} 匹配'

@@ -7,6 +7,7 @@ kilowhat-custom-paths:
     settings:
       extensions:
         askvortsov-categories: 'Askvortsov 傳統板塊'
+        flamarkt-core: 'Flamarkt Core'
         flarum-flags: 'Flarum 小黑屋'
         flarum-subscriptions: 'Flarum 我的關注'
         flarum-tags: 'Flarum 標籤'
@@ -15,6 +16,7 @@ kilowhat-custom-paths:
         fof-pages: 'FoF 靜態頁面'
         fof-user-directory: 'FriendsOfFlarum''s 會員名冊'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
+        v17development-blog: 'v17development''s Flarum Blog'
       head:
         name: 頁面名稱
         path: 路徑

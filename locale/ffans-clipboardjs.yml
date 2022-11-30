@@ -18,3 +18,5 @@ ffans-clipboardjs:
       themes_label: 複制按鈕風格
   forum:
     action_copy: 複制
+    action_cut: 剪下
+    ok_btn: 已復制

@@ -8,11 +8,16 @@ blomstra-payments:
       accept_label: 我已閱讀並接受<link>付款條款</link>。
       continue_button: 繼續付款
       title: 接受條款
+    pay-to-view:
+      purchase-control: 付費觀看
+    post_stream:
+      bounty_added_text: '{username} 添加了 {amount} 的賞金。'
     stripe:
       interval_once: 一次
     subscription-card:
       bounty: 賞金
       cancel-control: 取消
+      none: 無付款或有效訂閱
       pta: 付費訪問
       ptb: 快捷支付
       ptp: 付費發佈

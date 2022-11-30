@@ -6,6 +6,8 @@ therealsujitk-gifs:
   admin:
     apiKey: 'API Key'
     engine: 搜尋引擎
+    rating: 內容等級與過濾
+    ratingOff: 'R / Off'
   forum:
     addFavourite: 加入我的最愛
     favourites: 我的最愛

@@ -10,6 +10,8 @@ the-turk-flamoji:
       category_settings_heading: 分類設置
       emoji_settings_heading: 表情設置
       general_ui_settings_heading: 一般界面設置
+      recents_count_label: 最近表情數量
+      recents_count_text: 要顯示的最近使用的表情數量。
       show_category_buttons_label: 顯示分類
       show_preview_label: 顯示預覽窗口
       show_recents_label: 顯示最近使用的表情

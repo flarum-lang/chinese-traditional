@@ -15,3 +15,6 @@ justoverclock-frontend-blog:
     showPinnedDiscussions: '顯示最後 3 個固定的討論'
     sorting: '最新或熱門討論？ （默認是最新的）'
     sorting-help: 如果你想顯示最新的討論請註記“-createdAt”，至於熱門的討論則請註記“-commentCount”
+  forum:
+    recentDiscussions: 最近的討論：
+    titlePage: 論譠主題

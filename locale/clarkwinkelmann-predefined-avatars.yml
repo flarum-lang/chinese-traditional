@@ -4,6 +4,9 @@
 
 clarkwinkelmann-predefined-avatars:
   admin:
+    permissions:
+      setCustomAvatarAlways: 隨時設置自定義頭像
+      setPredefinedAvatar: 從預定義列表中選擇頭像
     settings:
       defaultOptions:
         first: 列表中的第一個頭像

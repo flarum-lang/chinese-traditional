@@ -2,6 +2,10 @@
 # Use https://weblate.rob006.net/projects/flarum/convo-extensions-guest-posting/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  lib:
+    username:
+      deleted_text: 訪客
 guest-posting:
   admin:
     settings:

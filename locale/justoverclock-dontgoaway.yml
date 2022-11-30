@@ -4,7 +4,9 @@
 
 flarum-ext-dontgoaway:
   admin:
+    altdesc: 為圖片設置「alt」屬性說明文本
     altext: '圖片 Alt 屬性'
+    btn: 自定義按鈕。占位符中的語法示例
     heightdesc: '設置圖片的高度（如 450）'
     heightext: 圖片高度
     modtext: 對話框本文

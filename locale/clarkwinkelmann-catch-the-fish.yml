@@ -4,6 +4,10 @@
 
 clarkwinkelmann-catch-the-fish:
   forum:
+    caught-fish-modal:
+      named-by: 命名人：
+      placed-by: 放置人：
+      title: 你抓到了一條魚！
     edit-fish-modal:
       title: '編輯魚「{name}」'
     edit-round-modal:

@@ -16,8 +16,13 @@ clarkwinkelmann-collapsible-posts:
         label: 標題
       reasons: 原因
   forum:
+    badge:
+      post: 已折疊
     modal:
       title: 折疊帖子
+      uncollapse: 取消折疊
     postControl:
       collapse: 折疊
       uncollapse: 取消折疊
+    stream:
+      hidden: '{count, plural, one {# 因 {reason} 已被折疊} other {# 因 {reason} 已被折疊}}'

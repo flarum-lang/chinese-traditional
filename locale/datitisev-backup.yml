@@ -16,3 +16,5 @@ datitisev-backup:
       local: 本地儲存
       rackspace: Rackspace
       sftp: SFTP
+      webdav: Webdav
+      zip: 'Zip Archive'

@@ -7,6 +7,8 @@ ziven-checkin:
     settings:
       auto-check-in: 自動簽到
       auto-check-in-delay: 自動簽到延遲（百萬秒）
+      check-in-success-prompt-example-text: '示例：您已簽到 [days] 天'
+      check-in-success-prompt-reward-text: 提示獎勵文本
       check-in-success-prompt-text: 提示本文
       check-in-success-prompt-type: 簽到成功提示類型
       reward-money: 簽到獎勵

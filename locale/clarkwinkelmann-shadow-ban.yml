@@ -12,6 +12,8 @@ clarkwinkelmann-shadow-ban:
   forum:
     banUser:
       quick: 快速選擇
+      quickChoiceDays: '{count, plural, one {#} other {#}} 天'
+      quickChoiceReset: 未封禁
       title: '封禁{username}'
       until: '截止日期（UTC 時間）'
     discussionControl:

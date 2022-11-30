@@ -16,5 +16,8 @@ the-turk-regrole:
     choose_role_modal:
       choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
       choose_role_text: 要繼續使用論壇，請選擇一個角色。
+      save_button: '=> core.ref.save_changes'
     required_role_message: 您必須選擇一個角色。
+    sign_up_modal:
+      choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
     suspended_temporarily_message: 我們暫時封禁了您的賬號，請選擇一個角色以解禁。

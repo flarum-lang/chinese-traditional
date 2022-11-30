@@ -19,3 +19,7 @@ clarkwinkelmann-discussion-lists:
       name: 名稱
       title: 編輯列表
       visibility: 可見
+      visibilityOptions:
+        private: 私人列表
+        public: 公開列表
+        series: 公開系列

@@ -18,4 +18,7 @@ blomstra-web3:
       signature-invalid: 簽名無效。
       title: '連結 Wallet'
     evm-connect-wallet-modal:
+      bind: '=> blomstra-web3.ref.bind'
+      disconnect: '=> blomstra-web3.ref.disconnect'
+      disconnect-and-unbind: 斷開並解除綁定
       title: 'EVM 錢包'

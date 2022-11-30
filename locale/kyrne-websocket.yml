@@ -7,6 +7,8 @@ kyrne-websocket:
     chart:
       title: 'Websocket 統計'
     pusher_settings:
+      app_host_label: 主機
+      app_id_label: 'App ID'
       app_port_label: 端口
       cert_self_signed: 自簽證書支持
       local_cert_path: '本地 SSL 證書路徑'

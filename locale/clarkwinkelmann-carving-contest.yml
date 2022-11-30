@@ -15,5 +15,9 @@ clarkwinkelmann-carving-contest:
       loading: 作品載入中…
       participate: 參加
       refresh: 重新載入
+      sort:
+        fewerLikes: 熱度最少
+        mostLikes: 最受歡迎
+        mostRecent: 最新作品
       title: 南瓜雕刻比賽
       unlike: 踩

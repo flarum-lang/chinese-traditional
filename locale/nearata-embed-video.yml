@@ -19,3 +19,5 @@ nearata-embed-video:
         can_view_video_player: 允許使用視頻播放器
       video_types:
         dash: Dash
+        flv: Flv
+        hls: Hls

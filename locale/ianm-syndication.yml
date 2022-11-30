@@ -16,5 +16,7 @@ ianm-syndication:
         main_d_title: '{forum_name} 的新貼文'
         main_subtitle: 論壇最新回文
         main_title: '{forum_name}'
+        tag_d_subtitle: '{tag} 中的最新討論'
+        tag_d_title: '{tag} 標籤中的新討論'
         tag_subtitle: '{tag} 標籤新回帖'
         tag_title: '{tag} 標籤活動'

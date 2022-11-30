@@ -24,4 +24,6 @@ davwheat:
           heading: 自定義連結
           table:
             header:
+              icon: 連結圖示
               position: 位置
+              text: 連結文字

@@ -19,3 +19,7 @@ kilowhat-audit:
       viewLimited: 查看有限審計日誌
     settings:
       limitedIpAddress: '查看 IP 地址'
+  forum:
+    link:
+      all-audit: 審計日誌
+      discussion-audit: 審計日誌

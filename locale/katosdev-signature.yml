@@ -4,6 +4,10 @@
 
 signature:
   admin:
+    settings:
+      maximum_image_width:
+        description: 圖片最大寬度。
+        placeholder: '350 (默認)'
     title: 簽名
   forum:
     buttons:

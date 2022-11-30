@@ -17,3 +17,6 @@ datlechin-more-discussions:
         newest: 最新
         oldest: 最舊的
         top: 最熱貼文
+        votes: '踩文（需要 fof/gamification）'
+  forum:
+    block_default_name: 最新討論

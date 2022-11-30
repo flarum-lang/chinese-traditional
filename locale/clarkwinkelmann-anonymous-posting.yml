@@ -4,6 +4,10 @@
 
 clarkwinkelmann-anonymous-posting:
   admin:
+    permissions:
+      moderate: 匿名或取消匿名任一內容
+      reveal: 查看匿名內容發布者
+      use: 匿名發布
     settings:
       avatarAdd: 添加頭像規則
       avatarAvatarUrl: '頭像 URL'

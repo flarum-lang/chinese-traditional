@@ -13,5 +13,7 @@ justoverclock-feedback:
     feedback2-icon-help: '輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐'
     feedback2-title: '反饋類型 2'
     feedback2-title-help: 自定義反饋類型2名稱
+    feedback3-icon: '反饋圖標 類型 3'
+    feedback3-icon-help: '輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐'
     feedback3-title: '反饋類型 3'
     feedback3-title-help: 自定義反饋類型3名稱

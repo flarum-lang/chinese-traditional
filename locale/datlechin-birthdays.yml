@@ -17,5 +17,8 @@ datlechin-birthdays:
       required_label: 強制注冊時設置生日
       set_on_registration_label: 允許註冊時設置生日
   forum:
+    header:
+      edit_dob_button: 編輯生日
     user:
+      age_text: '年齡：{age}'
       birthday_text: '生日：{date}'

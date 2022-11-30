@@ -12,8 +12,10 @@ davwheat-virtual-authors:
       authors_in_sidebar_help: '這對 Blog 擴展沒有影響。'
       auto_save_message: 創建新的或編輯現有的虛擬作者時會自動保存。
       create_new: 創建新的虛擬作者
+      discussion_badge: 在與虛擬作者的討論中顯示徽章
       errored: 無法從服務器加載虛擬作者。
       link_to_va_from_discussion: 在“作者”框中顯示虛擬作者的所有討論連結
+      prev: 上一頁
       search_placeholder: 搜索用戶名
       virtual_authors_page_disabled: 禁用所有用戶的虛擬作者列表。
       virtual_authors_page_disabled_help: 這會覆蓋為此功能設置的任何權限。

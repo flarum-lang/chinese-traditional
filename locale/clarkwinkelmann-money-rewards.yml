@@ -16,6 +16,9 @@ clarkwinkelmann-money-rewards:
       preselection: '預選金額（英文逗號分隔,可選）'
   forum:
     modal:
+      balance: '您的餘額：{amount}'
+      label:
+        custom: 自定義金額
       optionCustom: 自定義
       target: '由{username}打賞了{number}帖子'
       title: 打賞該帖

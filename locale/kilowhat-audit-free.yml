@@ -20,3 +20,7 @@ kilowhat-audit:
       actor-title: 行為人審計日誌
       discussion-title: 討論審計日誌
       user-title: 用戶審計日志
+  lib:
+    browser:
+      filterApply: 套用
+      filterPlaceholder: 篩選日志

@@ -5,8 +5,10 @@
 xelson-chat:
   forum:
     chat:
+      moder: 管理員
       welcome:
         header: '歡迎來到 Neon 聊天室！'
+        subheader: 選擇一個聊天以開始會話
     index:
       chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'

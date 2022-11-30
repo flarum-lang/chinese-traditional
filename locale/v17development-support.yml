@@ -4,10 +4,13 @@
 
 v17development-flarum-support:
   forum:
+    admin_overview: 開啟管理員評分
     ask_a_question_on_forums: 在論壇上提問
     ask_your_question_on_forum: 在論壇上提問
     create: 發佈
     discard: 放棄
+    hero:
+      help_question: 我們能在哪方面幫助您？
     knowledge_base: 知識庫
     or: 或
     reopen: 重新打開

@@ -9,8 +9,10 @@ michaelbelgium-mybb-to-flarum:
       description_text: '將 MyBB 論壇遷移到這個 Flarum 實例中。填寫所需數據，然後點擊“遷移”。'
       form:
         mybb:
+          db_label: 數據庫名
           host_label: 數據庫主機
           password_label: 數據庫密碼
+          prefix_label: 表前綴
           title: 'MyBB 設置'
           user_label: 數據庫用戶
         options:
