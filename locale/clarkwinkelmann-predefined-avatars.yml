@@ -20,3 +20,9 @@ clarkwinkelmann-predefined-avatars:
       predefinedAvatarsNoRemoveHelp: 已設置頭像的用戶將不能回到默認的「字母」樣頭像，擁有以下權限的用戶除外。
       predefinedAvatarsOnly: 僅允許挑選給定頭像
       predefinedAvatarsOnlyHelp: 禁止上傳自定義頭像，擁有以下權限的用戶除外。
+  forum:
+    editor:
+      setPredefinedAvatar: 選擇頭像
+    modal:
+      imageAlt: 頭像
+      title: 選擇頭像

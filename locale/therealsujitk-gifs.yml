@@ -7,6 +7,8 @@ therealsujitk-gifs:
     apiKey: 'API Key'
     engine: 搜尋引擎
     rating: 內容等級與過濾
+    ratingLow: 'PG-13 / Low'
+    ratingMedium: 'PG / 中等'
     ratingOff: 'R / Off'
   forum:
     addFavourite: 加入我的最愛

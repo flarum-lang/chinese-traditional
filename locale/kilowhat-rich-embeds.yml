@@ -5,6 +5,8 @@
 kilowhat-rich-embeds:
   admin:
     settings:
+      cacheProxy: 緩存代理圖片
+      cacheProxyHelp: 客戶端將緩存圖片到本地
       imageProxy: 'OpenGraph Image Proxy'
       imageProxyHelp: '所有 OpenGraph 和網站圖標圖像都將通過 Flarum 代理，而不是由訪問者瀏覽器檢索'
       layout: 佈局
@@ -21,3 +23,4 @@ kilowhat-rich-embeds:
       styleOptions:
         horizontal: 水平
         vertical: 垂直
+      withoutOpengraph: 為無OpenGraph數據的頁面生成富文本容器

@@ -8,7 +8,9 @@ nearata-tags-color-generator:
     color_hue_options:
       blue: 藍色
       green: 綠色
+      monochrome: 黑白
       orange: 橙色
+      pink: 粉色
       purple: 紫色
       random: 隨機
       red: 紅色

@@ -21,3 +21,5 @@ sycho-private-facade:
       use_welcome_hero_text: 使用歡迎橫幅文本
   forum:
     log_in_label: '=> core.ref.log_in'
+    or_label: 或
+    sign_up_label: '=> core.ref.sign_up'

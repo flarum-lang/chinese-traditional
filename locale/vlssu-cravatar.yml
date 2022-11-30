@@ -18,6 +18,8 @@ vlssu-flarum-cravatar:
         helptext: '默認情況下，cravatar URL 直接從 cravatar.cn 獲取。這使得所有 cravatar 請求都可以直接由論壇本身提供服務。'
         title: 頭像代理
       rating:
+        g_label: 'G — 適合全年齡段人群查看'
+        helptext: 'Cravatar 允許用戶對他們的圖像進行自我評級，以便他們可以表明圖像是否適合特定受眾。默認情況下，僅顯示“G”級圖像，除非您表示希望看到更高的評級。您可以指定以下評級之一以請求達到並包括該評級的圖像。'
         title: 最高評級
       replace-flarum-custom:
         helptext: '用 Gravatar 替換已上傳到論壇的自定義頭像'

@@ -5,10 +5,14 @@
 flamarkt-taxonomies:
   admin:
     edit-taxonomy:
+      field:
+        type: 類別
+        typeDescription: "分類信息可以被用在論壇的多個方面。創建分類信息後，類別無法改變。你可以創建同名分類名和英語短語應用到不同的類別。\n"
       section:
         browsing: 瀏覽
         filling: 填入
         info: 資訊
+        scope: Scope
       title:
         edit: 編輯分類
         new: 創建分類

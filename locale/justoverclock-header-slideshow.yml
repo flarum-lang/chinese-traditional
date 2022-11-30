@@ -12,8 +12,11 @@ header-slideshow:
     LinkOne-help: '為第一個幻燈片按鈕輸入一個有效的 url'
     TextSlide1: '幻燈片 1 的文本'
     TextSlide1-help: 在此處設置第一張幻燈片的文本
+    TextSlide2: '幻燈片 2 的文本'
+    TextSlide2-help: 在這裡設置你的第二張幻燈片的本文
     TitleSlide1: '幻燈片 1 的標題'
     TitleSlide1-help: 在這裡設置你的第一張幻燈片的標題
     TitleSlide2: '幻燈片 2 的標題'
+    TitleSlide2-help: 在這裡設置你的第二張幻燈片的標題
     TransitionTime: '輪播間隔時間（默認 5 秒）'
     TransitionTime-help: 動畫過場時間（秒）

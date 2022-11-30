@@ -22,5 +22,8 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      empty: 未找到任何內容
       filterApply: 套用
       filterPlaceholder: 篩選日志
+      loadMore: 載入更多
+      withoutActor: '=> core.group.guest'

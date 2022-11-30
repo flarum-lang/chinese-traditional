@@ -16,6 +16,8 @@ tituspijean-auth-ldap:
       port: 端口
       search_user_fields: 'LDAP 用戶搜索字段（以逗號分隔）'
       title: 'LDAP 設置'
+      user_mail: 'LDAP 用戶郵件字段'
+      user_username: 'LDAP 用戶名字段'
   forum:
     log_in_with: '以 {server} 登錄'
     log_out: '=> core.ref.log_out'

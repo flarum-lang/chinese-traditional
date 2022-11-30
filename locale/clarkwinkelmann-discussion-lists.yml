@@ -17,6 +17,9 @@ clarkwinkelmann-discussion-lists:
   forum:
     edit:
       name: 名稱
+      ordering: 排序
+      orderingOptions:
+        manual: 手動
       title: 編輯列表
       visibility: 可見
       visibilityOptions:

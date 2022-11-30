@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nomiscz-auth-steam:
+  admin:
+    settings:
+      title: 'Steam 登錄設置'
   forum:
     alerts:
       already_linked: 'Steam 帳戶已關聯！'
@@ -19,6 +22,7 @@ nomiscz-auth-steam:
         title: 綁定Steam賬號
       unlink:
         buttons:
+          cancel: 取消！
           confirm: 是，解除綁定
         info:
           confirm: '確定要解除關聯 Steam 帳號？'

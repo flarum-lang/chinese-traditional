@@ -9,7 +9,9 @@ blomstra-payments:
       continue_button: 繼續付款
       title: 接受條款
     pay-to-view:
+      purchase-completed: 解鎖
       purchase-control: 付費觀看
+      purchase-log-in: 登錄並付費瀏覽
     post_stream:
       bounty_added_text: '{username} 添加了 {amount} 的賞金。'
     stripe:

@@ -25,4 +25,6 @@ clarkwinkelmann-collapsible-posts:
       collapse: 折疊
       uncollapse: 取消折疊
     stream:
+      explanation: 為什麼我會看到這個？
       hidden: '{count, plural, one {# 因 {reason} 已被折疊} other {# 因 {reason} 已被折疊}}'
+      load: 載入更多

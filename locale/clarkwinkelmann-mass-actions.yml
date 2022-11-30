@@ -11,6 +11,8 @@ clarkwinkelmann-mass-actions:
       lock: 鎖定所選
       markAsRead: 標示為已讀
       restore: 恢復已選
+      sticky: 置頂
+      unlock: 解鎖所選
     select:
       all: 全選
       hidden: 軟刪除

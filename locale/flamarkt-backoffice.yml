@@ -23,3 +23,7 @@ flamarkt-backoffice:
       new: 創建用戶
       searchPlaceholder: 搜索用戶…
       title: 用戶
+  lib:
+    header:
+      admin_button: '=> core.forum.header.admin_button'
+      backoffice_button: 後台

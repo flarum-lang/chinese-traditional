@@ -15,6 +15,8 @@ kyrne-whisper:
       tooltip: 消息
     setup:
       button_import: 導入
+      button_setup: 初始化
+      confirm_password: 確認密碼
       header_import: 輸入您的賬戶登錄密碼以導入私信。
       header_set_own: 設置獨立密碼以初始化私信。
       header_set_own_import: 輸入獨立密碼以導入私信。

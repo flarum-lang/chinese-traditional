@@ -11,8 +11,11 @@ justoverclock-igdb-api:
     availableOn: 可用
     gamesPage: 新遊戲和即將推出的遊戲
     genres: Genres
+    genresPage: Genres
     metacriticScore: 'MetaCritic Score'
+    noConnection: '哎呀！ 據庫當前沒有響應。請稍後再回來看看。'
     offwebsite: 官網
+    pageTitle: 新遊戲和即將推出的遊戲
     pagetitle: 新遊戲和即將推出的遊戲
     publisher: 出版商
     relDate: 發布日期

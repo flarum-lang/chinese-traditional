@@ -4,6 +4,8 @@
 
 flarum-ext-toastme:
   admin:
+    background: 背景色(HEX)
+    backgrounddesc: '以十六進制格式輸入你的背景顏色 - 例如“#ffcc00”'
     dest: 目標連結
     destdesc: '單擊 toast 時瀏覽器前往的 URL'
     duration: 'Toast 彈窗提示的持續時長，-1 為持久提示'
@@ -16,4 +18,5 @@ flarum-ext-toastme:
     offsetxx: 'X 軸偏移 - 橫軸外邊距 (px)（默認為空）'
     offsetydesc: '縱軸外邊距 - 像素數。例如 20 （像素）'
     offsetyy: 'Y 軸偏移 - 縱軸外邊距 (px)（默認為空）'
+    posdesc: '你想讓 Toast 彈窗出現在哪？左邊，右邊，還是中間？'
     position: '位置 - 可以為「left」「right」或「center」'

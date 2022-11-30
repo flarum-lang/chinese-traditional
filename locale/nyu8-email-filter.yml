@@ -5,7 +5,9 @@
 nyu8-email-filter:
   admin:
     blacklist_literal:
+      description: 請填寫完整的郵箱地址
       label: 黑名單
+      placeholder: 輸入郵箱地址…
     custom_failure_message_hint: 自定義郵箱地址不可用時的提示信息，留空使用默認信息。
     custom_failure_message_label: 自定義提示信息
     general: 常規

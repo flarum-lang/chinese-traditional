@@ -20,3 +20,7 @@ clarkwinkelmann-anonymous-posting:
       composerHelpTextPositionHidden: 不提示
       composerHelpTextPositionTooltip: 圖標
       composerHelpTextPositionVisible: 可見（標籤下方）
+  forum:
+    composerControls:
+      anonymize: 匿名發布
+      anonymizeHelp: 管理員仍能知道發布者

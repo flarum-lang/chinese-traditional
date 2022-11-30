@@ -10,10 +10,14 @@ clarkwinkelmann-shadow-ban:
     setting:
       hideUsers: '隱藏影匿用戶 (Shadow ban) 的資料'
   forum:
+    badge:
+      discussion: 影藏中
+      user: 影匿中
     banUser:
       quick: 快速選擇
       quickChoiceDays: '{count, plural, one {#} other {#}} 天'
       quickChoiceReset: 未封禁
+      submit: 保存
       title: '封禁{username}'
       until: '截止日期（UTC 時間）'
     discussionControl:

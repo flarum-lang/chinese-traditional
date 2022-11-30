@@ -21,5 +21,9 @@ kilowhat-audit:
       limitedIpAddress: '查看 IP 地址'
   forum:
     link:
+      actor-audit: 審計日志（用戶作為行為人）
       all-audit: 審計日誌
       discussion-audit: 審計日誌
+      user-audit: 審計日誌（賬戶編輯）
+    modal:
+      all-title: 審計日誌

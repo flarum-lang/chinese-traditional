@@ -5,15 +5,18 @@
 flarum-ext-infocards:
   forum:
     forumstats: 論壇統計
+    friday: 星期五
     geninfo: 其它信息
     groups: 您的用戶組
     monday: 星期一
     opthread: 瀏覽主題
     sunday: 星期日
+    thursday: 星期四
     times: 次
     totalpost: 總計發帖
     totdisc: 總計發佈主題
     tuesday: 星期二
     viscounter: 訪問量
     wasviewed: 已瀏覽此頁
+    wednesday: 星期三
     welcome_back: 歡迎回來！

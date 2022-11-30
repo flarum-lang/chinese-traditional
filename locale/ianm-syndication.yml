@@ -10,8 +10,12 @@ ianm-syndication:
       forum_new_discussions: 論壇的新討論
       tag_activity: '{tag} 標簽活動'
       tag_new_discussions: '在{tag} 標籤中進行討論'
+    discussion:
+      feed_link: 'Feed 訂閱連結'
     feeds:
       titles:
+        discussion_subtitle: 這篇帖子的最新回覆
+        discussion_title: '{discussion_name}'
         main_d_subtitle: 論壇新帖
         main_d_title: '{forum_name} 的新貼文'
         main_subtitle: 論壇最新回文

@@ -24,6 +24,9 @@ davwheat:
           heading: 自定義連結
           table:
             header:
+              delete: 移除
               icon: 連結圖示
+              internal: '是 Flarum 網址嗎？'
               position: 位置
               text: 連結文字
+              url: '連結 URL'

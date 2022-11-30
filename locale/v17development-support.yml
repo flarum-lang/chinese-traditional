@@ -10,9 +10,12 @@ v17development-flarum-support:
     create: 發佈
     discard: 放棄
     hero:
+      check_forum: 如果這里沒有您想要的內容，<a>到論壇找找？</a>
       help_question: 我們能在哪方面幫助您？
     knowledge_base: 知識庫
     or: 或
+    overview:
+      knowledge_base_overview: 知識庫概覽
     reopen: 重新打開
     return_to_home: 返回知識庫首頁
     send: 發送

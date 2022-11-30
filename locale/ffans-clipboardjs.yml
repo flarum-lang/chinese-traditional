@@ -19,4 +19,7 @@ ffans-clipboardjs:
   forum:
     action_copy: 複制
     action_cut: 剪下
+    error_btn: 錯誤
+    msg: '按 {actionKey} {action}'
+    no_support: 不支持
     ok_btn: 已復制

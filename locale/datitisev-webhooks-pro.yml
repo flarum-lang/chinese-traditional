@@ -25,6 +25,11 @@ fof-webhooks:
       actions:
         extiverse:
           bazaar:
+            extensionwasinstalled: 擴展安裝
+            extensionwasupdated: 擴展更新
             title: 'Extiverse 市場'
+        fof:
+          banips:
+            title: 'FriendsOfFlarum 拉黑 IP'
       services:
         custom: 自定義

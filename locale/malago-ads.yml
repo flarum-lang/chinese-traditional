@@ -21,5 +21,8 @@ flagrow-ads:
       adsense-enable: 'AdSense 已啟用'
       adsense-title: 'AdSense 設置'
       between-n-posts: 【信息流廣告位】指定每隔幾樓顯示一次廣告
+      header-only-frontpage: 僅在電腦端顯示導航欄下方廣告
       position-title: 廣告位置
       start-from-post: '【信息流廣告位】指定從幾樓開始顯示廣告（0 表示從一樓開始顯示廣告）'
+    tab:
+      title: 廣告

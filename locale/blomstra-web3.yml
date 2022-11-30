@@ -21,4 +21,7 @@ blomstra-web3:
       bind: '=> blomstra-web3.ref.bind'
       disconnect: '=> blomstra-web3.ref.disconnect'
       disconnect-and-unbind: 斷開並解除綁定
+      select: '=> blomstra-web3.ref.select'
       title: 'EVM 錢包'
+    polkadot-connect-wallet-modal:
+      attach_address: '=> blomstra-web3.ref.bind'

@@ -10,6 +10,9 @@ flarum-ext-guestengagement:
     autohidedesc: '單位毫秒，例如用「5000」表示 5 秒，默認 0，即不顯示提示'
     changetextbox: 修改提示本文
     changetextboxdesc: 設置位於帖子間的提示文本
+    enablealbox: 啟用首頁提示
+    maintitle: 修改提示標題
+    maintitledesc: 設置位於帖子間的提示標題
   forum:
     hello: 你好！您似乎對這個論壇感興趣，但您還沒有註冊帳戶。
     hellops: 你好！你似乎對這篇文章感興趣！

@@ -8,7 +8,10 @@ justoverclock-steam-api:
     steamApiKey-help: '在 https://steamcommunity.com/dev/apikey 上獲取免費的 api 密鑰'
   forum:
     LatestGamesPlayed: 最近玩的Games
+    country: '國籍 '
+    gamesOwned: '遊戲擁有者： '
     lastLogin: '最後登入： '
+    status: '狀態 '
     statusAway: 離開
     statusBusy: 忙錄
     statusOffline: 下線

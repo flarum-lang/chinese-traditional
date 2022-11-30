@@ -8,6 +8,11 @@ clarkwinkelmann-vote-with-money:
       max: 最大值
       min: 最小值
       preselection: 預選金額（逗號分隔，可選）
+  api:
+    error:
+      cannotCancel: 無法取消投票。
+      cannotChange: 無法取消投票。
+      notEnoughFunds: 資金不足。
   forum:
     poll:
       max: 最高保證金（可選）

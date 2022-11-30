@@ -12,6 +12,7 @@ nearata-dsts:
       fof_upload:
         require_like: 需要點讚
         require_like_help: '需要 <strong>flarum/likes</strong> 擴展。'
+        require_reply: 需要回覆
         section_title: 'FoF Upload'
       hide_only_files: 只隱藏文件
       hide_only_files_help: '需要 <strong>fof/upload</strong> 擴展。'
@@ -20,3 +21,5 @@ nearata-dsts:
       require_like: 需要點讚
       require_like_help: '需要 <strong>flarum/likes</strong> 擴展。'
       require_reply: 需要回覆
+  forum:
+    like: 點讚以解鎖內容。

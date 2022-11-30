@@ -18,7 +18,10 @@ clarkwinkelmann-money-rewards:
     modal:
       balance: '您的餘額：{amount}'
       label:
+        comment: 評論(公開)
+        create: 不消耗餘額來進行打賞
         custom: 自定義金額
       optionCustom: 自定義
+      submit: 提交
       target: '由{username}打賞了{number}帖子'
       title: 打賞該帖

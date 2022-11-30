@@ -16,5 +16,7 @@ sycho-github-milestone:
     closed: '=> sycho-github-milestone.ref.closed'
     complete: '{progress} 已完成'
     last_updated: '最近更新{time}'
+    load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'
+    tasks_done: '{number} / {total}'
     title: 里程碑

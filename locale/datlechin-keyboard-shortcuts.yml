@@ -13,10 +13,13 @@ datlechin-keyboard-shortcuts:
     discussion_page_heading: 貼文頁面
     global_heading: 全局
     shortcuts:
+      back: 返回
       close: 關閉
       flags: 旗幟
       help: 幫助
+      login: 登錄
       new_discussion: 新討論
       notifications: 通知
       search: 搜索
       session: 用戶下拉
+      signup: 註冊

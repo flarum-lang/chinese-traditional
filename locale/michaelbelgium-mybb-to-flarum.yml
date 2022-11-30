@@ -8,10 +8,13 @@ michaelbelgium-mybb-to-flarum:
       convert_button: 遷移
       description_text: '將 MyBB 論壇遷移到這個 Flarum 實例中。填寫所需數據，然後點擊“遷移”。'
       form:
+        general:
+          title: 一般選項
         mybb:
           db_label: 數據庫名
           host_label: 數據庫主機
           password_label: 數據庫密碼
+          path_label: 'MyBB 絕對路徑'
           prefix_label: 表前綴
           title: 'MyBB 設置'
           user_label: 數據庫用戶

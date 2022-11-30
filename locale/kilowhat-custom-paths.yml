@@ -7,7 +7,10 @@ kilowhat-custom-paths:
     settings:
       extensions:
         askvortsov-categories: 'Askvortsov 傳統板塊'
+        flamarkt-balance: 'Flamarkt 餘額'
+        flamarkt-categories: 'Flamarkt 分類目錄'
         flamarkt-core: 'Flamarkt Core'
+        flamarkt-identity: 'Flamarkt 身份認證'
         flarum-flags: 'Flarum 小黑屋'
         flarum-subscriptions: 'Flarum 我的關注'
         flarum-tags: 'Flarum 標籤'

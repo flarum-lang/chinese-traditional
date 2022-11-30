@@ -5,6 +5,8 @@
 clarkwinkelmann-catch-the-fish:
   forum:
     caught-fish-modal:
+      congratulation: '恭喜，你抓到魚了！你一共捕獲了 {catch_count} 條魚。'
+      name: 魚的名字
       named-by: 命名人：
       placed-by: 放置人：
       title: 你抓到了一條魚！

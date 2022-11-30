@@ -23,3 +23,5 @@ blomstra-trello:
         add: 添加
         remove: 移除
       default_board_help: 選定的默認板塊將是論壇中發送至Trello模式中預選的板塊。
+      default_board_label: 默認板塊
+      guest_workspace: 訪客工作區

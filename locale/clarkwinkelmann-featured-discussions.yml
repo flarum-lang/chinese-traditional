@@ -11,6 +11,9 @@ clarkwinkelmann-featured-discussions:
       eventPost: 修改日程任務時生成事件帖子
       schedule: '計劃任務（CRON 語法）'
   forum:
+    badge: 精選
+    controls:
+      feature: 精選主題
     modal:
       action:
         cancel: 取消

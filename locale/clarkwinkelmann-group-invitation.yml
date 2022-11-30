@@ -11,6 +11,9 @@ clarkwinkelmann-group-invitation:
         code: 代碼
         group: 用戶組
         usage: 使用
+      placeholder:
+        code: 自動生成
+        group: 選擇…
   forum:
     apply: 加入用戶組
     generic-title: 用戶組邀請

@@ -18,3 +18,7 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Zip Archive'
+    required_package_button: 安裝
+    settings_button: 配置
+    you-need-for:
+      aliyun: aliyuncs/aliyun-oss-flysystem

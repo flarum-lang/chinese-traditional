@@ -12,12 +12,16 @@ clarkwinkelmann-post-stream-search:
       originalPosterBadge: '顯示交互式 OP 徽章'
       originalPosterBadgeHelp: 'OP 將在帖子旁邊添加徽章。單擊徽章將自動篩選該用戶。'
   forum:
+    discussionControls:
+      searchInDiscussion: 在主題中搜索
     stream:
       noResults: 在這個主題中搜尋不到相關發文
       otherAuthorsGap: '{count, plural, one {One post by another author hidden} other {{count} posts by other authors hidden}}'
       unmatchedGap: '{count, plural, one {One non-matching post hidden} other {{count} non-matching posts hidden}}'
     toolbar:
       authorPlaceholder: 篩選作者…
+      clear: 清除篩選
+      close: 清除篩選器並關閉工具欄
       pin: 始終在討論中打開篩選器工具欄
       searchPlaceholder: 在討論中查找...
       summary: '{matching} of {total} 匹配'

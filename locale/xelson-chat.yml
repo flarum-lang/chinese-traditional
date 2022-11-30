@@ -5,6 +5,8 @@
 xelson-chat:
   forum:
     chat:
+      kick: 抖一抖
+      leave: 離開
       moder: 管理員
       welcome:
         header: '歡迎來到 Neon 聊天室！'

@@ -25,3 +25,8 @@ ianm-translate:
           options:
             default: 預設
             prefer_less: 不正式的
+            prefer_more: 更正式
+      google-cloud:
+        api_key:
+          help: '在 {link} 註冊 API 密鑰。此驅動程序使用 V2 API - Basic。'
+          label: '=> ianm-translate.lib.settings.api-key'

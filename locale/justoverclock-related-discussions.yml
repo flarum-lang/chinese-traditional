@@ -12,7 +12,9 @@ justoverclock-related-discussions:
     showExcerpt: 顯示摘要
     showTooltip: 顯示帶摘錄的工具提示
   forum:
+    deleted: 已刪除
     hasBestAnswer: 已解決
+    hasBestAnswer-title: 主題標示已解決
     participants: 參與者
     postedOn: 於：
     postnumber: 回覆數
