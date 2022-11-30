@@ -388,5 +388,6 @@ CHANGELOG
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
