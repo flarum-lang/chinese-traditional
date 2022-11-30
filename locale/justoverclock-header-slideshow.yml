@@ -8,8 +8,11 @@ header-slideshow:
     BtnSlide1-help: 在此處設置第一個幻燈片按鈕的文本
     BtnSlide2: '幻燈片 2 的按鈕文本'
     BtnSlide2-help: 在此處設置第二個幻燈片按鈕的文本
+    BtnSlide3: '幻燈片 3 的按鈕文本'
     ImageOne: '投影片 1'
     ImageOne-help: '為幻燈片中的第一張圖片設置 URL'
+    ImageTwo: '投影片 2'
+    ImageTwo-help: '為幻燈片中的第二張圖片設置 URL'
     LinkOne: '按鈕連結 - 幻燈片 1'
     LinkOne-help: '為第一個幻燈片按鈕輸入一個有效的 url'
     LinkTwo: '按鈕連結 - 幻燈片 2'
@@ -18,9 +21,13 @@ header-slideshow:
     TextSlide1-help: 在此處設置第一張幻燈片的文本
     TextSlide2: '幻燈片 2 的文本'
     TextSlide2-help: 在這裡設置你的第二張幻燈片的本文
+    TextSlide3: '幻燈片 3 的文本'
+    TextSlide3-help: 在此處設置第三張幻燈片的文本
     TitleSlide1: '幻燈片 1 的標題'
     TitleSlide1-help: 在這裡設置你的第一張幻燈片的標題
     TitleSlide2: '幻燈片 2 的標題'
     TitleSlide2-help: 在這裡設置你的第二張幻燈片的標題
+    TitleSlide3: '幻燈片 3 的標題'
+    TitleSlide3-help: 在這裡設置你的第三張幻燈片的標題
     TransitionTime: '輪播間隔時間（默認 5 秒）'
     TransitionTime-help: 動畫過場時間（秒）

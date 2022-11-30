@@ -22,6 +22,11 @@ davwheat:
             fix_errors: 在保存更改之前，您需要解決上述問題。
           confirm_delete: '確認刪除鏈接「{link}」'
           heading: 自定義連結
+          save_btn:
+            dirty: 保存設置
+            fix_errors: 存檔前修正錯誤
+            saved: 沒有變更
+            saving: 正在保存…
           table:
             header:
               delete: 移除
@@ -35,5 +40,8 @@ davwheat:
               text: 我的小酷站
               url: 'https://flarum.org'
             tooltips:
+              icon_preview: 圖示預覽
               move_down: 下移
               move_up: 上移
+        new_link_modal:
+          title: 新增連結

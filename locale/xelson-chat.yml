@@ -7,8 +7,17 @@ xelson-chat:
     chat:
       edit_modal:
         form:
+          color:
+            label: 顏色
+            validator: 十六進制格式
+          icon:
+            label: '=> core.ref.icon'
+            validator: '=> core.ref.icon_text'
           title:
             label: 聊天名稱
+            validator: 至少1個字元
+          users:
+            edit: 選擇或編輯用戶
         moderator:
           got: '你已成為「{chatname}」的管理員！'
           lost: '「{chatname}」已取消你的管理員身份。'

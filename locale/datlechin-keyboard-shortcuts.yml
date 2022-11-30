@@ -21,9 +21,11 @@ datlechin-keyboard-shortcuts:
       help: 幫助
       last_post: 最新貼文
       login: 登錄
+      mark_all_as_read: 標記所有為已讀
       new_discussion: 新討論
       notifications: 通知
       pin_nav: 'Pin Nav'
+      refresh: 重新載入
       reply: 回覆
       search: 搜索
       session: 用戶下拉

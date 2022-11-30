@@ -16,13 +16,23 @@ datlechin-birthdays:
       required_help: 請先啟用「允許注冊時設置生日」
       required_label: 強制注冊時設置生日
       set_on_registration_label: 允許註冊時設置生日
+  api:
+    invalid_age_message: '很抱歉，您的年齡必須大於 {minAge} 歲。'
+    invalid_dob_message: 無效的出生日期
   forum:
     change_dob:
       date_of_birth_text: 生日
       submit_button: '=> core.ref.save_changes'
       title: 編輯生日
+    edit_user:
+      dob_heading: 生日
     header:
       edit_dob_button: 編輯生日
+    nav:
+      nav_item: 今天的生日
+    page:
+      discussion_count: '{count, plural, one {主題：#} other {主題：#}}'
+      post_count: '{count, plural, one {回帖：#} other {回帖：#}}'
     settings:
       change_dob_label: 修改生日
       dob_heading: 生日

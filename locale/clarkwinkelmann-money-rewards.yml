@@ -28,7 +28,14 @@ clarkwinkelmann-money-rewards:
       title: 打賞該帖
     post:
       action: 打賞
+      disallowedOther: 你不能打賞這個帖子。可能作者是匿名或已被注銷。
       disallowedOwn: 您不能打賞自己的帖子。
+      section: 打賞
     profile:
       nav: 打賞
       title: 打賞
+    record:
+      comment: 評論：
+      from: 來自
+      post: '於“{title}”中討論的<a>#{number} 帖</a>'
+      to: 於

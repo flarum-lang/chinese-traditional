@@ -15,7 +15,14 @@ clarkwinkelmann-discussion-lists:
     settings:
       collapseSeries: 討論串默認折疊
   forum:
+    badge:
+      private: 私人列表
+    discussion:
+      add: 添加到列表
+      new: 新列表
     edit:
+      delete: 删除
+      deleteConfirmation: 是否確實要永久刪除此列表？
       name: 名稱
       ordering: 排序
       orderingOptions:
@@ -31,3 +38,5 @@ clarkwinkelmann-discussion-lists:
         private: 私人列表
         public: 公開列表
         series: 公開系列
+    profile:
+      link: 列表

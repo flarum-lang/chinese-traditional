@@ -6,12 +6,19 @@ kyrne-websocket:
   admin:
     chart:
       title: 'Websocket 統計'
+    help:
+      app_id: 'Pusher App ID - 如果使用內置 WebSocket 服務器，請保持默認值。'
+      app_key: 'Pusher App Key - 如果使用內置 WebSocket 服務器，請保持默認值。'
+      auto_update: 即時更新全部主題列表，不再顯示「有新內容」黃色橫幅。
+      secret: 'Pusher App Secret - 如果使用內置 WebSocket 服務器，請保持默認值。'
+      stats: '兩次統計的間隔時間，單位秒。推薦填寫一小時共 3600 秒至六小時共 21600 秒之間。默認為 7200 秒。'
     pusher_settings:
       app_host_label: 主機
       app_id_label: 'App ID'
       app_key_label: 'App Key'
       app_port_label: 端口
       app_secret_label: 'App Secret'
+      auth_only: '僅向登錄用戶開放 Websocket'
       auto_update: 自動更新主題帖
       cert_self_signed: 自簽證書支持
       local_cert_path: '本地 SSL 證書路徑'

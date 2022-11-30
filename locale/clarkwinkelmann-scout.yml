@@ -27,3 +27,8 @@ clarkwinkelmann-scout:
       queryMinLengthPlaceholder: 自動
       queue: 處理隊列中的索引更新
       queueHelp: '只有在 Flarum 中配置了 asynchronous queue 驅動程序時，此設置才有效。'
+      tntsearchFuzziness: 'TNT 搜索模糊性（拼寫錯誤/變體匹配）'
+      tntsearchFuzzyDistance: 'TNT 搜索模糊編輯距離（可選）'
+      tntsearchFuzzyMaxExpansions: 'TNT 搜索模糊度最大擴展（可選）'
+      tntsearchFuzzyPrefixLength: 'TNT 搜索模糊前綴長度（可選）'
+      tntsearchMaxDocs: 'TNT Search Max Docs (optional, maximum number of results)'

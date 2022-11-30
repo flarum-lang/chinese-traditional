@@ -19,6 +19,10 @@ clarkwinkelmann-group-invitation:
         group: 選擇…
         usage: 留空表示無限制
       unlimited: 無限制
+  api:
+    error:
+      no-usages-left: 邀請已失效
+      not-found: 邀請碼不存在
   forum:
     apply: 加入用戶組
     generic-title: 用戶組邀請

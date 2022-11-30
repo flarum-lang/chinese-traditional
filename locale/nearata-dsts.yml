@@ -22,6 +22,7 @@ nearata-dsts:
       require_like_help: '需要 <strong>flarum/likes</strong> 擴展。'
       require_reply: 需要回覆
   forum:
+    button: DSTS
     fof_upload:
       like: 你需要點讚後才能查看檔案。
       login: 登錄以查看檔案。

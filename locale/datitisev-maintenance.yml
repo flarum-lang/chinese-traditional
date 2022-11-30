@@ -2,6 +2,10 @@
 # Use https://weblate.rob006.net/projects/flarum/datitisev-maintenance/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  lib:
+    error:
+      maintenance_message: 論壇目前處於維護模式。
 datitisev-maintenance:
   admin:
     dashboard:
@@ -29,3 +33,7 @@ datitisev-maintenance:
     maintenance_active_disabled_api_message: '目前 API 已向所有人禁用。'
     maintenance_active_message: 論壇正在維護中。
     maintenance_active_not_db_message: '維護模式通過 <code>config.php</code> 啟用。'
+  views:
+    error:
+      message: 我們正在進行一些維護，很快就會重新上線！
+      title: 維護

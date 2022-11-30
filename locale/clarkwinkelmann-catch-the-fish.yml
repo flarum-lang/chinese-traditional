@@ -11,14 +11,21 @@ clarkwinkelmann-catch-the-fish:
       named-by: 命名人：
       placed-by: 放置人：
       placement-help: 您可以把魚藏在最新的主題和活動用戶的個人主頁。不過您不能捕捉您自己放置的魚。
+      submit-continue: 繼續
       submit-name: 保存名字
       submit-name-place-later: 保存名字並選擇藏身之處
+      submit-name-place-random: 保存名字並讓魚兒自己藏起來
       submit-place-later: 好的，我會選個藏身之地
+      submit-place-random: 讓魚兒自己藏起來
       title: 你抓到了一條魚！
     edit-fish-modal:
       title: '編輯魚「{name}」'
     edit-round-modal:
       title: '編輯回合 {name}'
+    edit-round:
+      name: 名稱
+      name-help: 此回合的名稱將會顯示在橫幅和排行榜中
+      starts-at: 開始時間
     moderate:
       add: 添加
       delete: 刪除

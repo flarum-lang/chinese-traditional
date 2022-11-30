@@ -27,8 +27,16 @@ kilowhat-audit:
         group: '用戶組 #{id}'
         post: '回覆 #{id}'
         tag: '標籤 #{id}'
+        user: '用戶 #{id}'
       empty: 未找到任何內容
       filterApply: 套用
       filterPlaceholder: 篩選日志
+      genericResource:
+        comment: 回覆
+        post: 帖子
       loadMore: 載入更多
+      noValue: (無值)
+      permissionGroup:
+        everyone: '=> core.admin.permissions_controls.everyone_button'
+        members: '=> core.admin.permissions_controls.members_button'
       withoutActor: '=> core.group.guest'

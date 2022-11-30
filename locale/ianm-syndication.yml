@@ -5,6 +5,13 @@
 ianm-syndication:
   admin:
     settings:
+      entries-count: 訂閱信息流條目數量是多少？
+      forum-icons:
+        help: '在所有主題、標簽中顯示圖標，以便輕松查看 Feed(s)。'
+        label: '在論壇上顯示 Atom/RSS 訂閱鏈接'
+      forum-link-format:
+        help: '選擇訂閱源格式（Atom 或 RSS）。'
+        label: '論壇 Feed 格式'
       full-text:
         help: '如果禁用此項，訂閱信息流將僅展示摘要，查看完整內容需要轉至論壇。建議開啟此項以尊重 RSS 用戶。'
         label: 全文輸出

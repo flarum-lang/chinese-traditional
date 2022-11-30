@@ -30,3 +30,6 @@ ianm-gravatar:
       replace-flarum-custom:
         helptext: '用 Gravatar 替換已上傳到論壇的自定義頭像'
         title: 替換上傳到論壇的自定義頭像
+  forum:
+    settings:
+      edit-gravatar: '前往 gravatar.com 管理頭像'

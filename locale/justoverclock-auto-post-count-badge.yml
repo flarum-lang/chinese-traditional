@@ -25,6 +25,10 @@ justoverclock-auto-post-count-badge:
         title: 本文管理
       tier: '{tier}：達成 {from} 至 {to} 次回帖'
   forum:
+    hasWritten: '{count, plural, one {# 次回帖} other {# 次回帖}}'
+    less1000post: 傳說
     less100post: 吐槽
     less10post: 潛水
+    less300post: 活躍
     less50post: 最新的
+    less600post: 嘮叨

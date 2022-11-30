@@ -37,6 +37,14 @@ fof-webhooks:
             discussionmadepublic: 討論轉公開
             title: 'FriendsOfFlarum 私密主題'
           gamification:
+            postwasvoted: 帖子頂/踩
             title: 'FriendsOfFlarum Gamification'
+          polls:
+            pollwascreated: 創建
+            pollwasvoted: 投票
+            title: 'FriendsOfFlarum 投票'
+          reactions:
+            postwasreacted: 戳表情
+            title: 'FriendsOfFlarum Reactions'
       services:
         custom: 自定義

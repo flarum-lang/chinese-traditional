@@ -12,6 +12,8 @@ custom-header:
     facebookIcon-help: '在此處粘貼指向您的 Facebook 頁面的有效 URL'
     githubIcon: 'GitHub 主頁鍵接'
     githubIcon-help: '在此處粘貼指向您的 GitHub 頁面的有效 URL'
+    headerBackgroundImage: 背景頭圖
+    headerBackgroundImage-help: '在此處粘貼背景頭圖 URL'
     headerTagline: 標幅標語
     headerTagline-help: 你可以修改標語
     headerTitle: 橫幅標題
@@ -24,3 +26,9 @@ custom-header:
     twitterIcon-help: '在此處粘貼指向您的 Twitter 頁面的有效 URL'
     youtubeIcon: 'Youtube 主頁鏈接'
     youtubeIcon-help: '在此處粘貼指向您的 Youtube 頁面的有效 URL'
+  forum:
+    facebook: 在臉書上關注我們
+    login: 登錄
+    signup: 註冊
+    twitter: 關注我們的推特
+    youtube: '在 Youtube 上關注我們'

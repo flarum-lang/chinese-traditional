@@ -3,10 +3,20 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-carving-contest:
+  admin:
+    permissions:
+      like: 為作品點讚
+      view: 查看作品
   forum:
+    likes_modal:
+      title: 說讚的人
     modal:
       name: 替您的作品取名
+      submit: 提交
       title: 參加
+      tools:
+        circle: 圓
+        square: 正方形
     nav:
       contest: 雕刻比賽
     page:

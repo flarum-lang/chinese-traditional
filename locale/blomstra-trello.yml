@@ -31,3 +31,10 @@ blomstra-trello:
       label:
         boards: 看板設置
         general: 一般
+        labels: 標題設置
+      mapping:
+        add_new: 添加映射
+        mapping_description: 會變成
+        modal_title: 新建標簽映射
+        no_mappings_for_board: 此看板尚未建立標簽映射
+      mappings_label: '論壇標簽到 Trello 標簽映射'

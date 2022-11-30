@@ -33,4 +33,16 @@ sycho-move-posts:
     notifications:
       post_moved_text: '你的帖子已被移動到「{targetDiscussionTitle}」'
     post:
+      move: 移動
+      moving: 等待移動
       unmove: 取消選中
+    post_stream:
+      post_moved: '{count, plural, one {{username} 移動一個帖子至「{target_discussion}」} other {{username} 移動 {count} 個帖子至「{target_discussion}」}}'
+  lib:
+    discussion:
+      first_post:
+        default_content: "*此貼已被移動至**「[%DISCUSSION_NAME%](%POST_LINK%)」**。*\n"
+  ref:
+    move_posts: 移動帖子
+    status:
+      old_to_new_move: 不能移動舊帖子至較新的主題。

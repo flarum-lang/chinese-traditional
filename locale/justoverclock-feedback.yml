@@ -4,6 +4,10 @@
 
 justoverclock-feedback:
   admin:
+    background-color: 按鈕背景色
+    background-color-help: '填寫十六進制顏色代碼，如 #fff'
+    box-title: 反饋彈窗標題
+    box-title-help: 設置反饋彈窗的標題
     collect-email: （可選）允許用戶填寫郵箱
     collect-email-help: 啟動後，用戶在反饋時可填寫自己的郵箱地址
     contactdesc: 請完整輸入郵箱地址以啟用反饋按鈕
@@ -20,7 +24,11 @@ justoverclock-feedback:
     feedback3-icon-help: '輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐'
     feedback3-title: '反饋類型 3'
     feedback3-title-help: 自定義反饋類型3名稱
+    font-color: 部件字型顏色
+    font-color-help: '填寫十六進制顏色代碼，如 #fff'
     left_label: 左側
     position: 部件位置
     position-help: 反饋按鈕的顯示位置
     right_label: 右側
+  api:
+    validation_error: 反饋內容為空

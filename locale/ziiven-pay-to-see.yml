@@ -9,6 +9,9 @@ pay-to-see:
     modify_pay_to_see_price: 修改內容價格
     need_pay2see_tag: '您需要包含 [pay][/pay] 標籤才能付費查看內容'
     not_support_anonymous: 匿名帖子不支持付費查看內容
+    notifications:
+      discussion_purchased: '{username} 購買了您的內容'
+      notification_setting_some_one_purchase_content: 有人購買了我的內容
     ok: OK
     pay_to_see_content: 付費觀看內容
     pay_to_see_content_bypass: '付費查看內容 [無視權限]'
@@ -16,6 +19,10 @@ pay-to-see:
     purchase_button: 購買內容
     purchase_confirmation: 購買內容
     purchase_confirmation_text: '您確定要支付 {costText} 嗎？'
+    purchase_count: '購買數量：{count}'
+    purchase_error_insufficient_fund: 資金不足
+    purchase_error_no_permission: 沒有權限
+    purchase_error_not_found: 無法購買內容
     purchase_success: 推送成功
     purchase_unlocked_button: 內容解鎖
     purchased_content: 購買的內容

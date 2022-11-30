@@ -18,6 +18,8 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Zip Archive'
+    required-package-modal:
+      title: '{adapter} 所需的軟件包'
     required_package_button: 安裝
     settings_button: 配置
     you-need-for:
@@ -27,3 +29,8 @@ datitisev-backup:
       copy: league/flysystem-copy
       dospaces: league/flysystem-aws-s3-v3
       dropbox: spatie/flysystem-dropbox
+      gdrive: nao-pon/flysystem-google-drive
+      gridfs: league/flysystem-gridfs
+      rackspace: league/flysystem-rackspace
+      sftp: league/flysystem-sftp
+      webdav: league/flysystem-webdav

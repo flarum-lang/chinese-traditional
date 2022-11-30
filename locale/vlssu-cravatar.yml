@@ -30,3 +30,6 @@ vlssu-flarum-cravatar:
       replace-flarum-custom:
         helptext: '用 Gravatar 替換已上傳到論壇的自定義頭像'
         title: 上傳要替換的自定義頭像到論壇
+  forum:
+    settings:
+      edit-cravatar: '前往 gravatar.cn 管理頭像'

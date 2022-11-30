@@ -29,5 +29,13 @@ clarkwinkelmann-anonymous-posting:
       anonymizeConfirmation: 確定要匿名此主題嗎？如需匿名一樓，請另外操作。
       deanonymize: 取消匿名
       deanonymizeConfirmation: 確定要公開此主題的作者嗎？
+    discussionList:
+      genericReplyText: '回覆於 {ago}'
     postControls:
       anonymize: 匿名
+      deanonymize: 取消匿名
+      deanonymizeConfirmation: 確定要公開此帖的作者嗎？
+      firstPostConfirmation: 確定要匿名一樓嗎？如需匿名主題，請另外操作。
+    postPrivacy:
+      mine: 我
+      mineHelp: 此內容他人不可見

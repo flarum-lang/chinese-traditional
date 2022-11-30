@@ -11,12 +11,18 @@ kyrne-whisper:
       set_own_password: '讓用戶設置獨立密碼 - SSO兼容'
       title: 'Whisper 設置'
   forum:
+    chat:
+      chat_with: '{username}'
     dropdown:
       tooltip: 消息
     modal:
+      already: '您與 {username} 已存在一個會話。'
+      copied: 聊天記錄以覆制到剪切板。
       help: 搜索用戶以發起會話。
       help_start: '發送第一條消息。您在收到 {username} 回覆前，僅能發送這一條消息。點擊用戶名以選擇其他用戶。'
+      more_users: 找不到用戶？那可能是因為對方還沒有初始化私信。
       search_recipients: 輸入用戶名…
+      submit: 發起會話
       title: 發送即時消息
     setup:
       button_import: 導入
@@ -30,3 +36,4 @@ kyrne-whisper:
       passwords_mismatch: 兩次密碼不匹配
       success: 初化成功，請等候頁面刷新……
       title: 設置私人信息
+    user_modal_alert: '{username} 已初始化私信，現在無法安全地修改他們的密碼。'

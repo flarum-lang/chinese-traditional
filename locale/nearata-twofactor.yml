@@ -30,3 +30,7 @@ nearata-twofactor:
       passcode_placeholder: 兩步驗証碼
       password_placeholder: 密碼
       scan_qr: 使用驗證設備掃描二維碼以添加賬號。
+      submit_button:
+        disable: 停用
+        enable: 啟用
+      title: 兩步驗証

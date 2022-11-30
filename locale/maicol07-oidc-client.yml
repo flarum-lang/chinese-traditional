@@ -21,8 +21,14 @@ maicol07-oidc-client:
       endpoints_title: 提供商端點
       issuer: 發行網址
       linker_claim: 'Linker claim'
+      logout_from_provider: '從提供商註銷（啟用 SSO 模式時）'
+      manage_account_btn_open_in_new_tab: 在新標籤頁中打開帳戶管理
+      manage_account_url: 帳戶管理網址
       nonce: 停用隨機數驗證
       other_settings_title: 其它設置
       provider_name: 'OpenID Connect 提供商名稱'
       provider_settings_title: 提供商設置
       provider_url: 提供商網址
+      remove_signup_btn: 移除註冊按鈕
+      sso_mode: 'SSO 模式'
+      sync_avatars: 同步用戶頭像

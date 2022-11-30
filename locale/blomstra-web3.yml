@@ -23,6 +23,8 @@ blomstra-web3:
       disconnect-and-unbind: 斷開並解除綁定
       select: '=> blomstra-web3.ref.select'
       title: 'EVM 錢包'
+    log-in:
+      basic-login-link: 切換至基本登入
     polkadot-connect-wallet-modal:
       attach_address: '=> blomstra-web3.ref.bind'
       connection-request-rejected: 連接請求被拒絕
@@ -30,3 +32,9 @@ blomstra-web3:
       goback: 返回錢包
       select: '=> blomstra-web3.ref.select'
       title: '=> blomstra-web3.ref.polkadot-wallets'
+      unattach_address: '=> blomstra-web3.ref.unbind'
+    settings:
+      unbind: '=> blomstra-web3.ref.unbind'
+      unbind_confirm: 您確定要將此地址與您的賬戶解綁嗎？
+      wallet-connect-button: '連結 Wallet'
+      wallets_heading: 錢包
