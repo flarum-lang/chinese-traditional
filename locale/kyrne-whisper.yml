@@ -13,15 +13,18 @@ kyrne-whisper:
   forum:
     chat:
       cant_send: '在{username}恢復之前,您不能發送消息(僅限首次會話)'
+      cant_send_toomany: '在發送更多消息之前，請等候 {username} 的回覆'
       cant_start: 無法開始會話
       chat_with: '{username}'
       failed_message: '無法解密消息，正在嘗試恢復方法 #{method}'
+      failed_to_decrypt: '[ 解密失敗]'
       messages_multiple: '{count}條消息'
       messages_single: 新建會話
       read: 已讀
       recovery_message: 系統消息：加密同步丟失，已恢復。
       send: 發送
       start: 開始會話
+      start_of_conversation: 開始會話
       text_placeholder: 輸入你的訊息
     dropdown:
       tooltip: 消息

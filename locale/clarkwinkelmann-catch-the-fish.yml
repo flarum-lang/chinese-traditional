@@ -4,6 +4,10 @@
 
 clarkwinkelmann-catch-the-fish:
   forum:
+    basket:
+      drag-help: 將魚拖放到主題貼、回覆貼或用戶主頁中
+      time: '放置倒計時：{time}'
+      title: 魚簍
     caught-fish-modal:
       congratulation: '恭喜，你抓到魚了！你一共捕獲了 {catch_count} 條魚。'
       name: 魚的名字
@@ -22,8 +26,11 @@ clarkwinkelmann-catch-the-fish:
       title: '編輯魚「{name}」'
     edit-fish:
       create: 造魚
+      delete: 刪除魚
+      delete-confirmation: '確定要刪除魚「{name}」嗎？'
       name: 名字
       name-help: 這條魚的名字。如果玩家有權限，就可以編輯魚的名字
+      save: 保存魚
     edit-round-modal:
       title: '編輯回合 {name}'
     edit-round:
@@ -37,12 +44,17 @@ clarkwinkelmann-catch-the-fish:
       starting-pack: 初始包
       starting-pack-help: 初始包包含幾條魚，無需自行設計即可馬上開始遊戲
       starts-at: 開始時間
+    fish-image:
+      alt: '魚「{name}」的圖像'
+      missing: 缺少魚的圖像
     moderate:
       add: 添加
       delete: 刪除
       edit: 編輯
       fishes: 魚
       rounds: 回合
+    moving-fish:
+      login: 登錄後可抓魚
     nav:
       rankings: 捕魚排行榜
       settings: 捕魚設置
@@ -50,3 +62,26 @@ clarkwinkelmann-catch-the-fish:
       title: 新魚
     new-round-modal:
       title: 新回合
+    round-alert:
+      message: '回合「{name}」，盡情抓魚吧！倒計時 {time}'
+      rankings: 查看排行榜
+    table-fish:
+      actions: 動作
+      image: 圖像
+      loading: 正在加載…
+      name: 名字
+      new: 新魚
+      placement: 當前位置
+      title: '回合 {name} 的魚'
+      user-name: 最後命名人：
+      user-place: 最後放置人：
+    table-round:
+      actions: 動作
+      edit: 編輯
+      end: 直到
+      fishes: 魚
+      loading: 正在加載…
+      name: 名稱
+      new: 新回合
+      start: 開始
+      title: 回合

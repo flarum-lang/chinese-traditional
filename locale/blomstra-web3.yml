@@ -47,6 +47,7 @@ blomstra-web3:
   ref:
     bind: 綁定地址
     disconnect: 斷開
+    polkadot-wallets: 'Polkadot 錢包'
     select: 選擇地址
     select-wallet-account: '選擇錢包帳戶{rightArrow}'
     unbind: 解綁賬戶地址

@@ -4,6 +4,24 @@
 
 kilowhat-rich-embeds:
   admin:
+    permissions:
+      disableOnAnyPost: 禁止在任何的帖子中使用嵌入
+      disableOnOwnPost: 禁止在自己的帖子中使用嵌入
+      refreshOnAnyPost: 在任何的帖子上刷新嵌入
+      refreshOnOwnPost: 在自己的帖子上刷新嵌入
+      useOnOwnPost: 在自己的帖子中使用嵌入
+      viewGoogleDriveThumbnails: '查看 API 支持的 Google 雲端硬盤略圖'
+    preview:
+      loading: 正在加載…
+      refresh: 重新載入
+      title: 預覽
+    section:
+      flarum: Flarum
+      github: GitHub
+      google: Google
+      googledrive: 'Google Drive'
+      siteSpecificHelp: "以下是特定於站點的設置，這些設置使用無法通過 OpenGraph 和 HTML 抓取獲得的數據來改進嵌入。所有選項都是可選的。一些選項需要第三方 API 訪問，這可能會帶來速率限制或費用。\n"
+      youtube: YouTube
     settings:
       blacklist: 'URL 黑名單'
       blacklistHelp: '檢查文檔的格式。這些 URL 永遠不會有豐富的嵌入，並且不能通過圖像代理進行代理'
@@ -19,6 +37,8 @@ kilowhat-rich-embeds:
       googleApiAuthConfigHelp: "此設置與下面的 YouTube 和 Google 雲端硬盤設置結合使用。 它應該包含本地文件系統上 JSON 身份驗證文件的絕對路徑，或該文件的內容。 如果留空，Google API SDK 將通過環境變量自動發現 API 密鑰或服務帳戶。\n"
       googleApiKey: 'Google SDK API key'
       googleApiKeyHelp: "此設置與下面的 YouTube 和 Google 雲端硬盤設置結合使用。 如果留空，Google API SDK 將通過環境變量自動發現 API 密鑰或服務帳戶。\n"
+      googledriveApiPreviews: '啟用高級 API 支持的豐富 Google 雲端硬盤預覽'
+      googledriveApiPreviewsHelp: "Google API SDK 必須在上面配置。 此功能將顯示 Google Drive 文件的標題和預覽。 使用可以訪問私有驅動器的服務帳戶來啟用私有文件的預覽。\n"
       imageEmbeds: 豐富圖像嵌入
       imageEmbedsHelp: "此功能檢索並顯示有關插入到帶有 bbcode 或 markdown 的帖子中的外部圖像的附加信息。此時它重新使用與富鏈接相同的黑名單/白名單和權限。這些圖像不通過 OpenGraph 圖像代理進行代理。更改此設置後，您必須清除 Flarum 緩存。\n"
       imageProxy: 'OpenGraph Image Proxy'
@@ -41,6 +61,23 @@ kilowhat-rich-embeds:
       whitelistHelp: '檢查文檔的格式。如果設置了一個值，所有其他 URL 將被視為列入黑名單'
       withoutOpengraph: 為無OpenGraph數據的頁面生成富文本容器
       withoutOpengraphHelp: '標題、描述和圖像將從頁面 HTML 中轉譯'
+      youtubeApiPreviews: '啟用高級 API 支持的豐富 YouTube 預覽'
+      youtubeApiPreviewsHelp: "Google API SDK 必須在上面配置。 此功能將顯示有關視頻的更多統計信息，並可以顯示 SDK 用戶有權訪問的私人視頻。\n"
       youtubeNoCookie: '使用 YouTube no-cookie iframe 域'
+      youtubeNoCookieHelp: "切換到 YouTube 提供的備用無 cookie 域。 啟用此選項後，某些視頻可能無法在 iframe 中播放。 無需 API 訪問即可使用此功能。\n"
       youtubePlayer: '允許從預覽中播放 YouTube 視頻'
       youtubePlayerHelp: "當用戶單擊預覽中的播放按鈕時，將按需加載 iframe 播放器。 您必須配置 CSP 和幀標頭以允許來自 YouTube 域名的幀。 無需 API 訪問即可使用此功能。\n"
+  lib:
+    controls:
+      disable: 禁止在這個帖子中使用嵌入
+      disableConfirmation: 所有嵌入將從這篇文章中刪除。繼續？
+      imgCopied: 已復制
+      imgCopy: 複制圖像綱址
+      refresh: 刷新頁面
+    embed:
+      altAvatar: 用戶頭像
+      altFavicon: '{website} 圖示'
+      altImageFallback: '{website} Opengraph 圖片'
+      missing:
+        other: 無法為此鏈接生成預覽
+        retrieving: 正在檢索...

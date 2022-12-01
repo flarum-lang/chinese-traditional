@@ -34,12 +34,23 @@ justoverclock-feedback:
     validation_error: 反饋內容為空
   forum:
     button-title: 意見
+    email:
+      body: "來自用戶 {user} 的新 {type} 意見反饋！\n\n{message}\n\n回信郵箱：{email}\n鏈接：{url}\n"
+      guest: 一位匿名用戶
+      subject: 意見
     feedback-widget:
       back: 返回
       contact-text: 或發送一個郵件！
+      email-field-placeholder: 郵箱(可選)
       email-placeholder: 郵箱(可選)
+      failed-message: '請再試一次。 如果這種情況持續發生，請嘗試發送電子郵件。'
+      failed-title: 發生錯鋘
       placeholder: 在此填寫內容
       submit: 提交
       success: 非常感謝！👊
       title: 'Flarum 意見反饋'
       type-message: 你想反饋什麼內容？
+      types:
+        bug: 'Bug 報告'
+        general: 常規反饋
+        idea: 新點子

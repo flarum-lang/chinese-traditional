@@ -83,6 +83,7 @@ xelson-chat:
           search:
             failed: 找不到此用戶
             invited: 已經邀請
+            more_results: '顯示「{more_results}」的更多結果……'
             placeholder: 搜索用戶
           title: 選擇用戶
         pin: 置頂

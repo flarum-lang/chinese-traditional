@@ -22,6 +22,7 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      cache_cleared: 手動清除緩存
       client:
         access_token: 'Access token'
         api_key: 'API key'
@@ -29,8 +30,12 @@ kilowhat-audit:
         session: 'Web Session'
         unknown: 未知客戶端
       controls:
+        filterAction: 篩選同類型活動
         filterActor: 篩選行為人
+        filterClient: 篩選客戶類型
+        filterDiscussion: 篩選受影響的同一個主題
         filterIp: 篩選IP
+        filterUser: 篩選受影響的同一用戶
         hideRaw: 隱藏原始日誌
         showRaw: 顯示原始日誌
       deletedResource:
@@ -39,9 +44,30 @@ kilowhat-audit:
         post: '回覆 #{id}'
         tag: '標籤 #{id}'
         user: '用戶 #{id}'
+      discussion:
+        create_date_changed: '修改 {discussion} 的發佈時間 {old_date} 為 {new_date}'
+        created: '發佈主題 {discussion}'
+        deleted: '刪除主題 {discussion}'
+        hidden: '隱藏主題 {discussion}'
+        locked: '鎖定主題{discussion}'
+        renamed: '重命名主題 {old_title} 為 {new_title}'
+        restored: '恢復主題 {discussion}'
+        split_away: '拆分出 {post_count} 條回覆從 {discussion}'
+        split_into: '拆分 {post_count} 條回覆至 {discussion}'
+        stickied: '置頂主題{discussion}'
+        tagged: '更新 {discussion} 的標簽 {old_tags} 為 {new_tags}'
+        unlocked: '解除鎖定{discussion}'
+        unstickied: '取消置頂{discussion}'
+        user_changed: '變更 {discussion} 的作者 {old_user} 為 {new_user}'
       empty: 未找到任何內容
+      extension:
+        disabled: '禁用擴展 {package}'
+        enabled: '啟用擴展 {package}'
       filterApply: 套用
       filterPlaceholder: 篩選日志
+      fof_ban_ips:
+        banned: '拉黑 IP {ip}'
+        unbanned: '取消拉黑 IP {ip}'
       genericResource:
         comment: 回覆
         post: 帖子
@@ -51,4 +77,12 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      permission_changed: '修改 {permission} 權限 {old_groups} 為 {new_groups}'
+      post:
+        approved: '批準 {postuser} 在 {discussion} 發布的 {post}'
+        create_date_changed: '修改 {postuser} 的 {post} 回覆時間 {old_date} 為 {new_date}'
+        created: '發表回覆 {post} 於 {discussion}'
+        deleted: '刪除 {postuser} 在 {discussion} 中的 {post}'
+        dismissed_flags: '撤銷舉報 {postuser} 在 {discussion} 發布的 {post}'
+        edit_date_changed: '修改 {postuser} 的 {post} 編輯時間 {old_date} 為 {new_date}'
       withoutActor: '=> core.group.guest'

@@ -12,9 +12,59 @@ datitisev-backup:
         access-key:
           description: 您的身份驗證訪問令牌密鑰
           label: 'Access Key'
+        bucket:
+          description: 要使用的儲存桶。
+          label: 桶
         endpoint:
           description: 終端儲存的URL。
           label: 終端
+        path-prefix:
+          description: 可選擇的默認文件路徑前綴。
+          label: 路徑前綴
+      aws:
+        bucket:
+          description: '要上傳到 S3儲存桶。'
+          label: 桶
+        credentials:
+          key:
+            description: 'AWS 憑證密鑰'
+            label: Key
+          secret:
+            description: 'AWS 憑證密鑰'
+            label: Secret
+        path-prefix:
+          description: 可選擇的默認文件路徑前綴。
+          label: 路徑前綴
+        region:
+          description: 儲存桶的區域。
+          label: 區域
+        version:
+          description: 指定一個版本或留空表示最新版本。
+          label: 版本
+      azure:
+        container:
+          description: 'Azure 容器'
+          label: 容器
+        endpoint:
+          description: 終端儲存的URL。
+          label: 終端
+      dropbox:
+        access-token:
+          description: '生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps.'
+          label: 'Access token'
+      gdrive:
+        client:
+          id:
+            description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的指示，創建一個 Google 項目，並取回您的 Client ID 和 Client Secret。\n"
+            label: 'Client ID'
+          secret:
+            description: ' '
+            label: 'Client Secret'
+        folder:
+          label: 'Folder ID'
+        refresh-token:
+          description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程序刷新令牌。\n"
+          label: 刷新令牌
       local:
         target:
           description: 指定用於儲存備份的本地目錄。

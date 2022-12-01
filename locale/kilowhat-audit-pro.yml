@@ -32,17 +32,51 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      cache_cleared: 手動清除緩存
       client:
+        access_token: 'Access token'
+        api_key: 'API key'
+        cli: 命令行
         session: 'Web session'
+        unknown: 未知客戶端
+      controls:
+        filterAction: 篩選同類型活動
+        filterActor: 篩選行為人
+        filterClient: 篩選客戶類型
+        filterDiscussion: 篩選受影響的同一個主題
+        filterIp: 篩選IP
+        filterUser: 篩選受影響的同一用戶
+        hideRaw: 隱藏原始日誌
+        showRaw: 顯示原始日誌
       deletedResource:
         discussion: '主題 #{id}'
         group: '用戶組 #{id}'
         post: '回覆#{id}'
         tag: '標籤 {id}#'
         user: '用戶 #{id}'
+      discussion:
+        create_date_changed: '修改 {discussion} 的發布時間 {old_date} 為 {new_date}'
+        created: '發佈主題 {discussion}'
+        deleted: '刪除主題 {discussion}'
+        hidden: '隱藏主題 {discussion}'
+        locked: '鎖定主題{discussion}'
+        renamed: '重命名主題 {old_title} 為 {new_title}'
+        restored: '恢復主題 {discussion}'
+        split_away: '拆分出 {post_count} 條回覆從 {discussion}'
+        split_into: '拆分 {post_count} 條回覆至 {discussion}'
+        stickied: '置頂主題{discussion}'
+        tagged: '更新 {discussion} 的標簽 {old_tags} 為 {new_tags}'
+        unlocked: '解除鎖定{discussion}'
+        unstickied: '取消置頂{discussion}'
+        user_changed: '變更 {discussion} 的作者 {old_user} 為 {new_user}'
       empty: 暫無記錄
+      extension:
+        disabled: '禁用擴展 {package}'
+        enabled: '啟用擴展 {package}'
       filterApply: 套用
       filterPlaceholder: 篩選日志
+      fof_ban_ips:
+        banned: '拉黑 IP {ip}'
       genericResource:
         comment: 回覆
         post: 回覆

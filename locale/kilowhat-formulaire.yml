@@ -27,7 +27,9 @@ kilowhat-formulaire:
       history-controls: 在提交頁面上顯示撤消/重做開關
       horizontal-layout: 使用水平表單佈局
       horizontal-layout-locations:
+        discussionComposer: 討論作曲家
         discussionEdit: 主題編輯模式
+        discussionView: 討論視圖容器
         profileEdit: 個人資料編輯
         profileView: 個人資料查看
         signUp: '註冊模態（僅 Formulaire 字段）'
@@ -44,3 +46,39 @@ kilowhat-formulaire:
         native: 本機瀏覽器控件
         switch: 'Flarum 開關'
       title: 論譠全局設置
+      uniformComposerLayout: 統一的討論作曲家佈局
+      uniformComposerLayoutHelp: "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n"
+  forum:
+    form-index:
+      columns:
+        accept-submissions: 開放
+        actions: 動作
+        allow-modification: 修改
+        enabled: 啟用
+        submissions: 意見書
+        title: 名稱
+      edit: 編輯
+      empty: 沒有表格
+      header:
+        discuss: 在Flarum中討論
+        documentation: 完整的在線文檔
+        title: '=> kilowhat-formulaire.ref.manager'
+      load-more: 載入更多
+      new: 新表格
+      search: 搜尋…
+      show: 顯示
+      submissions: 意見書
+      tabs:
+        discussion: '=> kilowhat-formulaire.ref.type.discussion'
+        standalone: '=> kilowhat-formulaire.ref.type.standalone'
+        user: '=> kilowhat-formulaire.ref.type.user'
+    global-settings:
+      admin-only: 只有論壇管理員可以編輯全局設置
+      permissions:
+        editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+        fill: '=> kilowhat-formulaire.ref.permissions.fill'
+        seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
+        seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
+      title: 全局權限
+    nav:
+      forms: '=> kilowhat-formulaire.ref.manager'
