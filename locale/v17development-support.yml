@@ -32,12 +32,41 @@ v17development-flarum-support:
       article_public: '文章已被 {username} 公開'
     ask_a_question_on_forums: 在論壇上提問
     ask_your_question_on_forum: 在論壇上提問
+    composer:
+      article_saved: 文章已保存
+      compose_article: 撰寫文章
+      compose_ticket: 新建工單
+      enter_message_here: 在此處填寫訊息
+      manage_tags: 管理標籤
+      new_article_title: 新文章標題
+      nothing_to_preview: 什麼都還沒寫呢
+      publish_article: 發佈文章
+      publish_article_hint: 回帖後發布文章。
+      view: 預覽
+      warning_save_changes: "警告：您即將離開此頁面，系統不會保存您所做的更改。是否保存更改然後離開？\n\n[OK] = 保存並離開 [CANCEL] = 不保存\n"
+      write: 寫文章
     create: 發佈
     discard: 放棄
     hero:
       check_forum: 如果這里沒有您想要的內容，<a>到論壇找找？</a>
       help_question: 我們能在哪方面幫助您？
     knowledge_base: 知識庫
+    modals:
+      article_ratings:
+        article_not_rated: 這篇文章尚未被評價。
+        confirm_delete_rating: 確定要刪除這條評價嗎？
+        feedback: 意見
+        loading_ratings: 正在加載評價
+        no_ratings_found: 找不到符合您搜索條件的評價
+        rated_on: 評價時間
+        rating: 評價
+        title: 文章評價
+        username: '=> core.ref.username'
+      audit_log:
+        article_created: 文章已發佈
+        loading_auditlog: 正在加載審計日誌
+        no_more_events: 未發現更多事件
+        title: 文章審計日誌
     not_found:
       description: 抱歉，此文章或類別不再存在於此位置。
       solution: 您可以使用上面的搜索框搜尋要找的內容。
@@ -75,7 +104,56 @@ v17development-flarum-support:
       enter_feedback: 在此填寫內容
       feedback: 感謝您的評價，還有其他要反饋的嗎？
       feedback_not_helpful: 很抱歉這篇文章沒有幫助到您，您在尋找什麽呢？
+      finished: 感謝！您的反饋已保存。
       helful_article: 以上信息是否解決了您的問題？
       helful_support: 您滿意我們對您的支持服務嗎？
       score: 評分
+      switch_sort_score:
+        description: 只看有反饋（按最低評分排序）。
+        label: 從低到高評分
+      validation:
+        cannot_rate_article: 您無法評價這篇文章。
+        guest: 請登錄後再評價。
+        invalid_discussion: 糟糕，出了點問題。您無法評價這篇文章/服務記錄。
+        invalid_points: 無效評價，請重試。
+        missing_article_id: '文章 ID 缺失或無效'
+        neutral_emoji_disabled: 中性表情符號已被禁用。
     support_tickets: 客服工單
+    tickets:
+      convert_to_discussion:
+        button: 轉換為主題帖
+        confirm: '您確定要將此工單轉換為公開討論嗎？ 如果有人分享了私人信息，這也將公開。'
+        event: "已將工單「{ticket_title}」轉為主題帖\n\n要調整到主題帖頁面嗎？\n"
+      convert_to_ticket:
+        button: 轉為工單
+        confirm: 確定要將此主題轉為工單嗎？
+        event: '討論 {ticket_title} 已轉換為工單'
+      opened_on: 打開於
+      reminders_sent: '{count, plural, one {1 條提醒已發送} other {#條提醒已發送}}'
+      return_to_overview: 返回至工單預覽
+      status:
+        closed:
+          close_after_posting: 回覆並關閉工單
+          description: 這個工單已被關閉.
+          is_auto_closed: 由於長時間未得到您的回覆，此工單已關閉。
+          is_closed: '此工單已關閉，當您回复時它將重新打開。 我們建議僅在問題未解決時重新打開工單。 如果是新問題，請開新工單。'
+          title: 已關閉
+        new:
+          description: 未答覆工單
+          title: 新建
+        open:
+          description: 此工单有新回复，等待答复中。
+          title: 進行中
+        pending:
+          description: 此工單等待用戶回覆中。
+          description_user: 我們正在等待您回复或將此工單標記為已解決。
+          title: 待答覆
+      subject: 主題
+      ticket: 工單
+      ticket_activity: '由 {username} 創建 · 最後更新 {date}'
+      ticket_does_not_exist: 請求的客服工單不存在。
+      ticket_overview: 工單預覽
+    utils:
+      redirect:
+        link: 如果沒有任何反應，請<a>點擊此處</a>
+        title: 正在跳轉到我們的知識庫文章……

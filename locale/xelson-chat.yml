@@ -6,26 +6,26 @@ xelson-chat:
   admin:
     permissions:
       create:
-        channel: 发起聊天频道
-        chat: 发起聊天
+        channel: 發起聊天頻道
+        chat: 發起聊天
       delete: 删除聊天消息
-      edit: 编辑聊天消息
-      enabled: 启用聊天
+      edit: 編輯聊天消息
+      enabled: 啟用聊天
       moderate:
         delete: 删除聊天消息
         vision: 查看删除的消息
-      post: 发送聊天消息
+      post: 發送聊天消息
     settings:
       charlimit: 最大消息字符数
       display:
-        censor: 审查为授权用户的消息
+        censor: 審查為授權用戶的消息
         minimize: 最小化
-        title: 显示
+        title: 顯示
       floodgate:
-        number: 连续发送消息数
+        number: 連續發送消息數
         time: 冷静期
         title: 防刷屏
-      title: 聊天设置
+      title: 聊天設置
   forum:
     chat:
       edit_modal:
@@ -100,23 +100,23 @@ xelson-chat:
         deleted_forever: 永久刪除
         events:
           channel:
-            created: '{creatorname} 创建频道 {chatname}'
+            created: '{creatorname} 創建頻道 {chatname}'
           chat:
-            created: '{creatorname} 创建 {chatname} 并邀请 {usernames}'
+            created: '{creatorname} 創建 {chatname} 並邀請 {usernames}'
           color:
-            edited: '{editorname} 将聊天颜色 {old} 修改为 {new}'
+            edited: '{editorname} 將聊天顏色 {old} 修改為 {new}'
           icon:
-            edited: '{editorname} 将聊天图标 {old} 修改为 {new}'
+            edited: '{editorname} 將聊天圖標 {old} 修改為 {new}'
           pm:
-            created: '{creatorname} 创建了与 {username} 的会话'
+            created: '{creatorname} 創建了與 {username} 的會話'
           self:
-            entered: '{username} 进入聊天'
-            leaved: '{username} 离开了聊天'
+            entered: '{username} 進入聊天'
+            leaved: '{username} 離開了聊天'
           title:
-            edited: '{editorname} 将聊天 {old} 重命名为 {new}'
+            edited: '{editorname} 將聊天 {old} 重命名為 {new}'
           users:
-            invited: '{editorname} 邀请 {usernames}'
-            invited_kicked: '{editorname} 邀请 {invitednames} 并移出 {kickednames}'
+            invited: '{editorname} 邀請 {usernames}'
+            invited_kicked: '{editorname} 邀請 {invitednames} 並移出 {kickednames}'
             kicked: '{editorname} 移出 {usernames}'
         type:
           code: '<Code />'
@@ -130,9 +130,9 @@ xelson-chat:
         header: '歡迎來到 Neon 聊天室！'
         subheader: 選擇一個聊天以開始會話
     errors:
-      chatdenied: 你的用户组无权限发送消息
+      chatdenied: 你的用戶組無權限發送消息
       removed: 你被移出聊天
-      unauthenticated: 此聊天仅限注册用户加入
+      unauthenticated: 此聊天僅限注冊用戶加入
     index:
       chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'

@@ -49,6 +49,76 @@ kilowhat-formulaire:
       uniformComposerLayout: 統一的討論作曲家佈局
       uniformComposerLayoutHelp: "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n"
   forum:
+    form-create:
+      button:
+        create: 創建表格
+      field:
+        title: 標題
+      title: 新表格
+    form-edit-header:
+      access-status:
+        both: 創建並編輯
+        closed: 已關閉
+        create: 只創建
+        disabled: 草稿
+        edit: 只編輯
+        enabled: 啟用
+      back: 返回
+      category:
+        discussion: '=> kilowhat-formulaire.ref.type.discussion'
+        standalone: '=> kilowhat-formulaire.ref.type.standalone'
+        user: '=> kilowhat-formulaire.ref.type.user'
+      controls: 操作
+      delete: 永久刪除
+      delete-confirmation: '表單“{title}”將被永久刪除'
+      disable-expert-mode: 關閉專家模式
+      enable-expert-mode: 啟用專家模式
+      fields:
+        private-title: 私人標題
+        slug: '自定義 URL 別名（可選）'
+      hide: 删除
+      restore: 復原
+      tabs:
+        access: Access
+        notifications: 通知
+        placement: 放置
+        submissions: 意見書
+        template: 模板
+      template-export: 模板導入/導出
+    form-edit:
+      expert-mode-warning: "啟用專家模式。這使您可以自定義字段標識符和每個字段的權限。請務必閱讀有關這些功能的文檔，因為您可能會破壞某些東西！\n"
+      field:
+        accept-submissions: 接受新的提交
+        allow-modification: 允許用戶編輯他們現有的提交
+        automatic-discussion: 從表單提交自動創建討論
+        automatic-discussion-help: "啟用後，表單將繼續像獨立表單一樣可訪問。 提交內容將自動創建並連接到新的討論。\n"
+        enable: 啟用
+        link: 特殊表格形式
+        max-submissions: 最大提交數（留空表示無限制）
+        notify-emails: 將數據的副本發送到那些以逗號分隔的電子郵件
+        permission-edit-any: 編輯所有提交請求
+        permission-edit-own: 編輯自己的提交
+        permission-see-any: 查看所有提交
+        permission-see-own: 查看自己的提交
+        send-confirmation-to-participants: 向參與者發送確認電子郵件
+        show-on-creation:
+          discussion: 在討論編輯器顯示
+          discussionHelp: "Flarum 討論編輯器不適合包含很多字段。 您應該安裝並啟用 <a>Composer Page</a> 擴展，以確保所有字段在所有設備上都可以訪問。\n"
+          user: 於註冊時顯示
+        title: 公開標題
+        web-confirmation-message: 'Web 上的確認消息（已啟用格式）'
+      link-options:
+        all-groups: 任意群組
+        groups: 個人主頁
+        standalone: 獨立
+      section:
+        permissions: 權限
+        template: 模板
+      warnings:
+        auto-link-permission-warning: "具有“自動創建討論”選項的表單在單獨訪問時使用全局填充權限。\n"
+        linked-form-is-draft: "此表格目前處於草稿模式。在“訪問”下啟用字段以顯示在論壇上。\n"
+        show-on-composer-invalid-permissions: "確保“查看自己的”和“編輯自己的”權限與可以開始討論所選標籤的人相匹配，以便使用“在作曲家中顯示”。如果不確定，請設置為“成員”。即使您的設置正確，也會出現此消息。\n"
+        show-on-signup-invalid-permissions: "您需要為未批准的成員設置“查看自己的”和“編輯自己的”權限才能使用“在註冊中顯示”。\n"
     form-index:
       columns:
         accept-submissions: 開放
@@ -75,9 +145,14 @@ kilowhat-formulaire:
     global-settings:
       admin-only: 只有論壇管理員可以編輯全局設置
       permissions:
+        editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
+        editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
+        editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
         editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
         fill: '=> kilowhat-formulaire.ref.permissions.fill'
+        seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
         seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
+        seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
       title: 全局權限
     nav:

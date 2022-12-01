@@ -70,6 +70,7 @@ flamarkt-taxonomies:
         name: '=> flamarkt-taxonomies.ref.field.name'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
       submit:
+        edit: '=> flamarkt-taxonomies.ref.submit.edit'
         new: '=> flamarkt-taxonomies.ref.submit.new'
       title:
         edit: 編輯條目
@@ -85,3 +86,57 @@ flamarkt-taxonomies:
         term: 創建術語
       reset-term-order: 將術語列表重置為字母排序
       title: 分類法
+    permissions:
+      bypassTermCounts: 繞過術語計數要求
+      editAnyDiscussion: 在任何的討論編輯分類
+      editAnyUser: 編輯任意用戶的分類
+      editOwnDiscussion: 根據自己的討論編輯分類
+      editOwnUser: 編輯自己用戶的分類
+      heading: 分類法
+      moderate: 配置可用的分類法
+      ownDisabledEveryone: 未激活和暫停的成員
+      ownDisabledMembers: 激活會員
+      seeAnyDiscussion: 在所有的討論中查看分類法
+      seeAnyUser: 查看所有用戶的分類
+      seeOwnDiscussion: 在自己的討論中查看分類法
+      seeOwnUser: 查看自己用戶的分類
+    settings:
+      goToPage: 進入配置頁面
+  api:
+    error:
+      cannot_use_taxonomies_on_model: 您不得在此上下文中使用分類法
+      discussion_taxonomy_not_in_scope: '分類法“{slug}”在當前標籤組合中不可用'
+      invalid_filter_taxonomy: '無效的“{type}”分類過濾器鍵“{slug}”'
+  forum:
+    blog:
+      widget:
+        title: 分類法
+    composer:
+      choose: '選擇 {taxonomy}'
+    discussion:
+      edit: '編輯{taxonomy}'
+    user:
+      edit: '編輯{taxonomy}'
+      nav: 分類法
+  lib:
+    modal:
+      bypassTermCounts: 繞過術語計數
+      custom: '選擇{value}'
+      placeholder: '{count, plural, one {Choose a term...} other {Choose # terms...}}'
+      placeholderOptional: 選擇…
+      submit: OK
+      title:
+        edit: '為 {title}編輯 {taxonomy}'
+        new: '為你的帖子選擇 {taxonomy}'
+  ref:
+    delete: 删除
+    field:
+      color: 顏色
+      description: 描述
+      icon: 圖標
+      iconDescription: '鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>。'
+      name: 名稱
+      slug: 別名
+    submit:
+      edit: 保存
+      new: 新建

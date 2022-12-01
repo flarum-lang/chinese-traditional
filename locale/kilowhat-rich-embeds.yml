@@ -67,12 +67,77 @@ kilowhat-rich-embeds:
       youtubeNoCookieHelp: "切換到 YouTube 提供的備用無 cookie 域。 啟用此選項後，某些視頻可能無法在 iframe 中播放。 無需 API 訪問即可使用此功能。\n"
       youtubePlayer: '允許從預覽中播放 YouTube 視頻'
       youtubePlayerHelp: "當用戶單擊預覽中的播放按鈕時，將按需加載 iframe 播放器。 您必須配置 CSP 和幀標頭以允許來自 YouTube 域名的幀。 無需 API 訪問即可使用此功能。\n"
+  api:
+    embed:
+      flarum:
+        discussion:
+          stats:
+            commentCount: 回覆
+            createdAt: 開始日期
+            participantCount: 參與者
+          type: 主題
+        user:
+          avatarAlt: 頭像
+          stats:
+            commentCount: 評論
+            discussionCount: 主題帖
+            joinTime: 加入日期
+          type: 基本資料
+      github:
+        issue:
+          stats:
+            commentCount: 評論
+            createdAt: 發佈於
+          type: 問題
+        privateRepoSuffix: '[private]'
+        pull:
+          stats:
+            commentCount: 評論
+            commitCount: 提交
+            createdAt: 發佈於
+            reviewCount: 已查看
+          type: 提出請求
+        repo:
+          stats:
+            forkCount: 分支
+            openIssueCount: 未解決的問題
+            stargazerCount: 星
+            subscriberCount: 守望者
+          type:
+            private: 私有倉庫
+            public: 公共存儲庫
+        siteName: GitHub
+      googledrive:
+        file:
+          stats:
+            createdTime: 創建於
+            modifiedTime: 修改於
+            size: 文件大小
+          thumbnailAlt: 'Google Drive 檔案預覽'
+          type: 文件
+        siteName: 'Google Drive'
+      youtube:
+        siteName: YouTube
+        video:
+          stats:
+            commentCount: 評論
+            likeCount: 讚
+            publishedAt: 發表於
+            viewCount: 瀏覽量
+          thumbnailAlt: 視頻縮圖
+          type: 視頻
+    error:
+      blacklistedUrl: '網址 {url} 尚未列入嵌入白名單。'
+      invalidUrl: '網址 {url} 無效。'
   lib:
     controls:
       disable: 禁止在這個帖子中使用嵌入
       disableConfirmation: 所有嵌入將從這篇文章中刪除。繼續？
-      imgCopied: 已復制
+      expandDescription: 展開說明
+      imgCopied: 已復制！
       imgCopy: 複制圖像綱址
+      imgOpen: 在新分頁開啟圖像
+      play: 單擊以使用嵌入式播放器播放媒體
       refresh: 刷新頁面
     embed:
       altAvatar: 用戶頭像

@@ -52,6 +52,34 @@ datitisev-backup:
         access-token:
           description: '生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps.'
           label: 'Access token'
+      ftp:
+        host:
+          description: '要連接到的 FTP 主機名，例如 <em>ftp.yourdomain.local</em>。'
+          label: 遠程主機名
+        passive:
+          description: '是否使用被動 FTP 連接到服務器。'
+          toggle: 被動連結
+        password:
+          description: '要在 FTP 服務器上進行身份驗證的密碼。'
+          label: 請輸入帳號密碼
+        port:
+          description: 'FTP 端口（默認 21）。'
+          label: 端口
+        private-key:
+          description: 'FTP 連接認證時使用的私鑰的路徑（最好是絕對路徑）。'
+          label: 私鑰
+        root:
+          description: 存儲備份的遠程根路徑（子目錄）。
+          label: 根路徑
+        ssl:
+          description: '是否使用加密 SSL 連接到服務器。'
+          toggle: SSL
+        timeout:
+          description: '等待與 FTP 服務器連接的秒數。'
+          label: 時間超時
+        username:
+          description: '要在 FTP 服務器上進行身份驗證的用戶名。'
+          label: 用戶名
       gdrive:
         client:
           id:
@@ -61,6 +89,7 @@ datitisev-backup:
             description: ' '
             label: 'Client Secret'
         folder:
+          description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Folder ID'
         refresh-token:
           description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程序刷新令牌。\n"
@@ -84,6 +113,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Zip Archive'
+    nav:
+      description: 儲存您的論壇副本。
+      label: 備份
     required-package-modal:
       content: "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
       title: '{adapter} 所需的軟件包'

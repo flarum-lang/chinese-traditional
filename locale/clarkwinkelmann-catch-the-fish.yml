@@ -3,6 +3,59 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-catch-the-fish:
+  admin:
+    permissions:
+      choose-name: 抓到魚後重新命名魚
+      choose-place: 抓到魚後隨意放置魚
+      list-rankings: 查看捕魚達人排行榜
+      moderate: 主持捕魚回合
+      participate: 參與捕魚回合
+      visible: 可以看到魚
+    settings:
+      alert-round: 在首頁上顯示回合和持續時間提醒
+      animate-flip: 根據方向翻轉魚的圖像
+      discussion: 主題
+      discussion-age: 一條魚能放置在主題帖中幾天
+      discussion-tags: 標籤白名單
+      discussion-tags-help: "如不指定標簽，即可選擇符合時間範圍內的任意主題帖。若指定了標簽，則僅可選擇此標簽下的主題帖。概率用於設置其他選擇都用了之後的被選中幾率。白名單中最後一個標簽將作為備用標簽，請確保此標簽下至少有一個有效的主題帖。\n"
+      discussion-tags-unavailable: 當前設置不可用：標簽擴展已禁用。
+      general: 常規
+      post: 貼文
+      post-age: 一條魚能放置在回覆帖中幾天
+      post-probability: 出現在回覆帖而非主題的概率（%）
+      tags-control:
+        add: 添加到白名單
+        choose: 選擇標籤
+        delete: 移出白名單
+        down: 下移
+        up: 上移
+      tags-fallback:
+        last-line: 撒銷
+        single-line: 至少需要兩個標簽
+      tags-header:
+        probability: 概率
+        tag: 標籤
+      time-to-place: 隨機放置魚之前允許放置的時間（分鐘）
+      user: 用戶
+      user-age: 用戶必須活躍多久才能放置魚（天）
+      user-probability: 出現在用戶個人主頁的概率（%）
+  api:
+    cannot-catch-own-fish: 你不能補抓自己放置的魚
+    default-fish-name: '魚 #{number}'
+    inactive-discussion: '閒置超過 {days} 天後，不能將魚置於討論中'
+    inactive-post: '不能将鱼放置在 {days} 前创建的主题中'
+    inactive-user: '不能将鱼放在超过 {days} 天没上线的用户这里'
+    invalid-discussion-id: 討論似乎不存在，可能最近被刪除了
+    invalid-post-id: 回文似乎不存在，可能最近被刪除了
+    invalid-user-id: 用戶似乎不存在，可能最近被刪除了
+    model-deleted: 無法將魚放在已刪除的主題帖或回复帖上
+    model-private: 不能在私密主題中放置魚
+    non-comment-post: 您只能把魚放在回覆帖中
+    random-error: 無法隨機生成放置魚的位置
+    tag-not-allowed: 您不可以把魚放在這個標籤中
+    too-many-placement-models: 一次只能放在一個地方
+    user-suspended: 不能將魚放在被封禁的用戶這裡
+    wrong-catch-placement: '這裡沒有魚。 也許你不夠快，其他人先得到它'
   forum:
     basket:
       drag-help: 將魚拖放到主題貼、回覆貼或用戶主頁中
@@ -22,6 +75,9 @@ clarkwinkelmann-catch-the-fish:
       submit-place-later: 好的，我會選個藏身之地
       submit-place-random: 讓魚兒自己藏起來
       title: 你抓到了一條魚！
+    drop-area:
+      message: 您不能將魚放到這里
+      missing-from-store: 在數據存儲中找不到這條魚
     edit-fish-modal:
       title: '編輯魚「{name}」'
     edit-fish:
@@ -62,19 +118,34 @@ clarkwinkelmann-catch-the-fish:
       title: 新魚
     new-round-modal:
       title: 新回合
+    page-ranking:
+      nothing: 暫無回合
+      permission: 你沒有權限查看排行榜
+      title: 排名
     round-alert:
       message: '回合「{name}」，盡情抓魚吧！倒計時 {time}'
       rankings: 查看排行榜
     table-fish:
       actions: 動作
+      edit: 編輯
       image: 圖像
       loading: 正在加載…
       name: 名字
       new: 新魚
+      new-from-image: 批量導入圖像並創建新魚
+      no-user-name: 不重新命名
+      no-user-place: 隨機
       placement: 當前位置
       title: '回合 {name} 的魚'
+      upload: 上傳新圖像
       user-name: 最後命名人：
       user-place: 最後放置人：
+    table-ranking:
+      count: 捕獲數
+      loading: 正在加載…
+      rank: 名字
+      title: '回合 {name} 排行榜'
+      user: 會員
     table-round:
       actions: 動作
       edit: 編輯
