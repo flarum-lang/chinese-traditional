@@ -48,7 +48,101 @@ kilowhat-formulaire:
       title: 論譠全局設置
       uniformComposerLayout: 統一的討論作曲家佈局
       uniformComposerLayoutHelp: "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n"
+  api:
+    cannot-change-form-type: 您不能更改已提交的表單的類型
+    duplicate-field-key: 密鑰應該是唯一的
+    export:
+      meta:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    file-already-belongs-form: '文件 {id} 屬於另一個表單'
+    file-already-belongs-submission: '文件 {id} 屬於另一個提交'
+    formatter-parsing-error: '無法解析內容：{message}'
+    not-allowed-to-fill-field: 您不能更改此字段的值
+    unauthorized-form: '您沒有必要的權限來填寫表單 ID {id}'
+    unauthorized-scoped-form: '您不能使用當前標籤組合填寫表單 ID {id}'
+    unknown-form: '無法識別的表單 ID {id}'
   forum:
+    auto-discussion-options-modal:
+      field:
+        content: 發佈內容
+        tags: 文章標籤
+        tags-help: "以逗號分隔的標籤段列表。除了此表單連接到的標籤之外，還將添加所選標籤。\n"
+        title: 文章標題
+      introduction: "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。默認情況下，將分別使用 { title } 和 { content }。\n"
+      submit: 驗證更改
+      title: 自動討論選項
+    badge:
+      hidden: 隱藏
+      locked: 鎖定
+    choice:
+      other-label: 其它：
+      other-placeholder: 輸入…
+    confirmation-email-options-modal:
+      field:
+        message: 正文
+        title: 標題
+      submit: 驗證更改
+      title: 郵件模板
+    discussion-composer:
+      field:
+        content: 訊息
+        poll: 提出
+        tags: 標籤
+        title: 標題
+    discussion-submission:
+      edit: 編輯
+      empty: 沒有資料
+    error-page:
+      denied-description: 您似乎無權訪問此內容。嘗試登錄。
+      denied-title: 沒有權限
+      notfound-description: 此內容不存在，或者您無權訪問它。
+      notfound-title: 找不到
+    export:
+      fields: 欄位
+      format: 格式
+      format-options:
+        csv: CSV
+        json: JSON
+        ods: ODS
+        xls: XLS
+        xlsx: XLSX
+      heading: 標題/鍵
+      heading-options:
+        key: 字段鍵
+        none: 沒有標題行
+        title: 字段標題
+      meta: 元數據
+      meta-options:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      more-meta: 更多元選項
+      option-keys: 導出選項鍵而不是複選框、單选和選擇的標題
+      preview: 預覽
+      preview-primitives:
+        boolean-false: 'False'
+        boolean-true: 'True'
+        excel-date: '(EXCEL DATE)'
+      submit: 下載
+      title: 導出提交內容
     form-create:
       button:
         create: 創建表格
@@ -86,6 +180,10 @@ kilowhat-formulaire:
         template: 模板
       template-export: 模板導入/導出
     form-edit:
+      auto-discussion-options: 新主題的選項
+      email-confirmation-options: 確認郵件的模板
+      email-notification-options: 通知電子郵件模板
+      exiting-with-unsaved-data: 您有未保存的更改。您真的要退出該頁面嗎？
       expert-mode-warning: "啟用專家模式。這使您可以自定義字段標識符和每個字段的權限。請務必閱讀有關這些功能的文檔，因為您可能會破壞某些東西！\n"
       field:
         accept-submissions: 接受新的提交
@@ -109,8 +207,12 @@ kilowhat-formulaire:
         web-confirmation-message: 'Web 上的確認消息（已啟用格式）'
       link-options:
         all-groups: 任意群組
+        all-tags: 所有標籤
         groups: 個人主頁
         standalone: 獨立
+        tags: 討論區
+      preview: 在新標籤頁中預覽
+      save-for-preview: 保存預覽
       section:
         permissions: 權限
         template: 模板
@@ -142,6 +244,9 @@ kilowhat-formulaire:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+    form-sort:
+      latest: 新表單
+      oldest: 最舊的表單
     global-settings:
       admin-only: 只有論壇管理員可以編輯全局設置
       permissions:
@@ -155,5 +260,119 @@ kilowhat-formulaire:
         seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
       title: 全局權限
+    items-editor:
+      add: 'Add row'
+      remove: 删除行
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
+    options-editor:
+      columns:
+        key: （專家）唯一鍵
+        title: 標題
+      new-placeholder: 新增選項…
+      remove: 移除選項
+    permission-controls:
+      disabled_members_button: 未激活和暫停的成員
+      everyone_button: '=> core.admin.permissions_controls.everyone_button'
+      inherit: 使用預設
+      members_button: 激活會員
+    rich-text:
+      preview-placeholder: 開始輸入預覽
+    save-controls:
+      redo: 重複
+      save: 保存
+      saved-at: '{ago} 已保存'
+      undo: 復原
+      unsaved-changes: 有未保存的更改
+      validation-errors: 您提交的內容有誤
+    select:
+      choose: 請選擇
+    submission-index:
+      columns:
+        actions: 動作
+        date: 日期
+        user: 用戶
+      empty: 沒有提交
+      export: 導出
+      form-edit: 編輯表單
+      form-show: 新的提交
+      guest: 訪客
+      load-more: 載入更多
+      search: 搜索提交...
+      show: 顯示
+    submission-sort:
+      latest: 最近的提交
+      oldest: 最舊的提交
+    submission:
+      delete: 永久刪除
+      delete-confirmation: '{date} 之後的提交將被永久刪除'
+      edit-forbidden: 您不能再編輯此提交。
+      edit-submission: 編輯提交請求
+      form-closed: 此表格已關閉。
+      form-full: 此表單已達到最大提交數量。
+      hide: 删除
+      lock: 鎖定
+      restore: 復原
+      submit-other: 提交另一個
+      submitted-successfully: 您的提交已成功發送。
+      unlock: 解鎖
+    template-editor:
+      add-field: 添加字段
+      delete: 刪除字段
+      description: 描述
+      duplicate: 重複字段
+      email: 郵箱
+      fill-permission: （專家）填寫權限
+      integer: 整數
+      key: '（專家）提交負載中的 JSON 鍵'
+      max: 最大值
+      mime: 'MIME 類型（逗號分隔，接受通配符作為第二部分）'
+      min: 最小值
+      missing-title: 沒有標題的字段
+      no-answer: 無答案
+      other: 允許“其他”用戶值
+      regex: 正則表達式
+      required: 必填
+      rich: '富文本 (TextFormatter)'
+      title: 名稱
+      type:
+        checkbox: 複選框
+        content: 內容
+        date: 日期
+        items: 多條目
+        long: 長本文
+        number: 數字
+        radio: 收音機
+        select: 下拉選單
+        short: 短本文
+        upload: 上傳
+    upload-editor:
+      remove: 移除檔案
+      uploading: 正在上傳……
+  mail:
+    edit: 編輯
+    footer: '由{title}送出'
+    no-answer: 無答案
+    sub-entries: '{count} 個條目'
+    title-new-submission: '新提交的{title}'
+    title-your-submission: '您提交的{title}'
+  ref:
+    manager: 表單管理器
+    permissions:
+      editAnyDiscussion: 查看任意的討論區
+      editAnyUser: 編輯任意的個人資料字段
+      editOwnDiscussion: 編輯自己的討論區
+      editOwnUser: 編輯自已的個人資料字段
+      fill: 填寫獨立表格
+      seeAnyDiscussion: 查看任意的討論區
+      seeAnyUser: 查看所有的個人資料字段
+      seeOwnDiscussion: 查看自己的討論區
+      seeOwnUser: 查看自己的個人資料字段
+    submission-meta:
+      uid: '提交 ID'
+      user_id: '用戶 ID'
+      user_username: 用戶名
+    type:
+      discussion: 討論區
+      standalone: 獨立表格
+      user: 個人資料

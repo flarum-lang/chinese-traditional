@@ -3,6 +3,22 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      body: "尊敬的用戶 {recipient_display_name},\n\n{replier_display_name} 回覆了您的工單 #{ticket_id}《{subject}》。\n\n請點擊下方鏈接查看回覆：\n{url}\n\n我們正在等待您的回覆，若問題已解決，請將工單標記為已解決。\n"
+      subject: '{replier_display_name} 回覆了你的工單 #{ticket_id}'
+    ticket_pending_reply:
+      body: "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 於 {replied_date} 回覆了您的工單 #{ticket_id}，我們正在等候您的回覆。\n\n您的工單鏈接：\n{url}\n\n如果此問題已解決，請將工單標記為已解決。\n"
+      subject: '工單 #{ticket_id} 需要您的回覆'
+    ticket_pending_reply_closed:
+      body: "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 回覆了您的工單 #{ticket_id}。由於長時間未得到您的回覆，您的工單已被自動關閉。\n\n如您的問題沒有解決，您可以再次回帖：\n{url}\n"
+      subject: '工單 #{ticket_id} 由於沒有活動現已關閉'
+    ticket_resolved:
+      body: "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 被標記為已解決，並已關閉。\n\n您的工單鏈接：\n{url}\n\n如果您對此標記有異議，請回覆工單以重新打開。\n"
+      subject: '工單 #{ticket_id} 被標記為已解決'
+    ticket_status_update:
+      body: "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 狀態變更為 {new_status}。\n\n您的工單鏈接：\n{url}\n"
+      subject: '工單 #{ticket_id} 被標記為 {new_status}'
   forum:
     admin_overview: 開啟管理員評分
     article:
@@ -71,6 +87,13 @@ v17development-flarum-support:
       description: 抱歉，此文章或類別不再存在於此位置。
       solution: 您可以使用上面的搜索框搜尋要找的內容。
       title: 未找到項目
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 有人回覆我的工單
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 工單已解決
     or: 或
     overview:
       back_to: '返回 {category}'
@@ -120,6 +143,10 @@ v17development-flarum-support:
         neutral_emoji_disabled: 中性表情符號已被禁用。
     support_tickets: 客服工單
     tickets:
+      compose_ticket:
+        not_allowed: 您當前無法創建新客服工單
+        private_support: 若需要一對一支持，您可以使用此表單在我們的客服平台上創建一個新的工單。對於非一對一支持，請參見<a>我們的公共論壇</a>。
+        title: 發表新工單
       convert_to_discussion:
         button: 轉換為主題帖
         confirm: '您確定要將此工單轉換為公開討論嗎？ 如果有人分享了私人信息，這也將公開。'
@@ -128,7 +155,67 @@ v17development-flarum-support:
         button: 轉為工單
         confirm: 確定要將此主題轉為工單嗎？
         event: '討論 {ticket_title} 已轉換為工單'
+      fields:
+        assignees:
+          placeholder: 工單狀態
+          title: 專員
+        information:
+          placeholder: 請告訴我們您需要哪些幫助
+          title: 工單信息
+        language:
+          description: '您的客服工單將以 {language} 處理。'
+          empty: 尚未選擇語言
+          placeholder: 選擇一個語言
+          title: 語言
+        private_note:
+          edit_button: 編輯備註
+          info: 備注僅對其他客服可見，客戶不可見。
+          placeholder: '例如：2022.1.1 - 處理：刪除數據庫'
+          tip: 提示：如果一個工單有多個客服處理，請在備注時加上你的姓名和日期。
+          title: 個人備註
+        status:
+          placeholder: 工單狀態
+          title: 狀態
+        subject:
+          description: 試著用一句簡短的話來描述你的問題。
+          placeholder: 工單主題
+          title: 主題
+      load_more:
+        title: 加載更多工單
+      my_tickets:
+        description: 在此頁面您可以找到所有一對一工單。
+        no_tickets: 您尚無工單。
+        title: 我的工單
+      new_tickets_dropdown:
+        no_tickets: 尚無工單通知
+        ticket_new: '{username} 創建工單{ticket}'
+        ticket_updated: '{username} 回覆 {ticket}'
+        title: 工單通知
       opened_on: 打開於
+      overview:
+        all_tickets: 所有工單
+        description: 微笑，你是拯救他人的英雄。
+        filter:
+          assignees:
+            search: 搜索負責人
+            title: 負責人
+            unassigned: 未指派
+          language:
+            any: 任意語言
+          status:
+            filter_count: '{count, plural, one {# 過濾條件} other {# 過濾條件}}'
+            title: 工單狀態
+        no_tickets: 暫無工單分配給您。
+        refresh: 刷新
+        selection_closed: 已結單
+        selection_open: 進行中
+        selection_unfiltered: 清除篩選條件
+        sort:
+          least_recent: 非新動態
+          newest: 最新
+          oldest: 最早
+          recent_activity: 新動態
+        title: 工單預覽
       reminders_sent: '{count, plural, one {1 條提醒已發送} other {#條提醒已發送}}'
       return_to_overview: 返回至工單預覽
       status:
@@ -138,21 +225,39 @@ v17development-flarum-support:
           is_auto_closed: 由於長時間未得到您的回覆，此工單已關閉。
           is_closed: '此工單已關閉，當您回复時它將重新打開。 我們建議僅在問題未解決時重新打開工單。 如果是新問題，請開新工單。'
           title: 已關閉
+        duplicate:
+          description: 這個工單被標記為重複.
+          title: 重複
         new:
           description: 未答覆工單
           title: 新建
+        on_hold:
+          description: 工單狀態變更為保留.
+          title: 保留
         open:
-          description: 此工单有新回复，等待答复中。
+          description: 此工單有新回覆，等待答覆中。
           title: 進行中
         pending:
           description: 此工單等待用戶回覆中。
           description_user: 我們正在等待您回复或將此工單標記為已解決。
           title: 待答覆
+        solved:
+          description: 此工單被標記為已解決
+          mark_as_solved: 標記工單為已解決
+          title: 已解決
       subject: 主題
       ticket: 工單
       ticket_activity: '由 {username} 創建 · 最後更新 {date}'
       ticket_does_not_exist: 請求的客服工單不存在。
       ticket_overview: 工單預覽
+      tools:
+        assign_me: 分配給我
+        close_ticket: 關閉工單
+        remove_me: 移除我
+        update_note: 更新私密備註
+        update_status: 更新工單狀態
+        update_subject: 更新工單
+        view_ticket: 查看工單
     utils:
       redirect:
         link: 如果沒有任何反應，請<a>點擊此處</a>
