@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.2 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+
+
+All changes: [v1.0.1...v1.0.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.1...v1.0.2).
+
+
 1.0.1 (2022-12-02)
 ------------------
 
