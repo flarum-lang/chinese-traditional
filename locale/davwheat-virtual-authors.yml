@@ -62,7 +62,7 @@ davwheat-virtual-authors:
       heading: 作者
       item_link_tooltip: '查看{displayName}的所有主題'
   lib:
-    discussion-badge: '{count, plural, one {Has virtual author}, other {Has virtual authors}}'
+    discussion-badge: '{count, plural, one {Has virtual author} other {Has virtual authors}}'
     edit_modal:
       fields:
         description: 描述（關於作者）
