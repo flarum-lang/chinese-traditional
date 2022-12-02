@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.0.1 (2022-12-02)
+------------------
+
+**Updated translations for extensions**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+
+
+All changes: [v1.0.0...v1.0.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.0...v1.0.1).
+
+
 1.0.0 (2022-12-02)
 ------------------
 
