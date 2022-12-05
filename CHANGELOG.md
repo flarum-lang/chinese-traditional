@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.3 (2022-12-05)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+
+
+All changes: [v1.0.2...v1.0.3](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.2...v1.0.3).
+
+
 1.0.2 (2022-12-02)
 ------------------
 
