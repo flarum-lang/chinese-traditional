@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.4 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+All changes: [v1.0.3...v1.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.3...v1.0.4).
+
+
 1.0.3 (2022-12-05)
 ------------------
 
