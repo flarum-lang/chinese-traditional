@@ -2,15 +2,25 @@ CHANGELOG
 =========
 
 
-1.0.4 (XXXX-XX-XX)
+1.1.0 (XXXX-XX-XX)
 ------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+
 
 **Updated translations for extensions**:
 
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 
 
-All changes: [v1.0.3...v1.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.3...v1.0.4).
+All changes: [v1.0.3...v1.1.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.3...v1.1.0).
 
 
 1.0.3 (2022-12-05)
