@@ -48,7 +48,7 @@ core:
       clear_cache_button: 清除快取
       description: 論壇資訊總覽
       io_error_message: 無法寫入文件。請檢查操作權限，重試或者直接從命令列運行命令。
-      title: Dashboard
+      title: 儀表板
       tools_button: 工具
     debug-warning:
       detail: "<code>CSS</code> 文件將每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，數據庫密碼、環境變量等敏感信息均有可能在此期間泄露。\n\n因此我們強烈建議您在生產環境中將 <code>config.php</code> 文件中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文檔</link>了解更多信息。\n"
@@ -74,7 +74,7 @@ core:
       submit_button: 儲存更改
       title: 新增群組
     edit_header:
-      customize_text: '新增要顯示在頁面頂部的，在 Flarum 自有頁眉之上的 HTML。'
+      customize_text: '=> core.ref.custom_header_text'
       submit_button: 儲存更改
       title: 編輯客製化頁眉
     email:
@@ -173,7 +173,7 @@ core:
       reply_to_discussions_label: 新增回覆
       search_users_label: 搜索用戶
       sign_up_label: 註冊帳戶
-      start_discussions_label: 新增貼文
+      start_discussions_label: 發表主題
       title: 權限
       view_forum_label: 瀏覽論壇（討論和用戶）
       view_hidden_groups_label: 查看隱藏群組
@@ -260,7 +260,7 @@ core:
       body_placeholder: '撰寫內容 ...'
       discard_confirmation: 貼文尚未發佈，是否丟棄？
       submit_button: 發佈
-      title: 新增貼文
+      title: '=> core.ref.start_a_discussion'
       title_placeholder: '文章標題 ...'
     composer_edit:
       discard_confirmation: 更改未儲存，是否丟棄？
@@ -314,21 +314,21 @@ core:
       settings_button: 個人設定
       sign_up_link: 註冊
     index:
-      all_discussions_link: 全部貼文
+      all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 無法發佈貼文
       mark_all_as_read_confirmation: 你確定要標記所有貼文為已讀嗎？
       mark_all_as_read_tooltip: 標記所有為已讀
       meta_title_text: 全部主题
       refresh_tooltip: 重新載入
-      start_discussion_button: 新增貼文
+      start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 導航欄下拉選單開關
     index_sort:
       latest_button: 最後回覆
-      newest_button: 最新貼文
-      oldest_button: 最舊貼文
+      newest_button: 最新主題
+      oldest_button: 最舊主題
       relevance_button: 關聯推薦
       toggle_dropdown_accessible_label: 更改「全部主題」排序
-      top_button: 最熱貼文
+      top_button: 最熱主題
     log_in:
       forgot_password_link: 忘記密碼？
       invalid_login_message: 登入信息有誤
@@ -484,7 +484,7 @@ core:
     username:
       deleted_text: '[已註銷]'
   ref:
-    all_discussions: 全部貼文
+    all_discussions: 全部文章
     change_email: 更改郵箱
     change_password: 更改密碼
     color: 顏色
@@ -493,7 +493,7 @@ core:
     confirmation_email_sent: '驗證郵件已發送至 {email}，若未收到請檢查垃圾箱。'
     custom_footer_text: '新增 HTML 代碼顯示於頁面底部。'
     custom_footer_title: 編輯客製化頁腳
-    custom_header_text: '新增要顯示在頁面頂部的，在 Flarum 自有頁眉之上的 HTML。'
+    custom_header_text: '新增要顯示在頁面頂部，位在 Flarum 默認頁眉之上的 HTML代碼。'
     custom_header_title: 編輯客製化頁眉
     delete: 刪除
     delete_forever: 永久刪除
@@ -524,7 +524,7 @@ core:
     settings: 設定
     sign_up: 註冊
     some_others: '{count, plural, one {# 人} other {# 人}}'
-    start_a_discussion: 新增貼文
+    start_a_discussion: 發表主題
     username: 會員名稱
     users: 會員
     view: 查看
@@ -564,7 +564,7 @@ core:
       permission_denied: 您沒有權限訪問此頁面。
       unknown: 載入頁面時出錯。
     index:
-      all_discussions_heading: 全部貼文
+      all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: 下一頁
       previous_page_button: 上一頁
     log_out:
