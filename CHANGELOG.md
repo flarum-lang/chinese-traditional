@@ -18,6 +18,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
 
 All changes: [v1.0.3...v1.1.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.3...v1.1.0).
