@@ -12,7 +12,7 @@ sycho-profile-cover:
     added:
       error: 無法上傳圖片。
       success: 背景圖更換成功。
-    cover: 背景圖
+    cover: 個人背景圖
     edit_cover: 編輯背景圖
     notice: '最大圖片大小：{size}'
     removed:
