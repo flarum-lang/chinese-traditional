@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.1 (2022-12-10)
+------------------
+
+**Updated translations for extensions**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+All changes: [v1.1.0...v1.1.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.1.0...v1.1.1).
+
+
 1.1.0 (2022-12-10)
 ------------------
 
