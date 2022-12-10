@@ -17,6 +17,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
