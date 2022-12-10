@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.1.0 (2022-12-10)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+
+
+**Updated translations for extensions**:
+
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+
+
+All changes: [v1.0.3...v1.1.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.0.3...v1.1.0).
+
+
 1.0.3 (2022-12-05)
 ------------------
 
