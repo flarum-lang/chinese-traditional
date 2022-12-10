@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.1.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+
+
+All changes: [v1.1.1...v1.1.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.1.1...v1.1.2).
+
+
 1.1.1 (2022-12-10)
 ------------------
 
