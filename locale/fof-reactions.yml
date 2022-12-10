@@ -30,7 +30,7 @@ fof-reactions:
             Helptext: 鍵入你想要自動轉換為「喜歡」的回應的標識
             Label: 轉換回應為「喜歡」
             legend: 喜歡
-          warning: 相同的回應<strong>不會</strong>轉換為「喜歡」和「頂」
+          warning: 相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「頂」
         react_own_posts_help: 啟用此項，添加一個權限，允許用戶對自己的帖子表達心情。如需禁止，請禁用此項。
         react_own_posts_label: 允許用戶對自已的貼子表達心情
         save_settings: 儲存設定

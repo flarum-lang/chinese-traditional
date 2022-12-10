@@ -30,11 +30,11 @@ the-turk-diff:
       title: 'Diff 設定'
       useCrons: 透過定時任務存檔舊的修訂版本
       useCronsHelp: '您必須將定時任務添加到伺服器中才能使此選項生效，它將於每週日 02:00AM 執行。如果停用此選項並啟用上面的選項，在修訂相關貼文時，將掃描全部貼文的修訂版本以進行存檔。'
-      usePoint: 使用<strong>點</strong>作為小數點
+      usePoint: 使用<strong>點</strong>作為小數點。
       wordLevel: 詞
   forum:
     confirmDelete: 去定要從歷史中刪除這個修訂版本嗎？
-    confirmRollback: 您確定要轉返至這個修訂版本嗎？這個修訂之後編輯的內容將被永久刪除。
+    confirmRollback: 這個修訂之後編輯的內容將被永久刪除。確定要轉返至這個修訂版本嗎？
     createdInfo: '{username} 於 {ago} 新增'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 修訂版本刪除失敗。
@@ -57,7 +57,7 @@ the-turk-diff:
       revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
       sentence: '您正在預覽 {content}'
     revertChangesButton: 撤回變更
-    revisionInfo: '已編輯 {revisionCount} 次, 最新版顯示於頂部'
+    revisionInfo: '已編輯 {revisionCount, plural, one {{revisionCount}} other {{revisionCount}}} 次，由新到舊排序'
     revisions: '{revisionCount, plural, one {共 {revisionCount} 次修訂} other {共 {revisionCount} 次修訂}}'
     rollbackButton: '轉返至這個修訂版本{number}'
     rollbackErrorMessage: 回復失敗。
