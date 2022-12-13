@@ -31,3 +31,5 @@ maicol07-sso:
       remove_signup_btn: 移除註冊按鈕
       signup_url: 註冊連結
       title: 單點登錄設定
+  forum:
+    manage_account_btn: 帳戶管理
