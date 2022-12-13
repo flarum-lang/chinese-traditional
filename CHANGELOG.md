@@ -8,6 +8,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
 
 All changes: [v1.1.2...v1.1.3](https://github.com/flarum-lang/chinese-traditional/compare/v1.1.2...v1.1.3).
