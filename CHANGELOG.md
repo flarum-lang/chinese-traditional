@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.2.0 (2022-12-14)
+------------------
+
+**Added support for new extensions**:
+
+* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
+
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+All changes: [v1.1.2...v1.2.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.1.2...v1.2.0).
+
+
 1.1.2 (2022-12-11)
 ------------------
 
