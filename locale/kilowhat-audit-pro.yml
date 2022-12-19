@@ -32,6 +32,7 @@ kilowhat-audit:
       user-title: 用戶審計日志
   lib:
     browser:
+      audit_log_cleared: '從日誌中清除了 {deleted_count} 個條目'
       cache_cleared: 手動清除緩存
       client:
         access_token: 'Access token'
