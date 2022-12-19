@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.3.0 (2022-12-19)
+------------------
+
+**Added support for new extensions**:
+
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+
+
+**Updated translations for extensions**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+
+
+All changes: [v1.2.0...v1.3.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.2.0...v1.3.0).
+
+
 1.2.0 (2022-12-14)
 ------------------
 
