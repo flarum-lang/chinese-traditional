@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.4.0 (2022-12-23)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+
+
+**Updated translations for extensions**:
+
+* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
+All changes: [v1.3.0...v1.4.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.3.0...v1.4.0).
+
+
 1.3.0 (2022-12-19)
 ------------------
 
