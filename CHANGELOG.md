@@ -13,6 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
