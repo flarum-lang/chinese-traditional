@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.1 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+
+
+All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.0...v1.4.1).
+
+
 1.4.0 (2022-12-23)
 ------------------
 
