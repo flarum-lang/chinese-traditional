@@ -8,7 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
-* [`finteger/ratings`](https://github.com/finteger/ratings)
+* `finteger-ratings`
 
 
 All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.0...v1.4.1).
