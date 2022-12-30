@@ -10,3 +10,5 @@ finteger-ratings:
       submit: 提交評分
       view: 查看評分
     seeBar: '將最流行的評分討論（限制為 5 個）添加到頂部欄（就在導航下方）。'
+  forum:
+    reviews: '{count, plural, one {REVIEW} other {REVIEWS}}'
