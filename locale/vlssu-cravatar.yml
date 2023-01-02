@@ -28,7 +28,7 @@ vlssu-flarum-cravatar:
         title: 最高評級
         x_label: x：可能包含嚴重性意像或極其令人不安的暴力
       replace-flarum-custom:
-        helptext: '用 Gravatar 替換已上傳到論壇的自定義頭像'
+        helptext: '用 Cravatar 替換已上傳到論壇的自定義頭像'
         title: 上傳要替換的自定義頭像到論壇
   forum:
     settings:
