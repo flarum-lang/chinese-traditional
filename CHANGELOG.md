@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * `finteger-ratings`
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.0...v1.4.1).
