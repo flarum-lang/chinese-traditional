@@ -54,11 +54,11 @@ askvortsov-pwa:
       optin: 您已啟用推送通知，但還沒有配置此設備。
       optin_button: 配置
     discussion_controls:
-      share_button: 分享
+      share_button: 分享連結
     post_controls:
       share_api:
         title: '{username} 對 {title} 的回覆'
-      share_button: 分享
+      share_button: 分享連結
     settings:
       push_header: 推送
       pwa_notifications:
@@ -69,7 +69,7 @@ askvortsov-pwa:
         no_browser_support: '抱歉，該瀏覽器不支持漸進式 Web 應用程序的推送通知。'
         no_browser_support_button: 了解更多
     user_controls:
-      share_button: 分享
+      share_button: 分享連結
   views:
     offline:
       header: 網絡連接錯誤
