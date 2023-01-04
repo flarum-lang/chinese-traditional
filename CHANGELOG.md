@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.4.1 (2023-01-04)
+------------------
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* `finteger-ratings`
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+
+
+All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.0...v1.4.1).
+
+
 1.4.0 (2022-12-23)
 ------------------
 
