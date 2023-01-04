@@ -7,6 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * `finteger-ratings`
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
