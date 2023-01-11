@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 All changes: [v1.4.1...v1.4.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.1...v1.4.2).
