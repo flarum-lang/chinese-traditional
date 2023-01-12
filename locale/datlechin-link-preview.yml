@@ -8,6 +8,8 @@ datlechin-link-preview:
       blacklist_help: 輸入禁止預覽的域名或連結，以逗號分隔。
       blacklist_label: 排除列表
       blacklist_placeholder: '如「baidu.com,https://pornhub.com/categories」'
+      cache_time_help: '已查看連結再次訪問之前將被緩存的分鐘數。 設置為 0 以禁用緩存。 如果未設置，則默認為 60 分鐘。'
+      cache_time_label: 緩存時間
       convert_media_urls_help: 啟用後，將轉換所有媒體連結作為預覽。
       convert_media_urls_label: 預覽媒體連結
       use_google_favicons_help: '如果啟用，將使用 Google 服務來請求相應站點的圖示。'
