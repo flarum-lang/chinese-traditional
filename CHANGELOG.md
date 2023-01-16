@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+All changes: [v1.4.2...v1.5.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.2...v1.5.0).
+
+
 1.4.2 (2023-01-12)
 ------------------
 
