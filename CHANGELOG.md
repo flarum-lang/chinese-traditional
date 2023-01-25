@@ -13,6 +13,12 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+**Updated translations for extensions**:
+
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
 All changes: [v1.4.2...v1.5.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.2...v1.5.0).
