@@ -457,6 +457,7 @@ php flarum cache:clear
 | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/zh_Hant/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/zh_Hant/) |
 | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/ziiven-pay-to-see/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see/zh_Hant/) |
+| [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket) | [![Translation status](https://weblate.rob006.net/widgets/flarum/zh_Hant/ziiven-raffle-ticket/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket/zh_Hant/) |
 
 <!-- premium-extensions-list-stop -->
 
