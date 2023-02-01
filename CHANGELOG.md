@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.5.0 (2023-02-01)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+**Updated translations for extensions**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+
+
+All changes: [v1.4.2...v1.5.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.4.2...v1.5.0).
+
+
 1.4.2 (2023-01-12)
 ------------------
 
