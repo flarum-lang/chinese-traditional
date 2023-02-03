@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 
 
 All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.5.0...v1.6.0).
