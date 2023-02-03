@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.6.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+
+
+All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.5.0...v1.6.0).
+
+
 1.5.0 (2023-02-01)
 ------------------
 
