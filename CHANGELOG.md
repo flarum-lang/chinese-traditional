@@ -11,6 +11,11 @@ CHANGELOG
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 
 
+**Updated translations for extensions**:
+
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+
+
 All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.5.0...v1.6.0).
 
 
