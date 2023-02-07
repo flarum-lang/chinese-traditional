@@ -4,6 +4,9 @@
 
 club-1-cross-references:
   admin:
+    enable_short_references:
+      help: '將訊息中的#<ID> 文本（例如#42）轉換為相應討論的鏈接'
+      label: 啟用簡短參考
     show_discussion_id:
       help: '在每一個主題頁面中，都顯示主題 ID'
       label: '顯示主題 ID'
