@@ -13,6 +13,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 
 
