@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
 **Updated translations for extensions**:
