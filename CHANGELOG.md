@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.6.0 (2023-02-08)
+------------------
+
+**Added support for new extensions**:
+
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+**Updated translations for extensions**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+
+
+All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.5.0...v1.6.0).
+
+
 1.5.0 (2023-02-01)
 ------------------
 
