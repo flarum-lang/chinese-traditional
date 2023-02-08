@@ -7,6 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`flarum/tags`](https://github.com/flarum/tags)
 
 
