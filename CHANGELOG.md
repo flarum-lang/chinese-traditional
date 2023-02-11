@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`flarum/tags`](https://github.com/flarum/tags)
 
 
