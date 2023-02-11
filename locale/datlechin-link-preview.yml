@@ -12,6 +12,8 @@ datlechin-link-preview:
       cache_time_label: 緩存時間
       convert_media_urls_help: 啟用後，將轉換所有媒體連結作為預覽。
       convert_media_urls_label: 預覽媒體連結
+      open_links_in_new_tab_help: 開啟後，連結將於新視窗中打開。
+      open_links_in_new_tab_label: 在新視窗打開連結
       use_google_favicons_help: '如果啟用，將使用 Google 服務來請求相應站點的圖示。'
       use_google_favicons_label: '使用 Google Favicon API'
       whitelist_help: '輸入以逗號分隔的域名或 URL 列表以允許連結預覽。'
