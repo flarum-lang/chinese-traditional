@@ -5,6 +5,9 @@
 rob006-last-post-avatar:
   admin:
     settings:
+      ignorePrivateDiscussions:
+        help: 如果您不想更改私人討論的頭像行為，請打開此選項。
+        label: '忽略私人討論 (FoF Byōbu)'
       mode:
         help: '選擇討論列表中顯示回覆帖子作者的頭像相關配置。 查看 README 以獲得相關資訊。'
         label: 最後回覆圖像顯示模式
