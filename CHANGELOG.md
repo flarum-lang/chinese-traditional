@@ -8,9 +8,11 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
 All changes: [v1.6.0...v1.6.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.6.0...v1.6.1).
