@@ -13,5 +13,6 @@ club-1-cross-references:
   forum:
     comment: 評論
     post_stream:
+      discussion_referenced_multiple_text: '{username} 從多個來源引用了此討論：{sources}'
       discussion_referenced_text: '{username} 引用了來自 {source} 的討論'
     unknown_discussion: '[未知討論]'
