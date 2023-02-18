@@ -4,5 +4,5 @@
 
 justoverclock-broken-links-checker:
   forum:
-    broken: 損壞的連結
-    broken-link: '損壞的連結: '
+    broken: 失效連結
+    broken-link: '失效連結 : '
