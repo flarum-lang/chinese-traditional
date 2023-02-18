@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.6.1 (XXXX-XX-XX)
+1.7.0 (XXXX-XX-XX)
 ------------------
+
+**Added support for new extensions**:
+
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+
 
 **Updated translations for extensions**:
 
@@ -14,10 +19,11 @@ CHANGELOG
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
-All changes: [v1.6.0...v1.6.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.6.0...v1.6.1).
+All changes: [v1.6.0...v1.7.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.6.0...v1.7.0).
 
 
 1.6.0 (2023-02-08)
