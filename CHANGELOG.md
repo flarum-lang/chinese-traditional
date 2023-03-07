@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
 
 **Updated translations for extensions**:
@@ -21,6 +22,7 @@ CHANGELOG
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 All changes: [v1.6.0...v1.7.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.6.0...v1.7.0).
