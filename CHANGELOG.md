@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
 * [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
 **Updated translations for extensions**:
@@ -17,6 +18,7 @@ CHANGELOG
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
