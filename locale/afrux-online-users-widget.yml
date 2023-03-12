@@ -8,5 +8,5 @@ afrux-online-users-widget:
       max_users: 允許展示人數
   forum:
     widget:
-      empty: 無在線用戶
+      empty: 無用戶顯示
       title: 線上用戶
