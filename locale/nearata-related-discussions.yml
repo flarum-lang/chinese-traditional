@@ -18,6 +18,7 @@ nearata-related-discussions:
       position_options:
         first_post: 於首篇文章之後
         last_post: 於未篇文章之後
+        reply_block: 回覆區塊之後
   forum:
     discussion_list_title: 相關討論
     no_results: 沒有找到相關的討論
