@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.7.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [v1.7.1...v1.7.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.7.1...v1.7.2).
+
+
 1.7.1 (2023-03-12)
 ------------------
 
