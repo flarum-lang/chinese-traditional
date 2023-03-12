@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+1.7.0 (2023-03-12)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
+
+
+**Updated translations for extensions**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+All changes: [v1.6.0...v1.7.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.6.0...v1.7.0).
+
+
 1.6.0 (2023-02-08)
 ------------------
 
