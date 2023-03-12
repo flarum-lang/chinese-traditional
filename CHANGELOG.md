@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Updated translations for extensions**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+
+
 All changes: [v1.7.1...v1.7.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.7.1...v1.7.2).
 
 
