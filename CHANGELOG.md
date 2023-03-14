@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.7.2 (XXXX-XX-XX)
+1.8.0 (XXXX-XX-XX)
 ------------------
 
 **General changes**:
@@ -10,12 +10,18 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+
+
 **Updated translations for extensions**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 
 
-All changes: [v1.7.1...v1.7.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.7.1...v1.7.2).
+All changes: [v1.7.1...v1.8.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.7.1...v1.8.0).
 
 
 1.7.1 (2023-03-12)
