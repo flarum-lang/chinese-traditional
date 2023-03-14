@@ -52,6 +52,12 @@ datitisev-backup:
         access-token:
           description: '生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps. 在生成您的令牌之前，為應用授予“files.metadata.write”權限。'
           label: 訪問令牌
+        help:
+          obtain-access-code-button: '開啟 Dropbox'
+          obtain-access-code-label: '獲取訪問碼（需要app key）'
+          obtain-refresh-token-button: 使用代碼
+          obtain-refresh-token-label: '使用訪問代碼獲取刷新令牌（需要app key & secret）'
+          obtain-refresh-token-success: '刷新令牌已成功獲取並更新！ 請保存。'
         key:
           description: 'Dropbox app 密鑰。'
           label: 'APP 密鑰'
