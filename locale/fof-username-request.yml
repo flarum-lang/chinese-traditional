@@ -27,7 +27,7 @@ fof-username-request:
         deleted: 申請已刪除。
         dismiss_button: '=> core.ref.okay'
         submit_button: 提交申請
-        title: 暱稱申請變更
+        title: 申請變更暱稱
       results:
         approved: 您的變更暱稱申請已通過
         dismiss_button: '=> core.ref.okay'
@@ -35,7 +35,7 @@ fof-username-request:
         reason: '拒絕原因：<i>「{reason}」</i>.'
         rejected: 您的暱稱變更申請已被拒絕
         resubmit: 您可以重新提交一個新的暱稱變更申請。
-        title: 暱稱申請變更
+        title: 申請變更暱稱
     pending_requests:
       empty_text: 暫無申請。
       nickname_exerpt: '申請暱稱：{requestedName}'
