@@ -21,6 +21,7 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Chinese (Traditional)",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
