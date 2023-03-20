@@ -2,15 +2,23 @@ CHANGELOG
 =========
 
 
-1.8.1 (XXXX-XX-XX)
+1.9.0 (XXXX-XX-XX)
 ------------------
+
+**Added support for new extensions**:
+
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+
 
 **Updated translations for extensions**:
 
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
-All changes: [v1.8.0...v1.8.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.8.0...v1.8.1).
+All changes: [v1.8.0...v1.9.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.8.0...v1.9.0).
 
 
 1.8.0 (2023-03-14)
