@@ -4,10 +4,14 @@
 
 pay-to-see:
   admin:
+    error_need_one_tag: 請至少選擇一個標籤
     permission:
       allow_bypass_pay2see: 允許跳過付費以查看內容
       allow_purchase_pay2see: 允許購買付費查看內容
+      allow_set_pay2see: 允許設置付費查看其他用戶的討論
       allow_use_pay2see: 同意使用付費瀏覽
+    set_permission_tag: 標籤權限設置
+    set_permission_tag_help: '當用戶開始討論時，他可以通過選擇任何具有權限的標籤來使用 P2S'
     settings:
       badge_icon: 徽章圖示
       badge_icon_desc: '輸入任何 FontAwesome 圖標類的名稱，包括 <code>fas fa-</code> 前綴。留空以移除徽章。'
@@ -36,8 +40,19 @@ pay-to-see:
     purchase_success: 推送成功
     purchase_unlocked_button: 內容解鎖
     purchased_content: 購買的內容
+    purchased_users: 購買的用戶
+    purchased_users_empty: 還未有人購買
     remove: 移除
     remove_pay_to_see_price_success: 付費查看內容已刪除
+    set_error_no_permission: 您無權使用付費查看內容
     set_pay_to_see_price: 設置內容價格
     set_pay_to_see_price_success: 內容價格設置
+    tag_has_permission: 允許付費查看內容
+    tag_no_permission: 您不能使用付費查看選定的標籤
+    tag_no_permission_title: 付費觀看內容
     toolbar_tooltip: 付費以查看內容
+  lib:
+    cancel: 取消
+    confirm: 確認
+    ok: OK
+    save: 保存

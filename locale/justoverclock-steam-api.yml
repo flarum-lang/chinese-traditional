@@ -11,7 +11,13 @@ justoverclock-steam-api:
     accountCreated: '成員自： '
     country: '國籍 '
     gamesOwned: '遊戲擁有者： '
+    lastLogOff: '上次登出： '
     lastLogin: '最後登入： '
+    noCountry: 未填寫
+    noGamesAvailable: 過去兩週沒有活動。
+    privateProfile: 私人資料
+    profile: '簡介： '
+    publicProfile: 公開資料
     realName: '真實名字： '
     status: '狀態 '
     statusAway: 離開
@@ -21,6 +27,6 @@ justoverclock-steam-api:
     statusPlay: 尋求參加
     statusSnooze: Snooze
     statusTrade: 尋求交易
-    steamId: 'Steam Profile ID'
+    steamId: 'Steam Profile ID 或名稱'
     steamIdSaved: 'Steam ID 保存成功'
     visitProfile: 查看資料
