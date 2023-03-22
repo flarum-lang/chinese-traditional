@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 
 
 **Updated translations for extensions**:
