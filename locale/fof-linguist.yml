@@ -88,6 +88,8 @@ fof-linguist:
       validation: 數據校驗錯誤
     locales:
       all: 全部
+    permissions:
+      view_string_keys: 查看翻譯字符
     placeholder:
       all-locales: 此處定義的文本將顯示於全部語言中
       hint: 原文內容：
