@@ -13,6 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
