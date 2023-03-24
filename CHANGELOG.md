@@ -5,6 +5,11 @@ CHANGELOG
 1.9.0 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
