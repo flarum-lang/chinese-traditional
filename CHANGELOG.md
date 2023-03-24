@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.9.0 (2023-03-24)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+
+
+All changes: [v1.8.0...v1.9.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.8.0...v1.9.0).
+
+
 1.8.0 (2023-03-14)
 ------------------
 
