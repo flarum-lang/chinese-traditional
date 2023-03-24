@@ -9,10 +9,12 @@ CHANGELOG
 
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 
 
 **Updated translations for extensions**:
 
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
