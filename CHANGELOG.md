@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.9.1 (2023-03-24)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+All changes: [v1.9.0...v1.9.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.0...v1.9.1).
+
+
 1.9.0 (2023-03-24)
 ------------------
 
