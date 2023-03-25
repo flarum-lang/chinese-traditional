@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.9.2 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+All changes: [v1.9.1...v1.9.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.1...v1.9.2).
+
+
 1.9.1 (2023-03-24)
 ------------------
 
