@@ -11,6 +11,8 @@ fof-ignore-users:
       discussion_label: 由被忽略的用戶發佈
       user_label: 忽略的用戶
     profile_link: 被無視的用戶
+    profile_page:
+      no_ignored: 看起來你沒有忽視任何人。
     user_controls:
       ignore_button: 無視
       ignore_confirmation: 您想要無視此人？
