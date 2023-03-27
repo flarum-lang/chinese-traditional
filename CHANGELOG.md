@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
 All changes: [v1.9.1...v1.9.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.1...v1.9.2).
