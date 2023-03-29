@@ -79,7 +79,7 @@ v17development-flarum-blog:
       write: 寫作
     forum_nav: 論壇導航列
     hidden: 隱藏
-    no_more_posts: 沒有更多文章了…
+    no_more_posts: 沒有更多文章了
     read_more: 閱讀更多
     recent_posts: 近期文章
     return_to_overview: '返回部落格首頁 '
