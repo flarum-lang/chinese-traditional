@@ -7,6 +7,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
