@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.3 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+All changes: [v1.9.2...v1.9.3](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.2...v1.9.3).
+
+
 1.9.2 (2023-03-31)
 ------------------
 
