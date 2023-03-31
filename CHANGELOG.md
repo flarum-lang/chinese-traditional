@@ -11,6 +11,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
