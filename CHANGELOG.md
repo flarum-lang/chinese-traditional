@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.9.2 (2023-03-31)
+------------------
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+All changes: [v1.9.1...v1.9.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.1...v1.9.2).
+
+
 1.9.1 (2023-03-24)
 ------------------
 
