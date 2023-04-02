@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.4 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+
+
+All changes: [v1.9.3...v1.9.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.3...v1.9.4).
+
+
 1.9.3 (2023-04-01)
 ------------------
 
