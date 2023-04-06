@@ -8,4 +8,4 @@ datlechin-silent-edit:
       clearLastEdit: 清除上次編輯信息
   forum:
     post_controls:
-      clear_last_edit_button: 清除上次編輯
+      clear_last_edit_button: 清除編輯紀錄
