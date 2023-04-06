@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
 
 
 All changes: [v1.9.3...v1.9.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.3...v1.9.4).
