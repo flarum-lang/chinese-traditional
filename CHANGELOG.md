@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
 All changes: [v1.9.3...v1.9.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.3...v1.9.4).
