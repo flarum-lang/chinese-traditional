@@ -43,6 +43,7 @@ ziven-guaguale:
       guaguale-item-settings: 票卷設定
       guaguale-item-status: 狀態
       guaguale-item-title: 標題
+      guaguale-item-unlimited: 沒有限制
       guaguale-timezone: 時區
       guaguale-timezone-default: 亞洲/上海
       guaguale-timezone-help: '設置轉帳時間的時區。 默認為“亞洲/上海”'
