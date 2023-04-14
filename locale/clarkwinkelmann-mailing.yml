@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 發送郵件
       mail_individual: 發送郵件
     modal_mail:
+      as_html_label: 以HTML格式傳送
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: 正文
       recipients_label: 收件人
