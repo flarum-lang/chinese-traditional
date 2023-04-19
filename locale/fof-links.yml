@@ -27,6 +27,7 @@ fof-links:
       links: '=> fof-links.ref.links'
     settings:
       show_icons_only_on_mobile: 在手機上只顯示圖示
+      show_icons_only_on_tablet: 在平板上僅顯示圖標
   ref:
     create_link: 新增連結
     links: 連結
