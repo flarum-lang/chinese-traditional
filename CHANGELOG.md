@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.9.4 (XXXX-XX-XX)
-------------------
+1.10.0 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
 
 **Updated translations for extensions**:
 
@@ -11,11 +16,12 @@ CHANGELOG
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
 * [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
-All changes: [v1.9.3...v1.9.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.3...v1.9.4).
+All changes: [v1.9.3...v1.10.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.3...v1.10.0).
 
 
 1.9.3 (2023-04-01)
