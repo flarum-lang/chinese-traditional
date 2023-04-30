@@ -7,14 +7,18 @@ ziven-money-leaderboard:
     permission:
       allow_view_leaderboard: 允許查看排行榜
     settings:
+      leaderboard-additional-info: 附加信息
+      leaderboard-additional-info-help: '在排名開始時顯示附加信息。 留空以隱藏。'
       leaderboard-entry-position: 排行榜進入位置
       leaderboard-entry-sideNav: 側邊導航選單
       leaderboard-entry-topRightMenu: 右上角選單
+      leaderboard-hide-money-text: 在用戶名後隱藏
       leaderboard-icon: 排行榜圖標
       leaderboard-icon-help: '輸入任何 FontAwesome 圖標名稱，包括 <code>fas fa-</code> 前綴。'
       leaderboard-init-load-count: 初始加載計數
       leaderboard-load-more-count: 載入更多負載數
       leaderboard-max-load-count: 最大負載數
+      leaderboard-slug: Slug
   forum:
     leaderboard-list-money: 擁有的資金
     leaderboard-list-rank: 排行
