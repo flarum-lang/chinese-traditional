@@ -20,6 +20,7 @@ ziven-money-leaderboard:
       leaderboard-max-load-count: 最大負載數
       leaderboard-slug: Slug
   forum:
+    leaderboard-list-empty: 沒有內容
     leaderboard-list-money: 擁有的資金
     leaderboard-list-rank: 排行
     leaderboard-list-title: 資金排行榜

@@ -7,7 +7,7 @@ acpl-lscache:
     cache_exclude_help: '一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字符串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。'
     cache_exclude_label: 禁用路徑緩存
     clearing_cache_listener_label: '清除 Flarum 緩存時同步清除 LSCache'
-    public_cache_ttl_help: '設置公共頁面的緩存時間，單位秒。默認 300 秒。'
+    public_cache_ttl_help: '設置公共頁面的緩存時間，單位秒。默認 604800 秒(一週)。'
     public_cache_ttl_label: 默認公共緩存TTL
     purge_all: '清除全部 LSCache'
     purge_all_success: '通知 LiteSpeed Web 服務器清除所有 LSCache'
