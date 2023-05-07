@@ -8,7 +8,7 @@ club-1-cross-references:
       help: '將訊息中的#<ID>文本（例如#42）轉換為相應討論的鏈接。'
       label: 啟用簡短參考
     retrofit_links_in_frontend:
-      help: "在未啟用此擴展時，會於發送的消息中顯示討論連結的標題。 這是在前端完成的，因此可能會導致不好的用戶體驗。\n"
+      help: "在未啟用此擴展時，會於發送的消息中顯示討論連結的標題。 這是在前端完成的，因此可能會導致不好的用戶體驗。如要由後端直接更改，請使用 [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-extchore-commands）擴展中的 `chore:reparse` 指令。\n"
       label: 於前端變更連結
     show_discussion_id:
       help: '在每一個主題頁面中，都顯示主題 ID。'
