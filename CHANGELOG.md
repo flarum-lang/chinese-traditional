@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.10.0 (2023-05-08)
+-------------------
+
+**Added support for new extensions**:
+
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+All changes: [v1.9.3...v1.10.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.9.3...v1.10.0).
+
+
 1.9.3 (2023-04-01)
 ------------------
 
