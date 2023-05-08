@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+
+
+All changes: [v1.10.0...v1.10.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.10.0...v1.10.1).
+
+
 1.10.0 (2023-05-08)
 -------------------
 
