@@ -5,6 +5,11 @@ CHANGELOG
 1.10.1 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Updated translations for extensions**:
 
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
