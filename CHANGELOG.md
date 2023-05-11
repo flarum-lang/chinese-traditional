@@ -15,6 +15,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
 All changes: [v1.10.0...v1.10.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.10.0...v1.10.1).
