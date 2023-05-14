@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.10.1 (XXXX-XX-XX)
+1.11.0 (XXXX-XX-XX)
 -------------------
 
 **General changes**:
@@ -10,15 +10,22 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+
+
 **Updated translations for extensions**:
 
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
-All changes: [v1.10.0...v1.10.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.10.0...v1.10.1).
+All changes: [v1.10.0...v1.11.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.10.0...v1.11.0).
 
 
 1.10.0 (2023-05-08)
