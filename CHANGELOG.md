@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.11.1 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+All changes: [v1.11.0...v1.11.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.11.0...v1.11.1).
+
+
 1.11.0 (2023-05-15)
 -------------------
 
