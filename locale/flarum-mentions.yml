@@ -21,7 +21,7 @@ flarum-mentions:
       subject: '{mentioner_display_name} 提到你【{title}】'
   forum:
     composer:
-      mention_tooltip: 提到某人或貼文
+      mention_tooltip: 提及某人或貼文
       reply_to_post_text: '回覆給 #{number}'
     group_mention:
       deleted_text: '[未知群組]'
@@ -44,4 +44,4 @@ flarum-mentions:
       notify_post_mentioned_label: 有人回覆了你
       notify_user_mentioned_label: 有人提到了你
     user:
-      mentions_link: 提到
+      mentions_link: 被提及
