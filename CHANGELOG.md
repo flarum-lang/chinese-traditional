@@ -13,6 +13,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 
 
 All changes: [v1.11.0...v1.11.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.11.0...v1.11.1).
