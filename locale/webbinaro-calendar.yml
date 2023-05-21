@@ -10,12 +10,26 @@ flarum-calendar:
       add: 創建新活動日程
       moderate: 移除或編輯日程活動（所有用戶都可以編輯他們自己的活動）
       view: 瀏覽活動
+    settings:
+      hide_host: 隱藏主機（由...託管）
   forum:
     button:
       create: 新活動
       landing: 活動日程
       login: '添加你的活動 '
     event:
+      confirm_delete: 您確定要刪除此活動嗎？
+      deleted: 此活動已刪除
       details: 添加活動細節
+      ends: 結束：
+      hosted_by: 主辦：
+      starts: 開始：
     modal:
+      dates_label: 何時
+      description_label: 內容
+      description_placeholder: 活動詳情
+      requirement_message: 事件需要名稱和描述
       submit: 提交
+      title_create: 創建新的日曆事件
+      title_edit: 編輯活動詳情
+      title_label: 什麼

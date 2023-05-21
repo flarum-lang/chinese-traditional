@@ -7,6 +7,7 @@ nearata-twofactor:
     permissions:
       can_enable_twofactor: 啟動兩步驗證
     settings:
+      generate_app_backups: 生成應用備份代碼
       generate_backups: 生成恢復代碼。
   forum:
     invalid_twofa_code: 兩步驟驗証碼錯誤。
@@ -15,6 +16,42 @@ nearata-twofactor:
       otp_placeholder: 兩步驗証碼
       submit_button: 登錄
       title: 兩步驗証
+    login:
+      app:
+        invalid_passcode: 通行碼無效。
+        passcode_placeholder: '6 位密碼'
+      auth_buttons:
+        app: 身份驗證應用程序
+      placeholder_label: 選擇身份驗證方法...
+      submit_button_label: 登入
+      title: 兩步驟身份驗證
+    settings:
+      app:
+        button_help: 您將通過身份驗證應用程序收到訪問代碼。
+        button_label: 驗證應用程序
+        setup:
+          close_button_label: 關閉
+          disable:
+            button_label: 禁用
+            enter_code_disable: 輸入代碼以禁用兩步驟身份驗證應用程序。
+            success: 身份驗證應用程序已禁用。
+          enable:
+            backups:
+              copy_button_label: 複製
+              download_button_label: 已下載
+              download_file_format: "{網站標題} | {網址}\n\n將這些備份代碼保存在安全但可訪問的地方。\n\n代碼列表\n\n{代碼}\n\n* 每個備份代碼只能使用一次。\n* 這些代碼必須按照列出的順序使用。\n* 這些代碼生成於：{date}。\n"
+              message: "將這些恢復代碼保存在安全的地方。 如果您丟失了支持雙重因素的設備，可以按照列出的順序使用這些一次性使用代碼來登錄您的帳戶。\n"
+            button_label: 啟用
+            enter_code_manually: 改為手動輸入密鑰
+            scan_qr: 使用身份驗證設備掃描此二維碼以設置您的帳戶。
+            success: 啟用身份驗證APP。
+          invalid_passcode: 密碼或通行碼無效。
+          passcode_placeholder: '6 位密碼'
+          password_placeholder: 密碼
+          title: 設置身份驗證應用程序
+      configured: 已配置
+      not_configured: 未配置
+      section_title: 兩步驟身份驗証
     setup_button: 兩步驗証
     setup_modal:
       backups:
@@ -34,3 +71,10 @@ nearata-twofactor:
         disable: 停用
         enable: 啟用
       title: 兩步驗証
+  lib:
+    edit_user:
+      app:
+        label: 身份驗證應用程序
+      disable_confirmation: '你確定嗎？ 您將要為用戶禁用此身份驗證方法。'
+      placeholder_text: 沒有什麼可以禁用的
+      section_title: 兩步驟身份驗證
