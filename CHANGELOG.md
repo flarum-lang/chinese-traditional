@@ -2,21 +2,31 @@ CHANGELOG
 =========
 
 
-1.11.1 (XXXX-XX-XX)
+1.12.0 (XXXX-XX-XX)
 -------------------
 
-**General changes**:
+**例行更新**:
 
-* Updated Flarum core translations.
+* 更新核心翻譯.
 
 
-**Updated translations for extensions**:
+**新增翻譯**:
 
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+
+
+**更新翻譯**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
-All changes: [v1.11.0...v1.11.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.11.0...v1.11.1).
+全部變化：[v1.11.0...v1.12.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.11.0...v1.12.0)
 
 
 1.11.0 (2023-05-15)
