@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.12.1 (2023-05-22)
+-------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+
+
+**更新翻譯**:
+
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+
+
+全部變化：[v1.12.0...v1.12.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.12.0...v1.12.1)
+
+
 1.12.0 (2023-05-21)
 -------------------
 
