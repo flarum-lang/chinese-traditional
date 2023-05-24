@@ -10,6 +10,11 @@ CHANGELOG
 * 更新核心翻譯.
 
 
+**更新翻譯**:
+
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+
+
 全部變化：[v1.12.1...v1.12.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.12.1...v1.12.2)
 
 
