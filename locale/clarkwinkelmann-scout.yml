@@ -22,8 +22,8 @@ clarkwinkelmann-scout:
       meilisearchHost: 'Meilisearch Host'
       meilisearchKey: 'Meilisearch Key'
       prefix: 索引名稱前綴（可選）
-      queryMinLength: 建議的最小查詢長度
-      queryMinLengthHelp: "此設置僅影響標題中搜索輸入的建議下拉列表。 Flarum 在檢索建議之前的默認查詢長度為 3 個字符，您可以使用此設置覆蓋它。完整的搜索結果頁面從來沒有任何最小查詢長度。更改此值後必須清除緩存。\n"
+      queryMinLength: 搜索建議的最小字元限制
+      queryMinLengthHelp: "此設置僅影響搜索欄的搜尋建議結果顯示。 Flarum 默認建議搜尋的觸發機制為 3 個字符，您可以使用此設置覆蓋它。完整的搜索結果輸出並不會被影響。更改此值後必須清除緩存。\n"
       queryMinLengthPlaceholder: 自動
       queue: 處理隊列中的索引更新
       queueHelp: '只有在 Flarum 中配置了 asynchronous queue 驅動程序時，此設置才有效。'
