@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.12.2 (XXXX-XX-XX)
+1.13.0 (XXXX-XX-XX)
 -------------------
 
 **例行更新**:
@@ -10,12 +10,18 @@ CHANGELOG
 * 更新核心翻譯.
 
 
+**新增翻譯**:
+
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+
+
 **更新翻譯**:
 
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 
 
-全部變化：[v1.12.1...v1.12.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.12.1...v1.12.2)
+全部變化：[v1.12.1...v1.13.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.12.1...v1.13.0)
 
 
 1.12.1 (2023-05-22)
