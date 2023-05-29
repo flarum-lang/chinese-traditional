@@ -25,6 +25,7 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 嵌入視頻
+    cannot_create: 不允許嵌入視頻
     cannot_view: '錯誤： 無權訪問的內容'
     modal:
       add_pointer: 添加指示器
