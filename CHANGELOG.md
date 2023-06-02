@@ -17,6 +17,7 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 
