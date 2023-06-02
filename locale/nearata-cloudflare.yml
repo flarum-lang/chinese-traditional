@@ -18,6 +18,13 @@ nearata-cloudflare:
         js: '最小化 JS'
         js_help: '自動最小化您網站的所有 JS 文件。'
         section_title: 縮小設置
+      r2:
+        access_key_id: 'Access Key ID'
+        access_key_secret: 'Access Key Secret'
+        bucket_name: 桶名
+        public_domain: 'Public Domain'
+        s3_api: 'S3 API'
+        section_title: R2
       refer_to: 有關詳細信息，請參閱<strong><url>此頁面</url></strong>。
       refresh_zone_button_label: '刷新區域 ID'
       refresh_zone_help: 如果域名已更改，請點擊<strong>only</strong>按鈕。

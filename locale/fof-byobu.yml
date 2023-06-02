@@ -5,6 +5,7 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: '將 2 個以上的用戶收件人添加到私人討論'
       create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的會員
       create_private_discussions_with_groups: 創建私密貼文並可新增群組
       create_private_discussions_with_users: 創建私密貼文並可新增參與者
@@ -18,6 +19,8 @@ fof-byobu:
       delete_on_last_recipient_left_help: '如果啟用，當最後一個用戶離開時，PD 將從數據庫中永久刪除。 若關閉，PD 將只會被軟刪除/隱藏。'
       enable-make-public-option: 啟用「私密轉公開」功能
       enable-make-public-option-help: 轉公開時，所有參與者自動退出私密主題，私密主題轉為普通公開主題。
+      hide_from_all_discussions_page: '從“所有討論”頁面隱藏 PDs'
+      hide_from_all_discussions_page_help: 只能從“私人討論”頁面或用戶個人資料訪問私人討論
       post-event-icon: 'Byobu 發帖事件'
   email:
     body:
