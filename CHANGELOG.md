@@ -20,6 +20,7 @@ CHANGELOG
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
