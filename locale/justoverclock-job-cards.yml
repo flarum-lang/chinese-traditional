@@ -14,6 +14,7 @@ justoverclock-job-cards:
     formSaved: 成功保存
     fullNameField: 全名
     jobFormTitle: 工作簡介
+    jobProfile: 職位簡介
     'no': 'No'
     notAvailable: 不允許
     saveBtn: 保存

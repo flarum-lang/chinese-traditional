@@ -10,7 +10,10 @@ flarum-ext-keywords:
     removedef: 刪除
     word: 詞條
   forum:
+    definition: 範圍
+    loadMore: 更多
     pagetitle: 詞彙表頁面
     searchtext: 搜索術語…
     tagline: 想了解更多本站使用的術語嗎？請查看詞彙表
+    term: 條件
     title: 詞彙表

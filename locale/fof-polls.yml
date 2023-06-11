@@ -18,14 +18,18 @@ fof-polls:
       add_poll: 新增投票
       edit_poll: 編輯投票
     days_remaining: '投票將於 {time} 結束。'
+    max_votes_allowed: '允許投票給 {max, plural, one {# option} other {# options}}。'
     modal:
       add_option_label: 新增選項
       add_title: 新增投票
+      allow_multiple_votes_label: 允許選擇多個選項
       date_placeholder: 投票結束時間（可選）
       edit_title: 編輯投票
       image_option_placeholder: 圖面連結(可選)
       include_question: 必須包含至少一個問題
       max: '最多只能有 10 個選項'
+      max_votes_help: '設置為 0 以允許用戶對所有選項進行投票。'
+      max_votes_label: 每個用戶的最大投票數
       min: '最少只能有 2 個選項'
       no_voters: 暫無投票
       option_placeholder: 選項
