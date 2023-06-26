@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+1.13.0 (2023-06-26)
+-------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+
+
+**新增翻譯**:
+
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+
+
+**更新翻譯**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+
+
+全部變化：[v1.12.1...v1.13.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.12.1...v1.13.0)
+
+
 1.12.1 (2023-05-22)
 -------------------
 
