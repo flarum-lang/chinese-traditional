@@ -23,10 +23,13 @@ kilowhat-custom-paths:
         flarum-tags: 'Flarum 標籤'
         fof-byobu: 'FoF 私密主題'
         fof-gamification: 'FriendsOfFlarum''s Gamification'
+        fof-masquerade: 'FriendsOfFlarum''s Masquerade'
+        fof-moderator-notes: 'FriendsOfFlarum''s Moderator Notes'
         fof-pages: 'FoF 靜態頁面'
         fof-user-directory: 'FriendsOfFlarum''s 會員名冊'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
         v17development-blog: 'v17development''s Flarum Blog'
+        v17development-user-badges: 'v17development 的用戶徽章'
       head:
         name: 頁面名稱
         path: 路徑
@@ -56,6 +59,8 @@ kilowhat-custom-paths:
         fof-byobu-profile: 個人主題頁
         fof-gamification: 排名
         fof-gamification-user-votes: 使用者投票
+        fof-masquerade: 個人設置頁面
+        fof-moderator-notes-user-notes: 簡介註釋
         fof-pages: 靜態頁面
         fof-user-directory: 用戶目錄
         following: 我的關注
@@ -71,9 +76,13 @@ kilowhat-custom-paths:
         user-discussions: 用戶主題帖
         user-likes: 用戶喜歡
         user-mentions: 使用者提及
+        user-security: 安全
         v17development-blog-category: 分類目錄
         v17development-blog-compose: 寫文章
         v17development-blog-overview: 'Blog 首页'
         v17development-blog-post: 帖子
+        v17development-user-badges-item: 徽章詳情
+        v17development-user-badges-overview: 徽章概述
+        v17development-user-badges-user-badges: 個人資料徽章
       redirect: '將預設 Flarum 路徑重定向到新路徑'
       reset: 重置路徑

@@ -29,8 +29,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '服務時間20:00 至 9:00'
       select_best_answer_reminder_days: '於 n 天後提醒用戶選取最佳回覆'
       select_best_answer_reminder_days_help: 於N天後提問者選擇最佳回覆。
+      select_best_answer_tags_help: 選擇哪些標籤，如果有的話，在設置最佳答案時添加到主題中。只允許使用二級標籤。如果最佳答案被刪除，這些標籤將被刪除。
+      select_best_answer_tags_label: '與 "最佳答案 "主題的標籤'
       show_filter_help: 在啟用最佳回覆的標籤頁面顯示「已解決/未解決」過濾項
       show_filter_label: 顯示最佳回覆過濾項
+      show_max_lines_help: 將此項設為0以禁用。如果一個帖子長於配置行數，它將在預覽中被截斷，並帶有淡出的效果。
+      show_max_lines_label: 在帖子預覽中顯示的最大行數
       use_alt_ui: 使用新樣式（最佳回覆按鈕顯示於貼文頁腳）
       use_alt_ui_help: 在帖子底部顯示最佳回覆選擇按鈕
   email:
@@ -72,3 +76,8 @@ fof-best-answer:
     this_best_answer: 設為最佳回覆
     user:
       best-answer-count: '{count, plural, one { {count} 次最佳回覆} other {{count} 次最佳回覆}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 最少的最佳答案
+      most_best_answers: 最多的最佳答案

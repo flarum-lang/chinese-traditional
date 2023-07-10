@@ -12,3 +12,10 @@ glowingblue-localizd:
       help: '此選項是多語言的，通過 <b>Localizd</b> + <a>Linguist</a>。'
       modal_title: '使用 Linguist 添加翻譯'
       translate: 翻譯
+  forum:
+    errors:
+      causes: 這可能是由於以下一個或多個原因造成的
+      deleted: 該頁面可能已被刪除
+      does_not_exist: 該頁面可能不存在
+      logged_in_only: 該頁面可能僅對登錄用戶可用
+      no_permission: 您可能沒有權限查看此頁面

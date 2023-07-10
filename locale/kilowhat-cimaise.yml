@@ -51,6 +51,16 @@ kilowhat-cimaise:
         bottomRight: 右下方
         topLeft: 左上方
         topRight: 右上方
+    status:
+      loading: 加載中…
+      pictures:
+        drafts: '（{count} 份草稿）'
+        section: 圖片
+      refresh: 刷新
+      storage:
+        conversions: '轉化次數：{size}'
+        originals: '原件: {size}'
+        section: 存儲（估計）
   api:
     post-edit:
       cannotAttachAlreadySubmitted: '無法附加圖片 {id}，因為它已經提交'
