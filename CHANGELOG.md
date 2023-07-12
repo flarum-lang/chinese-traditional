@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.14.0 (2023-07-12)
+-------------------
+
+**新增翻譯**:
+
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+**更新翻譯**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+
+
+全部變化：[v1.13.0...v1.14.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.13.0...v1.14.0)
+
+
 1.13.0 (2023-06-26)
 -------------------
 
