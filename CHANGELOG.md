@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.14.1 (XXXX-XX-XX)
+-------------------
+
+**更新翻譯**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+全部變化：[v1.14.0...v1.14.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.14.0...v1.14.1)
+
+
 1.14.0 (2023-07-12)
 -------------------
 
