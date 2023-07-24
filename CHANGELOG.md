@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.14.2 (XXXX-XX-XX)
+-------------------
+
+**更新翻譯**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+
+
+全部變化：[v1.14.1...v1.14.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.14.1...v1.14.2)
+
+
 1.14.1 (2023-07-17)
 -------------------
 
