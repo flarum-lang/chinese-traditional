@@ -25,6 +25,7 @@ fof-polls:
     modal:
       add_option_label: 新增選項
       add_title: 新增投票
+      allow_change_vote_label: 允許用戶更改投票
       allow_multiple_votes_label: 允許選擇多個選項
       date_placeholder: 投票結束時間（可選）
       edit_title: 編輯投票
@@ -47,6 +48,9 @@ fof-polls:
       delete_confirm: 你確定要移除這個投票嗎？
       edit: 編輯投票
     no_permission: 您沒有投票權限
+    poll:
+      cannot_change_vote: 投票後您無法更改投票。
+      submit_button: 投票
     poll_ended: 該投票已結束。
     public_poll: 查看投票人
     tooltip:
