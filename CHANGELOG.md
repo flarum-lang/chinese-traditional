@@ -2,17 +2,24 @@ CHANGELOG
 =========
 
 
-1.14.2 (XXXX-XX-XX)
+1.15.0 (XXXX-XX-XX)
 -------------------
+
+**新增翻譯**:
+
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+
 
 **更新翻譯**:
 
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 
 
-全部變化：[v1.14.1...v1.14.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.14.1...v1.14.2)
+全部變化：[v1.14.1...v1.15.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.14.1...v1.15.0)
 
 
 1.14.1 (2023-07-17)
