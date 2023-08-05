@@ -8,6 +8,7 @@ CHANGELOG
 **新增翻譯**:
 
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 
 
 **更新翻譯**:
