@@ -18,6 +18,8 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 
 
 全部變化：[v1.14.1...v1.15.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.14.1...v1.15.0)
