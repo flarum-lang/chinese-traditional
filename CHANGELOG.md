@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 
