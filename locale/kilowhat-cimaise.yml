@@ -172,6 +172,7 @@ kilowhat-cimaise:
       drop-file: 或拖放至此處
       processing: 處理中
       publishSilently: 安靜的發佈
+      reload: 重新加載草稿列表
       select-file: 選擇檔案
       submit: 提交
       submitInComposer: 繼續
