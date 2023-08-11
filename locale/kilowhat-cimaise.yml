@@ -62,6 +62,22 @@ kilowhat-cimaise:
         originals: '原件: {size}'
         section: 存儲（估計）
   api:
+    picture-edit:
+      unauthorized:
+        author: 作者無效，未經授權編輯
+        crop: 無效裁剪，未經授權編輯
+        description: 描述無效，未經授權編輯
+        isApprovedApprove: 審批狀態無效，不允許審批
+        isApprovedUnApprove: 審批狀態無效，不允許取消審批
+        isDraftSubmit: 草稿狀態無效，不允許提交
+        isDraftUnSubmit: 草稿狀態無效，不允許取消提交
+        isFavorite: 收藏狀態無效，編輯未授權
+        isHiddenHide: 隱藏狀態無效，不允許隱藏
+        isHiddenRestore: 隱藏狀態無效，不允許恢復
+        license: 許可證無效，未授權編輯
+        stickers: 無效貼，未經授權編輯
+        takenAt: 拍攝日期無效，未經授權編輯
+        title: 標題無效，未經授權編輯
     post-edit:
       cannotAttachAlreadySubmitted: '無法附加圖片 {id}，因為它已經提交'
       cannotAttachFromExternalAlbum: '無法附加圖片 {id}，因為它屬於外部相冊'

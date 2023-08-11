@@ -36,6 +36,8 @@ kilowhat-formulaire:
         standaloneEdit: 獨立的編輯頁面
         standaloneView: 標準化頁面
       max-file-size: '最大檔案限制 (kB)'
+      noByobuFields: '不要將討論字段與 Byobu 擴展的私人討論相結合'
+      noByobuFieldsHelp: 默認情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。
       radio-style: 收音機樣式
       side-nav-on-submission: 在提交頁面上顯示側面導航
       style-options:
@@ -71,6 +73,7 @@ kilowhat-formulaire:
     unauthorized-form: '您沒有必要的權限來填寫表單 ID {id}'
     unauthorized-scoped-form: '您不能使用當前標籤組合填寫表單 ID {id}'
     unknown-form: '無法識別的表單 ID {id}'
+    unsupported-discussion-form: '您無法在此類討論中填寫表單 ID {id}'
   forum:
     auto-discussion-options-modal:
       field:
