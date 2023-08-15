@@ -13,8 +13,17 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 網站金鑰
+      type_help: '此擴展僅支持 reCAPTCHA v2。 所選類型必須與您的 reCAPTCHA 憑據類型匹配。'
       type_label: 'reCAPTCHA 類型'
+    test:
+      help_text: "此測試將使用上面輸入的當前值。 確保修改設置後重新加載測試，並且測試通過後不要忘記保存！\n以下可能不會反映已保存的設置。\n"
+      load_test_button: 加載
+      reload_button: 重新加載
+      submit_button: 提交
+      success_message: '成功！ reCAPTCHA 配置正確。'
+      title: 測試驗證碼
   forum:
     error: '提交 reCAPTCHA 時出錯，請重試。'
 validation:
   recaptcha: 'reCAPTCHA 驗證失敗。'
+  recaptcha-unknown: '驗證 reCAPTCHA 時發生未知錯誤 ({errors})。'
