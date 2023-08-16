@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.15.0 (2023-08-16)
+-------------------
+
+**新增翻譯**:
+
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
+* [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+
+
+**更新翻譯**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+
+
+全部變化：[v1.14.1...v1.15.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.14.1...v1.15.0)
+
+
 1.14.1 (2023-07-17)
 -------------------
 
