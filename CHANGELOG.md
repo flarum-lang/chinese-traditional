@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+全部變化：[v1.15.0...v1.16.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.15.0...v1.16.0)
+
+
 1.15.0 (2023-08-16)
 -------------------
 
