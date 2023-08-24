@@ -5,12 +5,17 @@
 clarkwinkelmann-composer-page:
   admin:
     settings:
+      forPrivateDiscussions: 用於私人討論
+      forPrivateDiscussionsHelp: '將 Byobu Discussion Composer 集成到頁面中'
       onlyInTags: 僅在以下標簽中（可選）
       onlyInTagsHelp: "輸入標籤slugs，多個標籤以英文逗號分隔。留空以全局應用本擴展頁面。\n"
   forum:
     nav:
       cancel: 退出編輯器
       continue: 繼續編輯主題貼文
+    page-private:
+      heading: 開始私人討論
+      title: 開始私人討論
     page:
       heading: 創建主題
       title: 創建主題貼文
