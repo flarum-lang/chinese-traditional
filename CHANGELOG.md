@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 
 
