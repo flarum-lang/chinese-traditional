@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.16.0 (2023-09-12)
+-------------------
+
+**新增翻譯**:
+
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**更新翻譯**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+全部變化：[v1.15.0...v1.16.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.15.0...v1.16.0)
+
+
 1.15.0 (2023-08-16)
 -------------------
 
