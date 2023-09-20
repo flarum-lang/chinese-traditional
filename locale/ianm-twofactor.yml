@@ -19,6 +19,8 @@ ianm-twofactor:
       groups:
         help: '要求這些組的成員為其帳戶啟用雙因素身份驗證 (2FA)。 所需組中的用戶無法禁用 2FA。'
         title: '2FA 所需組'
+      logo_qr: 'QR Code上的圖示'
+      logo_qr_help: '如果圖示已上傳，則該圖示將嵌入到二維碼中。 留空以使用論壇圖示。'
   email:
     body:
       status_changed: "您好{recipient_display_name}，\n\n您在 {forum_url} 上的帳戶已採用{type}雙因素身份驗證。\n\n如果您發起了此操作，則無需採取進一步的步驟。 如果您未授權此更改，請立即聯繫論壇管理員。\n"
