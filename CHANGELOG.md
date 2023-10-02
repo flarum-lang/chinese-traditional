@@ -7,7 +7,11 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
