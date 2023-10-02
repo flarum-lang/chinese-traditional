@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.16.1 (2023-10-02)
+-------------------
+
+**更新翻譯**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+全部變化：[v1.16.0...v1.16.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.16.0...v1.16.1)
+
+
 1.16.0 (2023-09-12)
 -------------------
 
