@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.17.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+
+
+**更新翻譯**:
+
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+全部變化：[v1.16.1...v1.17.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.16.1...v1.17.0)
+
+
 1.16.1 (2023-10-02)
 -------------------
 
