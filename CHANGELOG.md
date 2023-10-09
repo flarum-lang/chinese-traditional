@@ -14,6 +14,8 @@ CHANGELOG
 **更新翻譯**:
 
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
 全部變化：[v1.16.1...v1.17.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.16.1...v1.17.0)
