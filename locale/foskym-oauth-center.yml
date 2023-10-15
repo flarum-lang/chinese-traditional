@@ -19,6 +19,8 @@ foskym-oauth-center:
       clients: 管理客戶
       index: 家園
       scopes: 管理範圍
+    permission:
+      use_oauth: '使用 OAuth'
     scopes:
       add_button: 添加範圍
       is_default: 預設
