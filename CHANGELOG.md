@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
 * [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 
@@ -16,6 +17,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
