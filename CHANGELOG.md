@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.17.0 (2023-10-26)
+-------------------
+
+**新增翻譯**:
+
+* [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+
+
+**更新翻譯**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+全部變化：[v1.16.1...v1.17.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.16.1...v1.17.0)
+
+
 1.16.1 (2023-10-02)
 -------------------
 
