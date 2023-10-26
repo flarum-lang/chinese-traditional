@@ -24,6 +24,9 @@ ianm-twofactor:
   email:
     body:
       status_changed: "您好{recipient_display_name}，\n\n您在 {forum_url} 上的帳戶已採用{type}雙因素身份驗證。\n\n如果您發起了此操作，則無需採取進一步的步驟。 如果您未授權此更改，請立即聯繫論壇管理員。\n"
+    status_type:
+      disabled: 禁用
+      enabled: 啟用
     subject:
       status_changed: '您帳戶的雙因素身份驗證{type}'
   forum:
@@ -33,6 +36,7 @@ ianm-twofactor:
     security:
       backup_codes: 您的備份代碼
       backup_codes_instruction: '請將這些代碼保存在安全的地方。 如果您丟失主要身份驗證方法，它們可用於訪問您的帳戶。 它們將不會再次顯示。'
+      backup_codes_remaining: 剩餘備份代碼：
       cancel_button: 取消
       cannot_disable: '當前配置指示您無法禁用兩步驟驗證 。'
       cannot_disable_tooltip: 無法停用兩步驟驗證
