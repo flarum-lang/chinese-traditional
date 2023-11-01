@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 刪除使用者對標籤的訂閱。
+        export_description: 匯出標籤訂閱等級的詳細資訊（如果存在）。
 fof-follow-tags:
   admin:
     settings:
