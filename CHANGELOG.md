@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.18.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`nodeloc/flarum-chatgpt`](https://github.com/nodeloc/flarum-chatgpt)
+
+
+**更新翻譯**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+全部變化：[v1.17.0...v1.18.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.17.0...v1.18.0)
+
+
 1.17.0 (2023-10-26)
 -------------------
 
