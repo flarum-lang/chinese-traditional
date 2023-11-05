@@ -7,7 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
-* [`nodeloc/flarum-chatgpt`](https://github.com/nodeloc/flarum-chatgpt)
+* `nodeloc-chatgpt`
 
 
 **更新翻譯**:
