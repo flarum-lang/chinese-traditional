@@ -7,6 +7,10 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * `nodeloc-chatgpt`
 
 
