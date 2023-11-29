@@ -16,6 +16,8 @@ fof-best-answer:
       documentation: 文檔
       enable_all_tags_button: 為所有標籤啟用最佳回覆
       enable_all_tags_reminder_button: 為所有標籤啟用提醒功能
+      enabled_tags_help: '選擇要為其啟用最佳答案的標籤（如果有）。 這些標籤將成為「問答」格式的標籤，並且能夠設定最佳答案。'
+      enabled_tags_label: 啟用標籤
       introduction: "你需要前往 <code><a>flarum/tags</a></code> 為特定標簽開啟最佳回覆和提醒功能。你可以在「權限」頁面為全局或特定標簽設置最佳回覆的操作權限。\n"
       label:
         advanced: 高級
@@ -23,6 +25,7 @@ fof-best-answer:
         reminders: 提醒事項
         reminders_notice: 要啟用提醒功能，你必需正確配置Flarum。
         tags: 最佳答案標籤
+      remind_tags_label: 提醒標籤
       schedule_log_output: 輸出排程日誌到日誌存儲
       schedule_on_one_server: '透過 ''onOneServer()'' 指令作為任務排程器（需要 Redis/Memcache）'
       schedule_on_one_server_help: '需要 Redis/Memcache'

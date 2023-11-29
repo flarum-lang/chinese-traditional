@@ -8,10 +8,14 @@ imeepo-more-bbcode:
       bypass_like_label: 忽略顯示的喜歡
       bypass_reply_label: 忽略顯示的答案
   forum:
+    button_tooltip_center: 文字置中
     button_tooltip_cloud: 下載地址
+    button_tooltip_justify: 對齊文字
+    button_tooltip_left: 文字置左
     button_tooltip_like: 點讚後即可查看
     button_tooltip_login: 登入即可查看
     button_tooltip_reply: 回覆即可查看
+    button_tooltip_right: 文字置右
     hidden_content: 隱藏內容
     hidden_content_like: 喜歡顯示的內容
     hidden_content_login: 登入顯示內容
