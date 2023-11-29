@@ -6,3 +6,18 @@ blomstra-horizon:
   admin:
     stats:
       auto_refresh: 自動重新整理
+      data:
+        failed-last-seconds: 過去幾秒鐘失敗的作業
+        jobs-past-hour: 過去一小時的工作
+        jobs-per-minute: 每分鐘作業數
+        max-runtime: 最大執行時間
+        max-throughput: 最大吞吐量
+        max-wait-time: 最大等待時間
+        status:
+          inactive: 不活躍
+          label: 狀態
+          running: 執行中
+        total-processes: 所有進程
+      full_dashboard: 'Horizon 儀表板'
+      heading: 隊列概覽
+      refresh: 刷新

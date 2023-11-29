@@ -5,6 +5,11 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: '預設值：{url}'
+        help: "預設情況下，我們透過 Cloudflare 的 CDN 提供反應資產。 您也可以選擇指定任何其他 CDN 位址\n按要求。 <code>[codepoint]</code> 將替換為表情符號的代碼點。\n\n例如，要透過 jsdelivr 切換到 Noto 表情符號，您需要輸入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >。 該字段絕不能留空。\n"
+        label: URL
+        title: CDN
       convert:
         button: 轉換舊地回應
         converted: '成功轉換全部 {number} 個讚'

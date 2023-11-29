@@ -6,6 +6,10 @@ fof-oauth:
   admin:
     configure_button_label: '配置 FoF OAuth'
     settings:
+      advanced:
+        heading: 進階
+        log-oauth-errors-help: '如果啟用，OAuth 錯誤將記錄到 Flarum 日誌中。 這可能有助於調試 OAuth 問題，但也可能包含敏感資訊。'
+        log-oauth-errors-label: '記錄 OAuth 錯誤'
       fullscreen_popup_help: '啟用後，OAuth 登入將在全螢幕彈出視窗中開啟。 如果啟用此功能，寬度和高度設定將被忽略。'
       fullscreen_popup_label: 全螢幕提示視窗
       only_icons_label: 僅顯示登錄按鈕圖標（可選佈置）

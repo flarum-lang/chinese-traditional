@@ -22,6 +22,7 @@ fof-best-answer:
         general: 一般
         reminders: 提醒事項
         reminders_notice: 要啟用提醒功能，你必需正確配置Flarum。
+        tags: 最佳答案標籤
       schedule_log_output: 輸出排程日誌到日誌存儲
       schedule_on_one_server: '透過 ''onOneServer()'' 指令作為任務排程器（需要 Redis/Memcache）'
       schedule_on_one_server_help: '需要 Redis/Memcache'

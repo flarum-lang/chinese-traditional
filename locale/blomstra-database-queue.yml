@@ -6,3 +6,13 @@ blomstra-database-queue:
   admin:
     stats:
       auto_refresh: 自動重新整理
+      data:
+        failed-jobs: 失敗的工作
+        pending-jobs: 待處理的工作
+        queue-name: 佇列
+        status:
+          inactive: 不活躍
+          label: 地位
+          running: 執行中
+      heading: 隊列概覽
+      refresh: 刷新
