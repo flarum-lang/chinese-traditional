@@ -11,13 +11,30 @@ CHANGELOG
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * `nodeloc-chatgpt`
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 
 
 **更新翻譯**:
 
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
