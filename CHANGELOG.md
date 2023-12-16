@@ -15,6 +15,7 @@ CHANGELOG
 * [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
 * [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
 * [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * `nodeloc-chatgpt`
@@ -25,6 +26,7 @@ CHANGELOG
 **更新翻譯**:
 
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
@@ -37,6 +39,8 @@ CHANGELOG
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
 全部變化：[v1.17.0...v1.18.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.17.0...v1.18.0)
