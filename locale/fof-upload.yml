@@ -87,6 +87,8 @@ fof-upload:
         position: 水印位置
         title: 圖片水印
         toggle: 圖片水印
+    nav:
+      shared-uploads-button: 'Shared uploads'
     pane:
       description: 設置上傳服務和首選項。
       title: 上傳
@@ -95,6 +97,12 @@ fof-upload:
       download_label: 下載檔案
       upload_label: 上載檔案
       view_user_uploads_label: 查看用戶上傳的文件
+    shared-uploads:
+      description: 上傳可供論壇所有使用者使用的檔。
+      introduction: "共用上傳是可供論壇所有使用者使用的檔。它們不附加到任何帖子，但可以使用媒體管理器插入到帖子中。\n\n<強>警告：</強>共用上傳不受任何許可權保護。任何知道 URL 的人都可以查看它們。\n"
+      no-files: 尚未上傳任何共享檔。
+      title: 共用上傳
+      upload-new-button: 上傳新檔
     templates:
       bbcode-image: 'BBCode 圖片預覽模板'
       bbcode-image_description: "使用 BBCode 在行內完整顯示圖片。<strong>此模板依賴於 flarum/bbcode 擴展程序。</strong>無下載、統計和熱鏈保護功能。\n"

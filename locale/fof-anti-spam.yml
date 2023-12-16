@@ -7,6 +7,7 @@ fof-anti-spam:
     permissions:
       spamblock_users_label: 標示用戶為垃圾郵件發送者
     settings:
+      button: 設定
       default-actions:
         delete_discussions_help: '這將永久刪除該用戶發起的所有討論。 禁用後，討論將被軟刪除。'
         delete_discussions_label: 刪除討論
