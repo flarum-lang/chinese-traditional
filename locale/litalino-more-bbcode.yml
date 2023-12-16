@@ -8,14 +8,28 @@ imeepo-more-bbcode:
       bypass_like_label: 忽略顯示的喜歡
       bypass_reply_label: 忽略顯示的答案
   forum:
+    button_tooltip_audio: 插入音訊
     button_tooltip_center: 文字置中
+    button_tooltip_clip: 插入剪輯
     button_tooltip_cloud: 下載地址
+    button_tooltip_color: 文字顏色
+    button_tooltip_details: 插入詳細信息
+    button_tooltip_dropcap: 首字下沉
+    button_tooltip_img: 插入圖示
+    button_tooltip_img_center: 插入影像置中
+    button_tooltip_img_left: 插入影像向左浮動
+    button_tooltip_img_right: 插入影像置右
     button_tooltip_justify: 對齊文字
     button_tooltip_left: 文字置左
     button_tooltip_like: 點讚後即可查看
     button_tooltip_login: 登入即可查看
+    button_tooltip_p_left: 左內邊距
+    button_tooltip_p_right: 右內邊距
     button_tooltip_reply: 回覆即可查看
     button_tooltip_right: 文字置右
+    button_tooltip_size: 文字尺寸
+    button_tooltip_table: 插入表格
+    button_tooltip_word: 插入單字
     hidden_content: 隱藏內容
     hidden_content_like: 喜歡顯示的內容
     hidden_content_login: 登入顯示內容
