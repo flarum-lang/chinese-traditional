@@ -48,6 +48,9 @@ kilowhat-rich-embeds:
         block: 段落
         inline: Inline
         separated: 分離
+      maxImageCount: 預覽中的最大影像數
+      maxImageCountHelp: "將顯示多少張來自 Opengraph 或後備解析器的圖像。 所有圖像 URL 始終會儲存，以便您稍後變更此設定。\n"
+      maxImageCountPlaceholder: 留空則無限制
       position: 位置
       positionOptions:
         above: 超連結上方

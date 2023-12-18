@@ -7,10 +7,14 @@ fof-anti-spam:
     blocked_registrations:
       attempted-at: 嘗試
       button: 被阻止的註冊
+      delete_entry: 刪除條目
       email: 'Email 地址'
       help: "此頁面顯示已被 StopForumSpam 服務阻止的所有註冊。 您可以查看每個註冊的詳細信息，如果您願意，可以從資料庫中刪除該記錄。\n"
       ip: 'IP 位置'
+      login-provider: 登入提供者
+      login-provider-data: 登入提供者數據
       no-records: 未發現被阻止的註冊。
+      sfs-data: 停止論壇垃圾郵件數據
       title: 被阻止的註冊
       username: 使用者名稱
     permissions:
@@ -52,3 +56,23 @@ fof-anti-spam:
         sfs_lookup_help: '如果啟用，當新用戶在您的論壇上註冊時，我們將檢查 StopForumSpam 資料庫。 如果找到使用者（使用者名稱、IP 位址、電子郵件）並且啟用該資料點並且 SFS 置信級別達到您定義的級別，他們將無法完成註冊。'
         sfs_lookup_label: 尋找註冊
         username_label: 使用者名稱垃圾郵件檢查
+  forum:
+    message:
+      stopforumspam:
+        blocked: 您的註冊詳細資料已在垃圾郵件預防資料庫中找到，因此您的註冊已被封鎖。
+    spammer_modal:
+      hard_delete_discussions_help: '這將永久刪除該用戶發起的所有討論。 禁用後，討論將被隱藏。'
+      hard_delete_discussions_label: 刪除討論
+      hard_delete_posts_help: '這將永久刪除該用戶發表的所有貼文（評論、回應等）。 停用後，貼文將被隱藏。'
+      hard_delete_posts_label: 刪除貼文
+      hard_delete_user_help: '這將永久刪除該用戶。 停用後，用戶將被暫停。'
+      hard_delete_user_label: 刪除用戶
+      intro: 將使用者標記為垃圾郵件發送者時，將採取多項操作，具體取決於論壇上可用的擴充功能。
+      move_discussions_tag_help: '這會將該使用者發起的所有討論移至您在論壇設定中指定的標籤。 禁用後，討論將保留在目前標籤中。'
+      move_discussions_tag_label: 將討論移至隔離標籤
+      process_button: 進程
+      report_to_sfs_help: '這將向 StopForumSpam 報告使用者的基本詳細資訊（使用者名稱、電子郵件、IP 位址）。 這將有助於防止用戶在使用 StopForumSpam 服務的其他論壇上註冊。'
+      report_to_sfs_label: '向 StopForumSpam 舉報'
+      title: '將 {username} 標記為垃圾郵件發送者'
+    user_controls:
+      spammer_button: 垃圾郵件發送者

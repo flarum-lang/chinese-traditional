@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-twofactor/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: '刪除與 2FA 相關的所有資料。'
+        export_description: '匯出 2FA 狀態和加密的備份代碼。'
 ianm-twofactor:
   admin:
     edit_group:
