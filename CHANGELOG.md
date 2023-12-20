@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.18.1 (XXXX-XX-XX)
+-------------------
+
+**更新翻譯**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+全部變化：[v1.18.0...v1.18.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.18.0...v1.18.1)
+
+
 1.18.0 (2023-12-18)
 -------------------
 
