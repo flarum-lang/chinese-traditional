@@ -179,6 +179,7 @@ fof-upload:
   lib:
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {未選擇} one {選擇檔案} other {選擇檔案}}'
+      delete_confirmation: '您確定要刪除“{fileName}”嗎？'
       delete_file_a11y_label: '刪除 "{fileName}"'
       empty: 沒有檔案可顯示
       hide_file:
