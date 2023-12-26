@@ -8,6 +8,8 @@ CHANGELOG
 **更新翻譯**:
 
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 
 
 全部變化：[v1.18.0...v1.18.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.18.0...v1.18.1)
