@@ -8,6 +8,7 @@ CHANGELOG
 **更新翻譯**:
 
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 
