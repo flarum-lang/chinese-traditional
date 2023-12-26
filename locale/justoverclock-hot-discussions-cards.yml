@@ -4,5 +4,5 @@
 
 justoverclock-hot-discussion-cards:
   forum:
-    hot: 最佳！
+    hot: TOP!
     post: '{count, plural, one {POST} other {POSTS}}'
