@@ -2,18 +2,26 @@ CHANGELOG
 =========
 
 
-1.18.1 (XXXX-XX-XX)
+1.19.0 (XXXX-XX-XX)
 -------------------
+
+**新增翻譯**:
+
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+
 
 **更新翻譯**:
 
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 
 
-全部變化：[v1.18.0...v1.18.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.18.0...v1.18.1)
+全部變化：[v1.18.0...v1.19.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.18.0...v1.19.0)
 
 
 1.18.0 (2023-12-18)
