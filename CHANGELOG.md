@@ -14,6 +14,8 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
