@@ -24,6 +24,7 @@ fof-recaptcha:
       title: 測試驗證碼
   forum:
     error: '提交 reCAPTCHA 時出錯，請重試。'
+    unknown_error: '出現未知錯誤。 檢查驗證碼並重試。'
 validation:
   recaptcha: 'reCAPTCHA 驗證失敗。'
   recaptcha-unknown: '驗證 reCAPTCHA 時發生未知錯誤 ({errors})。'
