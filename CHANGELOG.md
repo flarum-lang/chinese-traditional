@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.20.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+**更新翻譯**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+全部變化：[v1.19.0...v1.20.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.19.0...v1.20.0)
+
+
 1.19.0 (2024-01-09)
 -------------------
 
