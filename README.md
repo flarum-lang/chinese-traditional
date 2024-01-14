@@ -53,6 +53,7 @@ php flarum cache:clear
 | [`flarum/approval`](https://github.com/flarum/approval) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/zh_Hant/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/zh_Hant/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/zh_Hant/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/zh_Hant/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/zh_Hant/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/zh_Hant/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/zh_Hant/) |
