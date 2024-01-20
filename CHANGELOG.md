@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 
 
@@ -14,6 +15,7 @@ CHANGELOG
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 
 
 全部變化：[v1.20.0...v1.21.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.20.0...v1.21.0)
