@@ -13,6 +13,7 @@ justoverclock-steam-api:
     gamesOwned: '遊戲擁有者： '
     lastLogOff: '上次登出： '
     lastLogin: '最後登入： '
+    lastLogoff: '上次註銷： '
     noCountry: 未填寫
     noGamesAvailable: 過去兩週沒有活動。
     privateProfile: 私人資料
