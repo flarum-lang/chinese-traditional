@@ -20,7 +20,7 @@ fof-best-answer:
       enabled_tags_label: 啟用標籤
       introduction: "你需要前往 <code><a>flarum/tags</a></code> 為特定標簽開啟最佳回覆和提醒功能。你可以在「權限」頁面為全局或特定標簽設置最佳回覆的操作權限。\n"
       label:
-        advanced: 高級
+        advanced: 進階
         general: 一般
         reminders: 提醒事項
         reminders_notice: 要啟用提醒功能，你必需正確配置Flarum。

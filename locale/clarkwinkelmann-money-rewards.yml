@@ -26,7 +26,7 @@ clarkwinkelmann-money-rewards:
         create: 不消耗餘額來進行打賞
         custom: 自定義金額
       optionCustom: 自定義
-      submit: 提交
+      submit: 送出
       success: 已打賞給發帖作者！
       target: '由{username}打賞了{number}貼文'
       title: 打賞該帖

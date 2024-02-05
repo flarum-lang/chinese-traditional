@@ -13,4 +13,4 @@ justoverclock-og-meta-tag:
     ogurl: '分享卡片 URL'
     ogurl-help: '用於分享卡片的永久標準連結，如「https://www.imdb.com/title/tt0117500/」。'
     siteName: 網站名稱
-    siteName-help: 如果你的站點屬於一個大站點的子集，站點名稱應概括為整個站點，如「IMDb」。
+    siteName-help: 如果你的網站屬於一個大網站的子集，網站名稱應概括為整個網站，如「IMDb」。

@@ -12,11 +12,11 @@ nearata-cloudflare:
       confirm_text: 確定？
       minify_setting:
         css: '最小化 CSS'
-        css_help: '自動最小化您網站的所有 CSS 文件。'
+        css_help: '自動最小化您網站的所有 CSS 檔案。'
         html: '最小化 HTML'
-        html_help: '自動最小化您網站的所有HTML 文件。'
+        html_help: '自動最小化您網站的所有HTML 檔案。'
         js: '最小化 JS'
-        js_help: '自動最小化您網站的所有 JS 文件。'
+        js_help: '自動最小化您網站的所有 JS 檔案。'
         section_title: 縮小設置
       r2:
         access_key_id: 'Access Key ID'
@@ -31,7 +31,7 @@ nearata-cloudflare:
       security_level_label: 安全級別
       security_level_options:
         essentially_off: 實質關閉
-        high: 高級
+        high: 進階
         low: 低等
         medium: 中級
         'off': 關閉

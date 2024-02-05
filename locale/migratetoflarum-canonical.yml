@@ -7,7 +7,7 @@ migratetoflarum-canonical:
     settings:
       field:
         status: 重定向類型
-        wrong_url: 透過規範網址訪問論壇後，擴展設置就會出現
+        wrong_url: 透過規範網址訪問論壇後，擴充套件設置就會出現
       option:
         301: 301（永久重定向，適用於網站調整、網頁地址遷移等場景）
         302: 302（臨時重定向，適用於測試、暫時性的網址遷移等場景）

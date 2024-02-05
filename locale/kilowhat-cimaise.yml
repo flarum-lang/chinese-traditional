@@ -35,7 +35,7 @@ kilowhat-cimaise:
       mapboxToken: 'Mapbox Token'
       mapboxTokenHelp: 填寫一個有效的token以在圖片下顯示地理位置圖。
       neverSyncDiscussionAlbumTitles: 從不同步討論和相簿名稱
-      neverSyncDiscussionAlbumTitlesHelp: "預設情況下，與討論標題完全相同的相簿將在討論標題更改時重命名。 如果相簿被手動重命名，同步命名功能將失效。\n"
+      neverSyncDiscussionAlbumTitlesHelp: "預設情況下，與討論標題完全相同的相簿將在討論標題更改時重新命名。 如果相簿被手動重新命名，同步命名功能將失效。\n"
       requireLicense: 需要從下面的列表中選擇一個許可證
       requireLicenseHelp: "預設情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n"
       sticker-add: 加入貼紙
@@ -69,8 +69,8 @@ kilowhat-cimaise:
         description: 描述無效，未經授權編輯
         isApprovedApprove: 審批狀態無效，不允許審批
         isApprovedUnApprove: 審批狀態無效，不允許取消審批
-        isDraftSubmit: 草稿狀態無效，不允許提交
-        isDraftUnSubmit: 草稿狀態無效，不允許取消提交
+        isDraftSubmit: 草稿狀態無效，不允許送出
+        isDraftUnSubmit: 草稿狀態無效，不允許取消送出
         isFavorite: 收藏狀態無效，編輯未授權
         isHiddenHide: 隱藏狀態無效，不允許隱藏
         isHiddenRestore: 隱藏狀態無效，不允許恢復
@@ -79,7 +79,7 @@ kilowhat-cimaise:
         takenAt: 拍攝日期無效，未經授權編輯
         title: 標題無效，未經授權編輯
     post-edit:
-      cannotAttachAlreadySubmitted: '無法附加圖片 {id}，因為它已經提交'
+      cannotAttachAlreadySubmitted: '無法附加圖片 {id}，因為它已經送出'
       cannotAttachFromExternalAlbum: '無法附加圖片 {id}，因為它屬於外部相簿'
       cannotAttachHasNoAlbum: 討論沒有附加相簿
       cannotAttachToNonComment: 圖片不能手動附加到非評論貼文
@@ -115,7 +115,7 @@ kilowhat-cimaise:
       search: 搜尋
       select: 選擇
       selected: 選擇：
-      submit: 提交
+      submit: 送出
       title: '將相簿附加到“{title}”'
       unselect: 取消選擇
     badge:
@@ -190,7 +190,7 @@ kilowhat-cimaise:
       publishSilently: 安靜的發佈
       reload: 重新載入草稿列表
       select-file: 選擇檔案
-      submit: 提交
+      submit: 送出
       submitInComposer: 繼續
       title: '上傳相簿“{title}”中的圖片'
       titleInComposer: 編輯圖片

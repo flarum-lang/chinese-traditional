@@ -6,16 +6,16 @@ blomstra-gdpr:
   lib:
     data:
       uploads:
-        anonymize_description: '從上傳的檔案中刪除使用者資訊。 這些文件本身仍然可以在預匿名狀態下查看它們的使用者存取。'
+        anonymize_description: '從上傳的檔案中刪除使用者資訊。 這些檔案本身仍然可以在預匿名狀態下查看它們的使用者存取。'
         delete_description: 刪除用戶上傳的所有檔案。
         export_description: 用戶上傳的所有檔案。
 fof-upload:
   admin:
     help_texts:
-      client_extension: "預設情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n"
+      client_extension: "預設情況下，上傳器將根據 MIME 類型選擇一個安全的檔案擴充套件名。\n對於某些基於 ZIP 或二進制數據的檔案類型，這可能導致使用不正確的通用擴充套件名。\n在這裡，您可以輸入一個逗號分隔的檔案擴充套件名列表，該列表將被逐字保留。\n"
       composer_buttons: "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
       disable-download-logging: "開啟此設定可查看下載量及未來可能的統計數據。\n"
-      disable-hotlink-protection: "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及貼文 ID。\n"
+      disable-hotlink-protection: "熱鏈保護可防止從其他網站下載。目前的方式需求 csrf token 及貼文 ID。\n"
       download_templates: "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n"
       mime_types: "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n"
       resize: "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n"
@@ -24,21 +24,21 @@ fof-upload:
       s3_instance_profile: "公鑰和秘鑰留空時，可為實例單獨配置。\n"
       watermark: "在圖片上載時新增水印，僅支援非 gif 圖片。\n"
     inspect-mime:
-      description: "由於 PHP Fileinfo 擴展在不同伺服器上返回的文件類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n"
-      guessed-extension: 預設文件擴展名
-      laravel-validation: 'Laravel 文件驗證消息'
+      description: "由於 PHP Fileinfo 擴充套件在不同伺服器上返回的檔案類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n"
+      guessed-extension: 預設檔案擴充套件名
+      laravel-validation: 'Laravel 檔案驗證消息'
       mime-detector: 'Mime 檢測器（主）'
       mime-fileinfo: 'PHP Fileinfo（備）'
-      no-file-selected: 請選擇文件
+      no-file-selected: 請選擇檔案
       not-available: 暫無結果
-      select: 選擇一個文件，並檢測類型。您選擇的文件不會被儲存。
+      select: 選擇一個檔案，並檢測類型。您選擇的檔案不會被儲存。
       title: '檢查 MIME'
       validation-failed: '失敗：{error}'
       validation-passed: 通過
     labels:
       aws-s3:
         acl: 訪問控制列表（ACL）
-        advanced_title: '高級 S3 存儲設置'
+        advanced_title: '進階 S3 存儲設置'
         bucket: 存儲空間（Bucket）
         endpoint: 訪問域名（Endpoint）
         key: Key
@@ -47,7 +47,7 @@ fof-upload:
         title: 'AWS S3 存儲設定'
         use_path_style_endpoint: '使用 path-style 訪問域名'
       client_extension:
-        title: 用戶自定義文件擴展名
+        title: 用戶自定義檔案擴充套件名
       composer_buttons:
         options:
           both: 全部顯示
@@ -64,7 +64,7 @@ fof-upload:
         client_id: 'Imgur 用戶端 ID'
         title: 'Imgur 圖片存儲設定'
         tos: '你有義務確保你的用戶遵守 Imgur 的 <a>服務條款</a>'
-      inspect-mime: '測試文件 MIME 類型'
+      inspect-mime: '測試檔案 MIME 類型'
       local:
         cdn_url: 'CDN 連結 (在檔案前)'
         title: 本地存儲設定
@@ -93,12 +93,12 @@ fof-upload:
       description: 設置上傳服務和首選項。
       title: 上傳
     permissions:
-      access_shared_label: 在媒體管理員中存取共用文件
-      delete_uploads_of_others_label: 刪除用戶上傳的文件
+      access_shared_label: 在媒體管理員中存取共用檔案
+      delete_uploads_of_others_label: 刪除用戶上傳的檔案
       download_label: 下載檔案
       upload_label: 上載檔案
-      upload_shared_label: 上傳共享文件
-      view_user_uploads_label: 查看用戶上傳的文件
+      upload_shared_label: 上傳共享檔案
+      view_user_uploads_label: 查看用戶上傳的檔案
     shared-uploads:
       description: 上傳可供論壇所有使用者使用的檔。
       introduction: "共用上傳是指可供論壇所有使用者使用的檔。它們不附加於任何帖子，但可以使用媒體管理器插入到帖子中。\n\n<strong>警告：</strong>共用上傳不受任何許可權保護。任何知道 URL 的人都可以查看它們。\n"
@@ -131,19 +131,19 @@ fof-upload:
       cannot_write_to_disk: 無法寫入磁盤。
       could_not_detect_mime: '無法偵測這個檔案的 MIME 類型，請重新嘗試。'
       forbidden_type: 不允許上載這個類型的檔案。
-      max_upload_file_size_form: 上傳表單已達到最大文件大小限制。
-      max_upload_file_size_ini: '已達到 php.ini 上傳最大文件大小限制。'
-      no_file_uploaded: 沒有上傳文件。
-      no_files_made_it_to_upload: '請上傳不超過 {max} kb 的文件。'
-      no_upload_tmp_folder: '沒有用於上傳文件的 tmp 文件夾。'
+      max_upload_file_size_form: 上傳表單已達到最大檔案大小限制。
+      max_upload_file_size_ini: '已達到 php.ini 上傳最大檔案大小限制。'
+      no_file_uploaded: 沒有上傳檔案。
+      no_files_made_it_to_upload: '請上傳不超過 {max} kb 的檔案。'
+      no_upload_tmp_folder: '沒有用於上傳文件的 tmp 資料夾。'
       partial_upload: 部分上傳。
       unsupported_type: '上載適配器不支援這個 MIME 類型： {mime}。'
-      upload_blocked_by_php_extension: 'php 擴展阻止了上傳。'
+      upload_blocked_by_php_extension: 'php 擴充套件阻止了上傳。'
   forum:
     buttons:
       attach: 上載
       cancel: 取消
-      media: 我的文件
+      media: 我的檔案
       shared_media: 已分享的媒體
       upload: 上傳
       upload_shared: 已分享
@@ -170,12 +170,12 @@ fof-upload:
       unauthorized: 您未被允許下載檔案
     text_preview:
       collapse: 收起全文
-      error: "文件預覽無法載入。此文件可能已被刪除，或文件 ID已失效。\n"
+      error: "檔案預覽無法載入。此檔案可能已被刪除，或檔案 ID已失效。\n"
       expand: 展開全文
       no_snippet: '<暫無可用的預覽代碼片段>'
       no_snippet_preview: '<本文的預覽將會在此處展示>'
     validation:
-      max_size: '文件需小於 {max} KB。'
+      max_size: '檔案需小於 {max} KB。'
   lib:
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {未選擇} one {選擇檔案} other {選擇檔案}}'
@@ -187,11 +187,11 @@ fof-upload:
         btn_a11y_label_show: '在媒體管理器中顯示“{fileName}”'
         hide_confirmation: '您確定要隱藏「{fileName}」嗎？ 隱藏檔案只會將其從媒體管理員中刪除，不會影響現有貼文。'
         hide_fail: '無法隱藏檔案“{fileName}”'
-        hide_success: 文件隱藏
+        hide_success: 檔案隱藏
         loading: 隱藏檔案...
         show_confirmation: '您確定要顯示“{fileName}”嗎？ 顯示檔案將使其在媒體管理員中可見。'
         show_fail: '無法顯示檔案“{fileName}”'
-        show_success: 顯示文件
+        show_success: 顯示檔案
       hide_shared_file:
         btn_a11y_label_hide: '將「{fileName}」設為私有（無公用 URL）'
         btn_a11y_label_show: '公開「{fileName}」（使用公用 URL）'
@@ -199,17 +199,17 @@ fof-upload:
         hide_fail: '無法將檔案「{fileName}」設為私有'
         hide_success: 檔案設為私有
         loading: 將檔案設為私有...
-        show_confirmation: '您確定要公開「{fileName}」嗎？ 公開文件將使任何擁有公共 URL 的人都可以存取該文件，並且任何人都可以使用媒體管理員共用該文件。'
+        show_confirmation: '您確定要公開「{fileName}」嗎？ 公開檔案將使任何擁有公共 URL 的人都可以存取該檔案，並且任何人都可以使用媒體管理員共用該檔案。'
         show_fail: '無法公開檔案“{fileName}”'
-        show_success: 文件公開
+        show_success: 檔案公開
       load_more_files_btn: 載入更多檔案
       loading: 載入檔案…
-      modal_empty_desktop: '您的文件清單為空。 按一下按鈕或將檔案拖曳至此處進行上傳。'
-      modal_empty_phone: '您的文件清單為空。 點擊上面的按鈕上傳檔案。'
+      modal_empty_desktop: '您的檔案清單為空。 按一下按鈕或將檔案拖曳至此處進行上傳。'
+      modal_empty_phone: '您的檔案清單為空。 點擊上面的按鈕上傳檔案。'
       release_to_upload: 發布上傳
       select_file_a11y_label: '選擇檔案“{fileName}”'
     upload-shared-file-modal:
-      dropzone: 將文件拖曳到此處或點擊瀏覽
+      dropzone: 將檔案拖曳到此處或點擊瀏覽
       hide-from-media-gallery: 從使用者的媒體庫中隱藏
       title: 新分享的檔案
       upload: 上傳

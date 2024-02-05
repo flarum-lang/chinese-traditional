@@ -19,7 +19,7 @@ datitisev-backup:
           description: 終端儲存的URL。
           label: 終端
         path-prefix:
-          description: 可選擇的預設文件路徑前綴。
+          description: 可選擇的預設檔案路徑前綴。
           label: 路徑前綴
       aws:
         bucket:
@@ -33,7 +33,7 @@ datitisev-backup:
             description: 'AWS 憑證密鑰'
             label: Secret
         path-prefix:
-          description: 可選擇的預設文件路徑前綴。
+          description: 可選擇的預設檔案路徑前綴。
           label: 路徑前綴
         region:
           description: 儲存桶的區域。

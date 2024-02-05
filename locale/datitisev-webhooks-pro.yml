@@ -5,8 +5,8 @@
 fof-webhooks:
   actions:
     extension:
-      installed: '安裝擴展 `{1}`'
-      updated: '更新擴展 `{1}`'
+      installed: '安裝擴充套件 `{1}`'
+      updated: '更新擴充套件 `{1}`'
     ip:
       banned: '拉黑 IP `{1}`'
       unbanned: '取消拉黑 IP `{1}`'
@@ -25,8 +25,8 @@ fof-webhooks:
       actions:
         extiverse:
           bazaar:
-            extensionwasinstalled: 擴展安裝
-            extensionwasupdated: 擴展更新
+            extensionwasinstalled: 擴充套件安裝
+            extensionwasupdated: 擴充套件更新
             title: 'Extiverse 市場'
         fof:
           banips:

@@ -23,7 +23,7 @@ adblock:
     adblock-notice-element: 在顯示通知的位置增加標籤
     adblock-notice-element-placeholder: 'Ex ''#content, .App-content, .IndexPage, container'''
     adblock-notice-method: 通知風格
-    adblock-notice-method-help: 這里你可以變更通知的風格屬性
+    adblock-notice-method-help: 這裡你可以變更通知的風格屬性
     adblock-supportRedirectUrl: 支援我們-連結
     adblock-supportRedirectUrl-placeholder: '在此處貼上有效的 URL 或將其留空'
     adblock-supportUsMessage: 支援我們-留言

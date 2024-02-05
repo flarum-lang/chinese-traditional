@@ -12,7 +12,7 @@ fof-discussion-language:
         country_label: 國家（用於展示國旗）
         language_label: 語言
       errors:
-        missing_assets: '無法載入此擴展的資源。請運行 <code>php flarum assets:publish</code> 嘗試修覆此問題。'
+        missing_assets: '無法載入此擴充套件的資源。請運行 <code>php flarum assets:publish</code> 嘗試修覆此問題。'
       locale_sort_label: 將用戶語言環境設為預設篩選
       native_label: 使用原生語言名稱
       show_any_lang_opt_label: 顯示篩選按鈕「所有語言」

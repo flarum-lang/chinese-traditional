@@ -14,7 +14,7 @@ askvortsov-article-series:
       title: '{series} <sup>其他文章</sup>'
     article_series_modal:
       order_label: 順序索引（升序排列）
-      submit_button: 提交
+      submit_button: 送出
       tag_id_label: 文章系列標籤
       title: 系列文章設定
     discussion_controls:

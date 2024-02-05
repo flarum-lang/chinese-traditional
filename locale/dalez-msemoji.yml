@@ -11,7 +11,7 @@ flarum-msemoji:
       disable_autocomplete: 禁用自動完成
       ext: 擴大
       extph: 示例：.gif
-      folder: 文件夾
+      folder: 資料夾
       folderph: 示例：svg
   forum:
     composer:

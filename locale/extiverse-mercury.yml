@@ -6,7 +6,7 @@ extiverse-mercury:
   admin:
     extension-updates-page:
       extension-is-up-to-date: 已是最新
-      extension-name: 擴展
+      extension-name: 擴充套件
       highest-version: 最新發布
       installed-version: 安裝版本
     header-secondary:
@@ -17,5 +17,5 @@ extiverse-mercury:
       token-description: "從 <a>Extiverse</a> 檢索 API 令牌，以便 Mercury 可以安全地與您的 Flarum 論壇通信。\n"
   email:
     new-extension-update:
-      body: "嘿{recipient_display_name}！\n\n在您的 Flarum 論壇中發現了 {count} 個更新。 強烈建議\n盡快更新。\n\n更新包括以下擴展 {extensions}。\n\n請訪問您的論壇了解更多資訊：{url}。\n"
+      body: "嘿{recipient_display_name}！\n\n在您的 Flarum 論壇中發現了 {count} 個更新。 強烈建議\n盡快更新。\n\n更新包括以下擴充套件 {extensions}。\n\n請訪問您的論壇了解更多資訊：{url}。\n"
       subject: '{count, plural, one {1 個可用更新} other {# 個可用更新}}'

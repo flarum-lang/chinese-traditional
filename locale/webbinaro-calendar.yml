@@ -29,7 +29,7 @@ flarum-calendar:
       description_label: 內容
       description_placeholder: 活動詳情
       requirement_message: 事件需要名稱和描述
-      submit: 提交
+      submit: 送出
       title_create: 創建新的日曆事件
       title_edit: 編輯活動詳情
       title_label: 什麼

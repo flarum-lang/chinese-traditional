@@ -7,5 +7,5 @@ fof-secure-https:
     settings:
       replace: '透過 HTTPS 代理圖片'
   forum:
-    removed: '由於缺乏對 HTTPS 的支持因而刪除了圖像。'
+    removed: '由於缺乏對 HTTPS 的支援因而刪除了圖像。'
     show: 總是顯示

@@ -24,7 +24,7 @@ clarkwinkelmann-vote-with-money:
       label:
         custom: 自定義金額
       optionCustom: 自定義
-      submit: 提交
-      success: 投票已提交！
+      submit: 送出
+      success: 投票已送出！
       target: "確認您的投票選項“{answer}”。您以後將無法更改您的投票。\n"
       title: 確認投票

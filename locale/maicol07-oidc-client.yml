@@ -51,7 +51,7 @@ maicol07-oidc-client:
         title: 其它設置
       other_settings_title: 其它設置
       provider:
-        authorization_response_iss_parameter_supported: '支持授權響應 iss 參數'
+        authorization_response_iss_parameter_supported: '支援授權響應 iss 參數'
         code_challenge_method: 代碼挑戰方法
         endpoints:
           authorize: '授權端點 URL'

@@ -37,7 +37,7 @@ fof-mason:
       user_values_allowed: 允許用戶輸入自定義值
       user_values_allowed-help: "如果啟用此項，用戶可以增加自己的值，可以不選擇管理員指定的值。 這些值將根據「檢查」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n"
       validation: 檢查用戶輸入的值
-      validation-help: "查看支持的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n"
+      validation-help: "查看支援的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n"
     messages:
       delete-answer-confirmation: "確定要刪除答案「{content}」？ 這將從所有使用它的主題中移除該答案，如果您想要保留現有答案請停用答案建議。 刪除答案？\n"
       delete-field-confirmation: "你確定要刪除字段「{name}」？ 這將從所有使用它們的主題中移除該字段及其答案。刪除字段？\n"

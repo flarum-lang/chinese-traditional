@@ -5,7 +5,7 @@
 clarkwinkelmann-mailing:
   admin:
     permissions:
-      mail_all: 向用戶或組群發郵件
+      mail_all: 向用戶或群組發郵件
       mail_individual: 向用戶單獨發送郵件
   api:
     no_recipients: 沒有匹配的收件人
@@ -29,7 +29,7 @@ clarkwinkelmann-mailing:
       title_text: 已發送！
     recipient_kinds:
       email: 郵箱
-      group: 用戶組
+      group: 群組
       user: 用戶
   ref:
     default_subject: 來自論壇管理員的消息

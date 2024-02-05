@@ -5,7 +5,7 @@
 kilowhat-custom-paths:
   admin:
     settings:
-      disabled: 未啟用該擴展
+      disabled: 未啟用該擴充套件
       extensions:
         askvortsov-categories: 'Askvortsov 傳統板塊'
         clarkwinkelmann-composer-page: 'ClarkWinkelmann 的作曲家頁面'
@@ -40,7 +40,7 @@ kilowhat-custom-paths:
         clarkwinkelmann-discussion-bookmarks: 討論書籤
         clarkwinkelmann-discussion-list: 清單
         clarkwinkelmann-discussion-lists-profile: 用戶清單
-        clarkwinkelmann-group-list: 組群一覽
+        clarkwinkelmann-group-list: 群組一覽
         clarkwinkelmann-post-bookmarks: 發佈書籤
         discussion: 主題
         flags: 檢舉（在行動裝置上）

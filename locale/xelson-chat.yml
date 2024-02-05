@@ -113,7 +113,7 @@ xelson-chat:
             entered: '{username} 進入聊天'
             leaved: '{username} 離開了聊天'
           title:
-            edited: '{editorname} 將聊天 {old} 重命名為 {new}'
+            edited: '{editorname} 將聊天 {old} 重新命名為 {new}'
           users:
             invited: '{editorname} 邀請 {usernames}'
             invited_kicked: '{editorname} 邀請 {invitednames} 並移出 {kickednames}'
@@ -130,7 +130,7 @@ xelson-chat:
         header: '歡迎來到 Neon 聊天室！'
         subheader: 選擇一個聊天以開始會話
     errors:
-      chatdenied: 你的用戶組無權限發送消息
+      chatdenied: 你的群組無權限發送消息
       removed: 你被移出聊天
       unauthenticated: 此聊天僅限註冊用戶加入
     index:

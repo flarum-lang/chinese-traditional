@@ -21,5 +21,5 @@ ffans-clipboardjs:
     action_cut: 剪下
     error_btn: 錯誤
     msg: '按 {actionKey} {action}'
-    no_support: 不支持
+    no_support: 不支援
     ok_btn: 已復制

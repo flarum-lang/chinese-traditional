@@ -33,7 +33,7 @@ ianm-translate:
           help: '在 {link} 註冊 API 密鑰。此驅動程序使用 V2 API - Basic。'
           label: '=> ianm-translate.lib.settings.api-key'
       provider: 翻譯提供商
-      readme-info: '有關擴展資訊，請參閱 README 文檔。'
+      readme-info: '有關擴充套件資訊，請參閱 README 文檔。'
       readme-none: 該驅動程序不需要額外的設置。
       translate-all-enabled: 啟用所有翻譯語言
       translate-all-help: 啟用後，管理員使用者和其他獲得許可的人可以將內容翻譯為任何已安裝的論壇語言。

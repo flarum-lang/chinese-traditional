@@ -16,6 +16,6 @@ clarkwinkelmann-status:
       set-status: 設定狀態
     modal:
       clear: 清除
-      submit: 提交
+      submit: 送出
       text-placeholder: 發生了什麼？
       title: 設定狀態

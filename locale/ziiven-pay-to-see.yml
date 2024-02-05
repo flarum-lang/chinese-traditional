@@ -20,7 +20,7 @@ pay-to-see:
     confirm: 確認
     modify_pay_to_see_price: 修改內容價格
     need_pay2see_tag: '您需要包含 [pay][/pay] 標籤才能付費查看內容'
-    not_support_anonymous: 匿名貼文不支持付費查看內容
+    not_support_anonymous: 匿名貼文不支援付費查看內容
     notifications:
       discussion_purchased: '{username} 購買了您的內容'
       discussion_purchased_cost: '您已收到{cost}'

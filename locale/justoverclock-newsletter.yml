@@ -13,5 +13,5 @@ flarum-ext-newsletter:
     modaltext: 訂閱成功。
     modalthanku: 謝謝！
     prconsent: 隱私政策
-    submitbutton: 提交
-    subscribe: 開啟郵件訂閱。請輸入郵箱地址並提交。
+    submitbutton: 送出
+    subscribe: 開啟郵件訂閱。請輸入郵箱地址並送出。

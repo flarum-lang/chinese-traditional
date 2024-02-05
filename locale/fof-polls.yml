@@ -43,7 +43,7 @@ fof-polls:
       options_label: 選項
       public_poll_label: 允許用戶查看投票人
       question_placeholder: 問題
-      submit: 提交
+      submit: 送出
     moderation:
       add: 增加投票
       delete: 移除投票

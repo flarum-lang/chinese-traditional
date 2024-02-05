@@ -16,13 +16,13 @@ clarkwinkelmann-carving-contest:
       view: 查看作品
     settings:
       colorMode: 使用色彩模式而不是雕刻模式
-      maxEntriesPerUser: 每位用戶提交數量限制
+      maxEntriesPerUser: 每位用戶送出數量限制
   forum:
     likes_modal:
       title: 說讚的人
     modal:
       name: 替您的作品取名
-      submit: 提交
+      submit: 送出
       title: 參加
       tools:
         circle: 圓

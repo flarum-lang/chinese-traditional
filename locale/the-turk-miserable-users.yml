@@ -22,7 +22,7 @@ the-turk-miserable-users:
       redirection_page_url_label: '重定向頁面 URL'
       redirection_page_url_text: 你可以把制裁的用戶重定向到不是他想要訪問的頁面，留空則預設跳轉到論壇首頁。
       shuffle_post_chance_label: 胡言亂語
-      shuffle_post_chance_text: '以百分比概率打亂用戶的貼文內容。此功能暫時只支持英文內容，UTF-8 字符會報錯。'
+      shuffle_post_chance_text: '以百分比概率打亂用戶的貼文內容。此功能暫時只支援英文內容，UTF-8 字符會報錯。'
   forum:
     miserable_user:
       indefinitely_label: 永久制裁

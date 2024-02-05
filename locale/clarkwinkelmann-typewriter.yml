@@ -8,7 +8,7 @@ clarkwinkelmann-typewriter:
       add: 增加音效
       defaultFile: 預設音效
       head:
-        file: 文件
+        file: 檔案
         keys: Keys
       muteByDefault: 預設靜音
       showIntroductionPopup: 第一次顯示介紹彈窗

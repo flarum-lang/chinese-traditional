@@ -15,7 +15,7 @@ askvortsov-saml:
       nameid_format: 'NameID 格式'
       only_option: '使用 SAML2 SSO 作為唯一登入選項？'
       sign_metadata: 簽名元數據？
-      slo: '啟用 SLO？如果 IDP 不支持則沒有效果。'
+      slo: '啟用 SLO？如果 IDP 不支援則沒有效果。'
       want_assertions_encrypted: '加密 Assertions?'
       want_assertions_signed: 'Want Assertions Signed?'
       want_messages_signed: 'Want Messages Signed?'

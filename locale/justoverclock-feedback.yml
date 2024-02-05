@@ -46,7 +46,7 @@ justoverclock-feedback:
       failed-message: '請再試一次。 如果這種情況持續發生，請嘗試發送電子郵件。'
       failed-title: 發生錯鋘
       placeholder: 在此填寫內容
-      submit: 提交
+      submit: 送出
       success: 非常感謝！👊
       title: 'Flarum 意見回饋'
       type-message: 你想回饋什麼內容？

@@ -17,7 +17,7 @@ fof-user-directory:
       back_to_user_directory_tooltip: 返回會員冊
     page:
       empty_text: 抱歉，沒有找到相符的用戶。
-      filter_button: 篩選用戶組
+      filter_button: 篩選群組
       load_more_button: 載入更多
       nav: 會員列表
       refresh_tooltip: 重整
@@ -28,7 +28,7 @@ fof-user-directory:
       field:
         placeholder: 搜尋用戶
       kinds:
-        group: 用戶組
+        group: 群組
         text: 關鍵詞
       users_heading: '在全部用戶中搜尋「{query}」'
   lib:

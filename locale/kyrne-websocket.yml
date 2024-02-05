@@ -11,10 +11,10 @@ kyrne-websocket:
       app_key: 'Pusher App Key - 如果使用內置 WebSocket 伺服器，請保持預設值。'
       auth_only: '只允許經過身份驗證的用戶連接到 websocket 伺服器，可以減少 CPU 負載。'
       auto_update: 即時更新全部主題列表，不再顯示「有新內容」黃色橫幅。
-      cert_path: '僅在使用 SSL 而非反代理時啟動。您伺服器上的 SSL (HTTPS) 證書路徑 - 通常是一個 .crt 或 .pem 文件。'
+      cert_path: '僅在使用 SSL 而非反代理時啟動。您伺服器上的 SSL (HTTPS) 證書路徑 - 通常是一個 .crt 或 .pem 檔案。'
       host: '您的 WebSocket 伺服器主機 - 如果伺服器和管理員位於同一主機，請保持預設值。'
       passphrase: '僅在使用 SSL 而非反代理時啟動。用於啟動證明書私鑰的密碼 - 通常不需要填寫。'
-      pk_path: '僅在使用 SSL 而非反代理時啟動。您伺服器上的 SSL (HTTPS) 私鑰路徑 - 通常是一個 .key 或 .pem 文件。'
+      pk_path: '僅在使用 SSL 而非反代理時啟動。您伺服器上的 SSL (HTTPS) 私鑰路徑 - 通常是一個 .key 或 .pem 檔案。'
       port: 'WebSocket 伺服器端口 - 如果您沒有修改伺服器內置端口，請保持預設值。'
       reverse_proxy: '啟用此功能後，WebSocket 將透過 443 端口連接 - 如果您從端口 443 反向代理到 WebSocket 伺服器，請使用此功能。'
       secret: 'Pusher App Secret - 如果使用內置 WebSocket 伺服器，請保持預設值。'
@@ -29,11 +29,11 @@ kyrne-websocket:
       app_secret_label: 'App Secret'
       auth_only: '僅向登入用戶開放 Websocket'
       auto_update: 自動更新主題
-      cert_self_signed: 自簽證書支持
+      cert_self_signed: 自簽證書支援
       local_cert_path: '本地 SSL 證書路徑'
       local_pk_path: '本地 SSL 私鑰路徑'
       passphrase: '（可選）SSL 密鑰密碼'
-      reverse_proxy: 反向代理支持
+      reverse_proxy: 反向代理支援
       secure: '強制 WebSocket WSS/HTTPS'
       stats_label: 統計間隔
       title: 'WebSocket / Pusher 設置'

@@ -7,10 +7,10 @@ clarkwinkelmann-group-list:
     items:
       add: 增加用户组
     permissions:
-      see: 查看組群一覽
+      see: 查看群組一覽
     settings:
-      showAvatarBadges: 在頭像上展示其他用戶組徽章
+      showAvatarBadges: 在頭像上展示其他群組徽章
       showOnlineStatus: 展示在線狀態
       showSideNavLink: 增加側邊欄入口
   forum:
-    nav: 組群一覽
+    nav: 群組一覽
