@@ -5,7 +5,7 @@
 fof-recaptcha:
   admin:
     permissions:
-      post_without_captcha: 發帖不需要驗證碼
+      post_without_captcha: 發文不需要驗證碼
     settings:
       forgot: '=> core.forum.forgot_password.title'
       help_text: '於<a>此處</a>取得 Google reCAPTCHA 證書。'

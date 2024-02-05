@@ -5,7 +5,7 @@
 askvortsov-help-tags:
   admin:
     permissions:
-      view_tag_label: 查看節點
+      view_tag_label: 查看標籤
   forum:
     badge:
       show_to_all_tooltip: 此主題對其標籤下有權貼文的所有用戶可見。

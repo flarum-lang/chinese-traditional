@@ -16,7 +16,7 @@ xelson-chat:
         vision: 查看删除的消息
       post: 發送聊天消息
     settings:
-      charlimit: 最大消息字符数
+      charlimit: 最大消息字元数
       display:
         censor: 審查為授權用戶的消息
         minimize: 最小化

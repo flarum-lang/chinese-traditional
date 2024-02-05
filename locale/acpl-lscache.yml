@@ -6,11 +6,11 @@ acpl-lscache:
   admin:
     cache_enabled_help: '查看有關如何測試緩存的<a>資訊頁面</a>。 注意：禁用緩存時，該網站的所有緩存條目都將被清除。'
     cache_enabled_label: '啟用 LSCache'
-    cache_exclude_help: '一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字符串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。'
+    cache_exclude_help: '一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。'
     cache_exclude_label: 禁用路徑緩存
     clearing_cache_listener_label: '清除 Flarum 緩存時同步清除 LSCache'
-    drop_qs_help: "使用此功能可以在緩存時刪除特定的查詢字符串，例如 <code>fbclid</code> 或 <code>utm*</code>。 這可以防止對帶有「垃圾」查詢字符串（例如 UTM 代碼）的頁面進行冗餘緩存，這些字符串用於追蹤但不會影響頁面內容。 這需要 LSWS v5.2.3 或更新版本。 列出要刪除的查詢字符串，每行一個。 <a>了解有關刪除查詢字符串的更多資訊</a>。<br></br>\n⚠️ 此設置將修改 .htaccess 檔案。\n"
-    drop_qs_label: 刪除查詢字符串
+    drop_qs_help: "使用此功能可以在緩存時刪除特定的查詢字串，例如 <code>fbclid</code> 或 <code>utm*</code>。 這可以防止對帶有「垃圾」查詢字串（例如 UTM 代碼）的頁面進行冗餘緩存，這些字串用於追蹤但不會影響頁面內容。 這需要 LSWS v5.2.3 或更新版本。 列出要刪除的查詢字串，每行一個。 <a>了解有關刪除查詢字串的更多資訊</a>。<br></br>\n⚠️ 此設置將修改 .htaccess 檔案。\n"
+    drop_qs_label: 刪除查詢字串
     public_cache_ttl_help: '設置公共頁面的緩存時間，單位秒。預設 604800 秒(一週)。'
     public_cache_ttl_label: 預設公共緩存TTL
     purge_all: '清除全部 LSCache'

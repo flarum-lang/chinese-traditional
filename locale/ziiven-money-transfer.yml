@@ -44,7 +44,7 @@ ziven-transfer-money:
     transfer-money-out: 轉出
     transfer-money-search-user: 加入用戶
     transfer-money-search-user-empty: 未找到相應的用戶
-    transfer-money-search-user-placeholder: 輸入用戶的前三個字符
+    transfer-money-search-user-placeholder: 輸入用戶的前三個字元
     transfer-money-success: 轉帳成功
     transfer-money-to: '向{username}進行轉帳'
     transfer-money-to-user: 向用戶轉賬（點擊移除）

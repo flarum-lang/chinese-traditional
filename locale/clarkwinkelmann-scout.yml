@@ -23,10 +23,10 @@ clarkwinkelmann-scout:
       meilisearchKey: 'Meilisearch Key'
       prefix: 索引名稱前綴（可選）
       queryMinLength: 搜尋建議的最小字元限制
-      queryMinLengthHelp: "此設置僅影響搜尋欄的搜尋建議結果顯示。 Flarum 預設建議搜尋的觸發機制為 3 個字符，您可以使用此設置覆蓋它。完整的搜尋結果輸出並不會被影響。更改此值後必須清除緩存。\n"
+      queryMinLengthHelp: "此設置僅影響搜尋欄的搜尋建議結果顯示。 Flarum 預設建議搜尋的觸發機制為 3 個字元，您可以使用此設置覆蓋它。完整的搜尋結果輸出並不會被影響。更改此值後必須清除緩存。\n"
       queryMinLengthPlaceholder: 自動
       queue: 處理隊列中的索引更新
-      queueHelp: '只有在 Flarum 中配置了 asynchronous queue 驅動程序時，此設置才有效。'
+      queueHelp: '只有在 Flarum 中配置了 asynchronous queue 驅動程式時，此設置才有效。'
       tntsearchFuzziness: 'TNT 搜尋模糊性（拼寫錯誤/變體匹配）'
       tntsearchFuzzyDistance: 'TNT 搜尋模糊編輯距離（可選）'
       tntsearchFuzzyMaxExpansions: 'TNT 搜尋模糊度最大擴充套件（可選）'

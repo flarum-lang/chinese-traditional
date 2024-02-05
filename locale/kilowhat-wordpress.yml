@@ -36,9 +36,9 @@ kilowhat-wordpress:
       cookie_domain_help: '只當與 Flarum 域名不同時才需填寫'
       enable_comments: 啟用評論集成
       enable_sso: 啟用SSO登入集成
-      excerpt_html_nodes: '內容摘錄的長度（以 HTML 節點數為單位）'
+      excerpt_html_nodes: '內容摘錄的長度（以 HTML 標籤數為單位）'
       excerpt_html_whitelist: '要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）'
-      excerpt_length: 內容摘錄的長度（以字符為單位）
+      excerpt_length: 內容摘錄的長度（以字元為單位）
       force_username_choice: 讓用戶在首次訪問時選擇自己的用戶名
       force_username_choice_help: 上面選擇的規則會提供一個預設值。
       post_delete: '永久刪除 WordPress 文章後的操作'

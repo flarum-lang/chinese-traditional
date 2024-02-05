@@ -8,7 +8,7 @@ clarkwinkelmann-email-whitelist:
       blacklist: 黑名單
       blacklistHelp: "每行一個正規表示式。如果黑名單為空，所有非白名單的內容都會被拒絕。\n"
       message: 自定義錯誤消息
-      regex: 正則式表達
+      regex: 正規表示式
       regexHelp: "使用正規表示式匹配。開啟此項後，黑白名單中僅可填寫定界符正規表示式，一行一個，正規表示式的定界符不可缺少。\n"
       whitelist: 白名單
       whitelistHelp: "每行一個正規表示式。白名單優先級高於黑名單。\n"

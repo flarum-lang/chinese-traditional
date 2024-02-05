@@ -15,7 +15,7 @@ fof-stopforumspam:
       email_label: 郵箱地址檢查
       frequency_help: "Spam 報告數量上限值。\n在資料庫中查詢用戶註冊時使用的郵箱、IP 和用戶名，並統計相關的檢舉次數，大於等於上限時，禁止該用戶註冊。\n"
       frequency_label: 定限
-      introduction: "根據 <a>StopForumSpam</a> 資料庫檢查新用戶。如果<code>寬容度</code>超標或 <code>信譽分</code>不達標，則該用戶無法完成註冊。\n\n支援 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 擴充套件。其他的 SSO 提供程序應該也支援，但尚未測試過。\n"
+      introduction: "根據 <a>StopForumSpam</a> 資料庫檢查新用戶。如果<code>寬容度</code>超標或 <code>信譽分</code>不達標，則該用戶無法完成註冊。\n\n支援 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 擴充套件。其他的 SSO 提供程式應該也支援，但尚未測試過。\n"
       ip_label: 'IP 地址檢查'
       region_closest_label: 最近
       region_europe_label: 歐洲

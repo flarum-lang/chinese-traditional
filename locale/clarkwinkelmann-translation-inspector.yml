@@ -13,7 +13,7 @@ clarkwinkelmann-translation-inspector:
       extension: 語言包
       extension-unknown: 未知擴充套件
       key: 翻譯鍵
-      original: 原始英文字符
+      original: 原始英文字元
       path: 語言檔案
       title: 翻譯檢查
     nav:

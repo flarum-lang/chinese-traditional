@@ -35,9 +35,9 @@ fof-user-directory:
     sort:
       default: 預設
       least_discussions: 主題最少
-      least_posts: 發帖最少
+      least_posts: 發文最少
       most_discussions: 主題最多
-      most_posts: 發帖最多
+      most_posts: 發文最多
       newest: 新用戶
       not_specified: '使用 Flarum 預設排序'
       oldest: 老用戶
