@@ -9,11 +9,11 @@ clarkwinkelmann-discussion-bookmarks:
   forum:
     badge: 書籤夾
     dropdownButton:
-      add: 添加書籤
+      add: 增加書籤
       remove: 移除書籤
     independentButton:
-      add: 添加書籤
-      remove: 已添加書籤
+      add: 增加書籤
+      remove: 已增加書籤
     page:
       link: 主題書籤夾
       title: 主題書籤夾

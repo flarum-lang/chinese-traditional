@@ -7,7 +7,7 @@ fof-sentry:
     settings:
       dsn_backend_help: 這個DSN將只用於處理後端錯誤。如果你想用一個不同的項目來處理後端錯誤，或者想用一個Relay來發送後端錯誤到Sentry（例如，為了提高性能），這很有用。
       dsn_backend_label: 'Sentry DSN (僅後端)'
-      dsn_help: '如果你使用一個中繼DSN作為主要的DSN，不要勾選 "用戶反饋"，因為它將不會起作用。'
+      dsn_help: '如果你使用一個中繼DSN作為主要的DSN，不要勾選 "用戶回饋"，因為它將不會起作用。'
       dsn_label: 'Sentry DSN'
       environment_label: 'Sentry 監控環境'
       javascript_console_label: '捕獲 JavaScript 控制台'
@@ -22,4 +22,4 @@ fof-sentry:
       profile_rate_help: "這是相對於性能監控速率而言的。 必須啟用性能監控才能使其發揮作用。\n\n{br}✱ 由於分析和發送到 Sentry 的請求的開銷，啟用此功能會影響響應時間。 了解如何抵消這個@<a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>。\n{br}{icon} <bold>此功能需要 Wikipedia 的採樣分析器 Excimer，該工具僅適用於 Linux。</bold>\n"
       profile_rate_label: '後端分析率 (0 - 100)'
       send_user_emails_label: '發送 Sentry 報告時包含用戶郵箱？'
-      user_feedback_label: 使用者反饋
+      user_feedback_label: 使用者回饋

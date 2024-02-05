@@ -13,7 +13,7 @@ ziven-decoration-store:
     item-activate-status-all: 所有啟用狀態
     item-activate-status-down: 停用
     item-activate-status-up: 已啟用
-    item-add: 添加裝飾
+    item-add: 增加裝飾
     item-assigned-at: 日期
     item-deactivate: 禁用
     item-deactivate-confirmation: 您確定要停用這個裝飾？
@@ -29,7 +29,7 @@ ziven-decoration-store:
     item-property-image-select-from-gallery: 內置圖像
     item-property-image-upload: 上傳
     item-property-style: 風格
-    item-property-style-help-text: 你可以在CSS中添加自己的文字樣式，在下面輸入樣式名稱。
+    item-property-style-help-text: 你可以在CSS中增加自己的文字樣式，在下面輸入樣式名稱。
     item-property-style-select-from-gallery: 內置樣式
     item-property-style-text-effect: 預覽本文
     item-type-selection: 選擇裝飾類型

@@ -12,10 +12,10 @@ clarkwinkelmann-composer-page:
   forum:
     nav:
       cancel: 退出編輯器
-      continue: 繼續編輯主題貼文
+      continue: 繼續編輯主題
     page-private:
       heading: 開始私人討論
       title: 開始私人討論
     page:
       heading: 創建主題
-      title: 創建主題貼文
+      title: 創建主題

@@ -12,7 +12,7 @@ fof-subscribed:
       subscribe_to_user_created: 允許用戶接收新註冊通知
   email:
     body:
-      newDiscussion: "{recipient_display_name}，你好！\n\n{actor_display_name} 發布了一個主題：{discussion_title}\n\n點擊下方連結查看主題帖：\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussion: "{recipient_display_name}，你好！\n\n{actor_display_name} 發布了一個主題：{discussion_title}\n\n點擊下方連結查看主題：\n{discussion_url}\n\n---\n\n{post_content}\n"
       newUser: "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛加入 {forum_url}。\n\n點擊下方連結查看用戶資料：\n{user_url}\n"
       postCreated: "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛發表了新貼文於「{discussion_title}」。\n\n點擊下方連結查看詳細內容：\n{post_url}\n\n---\n\n{post_content}\n"
       postFlagged: "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛檢舉了一個貼文在「{discussion_title}」\n\n點擊下方連結查看詳細內容：\n{post_url}\n"

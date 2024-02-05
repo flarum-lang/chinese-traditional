@@ -20,7 +20,7 @@ clarkwinkelmann-mailing:
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: 正文
       recipients_label: 收件人
-      recipients_placeholder: 添加其他收件人...
+      recipients_placeholder: 增加其他收件人...
       subject_label: 主題
       submit_button: 發送
       title_text: 寫信

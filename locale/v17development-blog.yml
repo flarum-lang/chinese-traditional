@@ -12,8 +12,8 @@ v17development-flarum-blog:
     settings:
       add_hero_label: 展示歡迎橫幅
       add_hero_text: 允許在部落格頁面展示首頁的歡迎橫幅。
-      add_sidebar_nav_label: 添加到側邊欄
-      add_sidebar_nav_text: 在側邊欄添加部落格入口。
+      add_sidebar_nav_label: 增加到側邊欄
+      add_sidebar_nav_text: 在側邊欄增加部落格入口。
       allow_comments_label: 允許評論
       allow_comments_text: '允許他人在新文章中發表評論。此項關閉時，只能為每篇文章單獨開啟。 <b>注意：</b>此項設置的變更不會影響已存在的文章。'
       blog_heading: 部落格
@@ -28,7 +28,7 @@ v17development-flarum-blog:
       hide_tags_in_taglist_text: 開啟後，將在首頁中隱藏部落格標籤。
       no_categories_selected: 請選擇分類目錄
       redirect_articles_label: 重定向部落格文章
-      redirect_articles_text: 開啟後，原始主題帖將重定向至其部落格頁面。
+      redirect_articles_text: 開啟後，原始主題將重定向至其部落格頁面。
       redirect_tags_label: 重定向部落格標籤
       redirect_tags_text: 開啟後，部落格標籤將重定向至分類目錄頁面。
       redirects_heading: 重定向
@@ -37,7 +37,7 @@ v17development-flarum-blog:
       select_categories_button: 選擇部落格分類目錄
       selected_category_count: '已指定 {count, plural, one {#} other {#}} 個分類目錄'
       show_tag_hierarchy_label: 顯示標籤層次
-      show_tag_hierarchy_text: 在子分類目錄之間添加空格，並為分類目錄列表提供層次結構視圖。
+      show_tag_hierarchy_text: 在子分類目錄之間增加空格，並為分類目錄列表提供層次結構視圖。
   forum:
     article:
       slug: 別名

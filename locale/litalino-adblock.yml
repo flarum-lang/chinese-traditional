@@ -11,16 +11,16 @@ adblock:
     adblock-action-notice: 通知
     adblock-alt: Alt
     adblock-alt-placeholder: 'img 標籤中的 Alt 屬性'
-    adblock-div: '在顯示 html 代碼的位置添加 banner 標記'
+    adblock-div: '在顯示 html 代碼的位置增加 banner 標記'
     adblock-div-placeholder: 'Ex ''#content, .App-content, .IndexPage, container'''
     adblock-img: 圖像
     adblock-img-placeholder: 'https://domain/picture.png'
     adblock-notice-content: 訊息內容
     adblock-notice-content-help: 您可以在此處更改內容
-    adblock-notice-content-placeholder: '你好。你能幫幫我們嗎？我知道廣告有時太煩人了，你想使用 Adblock。但是，請支持我們，將本站添加到白名單中。它將幫助我們保持Webiste的免費使用。感謝您的説明！'
+    adblock-notice-content-placeholder: '你好。你能幫幫我們嗎？我知道廣告有時太煩人了，你想使用 Adblock。但是，請支持我們，將本站增加到白名單中。它將幫助我們保持Webiste的免費使用。感謝您的説明！'
     adblock-notice-content-sup: 支援小簡訊內容
     adblock-notice-content-sup-placeholder: '按 × 可關閉通知並顯示內容。'
-    adblock-notice-element: 在顯示通知的位置添加標籤
+    adblock-notice-element: 在顯示通知的位置增加標籤
     adblock-notice-element-placeholder: 'Ex ''#content, .App-content, .IndexPage, container'''
     adblock-notice-method: 通知風格
     adblock-notice-method-help: 這里你可以變更通知的風格屬性
@@ -33,5 +33,5 @@ adblock:
     adblock-url: 網址
     adblock-url-placeholder: 'https://domain'
   forum:
-    adblock-notice-content: '你好。你能幫幫我們嗎？我知道廣告有時太煩人了，你想使用 Adblock。但是，請支持我們，將Webiste添加到白名單中。它將幫助我們保持Webiste的免費使用。感謝您的説明！'
+    adblock-notice-content: '你好。你能幫幫我們嗎？我知道廣告有時太煩人了，你想使用 Adblock。但是，請支持我們，將Webiste增加到白名單中。它將幫助我們保持Webiste的免費使用。感謝您的説明！'
     adblock-notice-content-sup: '按 × 可關閉通知並顯示內容。'

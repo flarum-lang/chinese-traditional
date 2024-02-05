@@ -185,7 +185,7 @@ kilowhat-cimaise:
     post-stream:
       uploaded: '{username}上傳了{count}張照片'
     upload-modal:
-      drop-file: 或拖放至此處
+      drop-file: 或拖曳至此處
       processing: 處理中
       publishSilently: 安靜的發佈
       reload: 重新載入草稿列表

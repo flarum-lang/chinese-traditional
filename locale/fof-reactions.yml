@@ -38,7 +38,7 @@ fof-reactions:
             Label: 轉換回應為「喜歡」
             legend: 喜歡
           warning: 相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「推」
-        react_own_posts_help: 啟用此項，添加一個權限，允許用戶對自己的貼文表達心情。如需禁止，請禁用此項。
+        react_own_posts_help: 啟用此項，增加一個權限，允許用戶對自己的貼文表達心情。如需禁止，請禁用此項。
         react_own_posts_label: 允許用戶對自已的貼文表達心情
         save_settings: 儲存設定
     permissions:

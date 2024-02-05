@@ -83,7 +83,7 @@ kilowhat-rich-embeds:
           avatarAlt: 頭像
           stats:
             commentCount: 評論
-            discussionCount: 主題帖
+            discussionCount: 主題
             joinTime: 加入日期
           type: 基本資料
       github:

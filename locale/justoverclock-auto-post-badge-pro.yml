@@ -7,7 +7,7 @@ justoverclock-auto-post-badge-pro:
     cologBackg: 背景顏色
     colorBg: 進度條背景
     colorBgTwo: 背景顏色
-    fromPost: 達成回帖數
+    fromPost: 達成回覆數
     icon: 圖示
     levelEight: LV8
     levelEighteen: LV18
@@ -28,8 +28,8 @@ justoverclock-auto-post-badge-pro:
     levelTwelve: LV12
     levelTwo: LV2
     text: 說話
-    toPost: 終點回帖數
+    toPost: 終點回覆數
   forum:
     hasWritten: 該用戶已寫
     nextBadge: 晉級頭銜
-    posts: 回帖數
+    posts: 回覆數

@@ -27,7 +27,7 @@ pay-to-see:
       notification_setting_some_one_purchase_content: 有人購買了我的內容
     ok: OK
     pay_to_see_content: 付費觀看內容
-    pay_to_see_content_bypass: '付費查看內容 [無視權限]'
+    pay_to_see_content_bypass: '付費查看內容 [忽略權限]'
     pay_to_see_content_label: 付費觀看內容
     pay_to_see_owner_bypass: '付費查看內容 [不限所有者]'
     purchase_button: 購買內容

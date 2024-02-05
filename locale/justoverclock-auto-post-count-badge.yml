@@ -25,9 +25,9 @@ justoverclock-auto-post-count-badge:
       label-manager:
         help: 自定義頭銜
         title: 本文管理
-      tier: '{tier}：達成 {from} 至 {to} 次回帖'
+      tier: '{tier}：達成 {from} 至 {to} 次回覆'
   forum:
-    hasWritten: '{count, plural, one {# 次回帖} other {# 次回帖}}'
+    hasWritten: '{count, plural, one {# 次回覆} other {# 次回覆}}'
     less1000post: 傳說
     less100post: 吐槽
     less10post: 潛水

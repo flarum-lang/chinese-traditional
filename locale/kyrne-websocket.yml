@@ -28,7 +28,7 @@ kyrne-websocket:
       app_port_label: 端口
       app_secret_label: 'App Secret'
       auth_only: '僅向登入用戶開放 Websocket'
-      auto_update: 自動更新主題帖
+      auto_update: 自動更新主題
       cert_self_signed: 自簽證書支持
       local_cert_path: '本地 SSL 證書路徑'
       local_pk_path: '本地 SSL 私鑰路徑'

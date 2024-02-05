@@ -41,7 +41,7 @@ ianm-syndication:
         main_title: '{forum_name}'
         tag_d_subtitle: '{tag} 中的最新討論'
         tag_d_title: '{tag} 標籤中的新討論'
-        tag_subtitle: '{tag} 標籤新回帖'
+        tag_subtitle: '{tag} 標籤新回覆'
         tag_title: '{tag} 標籤活動'
         user_subtitle: 該用戶的最新貼文和評論。
         user_title: '{username}'

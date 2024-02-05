@@ -209,7 +209,7 @@ fof-upload:
       release_to_upload: 發布上傳
       select_file_a11y_label: '選擇檔案“{fileName}”'
     upload-shared-file-modal:
-      dropzone: 將文件拖放到此處或點擊瀏覽
+      dropzone: 將文件拖曳到此處或點擊瀏覽
       hide-from-media-gallery: 從使用者的媒體庫中隱藏
       title: 新分享的檔案
       upload: 上傳

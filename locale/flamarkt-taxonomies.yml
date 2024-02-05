@@ -51,7 +51,7 @@ flamarkt-taxonomies:
         edit: 編輯分類
         new: 創建分類
       type-options:
-        discussions: 主題帖
+        discussions: 主題
         products: 產品
         users: 用戶
       validation-options:

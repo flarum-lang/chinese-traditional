@@ -19,7 +19,7 @@ michaelbelgium-discussion-views:
       ignore_crawlers_text: 防止機器人和爬蟲增加觀看次數
       max_viewcount_label: 「最近瀏覽的人」列表最多展示人數
       max_viewcount_text: 位於側邊欄和頁腳列表的展示數量上限
-      show_filter_label: 添加「最多人看/最少人看」排序選項
+      show_filter_label: 增加「最多人看/最少人看」排序選項
       show_footer_viewlist_label: 在貼文頁腳展示「足跡」
       show_footer_viewlist_text: 在首篇貼文底部顯示查看者列表
       show_viewlist_label: 在主題頁面展示「最近瀏覽的人」列表

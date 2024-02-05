@@ -9,7 +9,7 @@ the-turk-flamoji:
         delete_emoji_button: '删除 Emoji'
         delete_emoji_confirmation: '確定要刪除這個 Emoji ？'
         emoji_title_label: 'Emoji 標題'
-        modal_title: '添加 Emoji'
+        modal_title: '增加 Emoji'
         path_or_url_label: '圖片路徑或 URL'
         saved_message: '=> core.admin.settings.saved_message'
         submit_button: '=> core.ref.save_changes'

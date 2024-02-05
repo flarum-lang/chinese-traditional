@@ -6,7 +6,7 @@ malago-achievements:
   admin:
     achievement_modal:
       active_label: 啟用
-      add_delete_instructions: 用戶未獲得此成就時，添加成就。已擁有成就時，收回成就。
+      add_delete_instructions: 用戶未獲得此成就時，增加成就。已擁有成就時，收回成就。
       add_delete_title: '給予 / 收回用戶成就'
       col_label: 列
       col_placeholder: '0'
@@ -36,7 +36,7 @@ malago-achievements:
         edits: '最小編輯貼文數（例如 10）或範圍區間（例如 10,19）'
         likes: '最小按讚數（例如 10）或範圍區間（例如 10,19）'
         meanwords: '最小關鍵詞平均出現次數（例如 小雞,10）或範圍區間（例如 小雞,10,19）'
-        posts: '最小回帖數（例如 10）或範圍區間（例如 10,19）'
+        posts: '最小回覆數（例如 10）或範圍區間（例如 10,19）'
         selflikes: '最小獲讚數（例如 10）或範圍區間（例如 10,19）'
         tagposts: '最小標籤英文名稱 (Slug) 出現關鍵詞的主題數（例如 off-topic,10）或範圍區間（例如 off-topic,10,19）'
         years: '最小已註冊年數（例如 10）或範圍區間（例如 10,19）'
@@ -44,9 +44,9 @@ malago-achievements:
       username_placeholder: 用戶名
       variable:
         avatar: 上傳頭像
-        comments: 主題帖中收到回應
+        comments: 主題中收到回應
         contains: 包含關鍵詞
-        discussions: 主題帖
+        discussions: 主題
         edits: 編輯的貼文
         likes: 按讚
         manual: 手動

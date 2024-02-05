@@ -16,14 +16,14 @@ clarkwinkelmann-discussion-lists:
       collapseSeries: 討論串預設折疊
   api:
     manualLimit: 手動排序的列表不能包含超過50個主題
-    seriesAnyAddNotAllowed: 您只能將自己的主題添加到系列列表中
+    seriesAnyAddNotAllowed: 您只能將自己的主題增加到系列列表中
     seriesAnyConversionNotAllowed: 無法將列表轉換為系列，因為它包含不屬於您自己的主題
   forum:
     badge:
       private: 私人列表
       series: 公開系列
     discussion:
-      add: 添加到列表
+      add: 增加到列表
       new: 新列表
     edit:
       delete: 刪除
@@ -31,8 +31,8 @@ clarkwinkelmann-discussion-lists:
       name: 名稱
       ordering: 排序
       orderingOptions:
-        addedAsc: 添加到列表中（從最少到最新）
-        addedDesc: 添加到列表中（從最近到最少）
+        addedAsc: 增加到列表中（從最少到最新）
+        addedDesc: 增加到列表中（從最近到最少）
         createdAsc: 討論創建（從最早到最新）
         createdDesc: 討論創建（從最新到最舊）
         manual: 手動

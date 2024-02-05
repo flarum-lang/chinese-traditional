@@ -23,6 +23,6 @@ ianm-synopsis:
   forum:
     user:
       settings:
-        show-summaries: 在所有主題清單中顯示每個主題帖的摘要（電腦/平板）
-        show-summaries-mobile: 在所有主題清單中顯示每個主題帖的摘要（手機）
+        show-summaries: 在所有主題清單中顯示每個主題的摘要（電腦/平板）
+        show-summaries-mobile: 在所有主題清單中顯示每個主題的摘要（手機）
         summaries-heading: 摘要

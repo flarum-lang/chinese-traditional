@@ -17,7 +17,7 @@ fof-discussion-language:
       native_label: 使用原生語言名稱
       show_any_lang_opt_label: 顯示篩選按鈕「所有語言」
       show_flag_label: 在國旗後顯示語言名稱
-      tags_page_discussion_locale_label: 標籤頁只顯示用戶語言的主題帖
+      tags_page_discussion_locale_label: 標籤頁只顯示用戶語言的主題
   api:
     discussion:
       validation_error: 您必須為貼文設定語言。

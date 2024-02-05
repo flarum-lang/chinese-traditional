@@ -28,7 +28,7 @@ fof-filter:
       desc: 依照關鍵字過濾貼文
       text: 過濾器
     permission:
-      bypass_filter_label: 無視過濾器
+      bypass_filter_label: 忽略過濾器
     title: 過濾器
   forum:
     flag_message: 包含遮擋的字串

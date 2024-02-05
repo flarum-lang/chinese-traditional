@@ -5,19 +5,19 @@
 fof-mason:
   admin:
     buttons:
-      add-answer: 添加答案
-      add-field: 添加字段
+      add-answer: 增加答案
+      add-field: 增加字段
       delete-answer: 刪除答案
       delete-field: 刪除字段
       edit-answer: 編輯答案
       edit-answer-prompt: 編輯所有使用的內容
       edit-field: 點擊以編輯字段
-      new-field: 添加字段
+      new-field: 增加字段
       save-answer: 儲存答案
       save-field: 儲存字段
       show-user-answers: '顯示非建議答案 ({count})'
     fields:
-      add: '添加字段{field}'
+      add: '增加字段{field}'
       description: 字段描述
       description-help: "可選的描述，以解釋這段文字的用途/要求。\n"
       edit: '編輯字段{field}'
@@ -31,11 +31,11 @@ fof-mason:
       new-answer: 新建答案
       new-answer-placeholder: 在此輸入本文
       required: 必填
-      save-field-for-answers: 儲存此字段以添加選項答案
+      save-field-for-answers: 儲存此字段以增加選項答案
       show_when_empty: 顯示空字段
       show_when_empty-help: 不論字段是否為空，均在主題中顯示
       user_values_allowed: 允許用戶輸入自定義值
-      user_values_allowed-help: "如果啟用此項，用戶可以添加自己的值，可以不選擇管理員指定的值。 這些值將根據「檢查」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n"
+      user_values_allowed-help: "如果啟用此項，用戶可以增加自己的值，可以不選擇管理員指定的值。 這些值將根據「檢查」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n"
       validation: 檢查用戶輸入的值
       validation-help: "查看支持的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n"
     messages:
@@ -55,7 +55,7 @@ fof-mason:
       fields-section-title-help: "用戶將在文字編輯器和主題中看到這個文字。\n"
       fields-section-title-placeholder: 預設為空標題且不顯示
       hide-empty-fields-section: 當所有字段為空且隱藏時，隱藏標題和控件。
-      hide-empty-fields-section-help: "預設情況下，如果用戶可以編輯字段或設置標題，則即使所有字段都被隱藏，也會始終顯示該部分。啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕僅在「回覆」下拉菜單中可用。\n"
+      hide-empty-fields-section-help: "預設情況下，如果用戶可以編輯字段或設置標題，則即使所有字段都被隱藏，也會始終顯示該部分。啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕僅在「回覆」下拉選單中可用。\n"
       labels-as-placeholders: 在表單的占位符中顯示字段名
       labels-as-placeholders-help: "表單將占用更少的縱向空間，字段圖示將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有字段時。\n"
       n-columns: '{count} 欄'

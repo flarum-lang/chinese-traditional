@@ -10,7 +10,7 @@ clarkwinkelmann-discussion-open-position:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
-      suggestFirstTime: 在用戶首次打開主題帖時，詢問是否更改定位模式
+      suggestFirstTime: 在用戶首次打開主題時，詢問是否更改定位模式
   forum:
     firstTimePrompt:
       fromAlways: 打開主題時回到上次的閱讀位置

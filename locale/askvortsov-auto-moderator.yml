@@ -6,7 +6,7 @@ askvortsov-auto-moderator:
   admin:
     action_drivers:
       activate_email: 啟用郵箱
-      add_to_group: 添加用戶組
+      add_to_group: 增加用戶組
       remove_from_group: 移除用戶組
       suspend: 封鎖
       unsuspend: 解除封鎖
@@ -22,8 +22,8 @@ askvortsov-auto-moderator:
       actions_label: 行為動作
       actions_on_gain_heading: 達成動作
       actions_on_loss_heading: 失去動作
-      add_action: 添加動作
-      add_metric: 添加指標
+      add_action: 增加動作
+      add_metric: 增加指標
       back: 返回評判標準列表
       delete_button: 刪除
       description_label: 描述
@@ -51,7 +51,7 @@ askvortsov-auto-moderator:
       regex: 要匹配的正規表示式（無首尾斜線）
     metric_drivers:
       best_answers: 最佳答案
-      discussions_entered: 瀏覽主題帖
+      discussions_entered: 瀏覽主題
       discussions_participated: 參與主題
       discussions_started: 發布主題
       likes_given: 按讚
@@ -67,7 +67,7 @@ askvortsov-auto-moderator:
       days: 封鎖天數
       indefinitely: 無期徒刑？
     undefined_driver_item:
-      text: '錯誤，未定義的 <strong>{driverName}</strong> 驅動！此驅動可能是由一個尚未安裝的擴展添加的。重新啟用該擴展或刪除該驅動後，評判標準方可有效。'
+      text: '錯誤，未定義的 <strong>{driverName}</strong> 驅動！此驅動可能是由一個尚未安裝的擴展增加的。重新啟用該擴展或刪除該驅動後，評判標準方可有效。'
   lib:
     group_id: '用戶組 ID'
     managed_groups:

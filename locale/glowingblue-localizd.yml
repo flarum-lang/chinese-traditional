@@ -10,7 +10,7 @@ glowingblue-localizd:
       title: 本地化設置
     translation_key:
       help: '此選項是多語言的，透過 <b>Localizd</b> + <a>Linguist</a>。'
-      modal_title: '使用 Linguist 添加翻譯'
+      modal_title: '使用 Linguist 增加翻譯'
       translate: 翻譯
   forum:
     errors:

@@ -7,4 +7,4 @@ clarkwinkelmann-meilisearch-dashboard:
     header:
       link: 'Meilisearch 儀表板'
     permission:
-      access: 訪問Meilisearch儀錶板
+      access: 訪問Meilisearch儀表板

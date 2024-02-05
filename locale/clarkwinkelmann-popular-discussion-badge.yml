@@ -5,7 +5,7 @@
 clarkwinkelmann-popular-discussion-badge:
   admin:
     settings:
-      add: 添加條件
+      add: 增加條件
       and: 且
       comments: 評論
       comments_placeholder: '0'

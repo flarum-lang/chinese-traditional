@@ -8,7 +8,7 @@ davwheat:
       permissions:
         bypassAds: 跳過所有廣告
       settings:
-        add_script: 添加
+        add_script: 增加
         admin_bypass_warning: "受 Flarum 許可權系統限制，管理員無法看到任何廣告。\n要測試廣告，請打開瀏覽器無痕視窗訪問 Flarum。\n"
         alert:
           code_has_script: '一個或多個廣告單元中含有 script 標籤，請移除後重試。'

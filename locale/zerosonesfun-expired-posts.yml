@@ -5,16 +5,16 @@
 expired-posts:
   admin:
     settings:
-      days_help: '距最新回覆日期超過一定天數，仍未收到回覆的主題帖會被標記為過期。輸入 <code>0</code> 禁用此功能。'
+      days_help: '距最新回覆日期超過一定天數，仍未收到回覆的主題會被標記為過期。輸入 <code>0</code> 禁用此功能。'
       days_label: 時效
       message_description_label: 自定義訊息說明
       message_title_help: '使用插值 <code>[time]</code> 表示時間，如「已經無回覆 [time] 之久了」。'
       message_title_label: 自定義訊息標題
-      tags_help: 為每個標籤單獨設置判斷主題帖過期的天數，留空表示使用預設天數。如果一個主題添加了多個標籤，則取標籤中最短的天數作為判斷標準。
+      tags_help: 為每個標籤單獨設置判斷主題過期的天數，留空表示使用預設天數。如果一個主題增加了多個標籤，則取標籤中最短的天數作為判斷標準。
       tags_title: 標籤
   forum:
     composer:
       warning:
         description: 此貼文已過期。
-        error: 主題帖已過期。
+        error: 主題已過期。
         title: 過期內容

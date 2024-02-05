@@ -32,7 +32,7 @@ datlechin-birthdays:
       nav_item: 今天的生日
     page:
       discussion_count: '{count, plural, one {主題：#} other {主題：#}}'
-      post_count: '{count, plural, one {回帖：#} other {回帖：#}}'
+      post_count: '{count, plural, one {回覆：#} other {回覆：#}}'
     settings:
       change_dob_label: 修改生日
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'

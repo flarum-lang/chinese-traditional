@@ -17,7 +17,7 @@ maicol07-oidc-client:
         id: 客戶ID
         secret: 客戶秘密
         skip_email_verified_check: '跳過電子郵件驗證的聲明檢查（對於不提供此聲明的不合規提供商很有用，如 Casdoor）'
-        subtitle: "在這裡添加你的OpenID Connect提供商提供的客戶資料。如需進一步幫助，請查看文檔.\n"
+        subtitle: "在這裡增加你的OpenID Connect提供商提供的客戶資料。如需進一步幫助，請查看文檔.\n"
         timeout: 請求超時
         title: 客戶端設置
         verify_ssl: '在請求期間驗證 SSL'
@@ -62,7 +62,7 @@ maicol07-oidc-client:
         id_token_signing_alg: ID令牌簽名算法
         issuer: 發行人網址
         response_type: 提供者對授權的響應類型
-        subtitle: "在此處添加您的提供商詳細資訊。 如果您的提供商使用自動發現，您不需要添加端點和一些其他字段（如果您願意，您可以隨意覆蓋它們！）。 如果您的提供商尚未實施，您可以在下面手動添加所需的設置。 檢查文檔以獲得進一步的幫助\n"
+        subtitle: "在此處增加您的提供商詳細資訊。 如果您的提供商使用自動發現，您不需要增加端點和一些其他字段（如果您願意，您可以隨意覆蓋它們！）。 如果您的提供商尚未實施，您可以在下面手動增加所需的設置。 檢查文檔以獲得進一步的幫助\n"
         title: 提供商設置
         token_endpoint_auth_method: 令牌端點身份驗證方法
         url: 提供商網址

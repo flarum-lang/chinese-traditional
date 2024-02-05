@@ -18,13 +18,13 @@ fof-gamification:
         converting: 您的喜好正在被轉換，稍後幾分鐘刷新頁面查看轉換結果。（轉換可能需要一段時間，具體取決於您的論壇）
         help: '將 flarum-ext-like 產生的「喜歡」轉換成「讚」，並計算所有目前討論的熱度。'
       groups:
-        add: 添加規則
+        add: 增加規則
         column:
           group: 用戶組
           maxPoints: 最高點數(含)
           minPoints: 最低點數(含)
         delete: 刪除規則
-        help: "當用戶的點數發生變化時，將自動添加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，儲存設置並執行命令後，在設置中刪除規則。\n"
+        help: "當用戶的點數發生變化時，將自動增加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，儲存設置並執行命令後，在設置中刪除規則。\n"
         title: 自動分配用戶組
       rankings:
         blocked:

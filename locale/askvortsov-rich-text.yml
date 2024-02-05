@@ -19,7 +19,7 @@ askvortsov-rich-text:
       code_tooltip: '行內程式碼<{modifierKey}-`>'
       header_tooltip: '更改為標題 {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 分割線
-      image_tooltip: 添加圖片
+      image_tooltip: 增加圖片
       insert_button: 插入
       insert_image:
         src_placeholder: 超連結

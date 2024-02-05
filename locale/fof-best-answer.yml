@@ -34,7 +34,7 @@ fof-best-answer:
       schedule_stop_overnight_help: '服務時間20:00 至 9:00'
       select_best_answer_reminder_days: '於 n 天後提醒用戶選取最佳回覆'
       select_best_answer_reminder_days_help: 於N天後提問者選擇最佳回覆。
-      select_best_answer_tags_help: 選擇哪些標籤，如果有的話，在設置最佳答案時添加到主題中。只允許使用二級標籤。如果最佳答案被刪除，這些標籤將被刪除。
+      select_best_answer_tags_help: 選擇哪些標籤，如果有的話，在設置最佳答案時增加到主題中。只允許使用二級標籤。如果最佳答案被刪除，這些標籤將被刪除。
       select_best_answer_tags_label: '與 "最佳答案 "主題的標籤'
       show_filter_help: 在啟用最佳回覆的標籤頁面顯示「已解決/未解決」過濾項
       show_filter_label: 顯示最佳回覆過濾項

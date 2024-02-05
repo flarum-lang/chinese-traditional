@@ -9,8 +9,8 @@ ianm-translate:
       translate-to-all-locales: 在任何論壇語言環境中查看翻譯
       translate-to-locale: 查看目前語言環境的翻譯
     settings:
-      bind-browser-language: 添加瀏覽器語言
-      bind-browser-language-help: 啟用後，使用者的瀏覽器語言將被添加到可用於翻譯的語言清單中。
+      bind-browser-language: 增加瀏覽器語言
+      bind-browser-language-help: 啟用後，使用者的瀏覽器語言將被增加到可用於翻譯的語言清單中。
       deepl:
         api_key:
           help: '在{link}註冊。驅動程序將自動檢測免費/專業密鑰類型。'

@@ -11,7 +11,7 @@ v17development-flarum-support:
       body: "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 於 {replied_date} 回覆了您的工單 #{ticket_id}，我們正在等候您的回覆。\n\n您的工單連結：\n{url}\n\n如果此問題已解決，請將工單標記為已解決。\n"
       subject: '工單 #{ticket_id} 需要您的回覆'
     ticket_pending_reply_closed:
-      body: "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 回覆了您的工單 #{ticket_id}。由於長時間未得到您的回覆，您的工單已被自動關閉。\n\n如您的問題沒有解決，您可以再次回帖：\n{url}\n"
+      body: "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 回覆了您的工單 #{ticket_id}。由於長時間未得到您的回覆，您的工單已被自動關閉。\n\n如您的問題沒有解決，您可以再次回覆：\n{url}\n"
       subject: '工單 #{ticket_id} 由於沒有活動現已關閉'
     ticket_resolved:
       body: "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 被標記為已解決，並已關閉。\n\n您的工單連結：\n{url}\n\n如果您對此標記有異議，請回覆工單以重新打開。\n"
@@ -57,7 +57,7 @@ v17development-flarum-support:
       new_article_title: 新文章標題
       nothing_to_preview: 什麼都還沒寫呢
       publish_article: 發佈文章
-      publish_article_hint: 回帖後發布文章。
+      publish_article_hint: 回覆後發布文章。
       view: 預覽
       warning_save_changes: "警告：您即將離開此頁面，系統不會儲存您所做的更改。是否儲存更改然後離開？\n\n[OK] = 儲存並離開 [CANCEL] = 不儲存\n"
       write: 寫文章
@@ -125,14 +125,14 @@ v17development-flarum-support:
     settings: '=> core.ref.settings'
     support_ratings:
       enter_feedback: 在此填寫內容
-      feedback: 感謝您的評價，還有其他要反饋的嗎？
+      feedback: 感謝您的評價，還有其他要反應的嗎？
       feedback_not_helpful: 很抱歉這篇文章沒有幫助到您，您在尋找什麽呢？
-      finished: 感謝！您的反饋已儲存。
+      finished: 感謝！您的回饋已儲存。
       helful_article: 以上資訊是否解決了您的問題？
       helful_support: 您滿意我們對您的支持服務嗎？
       score: 評分
       switch_sort_score:
-        description: 只看有反饋（按最低評分排序）。
+        description: 只看有回饋（按最低評分排序）。
         label: 從低到高評分
       validation:
         cannot_rate_article: 您無法評價這篇文章。
@@ -148,9 +148,9 @@ v17development-flarum-support:
         private_support: 若需要一對一支持，您可以使用此表單在我們的客服平台上創建一個新的工單。對於非一對一支持，請參見<a>我們的公共論壇</a>。
         title: 發表新工單
       convert_to_discussion:
-        button: 轉換為主題帖
+        button: 轉換為主題
         confirm: '您確定要將此工單轉換為公開討論嗎？ 如果有人分享了私人資訊，這也將公開。'
-        event: "已將工單「{ticket_title}」轉為主題帖\n\n要調整到主題帖頁面嗎？\n"
+        event: "已將工單「{ticket_title}」轉為主題\n\n要調整到主題頁面嗎？\n"
       convert_to_ticket:
         button: 轉為工單
         confirm: 確定要將此主題轉為工單嗎？

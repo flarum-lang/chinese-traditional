@@ -29,7 +29,7 @@ the-turk-diff:
       textFormatting: 預覽時啟用文字樣式
       title: 'Diff 設定'
       useCrons: 透過定時任務存檔舊的修訂版本
-      useCronsHelp: '您必須將定時任務添加到伺服器中才能使此選項生效，它將於每週日 02:00AM 執行。如果停用此選項並啟用上面的選項，在修訂相關貼文時，將掃描全部貼文的修訂版本以進行存檔。'
+      useCronsHelp: '您必須將定時任務增加到伺服器中才能使此選項生效，它將於每週日 02:00AM 執行。如果停用此選項並啟用上面的選項，在修訂相關貼文時，將掃描全部貼文的修訂版本以進行存檔。'
       usePoint: 使用<strong>點</strong>作為小數點。
       wordLevel: 詞
   forum:

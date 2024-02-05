@@ -22,7 +22,7 @@ foskym-oauth-center:
     permission:
       use_oauth: '使用 OAuth'
     scopes:
-      add_button: 添加範圍
+      add_button: 增加範圍
       is_default: 預設
       method: 方法
       resource_path: 資源路徑

@@ -7,7 +7,7 @@ clarkwinkelmann-follow-tags-prompt:
     homepage:
       following: 關注中
     settings:
-      allDiscussionsOnFollowingPageForGuests: 給訪客在關注頁面顯示所有主題帖
+      allDiscussionsOnFollowingPageForGuests: 給訪客在關注頁面顯示所有主題
       availableTagStrategy: 供用戶選擇的標籤
       buttonOnFollowingPage: 在關注頁面顯示按鈕
       tagStrategy:
