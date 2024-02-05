@@ -47,7 +47,7 @@ php flarum cache:clear
 
 <!-- flarum-extensions-list-start -->
 
-| 擴展程式 | 狀態 |
+| 擴充套件 | 狀態 |
 | --- | --- |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/zh_Hant/) |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/zh_Hant/) |
@@ -74,7 +74,7 @@ php flarum cache:clear
 
 <!-- fof-extensions-list-start -->
 
-| 擴展程式 | 狀態 |
+| 擴充套件 | 狀態 |
 | --- | --- |
 | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/zh_Hant/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/zh_Hant/) |
@@ -144,7 +144,7 @@ php flarum cache:clear
 
 <!-- various-extensions-list-start -->
 
-| 擴展程式 | 狀態 |
+| 擴充套件 | 狀態 |
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/zh_Hant/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/zh_Hant/) |
@@ -475,7 +475,7 @@ php flarum cache:clear
 
 <!-- premium-extensions-list-start -->
 
-| 擴展程式 | 狀態 |
+| 擴充套件 | 狀態 |
 | --- | --- |
 | [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/zh_Hant/) |
 | [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum/zh_Hant/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/zh_Hant/) |
