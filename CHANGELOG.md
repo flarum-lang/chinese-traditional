@@ -5,15 +5,26 @@ CHANGELOG
 1.21.0 (XXXX-XX-XX)
 -------------------
 
+**例行更新**:
+
+* 更新核心翻譯.
+
+
 **新增翻譯**:
 
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+* [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 
 
 **更新翻譯**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 
