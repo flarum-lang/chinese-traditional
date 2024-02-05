@@ -20,4 +20,4 @@ blomstra-horizon:
         total-processes: 所有進程
       full_dashboard: 'Horizon 儀表板'
       heading: 隊列概覽
-      refresh: 刷新
+      refresh: 重整

@@ -8,15 +8,15 @@ xelson-chat:
       create:
         channel: 發起聊天頻道
         chat: 發起聊天
-      delete: 删除聊天消息
+      delete: 刪除聊天消息
       edit: 編輯聊天消息
       enabled: 啟用聊天
       moderate:
-        delete: 删除聊天消息
-        vision: 查看删除的消息
+        delete: 刪除聊天消息
+        vision: 查看刪除的消息
       post: 發送聊天消息
     settings:
-      charlimit: 最大消息字元数
+      charlimit: 最大消息字元數
       display:
         censor: 審查為授權用戶的消息
         minimize: 最小化
@@ -95,7 +95,7 @@ xelson-chat:
         actions:
           hide: 隱藏
           resend: 重試
-        censored: 登入以查看消息！
+        censored: 登入以查看訊息！
         deleted: 已刪除
         deleted_forever: 永久刪除
         events:
@@ -124,7 +124,7 @@ xelson-chat:
           url: URL
         you: 你
       moder: 管理員
-      placeholder: 輸入消息...
+      placeholder: 輸入訊息...
       rejoin: 重新加入
       welcome:
         header: '歡迎來到 Neon 聊天室！'

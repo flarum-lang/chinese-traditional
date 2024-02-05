@@ -206,7 +206,7 @@ v17development-flarum-support:
             filter_count: '{count, plural, one {# 過濾條件} other {# 過濾條件}}'
             title: 工單狀態
         no_tickets: 暫無工單分配給您。
-        refresh: 刷新
+        refresh: 重整
         selection_closed: 已結單
         selection_open: 進行中
         selection_unfiltered: 清除篩選條件

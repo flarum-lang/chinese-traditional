@@ -56,7 +56,7 @@ kilowhat-cimaise:
       pictures:
         drafts: '（{count} 份草稿）'
         section: 圖片
-      refresh: 刷新
+      refresh: 重整
       storage:
         conversions: '轉化次數：{size}'
         originals: '原件: {size}'

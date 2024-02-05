@@ -7,8 +7,8 @@ kilowhat-rich-embeds:
     permissions:
       disableOnAnyPost: 禁止在任何的貼文中使用嵌入
       disableOnOwnPost: 禁止在自己的貼文中使用嵌入
-      refreshOnAnyPost: 在任何的貼文上刷新嵌入
-      refreshOnOwnPost: 在自己的貼文上刷新嵌入
+      refreshOnAnyPost: 在任何的貼文上重整嵌入
+      refreshOnOwnPost: 在自己的貼文上重整嵌入
       useOnOwnPost: 在自己的貼文中使用嵌入
       viewGoogleDriveThumbnails: '查看 API 支援的 Google 雲端硬碟略圖'
     preview:
@@ -141,7 +141,7 @@ kilowhat-rich-embeds:
       imgCopy: 複制圖像綱址
       imgOpen: 在新分頁開啟圖像
       play: 單擊以使用嵌入式播放器播放媒體
-      refresh: 刷新頁面
+      refresh: 重整頁面
     embed:
       altAvatar: 用戶頭像
       altFavicon: '{website} 圖示'

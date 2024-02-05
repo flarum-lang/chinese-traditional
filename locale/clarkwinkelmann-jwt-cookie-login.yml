@@ -12,7 +12,7 @@ clarkwinkelmann-jwt-cookie-login:
       authorizationHeader: 自定義授權頭值
       authorizationHeaderHelp: '如果此字段留空，<code>Authorization</code> 標頭將包含 <code>Token <JWT token></code>。'
       autoLoginDelay: '隱藏 iframe 的自動登入延遲（毫秒）'
-      autoLoginDelayHelp: "如果隱藏的 iframe 返回登入狀態，在沒有用戶交互的情況下允許頁面刷新的秒數。超過該延遲後，用戶將收到一條警報，詢問他們是否要刷新頁面。\n"
+      autoLoginDelayHelp: "如果隱藏的 iframe 返回登入狀態，在沒有用戶交互的情況下允許頁面重整的秒數。超過該延遲後，用戶將收到一條警報，詢問他們是否要重整頁面。\n"
       cookieName: Cookie名稱
       emailTemplate: 郵件模板
       emailTemplateHelp: '使用 <code>{sub}</code> 語法來使用來自 JWT 的屬性'
@@ -34,4 +34,4 @@ clarkwinkelmann-jwt-cookie-login:
     alert:
       login: 已自動連接。
       logout: 您的登入資訊已過期。
-      refresh: 刷新頁面
+      refresh: 重整頁面

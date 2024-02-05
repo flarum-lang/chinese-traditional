@@ -23,7 +23,7 @@ migratetoflarum-fake-data:
       discussion-tags-none: 無
       discussion-tags-random: 隨機
       post-count: 回文生成數量
-      refresh: 完成並刷新頁面
+      refresh: 完成並重整頁面
       reset: 成生成功！點擊重置
       send: 生成數據
       user-count: 用戶生成數量

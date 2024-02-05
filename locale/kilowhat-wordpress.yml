@@ -107,7 +107,7 @@ kilowhat-wordpress:
       api-error-json: '嘗試訪問 WordPress API 時出現錯誤：{message} - Body: {body}'
       api-error-other: '嘗試訪問 WordPress API 時出現錯誤：{message}'
       api-key-mismatch: 'WordPress 中的“Flarum API 密鑰”設置與 Flarum 中的“Flarum API 密鑰”設置不匹配（預期：“{expected}”，實際：“{actual}”）'
-      api-key-missing: '“Flarum API 密鑰”丟失。 嘗試刷新管理面板並檢查日誌檔案是否存在可能的錯誤'
+      api-key-missing: '“Flarum API 密鑰”丟失。 嘗試重整管理面板並檢查日誌檔案是否存在可能的錯誤'
       comments-mismatch-flarum: '評論集成在 Flarum 中啟用，但在 WordPress 中未啟用'
       comments-mismatch-wordpress: 'Comments 集成在 WordPress 中啟用，但在 Flarum 中未啟用'
       config-url-https: 'config.php 中定義的 Flarum URL 應該是 HTTPS（目前值：“{url}”）'

@@ -26,4 +26,4 @@ blomstra-database-queue:
           label: 地位
           running: 執行中
       heading: 隊列概覽
-      refresh: 刷新
+      refresh: 重整

@@ -56,8 +56,8 @@ datitisev-backup:
           obtain-access-code-button: '開啟 Dropbox'
           obtain-access-code-label: '取得訪問碼（需要app key）'
           obtain-refresh-token-button: 使用代碼
-          obtain-refresh-token-label: '使用訪問代碼取得刷新令牌（需要app key & secret）'
-          obtain-refresh-token-success: '刷新令牌已成功取得並更新！ 請儲存。'
+          obtain-refresh-token-label: '使用訪問代碼取得重整令牌（需要app key & secret）'
+          obtain-refresh-token-success: '重整令牌已成功取得並更新！ 請儲存。'
         key:
           description: 'Dropbox app 密鑰。'
           label: 'APP 密鑰'
@@ -107,8 +107,8 @@ datitisev-backup:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Folder ID'
         refresh-token:
-          description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程式刷新令牌。\n"
-          label: 刷新令牌
+          description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程式重整令牌。\n"
+          label: 重整令牌
       local:
         target:
           description: 指定用於儲存備份的本地目錄。

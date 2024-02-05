@@ -103,11 +103,11 @@ imeepo-more-bbcode:
       spoiler_tooltip: '插入 spoiler'
       strikethrough_tooltip: 新增刪除線文字
       unordered_list_tooltip: 新增項目符號列表
-    like_to_see: '此內容需要 {like} 且刷新後可見'
-    login_to_see: '此內容需要{login}，刷新後可見'
+    like_to_see: '此內容需要 {like} 且重整後可見'
+    login_to_see: '此內容需要{login}，重整後可見'
     quote:
       wrote: 寫道
-    reply_to_see: '該內容需要{reply}，刷新後顯示'
+    reply_to_see: '該內容需要{reply}，重整後顯示'
     size_18: 'Size 18'
     size_20: 'Size 20'
     size_22: 'Size 22'
