@@ -18,7 +18,7 @@ ianm-synopsis:
       last-label: 最新回覆
       rich-excerpts:
         help: 啟用後，摘要中可包含圖片和嵌入式媒體等非本文內容。
-        label: 展示富文本摘要
+        label: 展示富文字摘要
       tags-enabled: '<code>flarum/tags</code> 已啟用。 所有設置將作為預設設置，您也可以針對特定標籤獨立配置摘要。'
   forum:
     user:

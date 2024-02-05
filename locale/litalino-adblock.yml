@@ -25,9 +25,9 @@ adblock:
     adblock-notice-method: 通知風格
     adblock-notice-method-help: 這里你可以變更通知的風格屬性
     adblock-supportRedirectUrl: 支援我們-連結
-    adblock-supportRedirectUrl-placeholder: '在此處粘貼有效的 URL 或將其留空'
+    adblock-supportRedirectUrl-placeholder: '在此處貼上有效的 URL 或將其留空'
     adblock-supportUsMessage: 支援我們-留言
-    adblock-supportUsMessage-placeholder: '請通過在我們的網站上禁用 AdBlocker 來支持我們。'
+    adblock-supportUsMessage-placeholder: '請透過在我們的網站上禁用 AdBlocker 來支持我們。'
     adblock-supportUsTitle: 支援我們-標題
     adblock-supportUsTitle-placeholder: 請支持我們
     adblock-url: 網址

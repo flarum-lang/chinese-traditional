@@ -11,7 +11,7 @@ pay-to-see:
       allow_set_pay2see: 允許設置付費查看其他用戶的討論
       allow_use_pay2see: 同意使用付費瀏覽
     set_permission_tag: 標籤權限設置
-    set_permission_tag_help: '當用戶開始討論時，他可以通過選擇任何具有權限的標籤來使用 P2S'
+    set_permission_tag_help: '當用戶開始討論時，他可以透過選擇任何具有權限的標籤來使用 P2S'
     settings:
       badge_icon: 徽章圖示
       badge_icon_desc: '輸入任何 FontAwesome 圖示類的名稱，包括 <code>fas fa-</code> 前綴。留空以移除徽章。'

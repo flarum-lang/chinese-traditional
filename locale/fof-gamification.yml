@@ -50,32 +50,32 @@ fof-gamification:
         allow_self_votes: 允許用戶投票自己的貼文
         alternate_layout: '使用仿 Reddit 投票佈局'
         alternate_post_layout: '使用仿 Reddit 投票佈局（文章頁面）'
-        auto_upvote: 當帖文發佈時自動點讚
+        auto_upvote: 當貼文發佈時自動按讚
         color_holder: '#ffffff'
-        discussion_page: 在貼文列表中顯示點讚數
+        discussion_page: 在貼文列表中顯示按讚數
         first_post_only: 僅首帖開放投票功能
         icon_help: '輸入任何 Font-Awesome 圖示，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋'
-        icon_name: 讚/踩小圖示
+        icon_name: 讚/噓小圖示
         points_placeholder: '👍: '
         points_title: 佔位符
-        rate_limit: '點讚頻率限制（10 秒）'
+        rate_limit: '按讚頻率限制（10 秒）'
         title: 讚
         upvotes_only: 禁用反對
-        vote_color: 點讚貼顏色
+        vote_color: 按讚貼顏色
     permissions:
       downvote_notifications: 接收反對票通知
       see_ranking_page: 查看等級頁面
       see_voters_label: 查看投票詳情
-      see_votes_label: 查看帖文讚/踩
+      see_votes_label: 查看貼文讚/噓
       upvote_notifications: 接收讚成票通知
-      vote_label: 讚/踩帖文
+      vote_label: 讚/噓貼文
   email:
     body:
       postVoted: "{recipient_display_name} 你好！\n\n{actor_display_name} 剛剛投票了你的主題「{discussion_title}」。\n\n查看詳情：{discussion_url}\n"
     subject:
       postVoted: '{display_name} 投票了你的貼文'
   forum:
-    mod_item: 查看點讚的人
+    mod_item: 查看按讚的人
     modal:
       downvotes_label: 反對的用戶：
       title: 打分
@@ -83,10 +83,10 @@ fof-gamification:
     nav:
       name: 排名
     notification:
-      downvote: '{username} 踩了您的帖文'
+      downvote: '{username} 噓了您的貼文'
       prefrences:
         vote: 有人讚成或反對我
-      upvote: '{username} 讚了您的帖文'
+      upvote: '{username} 讚了您的貼文'
     post:
       downvote_button: 反對
       upvote_button: 讚成
@@ -99,9 +99,9 @@ fof-gamification:
         points: '{count, plural, one {{count} 👍} other {{count} 👍}}'
       rank: '{rank}'
       votes_link: 投票
-    vote_title: 顯示點讚的人
+    vote_title: 顯示按讚的人
     voters:
       label: 投票詳情
       label_none: 暫無投票
       none: 暫無投票
-    votes: 點讚
+    votes: 按讚

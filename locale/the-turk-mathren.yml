@@ -21,7 +21,7 @@ the-turk-mathren:
       delimiters_label: 定界符
       delimiters_text: '多個定界符使用英文逗號分隔。<strong>%e%</strong> 表示數學表達式。'
       enable_copy_tex_label: '允許覆制 KaTeX 公式源碼'
-      enable_editor_buttons_label: 文本編輯器顯示公式按鈕
+      enable_editor_buttons_label: 文字編輯器顯示公式按鈕
       enable_fleqn_label: '多行公式左對齊 (fleqn)'
       enable_leqno_label: '多行公式自動編號 (leqno)'
       error_color_label: '命令不支持或 LaTeX 格式錯誤時的提示顏色'

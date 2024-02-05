@@ -9,7 +9,7 @@ fof-anti-spam:
       button: 被阻止的註冊
       delete_entry: 刪除條目
       email: 'Email 地址'
-      help: "此頁面顯示已被 StopForumSpam 服務阻止的所有註冊。 您可以查看每個註冊的詳細信息，如果您願意，可以從資料庫中刪除該記錄。\n"
+      help: "此頁面顯示已被 StopForumSpam 服務阻止的所有註冊。 您可以查看每個註冊的詳細資訊，如果您願意，可以從資料庫中刪除該記錄。\n"
       ip: 'IP 位置'
       login-provider: 登入提供者
       login-provider-data: 登入提供者數據

@@ -35,8 +35,8 @@ fof-mason:
       show_when_empty: 顯示空字段
       show_when_empty-help: 不論字段是否為空，均在主題中顯示
       user_values_allowed: 允許用戶輸入自定義值
-      user_values_allowed-help: "如果啟用此項，用戶可以添加自己的值，可以不選擇管理員指定的值。 這些值將根據「校驗」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n"
-      validation: 校驗用戶輸入的值
+      user_values_allowed-help: "如果啟用此項，用戶可以添加自己的值，可以不選擇管理員指定的值。 這些值將根據「檢查」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n"
+      validation: 檢查用戶輸入的值
       validation-help: "查看支持的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n"
     messages:
       delete-answer-confirmation: "確定要刪除答案「{content}」？ 這將從所有使用它的主題中移除該答案，如果您想要保留現有答案請停用答案建議。 刪除答案？\n"
@@ -52,7 +52,7 @@ fof-mason:
       column-count: 表單欄數
       fields-in-hero: 在主題頂部橫幅中顯示表單（而非首貼中）
       fields-section-title: 自定義字段標題
-      fields-section-title-help: "用戶將在文本編輯器和主題中看到這個文本。\n"
+      fields-section-title-help: "用戶將在文字編輯器和主題中看到這個文字。\n"
       fields-section-title-placeholder: 預設為空標題且不顯示
       hide-empty-fields-section: 當所有字段為空且隱藏時，隱藏標題和控件。
       hide-empty-fields-section-help: "預設情況下，如果用戶可以編輯字段或設置標題，則即使所有字段都被隱藏，也會始終顯示該部分。啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕僅在「回覆」下拉菜單中可用。\n"

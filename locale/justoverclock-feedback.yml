@@ -52,5 +52,5 @@ justoverclock-feedback:
       type-message: 你想反饋什麼內容？
       types:
         bug: 'Bug 報告'
-        general: 常規反饋
+        general: 一般反饋
         idea: 新點子

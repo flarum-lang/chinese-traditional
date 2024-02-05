@@ -41,7 +41,7 @@ kilowhat-formulaire:
       radio-style: 收音機樣式
       side-nav-on-submission: 在提交頁面上顯示側面導航
       style-options:
-        far-circle: 'FontAwesome 常規圓形圖示'
+        far-circle: 'FontAwesome 一般圓形圖示'
         far-square: 'FontAwesome 正方形圖示'
         fas-circle: 'FontAwesome 實心圓圈圖示'
         fas-square: 'FontAwesome 實心方形圖示'
@@ -81,7 +81,7 @@ kilowhat-formulaire:
         tags: 文章標籤
         tags-help: "以逗號分隔的標籤段列表。除了此表單連接到的標籤之外，還將添加所選標籤。\n"
         title: 文章標題
-      introduction: "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n"
+      introduction: "這些設置將應用於透過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n"
       submit: 驗證更改
       title: 自動討論選項
     badge:
@@ -334,9 +334,9 @@ kilowhat-formulaire:
       missing-title: 沒有標題的字段
       no-answer: 無答案
       other: 允許“其他”用戶值
-      regex: 正則表達式
+      regex: 正規表示式
       required: 必填
-      rich: '富文本 (TextFormatter)'
+      rich: '富文字 (TextFormatter)'
       title: 名稱
       type:
         checkbox: 複選框

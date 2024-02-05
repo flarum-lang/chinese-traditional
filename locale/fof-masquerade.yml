@@ -27,7 +27,7 @@ fof-masquerade:
       required: 標記為必填項
       title: 欄位
       type: 類型
-      validation: 校驗
+      validation: 檢查
       validation-help: "查看支援的 <a>Laravel validation rules</a>，例如: \"string,min:5\" 或 \"url\".\n"
     general-options: 一般選項
     permissions:

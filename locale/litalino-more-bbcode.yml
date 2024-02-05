@@ -21,7 +21,7 @@ imeepo-more-bbcode:
     button_tooltip_color: 文字顏色
     button_tooltip_del: 插入文字刪除線
     button_tooltip_demo: 插入文字或刪除
-    button_tooltip_details: 插入詳細信息
+    button_tooltip_details: 插入詳細資訊
     button_tooltip_down: 插入下載
     button_tooltip_dropcap: 首字下沉
     button_tooltip_float_left: 向左插入浮動
@@ -35,7 +35,7 @@ imeepo-more-bbcode:
     button_tooltip_ins: 插入文字底線
     button_tooltip_justify: 對齊文字
     button_tooltip_left: 文字置左
-    button_tooltip_like: 點讚後即可查看
+    button_tooltip_like: 按讚後即可查看
     button_tooltip_login: 登入即可查看
     button_tooltip_notification_abasic: 插入Abasic
     button_tooltip_notification_acustom: 插入自訂
@@ -92,16 +92,16 @@ imeepo-more-bbcode:
     hidden_content_login: 登入顯示內容
     hidden_content_reply: 回覆顯示內容
     lib:
-      bold_tooltip: 新增粗體文本
+      bold_tooltip: 新增粗體文字
       code_tooltip: 插入程式碼
-      header_tooltip: 新增標題文本
+      header_tooltip: 新增標題文字
       image_tooltip: 新增影像
-      italic_tooltip: 新增斜體文本
+      italic_tooltip: 新增斜體文字
       link_tooltip: 添加連結
       ordered_list_tooltip: 新增編號列表
       quote_tooltip: 插入引言
       spoiler_tooltip: '插入 spoiler'
-      strikethrough_tooltip: 新增刪除線文本
+      strikethrough_tooltip: 新增刪除線文字
       unordered_list_tooltip: 新增項目符號列表
     like_to_see: '此內容需要 {like} 且刷新後可見'
     login_to_see: '此內容需要{login}，刷新後可見'

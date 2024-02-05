@@ -11,7 +11,7 @@ clarkwinkelmann-collapsible-posts:
       explanationUrl: '詳情 URL'
       explanationUrlHelp: 可選，在折疊帖下方顯示。
       header:
-        explanation: 自定義詳情信息
+        explanation: 自定義詳情資訊
         key: 資料庫主鍵
         label: 標題
       reasons: 原因

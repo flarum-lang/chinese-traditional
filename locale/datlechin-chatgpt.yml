@@ -17,7 +17,7 @@ datlechin-chatgpt:
       max_tokens_label: 最大令牌數
       model_help: '了解更多關於 <a>models</a> (default: <code>text-davinci-003</code>).'
       model_label: 模型
-      user_prompt_badge_help: 將顯示在用戶提示的文本。
+      user_prompt_badge_help: 將顯示在用戶提示的文字。
       user_prompt_badge_label: 用戶提示徽章
       user_prompt_help: '將用於生成答案的回覆者。 預設是文章貼文者。'
       user_prompt_label: 用於提示的用戶

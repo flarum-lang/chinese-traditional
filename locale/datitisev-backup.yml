@@ -54,10 +54,10 @@ datitisev-backup:
           label: 訪問令牌
         help:
           obtain-access-code-button: '開啟 Dropbox'
-          obtain-access-code-label: '獲取訪問碼（需要app key）'
+          obtain-access-code-label: '取得訪問碼（需要app key）'
           obtain-refresh-token-button: 使用代碼
-          obtain-refresh-token-label: '使用訪問代碼獲取刷新令牌（需要app key & secret）'
-          obtain-refresh-token-success: '刷新令牌已成功獲取並更新！ 請儲存。'
+          obtain-refresh-token-label: '使用訪問代碼取得刷新令牌（需要app key & secret）'
+          obtain-refresh-token-success: '刷新令牌已成功取得並更新！ 請儲存。'
         key:
           description: 'Dropbox app 密鑰。'
           label: 'APP 密鑰'
@@ -132,7 +132,7 @@ datitisev-backup:
       description: 儲存您的論壇副本。
       label: 備份
     required-package-modal:
-      content: "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
+      content: "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以透過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
       title: '{adapter} 所需的軟件包'
     required_package_button: 安裝
     settings_button: 配置

@@ -12,7 +12,7 @@ dem13n:
       desktop_card_width: '桌面屏幕主卡片寬度：{percent}%'
       mark_cards: 標記未讀主題
       output_on_index_page: 首頁輸出
-      preview_text: 顯示短文本
+      preview_text: 顯示短文字
       settings_error: 清除緩存，禁用那個擴展，點擊右上角的卸載按鈕，確認刪除數據。然後重新啟用本擴展
       show_replies: 顯示回覆數
       show_views: '顯示點擊次數（安裝擴展“Flarumite Simple Discussion Views”時）'

@@ -27,7 +27,7 @@ nearata-twofactor:
       title: 兩步驟身份驗證
     settings:
       app:
-        button_help: 您將通過身份驗證應用程序收到訪問代碼。
+        button_help: 您將透過身份驗證應用程序收到訪問代碼。
         button_label: 驗證應用程序
         setup:
           close_button_label: 關閉

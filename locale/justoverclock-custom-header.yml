@@ -4,16 +4,16 @@
 
 custom-header:
   admin:
-    button-text: 左側按鈕文本
-    button-text-help: 設置橫幅左側按鈕文本
-    button2-text: 右側按鈕文本
-    button2-text-help: 設置橫幅右側按鈕文本
+    button-text: 左側按鈕文字
+    button-text-help: 設置橫幅左側按鈕文字
+    button2-text: 右側按鈕文字
+    button2-text-help: 設置橫幅右側按鈕文字
     facebookIcon: 臉書主頁連結
-    facebookIcon-help: '在此處粘貼指向您的 Facebook 頁面的有效 URL'
+    facebookIcon-help: '在此處貼上指向您的 Facebook 頁面的有效 URL'
     githubIcon: 'GitHub 主頁鍵接'
-    githubIcon-help: '在此處粘貼指向您的 GitHub 頁面的有效 URL'
+    githubIcon-help: '在此處貼上指向您的 GitHub 頁面的有效 URL'
     headerBackgroundImage: 背景頭圖
-    headerBackgroundImage-help: '在此處粘貼背景頭圖 URL'
+    headerBackgroundImage-help: '在此處貼上背景頭圖 URL'
     headerTagline: 標幅標語
     headerTagline-help: 你可以修改標語
     headerTitle: 橫幅標題
@@ -23,9 +23,9 @@ custom-header:
     link-button-two: 右側按鈕超連結
     link-button-two-help: 設置橫幅右側按鈕的超連結
     twitterIcon: '連結至 Twitter'
-    twitterIcon-help: '在此處粘貼指向您的 Twitter 頁面的有效 URL'
+    twitterIcon-help: '在此處貼上指向您的 Twitter 頁面的有效 URL'
     youtubeIcon: 'Youtube 主頁連結'
-    youtubeIcon-help: '在此處粘貼指向您的 Youtube 頁面的有效 URL'
+    youtubeIcon-help: '在此處貼上指向您的 Youtube 頁面的有效 URL'
   forum:
     facebook: 在臉書上關注我們
     github: 'GitHub 主頁'

@@ -15,5 +15,5 @@ clarkwinkelmann-formatted-banner:
   forum:
     alert:
       login: 會話已連接。
-      logout: 您的登入信息已過期。
+      logout: 您的登入資訊已過期。
       refresh: 刷新頁面

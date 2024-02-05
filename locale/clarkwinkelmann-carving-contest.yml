@@ -10,7 +10,7 @@ clarkwinkelmann-carving-contest:
       custom-help: '#十六進製或rgb() 值列表（逗號分隔）'
       simple: 簡單顏色設置
     permissions:
-      like: 為作品點讚
+      like: 為作品按讚
       moderate: 管理
       participate: 參加比賽
       view: 查看作品
@@ -49,4 +49,4 @@ clarkwinkelmann-carving-contest:
         mostLikes: 最受歡迎
         mostRecent: 最新作品
       title: 南瓜雕刻比賽
-      unlike: 踩
+      unlike: 噓

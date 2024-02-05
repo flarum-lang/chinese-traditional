@@ -48,5 +48,5 @@ kyrne-whisper:
       invalid_password: 密碼錯誤。
       passwords_mismatch: 兩次密碼不匹配
       success: 初化成功，請等候頁面刷新……
-      title: 設置私人信息
+      title: 設置私人資訊
     user_modal_alert: '{username} 已初始化私信，現在無法安全地修改他們的密碼。'

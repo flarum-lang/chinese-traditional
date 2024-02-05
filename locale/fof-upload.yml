@@ -15,7 +15,7 @@ fof-upload:
       client_extension: "預設情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n"
       composer_buttons: "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
       disable-download-logging: "開啟此設定可查看下載量及未來可能的統計數據。\n"
-      disable-hotlink-protection: "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID。\n"
+      disable-hotlink-protection: "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及貼文 ID。\n"
       download_templates: "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n"
       mime_types: "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n"
       resize: "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n"
@@ -109,7 +109,7 @@ fof-upload:
       bbcode-image: 'BBCode 圖片預覽模板'
       bbcode-image_description: "使用 BBCode 在行內完整顯示圖片。<strong>此模板依賴於 flarum/bbcode 擴充套件。</strong>無下載、統計和熱鏈保護功能。\n"
       file: 預設檔案下載模板
-      file_description: "顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護。\n"
+      file_description: "顯示檔案名稱及基本資訊，經由 php 代理下載，支援統計及熱鏈保護。\n"
       image: 預設圖片下載模板
       image-preview: 完整圖片預覽模板
       image-preview_description: "於行內顯示完整圖片。不支援下載、統計及熱鏈保護。\n"

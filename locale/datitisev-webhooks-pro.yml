@@ -14,7 +14,7 @@ fof-webhooks:
       created: '發起投票 `{1}`'
       voted: '投票結果 `{1}`'
     post:
-      downvoted: 踩帖
+      downvoted: 噓帖
       reacted: '戳表情 `{1}`'
       unreacted: 移除表情反應
       upvoted: 頂帖
@@ -37,7 +37,7 @@ fof-webhooks:
             discussionmadepublic: 討論轉公開
             title: 'FriendsOfFlarum 私密主題'
           gamification:
-            postwasvoted: 貼文頂/踩
+            postwasvoted: 貼文推/噓
             title: 'FriendsOfFlarum Gamification'
           polls:
             pollwascreated: 創建

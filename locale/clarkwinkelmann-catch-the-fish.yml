@@ -19,7 +19,7 @@ clarkwinkelmann-catch-the-fish:
       discussion-tags: 標籤白名單
       discussion-tags-help: "如不指定標籤，即可選擇符合時間範圍內的任意主題帖。若指定了標籤，則僅可選擇此標籤下的主題帖。概率用於設置其他選擇都用了之後的被選中幾率。白名單中最後一個標籤將作為備用標籤，請確保此標籤下至少有一個有效的主題帖。\n"
       discussion-tags-unavailable: 目前設置不可用：標籤擴展已禁用。
-      general: 常規
+      general: 一般
       post: 貼文
       post-age: 一條魚能放置在回覆帖中幾天
       post-probability: 出現在回覆帖而非主題的概率（%）
@@ -51,7 +51,7 @@ clarkwinkelmann-catch-the-fish:
     invalid-discussion-id: 討論似乎不存在，可能最近被刪除了
     invalid-post-id: 回文似乎不存在，可能最近被刪除了
     invalid-user-id: 用戶似乎不存在，可能最近被刪除了
-    model-deleted: 無法將魚放在已刪除的主題帖或回复帖上
+    model-deleted: 無法將魚放在已刪除的主題或回覆上
     model-private: 不能在私密主題中放置魚
     non-comment-post: 您只能把魚放在回覆帖中
     random-error: 無法隨機生成放置魚的位置

@@ -5,26 +5,26 @@
 kilowhat-cimaise:
   admin:
     permissions:
-      attachCimaiseAlbum: 手動將相冊附加到討論
-      createCommunityAlbums: 創建論壇相冊
-      createPersonalAlbums: 創建個人相冊
-      editOwnAlbum: 更改自己相冊的標題和描述
+      attachCimaiseAlbum: 手動將相簿附加到討論
+      createCommunityAlbums: 創建論壇相簿
+      createPersonalAlbums: 創建個人相簿
+      editOwnAlbum: 更改自己相簿的標題和描述
       editOwnImage: 在自己的照片上使用圖像編輯器（裁剪、遮罩和貼紙）
       editOwnPublishedImage: 發布後對自己的圖片使用圖像編輯器
-      hideOwnAlbum: 隱藏個人相冊
+      hideOwnAlbum: 隱藏個人相簿
       hideOwnPicture: 隱藏自己的照片
       licenseOwnPublishedPicture: 發布後更改自己圖片的許可證
       moderate: 中等
       publishSilently: 靜默發布圖片（無需貼文）
       renameOwnPublishedPicture: 發布後更改自己圖片的標題和描述
-      uploadCommunityPicturesWithoutApproval: 在論壇相冊中上傳未經批准的圖片
-      uploadPersonalPicturesWithoutApproval: 上傳個人相冊中未經批准的圖片
+      uploadCommunityPicturesWithoutApproval: 在論壇相簿中上傳未經批准的圖片
+      uploadPersonalPicturesWithoutApproval: 上傳個人相簿中未經批准的圖片
       uploadPictures: 上傳圖片
       view: 查看
       viewExif: '查看 Exif 數據（包括地理位置）'
     settings:
-      autoCreateDiscussionAlbum: 為每個新討論自動創建相冊
-      autoCreateDiscussionAlbumHelp: "自動創建一個新相冊，標題與討論相同，作者與所有者相同。 此功能繞過相冊創建權限並適用於所有標籤。\n"
+      autoCreateDiscussionAlbum: 為每個新討論自動創建相簿
+      autoCreateDiscussionAlbumHelp: "自動創建一個新相簿，標題與討論相同，作者與所有者相同。 此功能繞過相簿創建權限並適用於所有標籤。\n"
       columnTheme: 專欄主題
       columnThemeHelp: 顯示圖片時使用側面板樣式而不是底部面板。
       license-add: 加入許可証
@@ -34,8 +34,8 @@ kilowhat-cimaise:
       licenses: 許可證
       mapboxToken: 'Mapbox Token'
       mapboxTokenHelp: 填寫一個有效的token以在圖片下顯示地理位置圖。
-      neverSyncDiscussionAlbumTitles: 從不同步討論和相冊名稱
-      neverSyncDiscussionAlbumTitlesHelp: "預設情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n"
+      neverSyncDiscussionAlbumTitles: 從不同步討論和相簿名稱
+      neverSyncDiscussionAlbumTitlesHelp: "預設情況下，與討論標題完全相同的相簿將在討論標題更改時重命名。 如果相簿被手動重命名，同步命名功能將失效。\n"
       requireLicense: 需要從下面的列表中選擇一個許可證
       requireLicenseHelp: "預設情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n"
       sticker-add: 加入貼紙
@@ -80,32 +80,32 @@ kilowhat-cimaise:
         title: 標題無效，未經授權編輯
     post-edit:
       cannotAttachAlreadySubmitted: '無法附加圖片 {id}，因為它已經提交'
-      cannotAttachFromExternalAlbum: '無法附加圖片 {id}，因為它屬於外部相冊'
-      cannotAttachHasNoAlbum: 討論沒有附加相冊
+      cannotAttachFromExternalAlbum: '無法附加圖片 {id}，因為它屬於外部相簿'
+      cannotAttachHasNoAlbum: 討論沒有附加相簿
       cannotAttachToNonComment: 圖片不能手動附加到非評論貼文
       cannotAttachUnauthorized: '無法附加圖片 {id}，因為它不屬於您'
       cannotFindPicturesFromRelation: 無法在資料庫中找到所有請求的圖片
   forum:
     album-list:
-      empty: 沒有相冊
+      empty: 沒有相簿
       load-more: '=> kilowhat-cimaise.ref.load-more'
       loading: '=> kilowhat-cimaise.ref.loading'
-      new: 創建新相冊
+      new: 創建新相簿
       title: '=> kilowhat-cimaise.ref.albums'
     album-search:
       title: '=> kilowhat-cimaise.ref.albums'
     album-show:
-      community: 論壇相冊
+      community: 論壇相簿
       discussion: 前往討論
       empty: 沒有相片
       loading: '=> kilowhat-cimaise.ref.loading'
-      personal: '<a>{username}</a>的個人相冊'
+      personal: '<a>{username}</a>的個人相簿'
       upload: 上傳相片
     album-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
-      delete-confirmation: '刪除相冊"{title}"?'
+      delete-confirmation: '刪除相簿"{title}"?'
       edit: 編輯
       hide: '=> kilowhat-cimaise.ref.hide'
       restore: '=> kilowhat-cimaise.ref.restore'
@@ -116,21 +116,21 @@ kilowhat-cimaise:
       select: 選擇
       selected: 選擇：
       submit: 提交
-      title: '將相冊附加到“{title}”'
+      title: '將相簿附加到“{title}”'
       unselect: 取消選擇
     badge:
       awaiting-approval: 等待同意
       favorite: 我的最愛
       hidden: 隱藏
     discussion-controls:
-      attach-album: 附加或分離相冊
+      attach-album: 附加或分離相簿
     edit-album-modal:
       title: '編輯"{title}"'
     edit-album:
-      create: 創建相冊
+      create: 創建相簿
       description: 詳情
-      isCommunity: 論壇相冊（開放空間）
-      save: 儲存相冊
+      isCommunity: 論壇相簿（開放空間）
+      save: 儲存相簿
       title: 標題
     edit-picture:
       description: 詳情
@@ -147,7 +147,7 @@ kilowhat-cimaise:
       pictures: '=> kilowhat-cimaise.ref.pictures'
       user-pictures: '=> kilowhat-cimaise.ref.pictures'
     new-album-modal:
-      title: 新相冊
+      title: 新相簿
     picture-controls:
       approve: 同意
       controls: '=> kilowhat-cimaise.ref.controls'
@@ -164,7 +164,7 @@ kilowhat-cimaise:
       loading: '=> kilowhat-cimaise.ref.loading'
       title: 所有相片
     picture-show:
-      back-album: 返回相冊
+      back-album: 返回相簿
       download: 下載
       download-cropped: '裁剪{size}'
       download-original: 下載原始文檔
@@ -192,11 +192,11 @@ kilowhat-cimaise:
       select-file: 選擇檔案
       submit: 提交
       submitInComposer: 繼續
-      title: '上傳相冊“{title}”中的圖片'
+      title: '上傳相簿“{title}”中的圖片'
       titleInComposer: 編輯圖片
       uploading: 上傳中
   ref:
-    albums: 相冊
+    albums: 相簿
     by-user: 由
     controls: 控制台
     delete: 刪除

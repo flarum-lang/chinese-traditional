@@ -50,14 +50,14 @@ xsoft-mason-tag:
       update-own-fields: 更新自己討論的字段
     settings:
       by-tag: 僅將元數據應用於特定標籤
-      by-tag-name: 哪些標籤獲取元數據？
+      by-tag-name: 哪些標籤取得元數據？
       column-count: 顯示字段時的列數
       composer-height: 編輯器高度
       composer-height-help: '預設值為 200，應高於該值以容納字段。'
       composer-height-placeholder: '320'
       fields-in-hero: 在討論橫幅中顯示欄位，而不是第一篇文章
       fields-section-title: 自定義字段部分的標題
-      fields-section-title-help: "用戶將在編輯器中的自定義字段上方和討論中看到此文本。\n"
+      fields-section-title-help: "用戶將在編輯器中的自定義字段上方和討論中看到此文字。\n"
       fields-section-title-placeholder: 預設不顯示標題
       hide-empty-fields-section: 當所有欄位都為空且隱藏時隱藏標題和控件
       hide-empty-fields-section-help: "預設情況下，如果用戶可以編輯字段或已設置標題，則該部分將始終顯示，即使所有字段都被隱藏。 啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕將僅在「回覆」下拉選單中可用。\n"

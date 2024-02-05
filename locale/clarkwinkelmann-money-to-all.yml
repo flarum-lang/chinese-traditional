@@ -13,8 +13,8 @@ clarkwinkelmann-money-to-all:
     modal:
       amount: 數量
       lastActivity: 僅限於以下日期之後活躍的用戶
-      message: 信息
-      messageHelp: 該消息將覆蓋預設通知文本。您應該在文本中提及金額，因為它不會再顯示了(可選)。
+      message: 資訊
+      messageHelp: 該消息將覆蓋預設通知文字。您應該在文字中提及金額，因為它不會再顯示了(可選)。
       messagePlaceholder: 啟用通知以包含消息
       notify: 向用戶發送網路通知
       preview: '目前設置匹配 {count} 個用戶。'

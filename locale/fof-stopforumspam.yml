@@ -28,4 +28,4 @@ fof-stopforumspam:
       unknown: '回報至 StopForumSpam 失敗。'
   forum:
     message:
-      spam: 你的信息被標記為垃圾。
+      spam: 你的資訊被標記為垃圾。

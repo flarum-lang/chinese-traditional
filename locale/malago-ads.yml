@@ -9,9 +9,9 @@ flagrow-ads:
     positions:
       between-posts:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
-        title: 【信息流廣告位】位於每個主題中的貼文之間
+        title: 【資訊流廣告位】位於每個主題中的貼文之間
       under-header:
-        placeholder: 在此處粘貼廣告代碼。
+        placeholder: 在此處貼上廣告代碼。
         title: 【橫廣廣告位】位於網頁頂部導航欄下方
       under-nav-items:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
@@ -20,10 +20,10 @@ flagrow-ads:
       adsense-client-id: '請提供您的 publisher ID'
       adsense-enable: 'AdSense 已啟用'
       adsense-title: 'AdSense 設置'
-      between-n-posts: 【信息流廣告位】指定每隔幾樓顯示一次廣告
+      between-n-posts: 【資訊流廣告位】指定每隔幾樓顯示一次廣告
       header-only-frontpage: 僅在電腦端顯示導航欄下方廣告
       position-title: 廣告位置
-      start-from-post: '【信息流廣告位】指定從幾樓開始顯示廣告（0 表示從一樓開始顯示廣告）'
+      start-from-post: '【資訊流廣告位】指定從幾樓開始顯示廣告（0 表示從一樓開始顯示廣告）'
     tab:
       description: 廣告位置及偏好設置。
       title: 廣告

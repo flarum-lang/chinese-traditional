@@ -4,19 +4,19 @@
 
 flarum-ext-dontgoaway:
   admin:
-    altdesc: 為圖片設置「alt」屬性說明文本
+    altdesc: 為圖片設置「alt」屬性說明文字
     altext: '圖片 Alt 屬性'
     btn: 自定義按鈕。占位符中的語法示例
-    btndesc: '你可以為按鈕設置 Fontawesome 圖示和文本'
+    btndesc: '你可以為按鈕設置 Fontawesome 圖示和文字'
     enableExtLink: 啟用外鏈跳轉彈窗
     heightdesc: '設置圖片的高度（如 450）'
     heightext: 圖片高度
     modtext: 對話框本文
-    modtextdesc: 自定義對話框描述文本。
+    modtextdesc: 自定義對話框描述文字。
     modtitle: 對話框標題
     modtitledesc: 自定義彈窗標題
     urltext: '自定義圖片 URL'
-    urltextdesc: '粘貼自定義圖片 URL'
+    urltextdesc: '貼上自定義圖片 URL'
     widthdesc: '設置圖片的寬度（如 450）'
     widthtext: 圖片寬度
   forum:

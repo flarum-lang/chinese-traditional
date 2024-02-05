@@ -21,4 +21,4 @@ clarkwinkelmann-external-email-validation:
       use-response-status: '使用 HTTP 狀態碼表示郵箱驗證狀態'
       use-response-status-help: '2xx 狀態碼表示有效，4xx 狀態碼表示無效。'
   api:
-    email-validation-error: 郵箱未通過外部校驗。
+    email-validation-error: 郵箱未通過外部檢查。

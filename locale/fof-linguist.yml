@@ -69,7 +69,7 @@ fof-linguist:
       with-own-translations: 我的翻譯
     import:
       input: 在此輸入
-      input-placeholder: '拖拽或粘貼 Yaml 文件到此處'
+      input-placeholder: '拖拽或貼上 Yaml 文件到此處'
       locale: 語言
       locale-all: 偽語言「全部」
       override-existing: 覆蓋已存在的自定義翻譯
@@ -85,13 +85,13 @@ fof-linguist:
       ref: 'Ref (被其他鍵復用)'
     known-namespace:
       core: 'Flarum 核心'
-      validation: 數據校驗錯誤
+      validation: 數據檢查錯誤
     locales:
       all: 全部
     permissions:
       view_string_keys: 查看翻譯字符
     placeholder:
-      all-locales: 此處定義的文本將顯示於全部語言中
+      all-locales: 此處定義的文字將顯示於全部語言中
       hint: 原文內容：
       not-translated: 未翻譯
     tabs:

@@ -6,11 +6,11 @@ justoverclock-igdb-api:
   admin:
     composerAlert: '在新討論中顯示 Composer Alert'
     rawgApi: 'RawG Api Key'
-    rawgApi-help: '在此處粘貼從 https://rawg.io/signup 檢索到的免費 Api 密鑰'
+    rawgApi-help: '在此處貼上從 https://rawg.io/signup 檢索到的免費 Api 密鑰'
   forum:
     availableOn: 可用
     game-title-alert-box: 這是關於遊戲的討論嗎？
-    game-title-alert-box-description: 如果您要開始討論遊戲，為了檢索所有信息，請僅使用視頻遊戲名稱作為標題（例如現代戰爭），不要使用其他詞。
+    game-title-alert-box-description: 如果您要開始討論遊戲，為了檢索所有資訊，請僅使用視頻遊戲名稱作為標題（例如現代戰爭），不要使用其他詞。
     gamesPage: 新遊戲和即將推出的遊戲
     genres: Genres
     genresPage: Genres

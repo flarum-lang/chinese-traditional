@@ -7,7 +7,7 @@ fof-discussion-language:
     permissions:
       allow_change_language_label: 允許更改語言
     settings:
-      composer_default_label: 在文本編輯器中預選目前語言
+      composer_default_label: 在文字編輯器中預選目前語言
       config:
         country_label: 國家（用於展示國旗）
         language_label: 語言
