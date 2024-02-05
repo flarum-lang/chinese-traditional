@@ -7,8 +7,8 @@ clarkwinkelmann-featured-discussions:
     permissions:
       feature: 管理精選主題
     settings:
-      duration: 默認過期時間（秒）
-      eventPost: 修改日程任務時生成事件帖子
+      duration: 預設過期時間（秒）
+      eventPost: 修改日程任務時生成事件貼文
       schedule: '計劃任務（CRON 語法）'
   forum:
     badge: 精選
@@ -37,7 +37,7 @@ clarkwinkelmann-featured-discussions:
       unscheduled: 精選結束
     schedule:
       custom: 自定義
-      drop-error: 無效的主題鏈接
+      drop-error: 無效的主題連結
       drop-here: 放在這里安排
       empty: 暫無主題
-      help: "從當前或其他頁面拖放主題帖即可修改計劃，在三點菜單中可以刪除計劃。\n"
+      help: "從目前或其他頁面拖放主題帖即可修改計劃，在三點菜單中可以刪除計劃。\n"

@@ -13,7 +13,7 @@ fof-passport:
         app-token-url: 'OAuth token 連結'
         app-user-url: '在驗證成功後 Api URL 將提供使用者資訊'
         button-icon: 登入按鈕圖示
-        button-title: 登入按鈕標簽
+        button-title: 登入按鈕標籤
         button-title-placeholder: '=> fof-passport.api.default-login-button-title'
   api:
     default-login-button-title: '=> core.ref.log_in'

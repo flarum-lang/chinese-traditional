@@ -5,7 +5,7 @@
 tokenjenny-web3:
   forum:
     log_in:
-      with_metamask_button: 'MetaMask 帳號登錄'
+      with_metamask_button: 'MetaMask 帳號登入'
     settings:
       connect_button: '連接到 MetaMask'
       connected: '已綁定<strong>{account}</strong>'

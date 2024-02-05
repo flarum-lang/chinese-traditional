@@ -29,5 +29,5 @@ justoverclock-steam-api:
     statusSnooze: Snooze
     statusTrade: 尋求交易
     steamId: 'Steam Profile ID 或名稱'
-    steamIdSaved: 'Steam ID 保存成功'
+    steamIdSaved: 'Steam ID 儲存成功'
     visitProfile: 查看資料

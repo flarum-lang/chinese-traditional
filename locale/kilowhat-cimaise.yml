@@ -6,7 +6,7 @@ kilowhat-cimaise:
   admin:
     permissions:
       attachCimaiseAlbum: 手動將相冊附加到討論
-      createCommunityAlbums: 創建社區相冊
+      createCommunityAlbums: 創建論壇相冊
       createPersonalAlbums: 創建個人相冊
       editOwnAlbum: 更改自己相冊的標題和描述
       editOwnImage: 在自己的照片上使用圖像編輯器（裁剪、遮罩和貼紙）
@@ -17,7 +17,7 @@ kilowhat-cimaise:
       moderate: 中等
       publishSilently: 靜默發布圖片（無需貼文）
       renameOwnPublishedPicture: 發布後更改自己圖片的標題和描述
-      uploadCommunityPicturesWithoutApproval: 在社區相冊中上傳未經批准的圖片
+      uploadCommunityPicturesWithoutApproval: 在論壇相冊中上傳未經批准的圖片
       uploadPersonalPicturesWithoutApproval: 上傳個人相冊中未經批准的圖片
       uploadPictures: 上傳圖片
       view: 查看
@@ -35,9 +35,9 @@ kilowhat-cimaise:
       mapboxToken: 'Mapbox Token'
       mapboxTokenHelp: 填寫一個有效的token以在圖片下顯示地理位置圖。
       neverSyncDiscussionAlbumTitles: 從不同步討論和相冊名稱
-      neverSyncDiscussionAlbumTitlesHelp: "默認情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n"
+      neverSyncDiscussionAlbumTitlesHelp: "預設情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n"
       requireLicense: 需要從下面的列表中選擇一個許可證
-      requireLicenseHelp: "默認情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n"
+      requireLicenseHelp: "預設情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n"
       sticker-add: 加入貼紙
       sticker-key: 金鑰
       sticker-label: 標籤
@@ -52,7 +52,7 @@ kilowhat-cimaise:
         topLeft: 左上方
         topRight: 右上方
     status:
-      loading: 加載中…
+      loading: 載入中…
       pictures:
         drafts: '（{count} 份草稿）'
         section: 圖片
@@ -82,9 +82,9 @@ kilowhat-cimaise:
       cannotAttachAlreadySubmitted: '無法附加圖片 {id}，因為它已經提交'
       cannotAttachFromExternalAlbum: '無法附加圖片 {id}，因為它屬於外部相冊'
       cannotAttachHasNoAlbum: 討論沒有附加相冊
-      cannotAttachToNonComment: 圖片不能手動附加到非評論帖子
+      cannotAttachToNonComment: 圖片不能手動附加到非評論貼文
       cannotAttachUnauthorized: '無法附加圖片 {id}，因為它不屬於您'
-      cannotFindPicturesFromRelation: 無法在數據庫中找到所有請求的圖片
+      cannotFindPicturesFromRelation: 無法在資料庫中找到所有請求的圖片
   forum:
     album-list:
       empty: 沒有相冊
@@ -95,7 +95,7 @@ kilowhat-cimaise:
     album-search:
       title: '=> kilowhat-cimaise.ref.albums'
     album-show:
-      community: 社區相冊
+      community: 論壇相冊
       discussion: 前往討論
       empty: 沒有相片
       loading: '=> kilowhat-cimaise.ref.loading'
@@ -112,7 +112,7 @@ kilowhat-cimaise:
     attach-album-modal:
       no-results: 沒有結果
       none-selected: 無
-      search: 搜索
+      search: 搜尋
       select: 選擇
       selected: 選擇：
       submit: 提交
@@ -129,7 +129,7 @@ kilowhat-cimaise:
     edit-album:
       create: 創建相冊
       description: 詳情
-      isCommunity: 社區相冊（開放空間）
+      isCommunity: 論壇相冊（開放空間）
       save: 儲存相冊
       title: 標題
     edit-picture:
@@ -188,7 +188,7 @@ kilowhat-cimaise:
       drop-file: 或拖放至此處
       processing: 處理中
       publishSilently: 安靜的發佈
-      reload: 重新加載草稿列表
+      reload: 重新載入草稿列表
       select-file: 選擇檔案
       submit: 提交
       submitInComposer: 繼續

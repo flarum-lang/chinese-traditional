@@ -5,7 +5,7 @@
 clarkwinkelmann-discussion-open-position:
   admin:
     settings:
-      defaultOpenLastRead: 默認回到上次的閱讀位置
+      defaultOpenLastRead: 預設回到上次的閱讀位置
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'

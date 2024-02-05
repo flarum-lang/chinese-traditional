@@ -10,7 +10,7 @@ clarkwinkelmann-typewriter:
       head:
         file: 文件
         keys: Keys
-      muteByDefault: 默認靜音
+      muteByDefault: 預設靜音
       showIntroductionPopup: 第一次顯示介紹彈窗
       sounds: 額外的音效
   forum:

@@ -14,7 +14,7 @@ datlechin-simple-tour-guide:
     settings:
       allow_close_help: 允許使用者透過點擊背景來關閉彈出視窗。
       allow_close_label: 允許關閉
-      show_progress_help: 這將在彈出視窗頂部顯示當前步驟和總步驟。
+      show_progress_help: 這將在彈出視窗頂部顯示目前步驟和總步驟。
       show_progress_label: 顯示流程
     target: 目標
     target_placeholder: '步驟的目標元素（例如#element-id）。'

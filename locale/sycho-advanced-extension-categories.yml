@@ -12,7 +12,7 @@ sycho-ace:
       label: 分類
       options:
         availability: 啟用狀態
-        default: 默認
+        default: 預設
         none: A-Z
         vendor: 供應商
-    extensions: 擴展程序
+    extensions: 擴充套件

@@ -30,14 +30,14 @@ fof-webhooks:
             title: 'Extiverse 市場'
         fof:
           banips:
-            ipwasbanned: 已封禁
+            ipwasbanned: 已封鎖
             ipwasunbanned: 取消拉黑
             title: 'FriendsOfFlarum 拉黑 IP'
           byobu:
             discussionmadepublic: 討論轉公開
             title: 'FriendsOfFlarum 私密主題'
           gamification:
-            postwasvoted: 帖子頂/踩
+            postwasvoted: 貼文頂/踩
             title: 'FriendsOfFlarum Gamification'
           polls:
             pollwascreated: 創建

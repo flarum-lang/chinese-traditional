@@ -4,6 +4,8 @@
 
 justoverclock-country-flags:
   admin:
+    bind_help: 登入後強制要求帳戶註冊國家
+    bind_label: '綁定 需要輸入的國家'
     countryColumn: 國籍
     required_help: 您需要啟用“設定國家/地區”選項才能使該選項起作用
     required_label: 要求輸入國籍
@@ -11,8 +13,10 @@ justoverclock-country-flags:
     showFlagsOnPosts: 文章上顯示國籍
     showFlagsOnPosts_text: 文章上顯示國籍
   forum:
+    binding_country: '我們發現你沒有綁定你的所在地。 請先連結您所在的國家。 您只能在連結您的國家/地區後才能發佈和留言。'
+    binding_country_click: 現在點擊
     clickToSelectCountry: 選擇你的國籍
-    countrySaved: 國籍成功保存
+    countrySaved: 國籍成功儲存
     field_placeholder: 確認國旗
     inputCountryCode: 國家代碼
-    saveButton: 保存
+    saveButton: 儲存

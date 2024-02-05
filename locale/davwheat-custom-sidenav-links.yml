@@ -14,19 +14,19 @@ davwheat:
             top_spacer: 顯示頂部分割線
           options:
             position:
-              above-tags-link: 顯示於「全部標簽」按鈕上方
-              below-tags-link: 顯示於「全部標簽」按鈕下方
+              above-tags-link: 顯示於「全部標籤」按鈕上方
+              below-tags-link: 顯示於「全部標籤」按鈕下方
         link_table:
           add_link_btn: 新增連結
           alert:
-            fix_errors: 在保存更改之前，您需要解決上述問題。
-          confirm_delete: '確認刪除鏈接「{link}」'
+            fix_errors: 在儲存更改之前，您需要解決上述問題。
+          confirm_delete: '確認刪除連結「{link}」'
           heading: 自定義連結
           save_btn:
-            dirty: 保存設置
+            dirty: 儲存設置
             fix_errors: 存檔前修正錯誤
             saved: 沒有變更
-            saving: 正在保存…
+            saving: 正在儲存…
           table:
             header:
               delete: 移除

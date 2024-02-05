@@ -11,13 +11,13 @@ justoverclock-job-cards:
     avatarField: 頭像(URL)
     companyNameField: 公司名稱
     fieldNotFilled: 未填寫完成！
-    formSaved: 成功保存
+    formSaved: 成功儲存
     fullNameField: 全名
     jobFormTitle: 工作簡介
     jobProfile: 職位簡介
     'no': 'No'
     notAvailable: 不允許
-    saveBtn: 保存
+    saveBtn: 儲存
     showInsidePostsField: 在貼文中顯示工作簡介？
     yearOfExperienceField: 年資
     'yes': 'Yes'

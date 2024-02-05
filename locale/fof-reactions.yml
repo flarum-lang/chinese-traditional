@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: '預設值：{url}'
-        help: "預設情況下，我們透過 Cloudflare 的 CDN 提供反應資產。 您也可以選擇指定任何其他 CDN 位址\n按要求。 <code>[codepoint]</code> 將替換為表情符號的代碼點。\n\n例如，要透過 jsdelivr 切換到 Noto 表情符號，您需要輸入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >。 該字段絕不能留空。\n"
+        help: "預設情況下，我們透過 Cloudflare 的 CDN 提供反應圖示。 您也可以選擇指定任何其他 CDN 位址\n按要求。 <code>[codepoint]</code> 將替換為表情符號的代碼點。\n\n例如，要透過 jsdelivr 切換到 Noto 表情符號，您需要輸入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >。 該字段絕不能留空。\n"
         label: URL
         title: CDN
       convert:
@@ -16,7 +16,7 @@ fof-reactions:
         converting: 正在轉換回應中，請於幾分鐘後重載頁面以查看進度。（轉換需時依賴於你的回應數量）
         help: 若你只是更新延伸套件，你的回應將被轉換。若你已安裝此延伸套件，你可以安心地忽略這條訊息。
       reactions:
-        Helptext: '鍵入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。'
+        Helptext: '輸入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。'
         help:
           display: 描述
           identifier: 標識
@@ -24,24 +24,25 @@ fof-reactions:
         title: 自定義回應
       settings:
         allow-anonymous: 允許匿名（來賓）反應
-        allow-anonymous-help: '如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會鏈接到用戶個人資料，而是會聚合在反應列表中。'
+        allow-anonymous-help: '如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會連結到用戶個人資料，而是會聚合在反應列表中。'
         integrations:
           gamification:
-            downvoteHelptext: 鍵入你想要自動轉換為「踩」的回應的標識
+            downvoteHelptext: 輸入你想要自動轉換為「踩」的回應的標識
             downvoteLabel: 轉換回應為「踩」
             legend: 遊戲化
-            upvoteHelptext: 鍵入你想要自動轉換為「頂」的回應的標識
+            upvoteHelptext: 輸入你想要自動轉換為「頂」的回應的標識
             upvoteLabel: 轉換回應為「頂」
           legend: 融合
           likes:
-            Helptext: 鍵入你想要自動轉換為「喜歡」的回應的標識
+            Helptext: 輸入你想要自動轉換為「喜歡」的回應的標識
             Label: 轉換回應為「喜歡」
             legend: 喜歡
           warning: 相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「頂」
-        react_own_posts_help: 啟用此項，添加一個權限，允許用戶對自己的帖子表達心情。如需禁止，請禁用此項。
+        react_own_posts_help: 啟用此項，添加一個權限，允許用戶對自己的貼文表達心情。如需禁止，請禁用此項。
         react_own_posts_label: 允許用戶對自已的貼子表達心情
         save_settings: 儲存設定
     permissions:
+      delete_post_reactions_label: 刪除貼文的反應
       react_posts_label: 回應帖文
       see_reactions_label: 查看戳心情的人
   forum:
@@ -49,6 +50,7 @@ fof-reactions:
     mod_item: 查看心情
     modal:
       anonymous_count: '{count, plural, one {# 匿名用戶} other {# 匿名用戶}}'
+      no_reactions: 還沒有任何反應
       title: 心情
     notification: '{username} 使用{reaction}回應了你的帖文'
     react_button_label: 表達心情

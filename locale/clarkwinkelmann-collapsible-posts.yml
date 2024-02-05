@@ -5,21 +5,21 @@
 clarkwinkelmann-collapsible-posts:
   admin:
     permission:
-      collapse: 折疊帖子
+      collapse: 折疊貼文
     settings:
       add: 添加原因
       explanationUrl: '詳情 URL'
       explanationUrlHelp: 可選，在折疊帖下方顯示。
       header:
         explanation: 自定義詳情信息
-        key: 數據庫主鍵
+        key: 資料庫主鍵
         label: 標題
       reasons: 原因
   forum:
     badge:
       post: 已折疊
     modal:
-      title: 折疊帖子
+      title: 折疊貼文
       uncollapse: 取消折疊
     postControl:
       collapse: 折疊

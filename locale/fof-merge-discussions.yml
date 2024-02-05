@@ -7,8 +7,8 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 合併主題
     settings:
-      search_result_help: '在“合併主題”模式中搜索時要提列幾則回文。 默認為 4 。'
-      search_result_label: 合併主題搜索限制
+      search_result_help: '在“合併主題”模式中搜尋時要提列幾則回文。 預設為 4 。'
+      search_result_label: 合併主題搜尋限制
   api:
     error:
       deleting_failed: 刪除空主題失敗。
@@ -25,11 +25,11 @@ fof-merge-discussions:
       merge: '=> fof-merge-discussions.ref.merge'
     modal:
       load_preview_button: 預覽
-      ordering_date_help: 將討論中的帖子按各自的創建日期重新排序
-      ordering_date_label: 按創建日期合併帖子
+      ordering_date_help: 將討論中的貼文按各自的創建日期重新排序
+      ordering_date_label: 按創建日期合併貼文
       ordering_heading: 合併排序
-      ordering_suffix_help: 被合併的帖子將附加於討論結尾
-      ordering_suffix_label: 將合併的帖子添加到討論的末尾
+      ordering_suffix_help: 被合併的貼文將附加於討論結尾
+      ordering_suffix_label: 將合併的貼文添加到討論的末尾
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 合併主題
       type_from_help_text: '選取合併「<b>{title}</b>」的目標主題。'

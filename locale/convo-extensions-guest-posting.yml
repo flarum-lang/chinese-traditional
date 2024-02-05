@@ -9,18 +9,18 @@ core:
 guest-posting:
   admin:
     settings:
-      enableImport: 在註冊期間啟用現有帖子的導入
+      enableImport: 在註冊期間啟用現有貼文的導入
       sessionLifetime: 以小時為單位的訪客週期
       title: 訪客貼文設置
       usernames: 用於訪客的隨機用戶名
   forum:
     alert:
-      create-account: '立即創建一個帳戶並導入您的 {count} 個帖子！'
-      create-account-posts-and-votes: '立即創建一個帳戶並導入您的 {postCount} 個帖子和 {voteCount} 個投票！'
+      create-account: '立即創建一個帳戶並導入您的 {count} 個貼文！'
+      create-account-posts-and-votes: '立即創建一個帳戶並導入您的 {postCount} 個貼文和 {voteCount} 個投票！'
       create-account-votes-only: '立即創建一個帳戶並導入您的 {count} 票！'
       signup: 註冊
     badge:
       guest: 訪客
     modal:
-      import: '導入我的 {count} 個訪客帖子'
-      import-votes: '導入我的 {postCount} 個訪客帖子和 {voteCount} 個選票'
+      import: '導入我的 {count} 個訪客貼文'
+      import-votes: '導入我的 {postCount} 個訪客貼文和 {voteCount} 個選票'

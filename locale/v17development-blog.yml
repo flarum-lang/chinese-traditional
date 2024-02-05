@@ -18,8 +18,8 @@ v17development-flarum-blog:
       allow_comments_text: '允許他人在新文章中發表評論。此項關閉時，只能為每篇文章單獨開啟。 <b>注意：</b>此項設置的變更不會影響已存在的文章。'
       blog_heading: 部落格
       categories_heading: 分類目錄
-      default_article_image_label: 默認封面圖
-      default_article_image_text: 設置默認使用的文章封面圖。
+      default_article_image_label: 預設封面圖
+      default_article_image_text: 設置預設使用的文章封面圖。
       featured_count_label: 精選主題數
       featured_count_text: 部落格頁面頂部的主題強調中應該顯示多少主題？
       hide_on_discussion_list_label: 不在主題列表中顯示

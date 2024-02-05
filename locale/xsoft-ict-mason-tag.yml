@@ -13,8 +13,8 @@ xsoft-mason-tag:
       edit-answer-prompt: 在任何地方編輯內容
       edit-field: 點擊以編輯
       new-field: 新字段
-      save-answer: 保存答案變更
-      save-field: 保存字段變更
+      save-answer: 儲存答案變更
+      save-field: 儲存字段變更
       show-user-answers: '顯示非建議答案（{count}）'
     fields:
       add: '增加 {field} 字段'
@@ -22,8 +22,8 @@ xsoft-mason-tag:
       description-help: "解釋此字段的使用/需要的可選描述。\n"
       edit: '編輯{field}字段'
       enable-user-values-for-validation: 啟用“用戶值”以配置驗證規則
-      icon: 圖標
-      icon-help: "在用戶輸入的值前面顯示一個圖標。 有關可用圖標的參考，請查看 <a>FontAwesome 網站</a>。 使用包含前綴的完整圖標類名稱，例如“fas fa-bolt”。\n"
+      icon: 圖示
+      icon-help: "在用戶輸入的值前面顯示一個圖示。 有關可用圖示的參考，請查看 <a>FontAwesome 網站</a>。 使用包含前綴的完整圖示類名稱，例如“fas fa-bolt”。\n"
       icon-preview: '預覽：{preview}'
       is_suggested: 向用戶建議答案
       name: 字段名稱
@@ -31,7 +31,7 @@ xsoft-mason-tag:
       new-answer: 新答案
       new-answer-placeholder: 一些文字
       required: 必需的
-      save-field-for-answers: 保存字段以添加答案
+      save-field-for-answers: 儲存字段以添加答案
       show_when_empty: 沒有內容時顯示
       show_when_empty-help: 沒有答案時是否要顯示在討論區
       user_values_allowed: 允許用戶值
@@ -53,19 +53,19 @@ xsoft-mason-tag:
       by-tag-name: 哪些標籤獲取元數據？
       column-count: 顯示字段時的列數
       composer-height: 編輯器高度
-      composer-height-help: '默認值為 200，應高於該值以容納字段。'
+      composer-height-help: '預設值為 200，應高於該值以容納字段。'
       composer-height-placeholder: '320'
       fields-in-hero: 在討論橫幅中顯示欄位，而不是第一篇文章
       fields-section-title: 自定義字段部分的標題
       fields-section-title-help: "用戶將在編輯器中的自定義字段上方和討論中看到此文本。\n"
-      fields-section-title-placeholder: 默認不顯示標題
+      fields-section-title-placeholder: 預設不顯示標題
       hide-empty-fields-section: 當所有欄位都為空且隱藏時隱藏標題和控件
-      hide-empty-fields-section-help: "默認情況下，如果用戶可以編輯字段或已設置標題，則該部分將始終顯示，即使所有字段都被隱藏。 啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，“編輯字段”按鈕將僅在“回复”下拉菜單中可用。\n"
+      hide-empty-fields-section-help: "預設情況下，如果用戶可以編輯字段或已設置標題，則該部分將始終顯示，即使所有字段都被隱藏。 啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕將僅在「回覆」下拉選單中可用。\n"
       labels-as-placeholders: 在表單中將標籤顯示為佔位元
       labels-as-placeholders-help: "欄位將使用更少的垂直空間，圖示將不再顯示。請記住，這可能會對可用性產生影響，尤其是在編輯現有欄位時。\n"
       n-columns: '{count} 列'
       tags-as-field: 將標籤選擇器顯示為字段
-      tags-as-field-help: "這將隱藏默認標籤選擇器並顯示自定義下拉字段。 這只有在您允許最多一個主要標籤和一個次要標籤時才有效！\n"
+      tags-as-field-help: "這將隱藏預設標籤選擇器並顯示自定義下拉字段。 這只有在您允許最多一個主要標籤和一個次要標籤時才有效！\n"
       tags-field-name: 標籤字段的標籤
       tags-field-name-placeholder: '=> xsoft-mason-tag.forum.tags.tags-label'
     titles:
@@ -77,7 +77,7 @@ xsoft-mason-tag:
   forum:
     answers-modal:
       edit-title: '編輯 {title} 字段'
-      save: 保存字段
+      save: 儲存字段
     answers:
       choose-option: 選擇選項
       no-option-selected: 尚未選擇

@@ -39,7 +39,7 @@ the-turk-mathren:
       output_mode_label: 輸出模式
       output_mode_text: 選擇輸出的標記語言
       primary_delimiters_text: 列表中的第一個分隔符將作為主分隔符。
-      quote_button_text: '要使用引用按鈕，請啟用 <code>flarum/mentions</code> 擴展程序。'
+      quote_button_text: '要使用引用按鈕，請啟用 <code>flarum/mentions</code> 擴充套件。'
       sizing_options_heading: 尺寸調整
       sri_asciimath2tex_text: '<strong>asciimath2tex</strong> 的 SRI 哈希'
       sri_katex_text: '<strong>KaTeX</strong> 的 SRI 哈希'

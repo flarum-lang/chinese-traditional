@@ -11,12 +11,12 @@ serakoi-flarumstaffbadge:
       help: '徽章顏色 (預設為 ''rgb(70, 209, 96)'')'
       label: 成員徽章背景顏色
     staffBadgeTextColor:
-      help: '徽章顏色（默認為“#fff”）'
+      help: '徽章顏色（預設為“#fff”）'
       label: 職員徽章顏色
   forum:
     edit_user:
       heading: 啟用成員徽章
-      placeholder: 將輸入設置“true”以激活徽章
+      placeholder: 將輸入設置“true”以啟用徽章
       tagList:
         heading: 用戶標籤列表
         placeholder: 分開，

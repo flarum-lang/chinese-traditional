@@ -19,7 +19,7 @@ datitisev-backup:
           description: 終端儲存的URL。
           label: 終端
         path-prefix:
-          description: 可選擇的默認文件路徑前綴。
+          description: 可選擇的預設文件路徑前綴。
           label: 路徑前綴
       aws:
         bucket:
@@ -33,7 +33,7 @@ datitisev-backup:
             description: 'AWS 憑證密鑰'
             label: Secret
         path-prefix:
-          description: 可選擇的默認文件路徑前綴。
+          description: 可選擇的預設文件路徑前綴。
           label: 路徑前綴
         region:
           description: 儲存桶的區域。
@@ -57,7 +57,7 @@ datitisev-backup:
           obtain-access-code-label: '獲取訪問碼（需要app key）'
           obtain-refresh-token-button: 使用代碼
           obtain-refresh-token-label: '使用訪問代碼獲取刷新令牌（需要app key & secret）'
-          obtain-refresh-token-success: '刷新令牌已成功獲取並更新！ 請保存。'
+          obtain-refresh-token-success: '刷新令牌已成功獲取並更新！ 請儲存。'
         key:
           description: 'Dropbox app 密鑰。'
           label: 'APP 密鑰'
@@ -72,13 +72,13 @@ datitisev-backup:
           description: '要連接到的 FTP 主機名，例如 <em>ftp.yourdomain.local</em>。'
           label: 遠程主機名
         passive:
-          description: '是否使用被動 FTP 連接到服務器。'
+          description: '是否使用被動 FTP 連接到伺服器。'
           toggle: 被動連結
         password:
-          description: '要在 FTP 服務器上進行身份驗證的密碼。'
+          description: '要在 FTP 伺服器上進行身份驗證的密碼。'
           label: 請輸入帳號密碼
         port:
-          description: 'FTP 端口（默認 21）。'
+          description: 'FTP 端口（預設 21）。'
           label: 端口
         private-key:
           description: 'FTP 連接認證時使用的私鑰的路徑（最好是絕對路徑）。'
@@ -87,13 +87,13 @@ datitisev-backup:
           description: 存儲備份的遠程根路徑（子目錄）。
           label: 根路徑
         ssl:
-          description: '是否使用加密 SSL 連接到服務器。'
+          description: '是否使用加密 SSL 連接到伺服器。'
           toggle: SSL
         timeout:
-          description: '等待與 FTP 服務器連接的秒數。'
+          description: '等待與 FTP 伺服器連接的秒數。'
           label: 時間超時
         username:
-          description: '要在 FTP 服務器上進行身份驗證的用戶名。'
+          description: '要在 FTP 伺服器上進行身份驗證的用戶名。'
           label: 用戶名
       gdrive:
         client:

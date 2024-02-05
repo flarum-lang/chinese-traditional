@@ -13,7 +13,7 @@ clarkwinkelmann-discussion-lists:
       viewPrivate: 查看所有私人討論列表
       viewPublic: 查看公共討論列表
     settings:
-      collapseSeries: 討論串默認折疊
+      collapseSeries: 討論串預設折疊
   api:
     manualLimit: 手動排序的列表不能包含超過50個主題
     seriesAnyAddNotAllowed: 您只能將自己的主題添加到系列列表中
@@ -26,7 +26,7 @@ clarkwinkelmann-discussion-lists:
       add: 添加到列表
       new: 新列表
     edit:
-      delete: 删除
+      delete: 刪除
       deleteConfirmation: 是否確實要永久刪除此列表？
       name: 名稱
       ordering: 排序
@@ -36,7 +36,7 @@ clarkwinkelmann-discussion-lists:
         createdAsc: 討論創建（從最早到最新）
         createdDesc: 討論創建（從最新到最舊）
         manual: 手動
-      save: 保存
+      save: 儲存
       title: 編輯列表
       visibility: 可見
       visibilityOptions:

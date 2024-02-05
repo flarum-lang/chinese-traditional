@@ -6,7 +6,7 @@ sycho-github-milestone:
   admin:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
-    default_filter: 默認過濾條件
+    default_filter: 預設過濾條件
     milestone: 'Milestone ID'
     open: '=> sycho-github-milestone.ref.open'
     repository: 'GitHub 儲存庫'

@@ -15,7 +15,7 @@ datitisev-maintenance:
       allow_bypass_maintenance_label: 繞過維護模式（必須啟用設置）
     settings:
       active_label: 維護模式狀態
-      allow_bypass_hint: '如果數據庫無法訪問，則無法繞過。適用於論壇和 API（除非通過 <code>config.php</code> 完全禁用 API）。如果禁用此項，管理員仍然可以訪問 API 以防止自己被鎖定（除非 API 被完全禁用）。'
+      allow_bypass_hint: '如果資料庫無法訪問，則無法繞過。適用於論壇和 API（除非通過 <code>config.php</code> 完全禁用 API）。如果禁用此項，管理員仍然可以訪問 API 以防止自己被鎖定（除非 API 被完全禁用）。'
       allow_bypass_label: '允許使用權限繞過論壇和 API 維護'
       disable_admin_label: 禁用管理員訪問
       disable_api_label: '禁用所有 API 訪問權限'
@@ -24,9 +24,9 @@ datitisev-maintenance:
       error_page_hint: '您可以在 blade 中使用 $app、$translator、$settings、$title 和 $message 變量。'
       error_page_label: '錯誤頁面 HTML/Blade'
       message_label: 錯誤頁面消息
-      prefer_db_hint: '通常，<code>config.php</code> 中的值會覆蓋這里的值。啟用這個選項可以使這些選項覆蓋配置文件中的選項——所以這些選項只會在數據庫無法訪問時使用。'
-      prefer_db_label: '優先使用數據庫設置覆蓋 <code>config.php</code> 設置'
-      settings_notice: '這些設置可能不是當前已生效的設置。請確保它們沒有被 <code>config.php</code> 覆蓋。'
+      prefer_db_hint: '通常，<code>config.php</code> 中的值會覆蓋這里的值。啟用這個選項可以使這些選項覆蓋配置文件中的選項——所以這些選項只會在資料庫無法訪問時使用。'
+      prefer_db_label: '優先使用資料庫設置覆蓋 <code>config.php</code> 設置'
+      settings_notice: '這些設置可能不是目前已生效的設置。請確保它們沒有被 <code>config.php</code> 覆蓋。'
       title: 維護模式
       title_label: 錯誤頁面標題
   lib:

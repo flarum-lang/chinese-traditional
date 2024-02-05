@@ -34,5 +34,5 @@ header-slideshow:
     TitleSlide2-help: 在這裡設置你的第二張幻燈片的標題
     TitleSlide3: '幻燈片 3 的標題'
     TitleSlide3-help: 在這裡設置你的第三張幻燈片的標題
-    TransitionTime: '輪播間隔時間（默認 5 秒）'
+    TransitionTime: '輪播間隔時間（預設 5 秒）'
     TransitionTime-help: 動畫過場時間（秒）

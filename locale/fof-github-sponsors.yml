@@ -12,4 +12,4 @@ fof-github-sponsors:
       api_token_label: 'API 令牌'
       desc: '從 <a>https://github.com/settings/tokens/new</a> 獲取您的 API 令牌。本擴展需要 <code>user</code> 和 <code>read:org</code> 權限。'
       group_label: 用戶組分配
-      login_label: 登錄
+      login_label: 登入

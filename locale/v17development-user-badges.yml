@@ -10,12 +10,12 @@ v17development-flarum-badges:
         give_badge: 授予徽章
         remove_badge: 移除徽章
       badge_selector:
-        loading_badges: 加載徽章中
+        loading_badges: 載入徽章中
         placeholder: 選擇徽章
       metric_drivers:
         badges_received: 收到徽章
       not_installed:
-        content: '安裝並激活 <a>Auto Moderator</a> 後，此擴展程序將提供更多功能。當您安裝此擴展程序時，用戶可以自動獲得徽章獎勵，而無需人工管理！'
+        content: '安裝並啟用 <a>Auto Moderator</a> 後，此擴充套件將提供更多功能。當您安裝此擴充套件時，用戶可以自動獲得徽章獎勵，而無需人工管理！'
         dismiss: 不再顯示
         install: 安裝
         title: 自動獎勵用戶徽章
@@ -98,7 +98,7 @@ v17development-flarum-badges:
     notification:
       settings: 獲得徽章
       title: 獲得新徽章
-    save_changes: 保存修改
+    save_changes: 儲存修改
     select_badge: 選擇徽章
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 更新徽章

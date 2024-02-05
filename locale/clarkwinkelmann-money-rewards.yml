@@ -28,12 +28,12 @@ clarkwinkelmann-money-rewards:
       optionCustom: 自定義
       submit: 提交
       success: 已打賞給發帖作者！
-      target: '由{username}打賞了{number}帖子'
+      target: '由{username}打賞了{number}貼文'
       title: 打賞該帖
     post:
       action: 打賞
-      disallowedOther: 你不能打賞這個帖子。可能作者是匿名或已被注銷。
-      disallowedOwn: 您不能打賞自己的帖子。
+      disallowedOther: 你不能打賞這個貼文。可能作者是匿名或已被注銷。
+      disallowedOwn: 您不能打賞自己的貼文。
       section: 打賞
     profile:
       nav: 打賞

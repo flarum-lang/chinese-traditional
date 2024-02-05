@@ -8,7 +8,7 @@ clarkwinkelmann-mailing:
       mail_all: 向用戶或組群發郵件
       mail_individual: 向用戶單獨發送郵件
   api:
-    no_recipients: 没有匹配的收件人
+    no_recipients: 沒有匹配的收件人
   email:
     default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
   forum:

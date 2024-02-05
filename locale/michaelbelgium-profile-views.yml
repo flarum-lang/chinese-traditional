@@ -6,7 +6,7 @@ michaelbelgium-flarum-profile-views:
   admin:
     settings:
       max_viewcount_label: 最大訪客數列表
-      track_guests_label: 記錄未登錄的訪客
+      track_guests_label: 記錄未登入的訪客
   forum:
     user:
       view_count_text: '訪問量 {viewcount, plural, one {{viewcount}} other {{viewcount}}}'

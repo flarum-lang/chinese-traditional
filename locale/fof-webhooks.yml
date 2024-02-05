@@ -25,7 +25,7 @@ fof-webhooks:
       revised: '編輯回覆於 `{1}`'
     user:
       deleted: '删除用戶`{1}`'
-      registered: 新注冊會員
+      registered: 新註冊會員
       renamed:
         description: '新用戶名：{1}'
         title: '`{1}` 變更用戶名'
@@ -36,7 +36,7 @@ fof-webhooks:
     errors:
       service_not_found: '"{service}"服務未找到或不存在。'
       tag_disabled: '此 Webhook 配置了標籤限制。 標籤擴展被禁用。 該限制將不適用。 確保這是有意的。'
-      tag_invalid: '此 Webhook 被限制於無效的標簽上。該限制將不可用。請確保這是您有意所為。'
+      tag_invalid: '此 Webhook 被限制於無效的標籤上。該限制將不可用。請確保這是您有意所為。'
       url_invalid: '所選服務的 URL 無效。'
     nav:
       desc: '為您的論壇設置自定義 Outgoing Webhooks。'
@@ -67,7 +67,7 @@ fof-webhooks:
             title: 'Flarum 回覆'
           user:
             deleted: '=> fof-webhooks.ref.deleted'
-            registered: 注冊
+            registered: 註冊
             renamed: '=> fof-webhooks.ref.renamed'
             title: 'Flarum 用戶'
       debug_help: '當 Webhook 或事件工作不正常時，你可以啟用此項。 更多日誌資訊會輸出到 Flarum 紀錄檔，以説明你調試問題。'

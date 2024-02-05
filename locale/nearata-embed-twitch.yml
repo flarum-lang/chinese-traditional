@@ -21,4 +21,4 @@ nearata-embed-twitch:
         channel: 頻道
         collection: Collection
         video: 視頻
-      save_changes: 保存更改
+      save_changes: 儲存更改

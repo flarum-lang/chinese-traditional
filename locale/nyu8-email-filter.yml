@@ -12,7 +12,7 @@ nyu8-email-filter:
       description: 黑名單郵箱正則表達式
       label: 黑名單正則表達式
       placeholder: 輸入正則表達式……
-    custom_failure_message_hint: 自定義郵箱地址不可用時的提示信息，留空使用默認信息。
+    custom_failure_message_hint: 自定義郵箱地址不可用時的提示信息，留空使用預設信息。
     custom_failure_message_label: 自定義提示信息
     general: 常規
     invalid_regular_expression: 無效的正則式表達
@@ -27,6 +27,6 @@ nyu8-email-filter:
       label: 白名單正則式表達
       placeholder: 輸入正則表達式……
   forum:
-    blacklist_exception: 禁止使用此郵箱或域名注冊。
+    blacklist_exception: 禁止使用此郵箱或域名註冊。
     generic_exception: 出了點問題，請聯系論壇管理員。
-    whitelist_exception: 禁止使用此郵箱或域名注冊。
+    whitelist_exception: 禁止使用此郵箱或域名註冊。

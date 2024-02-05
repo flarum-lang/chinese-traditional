@@ -12,7 +12,7 @@ fof-oauth:
         log-oauth-errors-label: '記錄 OAuth 錯誤'
       fullscreen_popup_help: '啟用後，OAuth 登入將在全螢幕彈出視窗中開啟。 如果啟用此功能，寬度和高度設定將被忽略。'
       fullscreen_popup_label: 全螢幕提示視窗
-      only_icons_label: 僅顯示登錄按鈕圖標（可選佈置）
+      only_icons_label: 僅顯示登入按鈕圖示（可選佈置）
       popup_height_help: '設定 OAuth 彈出視窗的高度。 如果啟用“使用全螢幕彈出視窗進行 OAuth”，則此設定將被忽略。'
       popup_height_label: 'OAuth 提示框高度'
       popup_width_help: '設定 OAuth 彈出視窗的寬度。 如果啟用“使用全螢幕彈出視窗進行 OAuth”，則此設定將被忽略。'
@@ -49,7 +49,7 @@ fof-oauth:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
           description: '在 {link} 創建一個應用。您需要提供服務協議和隱私政策 URL，然後確保添加請求郵件權限。'
-      update_email_from_provider_help: '如果啟用，用戶的電子郵件地址將更新以匹配 OAuth 提供商在每次登錄論壇時提供的地址。 並非所有提供商都提供更新的電子郵件，在這種情況下，此設置不會對這些提供商產生任何影響。'
+      update_email_from_provider_help: '如果啟用，用戶的電子郵件地址將更新以匹配 OAuth 提供商在每次登入論壇時提供的地址。 並非所有提供商都提供更新的電子郵件，在這種情況下，此設置不會對這些提供商產生任何影響。'
       update_email_from_provider_label: 更新提供商的電子郵件地址
     settings_accessibility_label: '{name} 設置'
   forum:
@@ -57,7 +57,7 @@ fof-oauth:
       bad_verification_code: 無效或過期的驗證令牌，請重試。
       invalid_state: 無效狀態，請重試。
     log_in:
-      with_button: '{provider} 帳號登錄'
+      with_button: '{provider} 帳號登入'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
       with_github_button: '=> fof-oauth.forum.log_in.with_button'
@@ -79,13 +79,13 @@ fof-oauth:
     user:
       settings:
         linked-account:
-          help: 綁定第三方帳戶，啟用登錄捷徑。
+          help: 綁定第三方帳戶，啟用登入捷徑。
           identifier-label: '{provider} ID'
-          label: 第三方登錄
+          label: 第三方登入
           last-used-label: 上次使用
           link-created-label: 已綁定
-          orphaned-account: 您以前已通過此賬號登錄，但是目前論壇已關閉此登錄方式。
-          unlink-confirm: '確定要解除綁定 {provider} 賬號嗎？您將無法使用此賬號登錄。'
+          orphaned-account: 您以前已通過此帳號登入，但是目前論壇已關閉此登入方式。
+          unlink-confirm: '確定要解除綁定 {provider} 帳號嗎？您將無法使用此帳號登入。'
   lib:
     providers:
       discord: Discord

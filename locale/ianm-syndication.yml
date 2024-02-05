@@ -7,8 +7,8 @@ ianm-syndication:
     settings:
       entries-count: 訂閱信息流條目數量是多少？
       forum-icons:
-        help: '在所有主題、標簽中顯示圖標，以便輕松查看 Feed(s)。'
-        label: '在論壇上顯示 Atom/RSS 訂閱鏈接'
+        help: '在所有主題、標籤中顯示圖示，以便輕鬆查看 Feed(s)。'
+        label: '在論壇上顯示 Atom/RSS 訂閱連結'
       forum-link-format:
         help: '選擇訂閱源格式（Atom 或 RSS）。'
         label: '論壇 Feed 格式'
@@ -23,7 +23,7 @@ ianm-syndication:
       discussion_last_posts: 這個主題
       forum_activity: 論壇活動
       forum_new_discussions: 論壇的新討論
-      tag_activity: '{tag} 標簽活動'
+      tag_activity: '{tag} 標籤活動'
       tag_new_discussions: '在{tag} 標籤中進行討論'
       user_last_posts: 該用戶的貼文和評論
     discussion:
@@ -33,7 +33,7 @@ ianm-syndication:
         user_posts:
           title_reply: '回覆: {discussion}'
       titles:
-        discussion_subtitle: 這篇帖子的最新回覆
+        discussion_subtitle: 這篇貼文的最新回覆
         discussion_title: '{discussion_name}'
         main_d_subtitle: 論壇新帖
         main_d_title: '{forum_name} 的新貼文'

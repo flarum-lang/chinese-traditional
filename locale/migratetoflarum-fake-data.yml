@@ -17,7 +17,7 @@ migratetoflarum-fake-data:
       bulk-mode-description: 隨機生成單條數據，並應用於全部條目
       date: 種子日期
       date-interval-placeholder: 間隔(預設1秒)
-      date-start-placeholder: 起始日期(默認當天)
+      date-start-placeholder: 起始日期(預設當天)
       discussion-count: 主題生成數量
       discussion-tags: 主題標籤
       discussion-tags-none: 無

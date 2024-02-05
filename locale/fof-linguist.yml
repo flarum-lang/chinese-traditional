@@ -44,9 +44,9 @@ fof-linguist:
       namespace-all: 全部
       output: 輸出
       output-empty: 空輸出
-      output-loading: 正在加載輸出...
+      output-loading: 正在載入輸出...
       title: 導出
-      warning: "導出的翻譯格式是 Flarum 使用的 Yaml 文件，此功能旨在論壇之間或與語言包維護者共享翻譯。該格式不是為了將所有翻譯移到新的論壇上而設計的。根據您的使用情況，直接複製數據庫可能是一個更好的辦法。\n"
+      warning: "導出的翻譯格式是 Flarum 使用的 Yaml 文件，此功能旨在論壇之間或與語言包維護者共享翻譯。該格式不是為了將所有翻譯移到新的論壇上而設計的。根據您的使用情況，直接複製資料庫可能是一個更好的辦法。\n"
     filters:
       for-extension: 適用於延伸套件
       frontend: 前端篩選
@@ -73,8 +73,8 @@ fof-linguist:
       locale: 語言
       locale-all: 偽語言「全部」
       override-existing: 覆蓋已存在的自定義翻譯
-      results: "導入完成。已導入 {imported} 字符串，已跳過 {identical} 重複的字符串。當前頁面即將刷新以加載新翻譯。\n"
-      results-with-ignore: "導入完成。已導入 {imported} 字符串，已跳過 {ignored} 已存在的字符串、{identical} 重複的字符串。當前頁面即將刷新以加載新翻譯。\n"
+      results: "導入完成。已導入 {imported} 字符串，已跳過 {identical} 重複的字符串。目前頁面即將刷新以載入新翻譯。\n"
+      results-with-ignore: "導入完成。已導入 {imported} 字符串，已跳過 {ignored} 已存在的字符串、{identical} 重複的字符串。目前頁面即將刷新以載入新翻譯。\n"
       submit: 導入
       title: 導入
     known-frontend:

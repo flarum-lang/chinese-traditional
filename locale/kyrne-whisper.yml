@@ -31,7 +31,7 @@ kyrne-whisper:
     modal:
       already: '您與 {username} 已存在一個會話。'
       copied: 聊天記錄以覆制到剪切板。
-      help: 搜索用戶以發起會話。
+      help: 搜尋用戶以發起會話。
       help_start: '發送第一條消息。您在收到 {username} 回覆前，僅能發送這一條消息。點擊用戶名以選擇其他用戶。'
       more_users: 找不到用戶？那可能是因為對方還沒有初始化私信。
       search_recipients: 輸入用戶名…
@@ -41,7 +41,7 @@ kyrne-whisper:
       button_import: 導入
       button_setup: 初始化
       confirm_password: 確認密碼
-      header_import: 輸入您的賬戶登錄密碼以導入私信。
+      header_import: 輸入您的帳戶登入密碼以導入私信。
       header_set_own: 設置獨立密碼以初始化私信。
       header_set_own_import: 輸入獨立密碼以導入私信。
       header_setup: 輸入您的帳戶登入密碼以初始化私信。

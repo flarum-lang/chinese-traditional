@@ -8,7 +8,7 @@ askvortsov-help-tags:
       view_tag_label: 查看節點
   forum:
     badge:
-      show_to_all_tooltip: 此主題對其標簽下有權貼文的所有用戶可見。
+      show_to_all_tooltip: 此主題對其標籤下有權貼文的所有用戶可見。
     discussion_controls:
-      show_to_all_button: 對此標簽下具有權限的使用者公開。
+      show_to_all_button: 對此標籤下具有權限的使用者公開。
       unshow_to_all_button: 對有權瀏覽論壇者公開

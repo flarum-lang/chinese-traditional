@@ -7,8 +7,8 @@ clarkwinkelmann-external-email-validation:
     settings:
       body: 請求體
       body-help: 你可以插入要替換成電子郵件的簡單代碼，詳細使用方法說明請查看README文檔。
-      default-error-message: 默認錯誤消息
-      default-error-message-help: "當郵箱驗證失敗、且無其他匹配消息時，將向用戶顯示此默認消息。若要多語言化此消息，請將此字段留空，使用「語言學家」擴展翻譯內置的錯誤消息。\n"
+      default-error-message: 預設錯誤消息
+      default-error-message-help: "當郵箱驗證失敗、且無其他匹配消息時，將向用戶顯示此預設消息。若要多語言化此消息，請將此字段留空，使用「語言學家」擴展翻譯內置的錯誤消息。\n"
       headers: 請求Headers
       headers-help: 一個請求頭占一行
       method: 請求方法

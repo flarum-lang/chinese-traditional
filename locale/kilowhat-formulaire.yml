@@ -37,14 +37,14 @@ kilowhat-formulaire:
         standaloneView: 標準化頁面
       max-file-size: '最大檔案限制 (kB)'
       noByobuFields: '不要將討論字段與 Byobu 擴展的私人討論相結合'
-      noByobuFieldsHelp: 默認情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。
+      noByobuFieldsHelp: 預設情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。
       radio-style: 收音機樣式
       side-nav-on-submission: 在提交頁面上顯示側面導航
       style-options:
-        far-circle: 'FontAwesome 常規圓形圖標'
-        far-square: 'FontAwesome 正方形圖標'
-        fas-circle: 'FontAwesome 實心圓圈圖標'
-        fas-square: 'FontAwesome 實心方形圖標'
+        far-circle: 'FontAwesome 常規圓形圖示'
+        far-square: 'FontAwesome 正方形圖示'
+        fas-circle: 'FontAwesome 實心圓圈圖示'
+        fas-square: 'FontAwesome 實心方形圖示'
         native: 本機瀏覽器控件
         switch: 'Flarum 開關'
       title: 論譠全局設置
@@ -71,7 +71,7 @@ kilowhat-formulaire:
     formatter-parsing-error: '無法解析內容：{message}'
     not-allowed-to-fill-field: 您不能更改此字段的值
     unauthorized-form: '您沒有必要的權限來填寫表單 ID {id}'
-    unauthorized-scoped-form: '您不能使用當前標籤組合填寫表單 ID {id}'
+    unauthorized-scoped-form: '您不能使用目前標籤組合填寫表單 ID {id}'
     unknown-form: '無法識別的表單 ID {id}'
     unsupported-discussion-form: '您無法在此類討論中填寫表單 ID {id}'
   forum:
@@ -81,7 +81,7 @@ kilowhat-formulaire:
         tags: 文章標籤
         tags-help: "以逗號分隔的標籤段列表。除了此表單連接到的標籤之外，還將添加所選標籤。\n"
         title: 文章標題
-      introduction: "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。默認情況下，將分別使用 { title } 和 { content }。\n"
+      introduction: "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n"
       submit: 驗證更改
       title: 自動討論選項
     badge:
@@ -106,7 +106,7 @@ kilowhat-formulaire:
       edit: 編輯
       empty: 沒有資料
     error-page:
-      denied-description: 您似乎無權訪問此內容。嘗試登錄。
+      denied-description: 您似乎無權訪問此內容。嘗試登入。
       denied-title: 沒有權限
       notfound-description: 此內容不存在，或者您無權訪問它。
       notfound-title: 找不到
@@ -173,7 +173,7 @@ kilowhat-formulaire:
       fields:
         private-title: 私人標題
         slug: '自定義 URL 別名（可選）'
-      hide: 删除
+      hide: 刪除
       restore: 復原
       tabs:
         access: Access
@@ -186,7 +186,7 @@ kilowhat-formulaire:
       auto-discussion-options: 新主題的選項
       email-confirmation-options: 確認郵件的模板
       email-notification-options: 通知電子郵件模板
-      exiting-with-unsaved-data: 您有未保存的更改。您真的要退出該頁面嗎？
+      exiting-with-unsaved-data: 您有未儲存的更改。您真的要退出該頁面嗎？
       expert-mode-warning: "啟用專家模式。這使您可以自定義字段標識符和每個字段的權限。請務必閱讀有關這些功能的文檔，因為您可能會破壞某些東西！\n"
       field:
         accept-submissions: 接受新的提交
@@ -215,7 +215,7 @@ kilowhat-formulaire:
         standalone: 獨立
         tags: 討論區
       preview: 在新標籤頁中預覽
-      save-for-preview: 保存預覽
+      save-for-preview: 儲存預覽
       section:
         permissions: 權限
         template: 模板
@@ -275,18 +275,18 @@ kilowhat-formulaire:
       new-placeholder: 新增選項…
       remove: 移除選項
     permission-controls:
-      disabled_members_button: 未激活和暫停的成員
+      disabled_members_button: 未啟用和暫停的成員
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 使用預設
-      members_button: 激活會員
+      members_button: 啟用會員
     rich-text:
       preview-placeholder: 開始輸入預覽
     save-controls:
       redo: 重複
-      save: 保存
-      saved-at: '{ago} 已保存'
+      save: 儲存
+      saved-at: '{ago} 已儲存'
       undo: 復原
-      unsaved-changes: 有未保存的更改
+      unsaved-changes: 有未儲存的更改
       validation-errors: 您提交的內容有誤
     select:
       choose: 請選擇
@@ -301,7 +301,7 @@ kilowhat-formulaire:
       form-show: 新的提交
       guest: 訪客
       load-more: 載入更多
-      search: 搜索提交...
+      search: 搜尋提交...
       show: 顯示
     submission-sort:
       latest: 最近的提交
@@ -313,7 +313,7 @@ kilowhat-formulaire:
       edit-submission: 編輯提交請求
       form-closed: 此表格已關閉。
       form-full: 此表單已達到最大提交數量。
-      hide: 删除
+      hide: 刪除
       lock: 鎖定
       restore: 復原
       submit-other: 提交另一個
@@ -374,11 +374,11 @@ kilowhat-formulaire:
     submission-meta:
       created_at: 創建日期
       hidden_at: 軟刪除日期
-      link_id: '鏈接資源 ID'
+      link_id: '連結資源 ID'
       locked_at: 鎖定日期
       uid: '提交 ID'
       updated_at: 更新日期
-      user_activated: 激活帳戶
+      user_activated: 啟用帳戶
       user_displayname: 用戶顯示名
       user_email: 用戶郵箱
       user_id: '用戶 ID'

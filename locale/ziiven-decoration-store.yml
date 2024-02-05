@@ -5,7 +5,7 @@
 ziven-decoration-store:
   admin:
     data-add: 加入
-    data-save: 保存
+    data-save: 儲存
     gallery-image-in-use: '{count} 個裝飾使用中'
     item-activate: 啟用
     item-activate-confirmation: 您確定要啟用這個裝飾？
@@ -35,13 +35,13 @@ ziven-decoration-store:
     item-type-selection: 選擇裝飾類型
     settings:
       display-name: 顯示名稱
-      display-name-default: 社區裝飾店
+      display-name-default: 論壇裝飾店
       timezone: 時區
       timezone-default: 亞洲/上海
-      timezone-help: '設置時區。 默認為“亞洲/上海”'
+      timezone-help: '設置時區。 預設為“亞洲/上海”'
   forum:
     display-name: 顯示名稱
-    display-name-default: 社區裝飾店
+    display-name-default: 論壇裝飾店
     equipment-modal-title: 裝飾列表
     item-already-have: 項目已購買
     item-expired: 已取消訂閱

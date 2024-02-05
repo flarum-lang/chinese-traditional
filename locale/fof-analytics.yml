@@ -16,7 +16,7 @@ fof-analytics:
         piwikHideAliasUrl: '在 "Outlinks" 報告中，隱藏對已知別名網址的點擊 (https://zh.wikipedia.org/wiki/%E5%A4%96%E9%93%BE)'
         piwikPrependDomain: 追踪時將網站場地放置在網頁標題開頭
         piwikSiteId: 'Site ID'
-        piwikTrackAccounts: 追踪獨立流量賬戶
+        piwikTrackAccounts: 追踪獨立流量帳戶
         piwikTrackSubdomain: '所有 Flarum 子域追踪'
         piwikUrl: 'Matomo 域名或 URL'
         statusGoogle: '啟用 Google Analytics'

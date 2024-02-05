@@ -5,9 +5,9 @@
 blomstra-user-filter:
   admin:
     settings:
-      intro: 沒有<code>搜索用戶</code>權限的用戶將無法看到搜索框。
-      min_length: 最小搜索關鍵詞字符數
-      result_count: 最大搜索建議數
+      intro: 沒有<code>搜尋用戶</code>權限的用戶將無法看到搜尋框。
+      min_length: 最小搜尋關鍵詞字符數
+      result_count: 最大搜尋建議數
   forum:
     index_page:
       filter_user:
@@ -17,5 +17,5 @@ blomstra-user-filter:
         label: '篩選作者：{text}'
         no_results: 未找到任何內容
         remove_filter: 清除作者篩選
-        search_label: 搜索中…
-        start_typing: 搜索…
+        search_label: 搜尋中…
+        start_typing: 搜尋…

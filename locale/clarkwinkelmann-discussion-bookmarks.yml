@@ -5,7 +5,7 @@
 clarkwinkelmann-discussion-bookmarks:
   admin:
     settings:
-      independentButton: 主題頁側邊欄單獨顯示書簽按鈕
+      independentButton: 主題頁側邊欄單獨顯示書籤按鈕
   forum:
     badge: 書籤夾
     dropdownButton:

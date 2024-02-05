@@ -6,7 +6,7 @@ flarum-msemoji:
   admin:
     settings:
       base: 根據
-      basehelp: '提示：鍵入 $ 將替換為自動版本號。 區分大小寫。'
+      basehelp: '提示：輸入 $ 將替換為自動版本號。 區分大小寫。'
       baseph: '示例: https://www.example.com/'
       disable_autocomplete: 禁用自動完成
       ext: 擴大
@@ -16,4 +16,4 @@ flarum-msemoji:
   forum:
     composer:
       emoji_tooltip: 插入表情符號
-      type_to_search_text: 輸入以搜索表情符號
+      type_to_search_text: 輸入以搜尋表情符號

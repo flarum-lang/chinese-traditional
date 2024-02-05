@@ -5,4 +5,14 @@
 nodeloc-telegram:
   admin:
     settings:
+      field:
+        botToken: 機器人密鑰
+        botUsername: 機器人用戶名
+        enableNotifications: 啟用通知
       title: 'Telegram 提供設定'
+  forum:
+    link_telegram_button: '連結 Telegram'
+    log_in_with_telegram_button: '使用 Telegram 登入'
+    settings:
+      notify_by_telegram_heading: Telegram
+      unblock_telegram_bot: '您似乎沒有授權或封鎖 TelegramProvide 機器人。 在 TelegramProvide 上向 <a>{username}</a> 發送訊息以重新啟用通知'

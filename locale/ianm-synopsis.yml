@@ -6,10 +6,10 @@ ianm-synopsis:
   admin:
     settings:
       disable-when-searching:
-        help: 啟用後，將使用默認的最相關的帖子摘錄而不是概要
-        label: 搜索時禁用概要
+        help: 啟用後，將使用預設的最相關的貼文摘錄而不是概要
+        label: 搜尋時禁用概要
       excerpt-length:
-        help: 要展示的帖子摘要字元數量。
+        help: 要展示的貼文摘要字元數量。
         label: 摘要字元長度上限
       excerpt-type:
         help: 選擇首貼或最新回復作為摘要。
@@ -17,7 +17,7 @@ ianm-synopsis:
       first-label: 首貼
       last-label: 最新回覆
       rich-excerpts:
-        help: 啟用后，摘要中可包含圖片和嵌入式媒體等非本文內容。
+        help: 啟用後，摘要中可包含圖片和嵌入式媒體等非本文內容。
         label: 展示富文本摘要
       tags-enabled: '<code>flarum/tags</code> 已啟用。 所有設置將作為預設設置，您也可以針對特定標籤獨立配置摘要。'
   forum:

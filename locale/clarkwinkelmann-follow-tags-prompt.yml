@@ -14,13 +14,13 @@ clarkwinkelmann-follow-tags-prompt:
         all: 全部標籤
         list: 已選擇標籤
         primary: 一級主標籤
-        primaryAndChildren: 任何級別的主標簽
+        primaryAndChildren: 任何級別的主標籤
         primaryAndSecondary: 一級主標籤和次標籤
         secondary: 次級標籤
   forum:
     controls:
-      choose: 選擇要關注的標簽
+      choose: 選擇要關注的標籤
     modal:
       continue: 繼續瀏覽論壇
       later: 稍後提醒我
-      title: 選擇要關注的標簽
+      title: 選擇要關注的標籤

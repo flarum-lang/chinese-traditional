@@ -15,13 +15,13 @@ michaelbelgium-mybb-to-flarum:
           migrate_users_label: 合併使用者
           title: 一般選項
         mybb:
-          db_label: 數據庫名
-          host_label: 數據庫主機
-          password_label: 數據庫密碼
+          db_label: 資料庫名
+          host_label: 資料庫主機
+          password_label: 資料庫密碼
           path_label: 'MyBB 絕對路徑'
           prefix_label: 表前綴
           title: 'MyBB 設置'
-          user_label: 數據庫用戶
+          user_label: 資料庫用戶
         options:
           migrate_attachments_label: 遷移附件
           migrate_avatars_label: 遷移頭像

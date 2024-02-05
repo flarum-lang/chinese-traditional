@@ -22,11 +22,11 @@ davwheat:
         js_input_disabled: '啟用此廣告單元以編輯 HTML 代碼。'
         pub_id: 'AdSense Publisher ID'
         save_btn:
-          dirty: 保存
+          dirty: 儲存
           fix_errors: 存檔前修正錯誤
-          saved: 所有修改已保存
-          saving: 保存中…
-        script_deletion: 要刪除文稿，請刪除文字框所有內容然後保存。
+          saved: 所有修改已儲存
+          saving: 儲存中…
+        script_deletion: 要刪除文稿，請刪除文字框所有內容然後儲存。
         script_urls: 自定義(多個)腳本連結
         use_adsense: '使用 AdSense'
         warning: "<b>使用指南：</b>\n<br></br>\n<b>HTML</b>- 在此插入廣告 HTML 代碼。請勿插入任何{script}標籤，插入無效。\n<br></br>\n<b>JS</b>- 在此插入廣告 JavaScript 代碼。<b>不含</b>{script}標籤。\n"

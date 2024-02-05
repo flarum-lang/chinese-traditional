@@ -6,7 +6,7 @@ nearata-dsts:
   admin:
     permissions:
       can_bypass_like: 無需點讚即可查看首貼
-      can_bypass_login: 無需登錄
+      can_bypass_login: 無需登入
       can_bypass_reply: 無需回覆即可查看首貼
       can_use_bbcode: 可以使用BBCode
     settings:
@@ -38,13 +38,13 @@ nearata-dsts:
       bbcode:
         hidden_content: 隱藏內容
         like_text: 點讚以解鎖內容
-        login_text: 登錄以查看內容
+        login_text: 登入以查看內容
         reply_text: 回覆主題以解鎖內容
       fof_upload:
         like_text: 點讚以查看檔案
-        login_text: 登錄以查看檔案
+        login_text: 登入以查看檔案
         reply_text: 回覆主題以解鎖內容
       like_tooltip: 點讚以解鎖內容
-      login_tooltip: 登錄以查看內容
+      login_tooltip: 登入以查看內容
       reply_tooltip: 回覆以解鎖內容
     reply: 回覆以解鎖內容。

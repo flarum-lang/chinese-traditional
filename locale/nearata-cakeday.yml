@@ -8,9 +8,9 @@ nearata-cakeday:
       can_view_anniversaries_page: 查看紀念日頁面
     settings:
       anniversaries_page_label: 啟動紀念日頁面
-      cake_bg_color_help: 此設置用於更改蛋糕的背景色。留空即使用默認色。
+      cake_bg_color_help: 此設置用於更改蛋糕的背景色。留空即使用預設色。
       cake_bg_color_label: 背景顏色
-      cake_txt_color_help: 此設置用於修改蛋糕的字體顏色。留空即使用默認值。
+      cake_txt_color_help: 此設置用於修改蛋糕的字體顏色。留空即使用預設值。
       cake_txt_color_label: 圖示顏色
       general_section_title: 一般
       members_section_title: 成員

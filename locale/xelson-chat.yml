@@ -55,7 +55,7 @@ xelson-chat:
         search:
           failed: 找不到此用戶
           invited: 已經邀請
-          placeholder: 搜索用戶
+          placeholder: 搜尋用戶
         title: 聊天設置
       kick: 抖一抖
       leave: 離開
@@ -84,7 +84,7 @@ xelson-chat:
             failed: 找不到此用戶
             invited: 已經邀請
             more_results: '顯示「{more_results}」的更多結果……'
-            placeholder: 搜索用戶
+            placeholder: 搜尋用戶
           title: 選擇用戶
         pin: 置頂
         placeholder: 篩選會話
@@ -106,7 +106,7 @@ xelson-chat:
           color:
             edited: '{editorname} 將聊天顏色 {old} 修改為 {new}'
           icon:
-            edited: '{editorname} 將聊天圖標 {old} 修改為 {new}'
+            edited: '{editorname} 將聊天圖示 {old} 修改為 {new}'
           pm:
             created: '{creatorname} 創建了與 {username} 的會話'
           self:
@@ -132,7 +132,7 @@ xelson-chat:
     errors:
       chatdenied: 你的用戶組無權限發送消息
       removed: 你被移出聊天
-      unauthenticated: 此聊天僅限注冊用戶加入
+      unauthenticated: 此聊天僅限註冊用戶加入
     index:
       chat_link: 聊天
     pusher_not_found: '即時通訊需要 Pusher 或 Websockets。'

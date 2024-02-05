@@ -6,7 +6,7 @@ nomiscz-auth-steam:
   admin:
     settings:
       api_key_label: 'API Key'
-      title: 'Steam 登錄設置'
+      title: 'Steam 登入設置'
       use_steam_powered_domain: '使用 steampowered.com 域而不是 steamcommunity.com（在中國被阻止）'
   forum:
     alerts:
@@ -16,12 +16,12 @@ nomiscz-auth-steam:
       link_success: 'Steam 帳號關聯成功。'
       unlink_success: 'Steam 帳號解除關聯成功。'
     buttons:
-      link: 綁定Steam賬號
-      login: 'Steam 帳號登錄'
+      link: 綁定Steam帳號
+      login: 'Steam 帳號登入'
       unlink: '取消關聯 Steam 帳戶'
     modals:
       link:
-        title: 綁定Steam賬號
+        title: 綁定Steam帳號
       unlink:
         buttons:
           cancel: 取消！

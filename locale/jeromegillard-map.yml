@@ -21,12 +21,12 @@ jeromegillard-map:
         label: 'Thunderforest API key'
       tiles_provider:
         help: '選擇出現在背景中的 tiles layer 提供者'
-        label: 默認圖層提供者
+        label: 預設圖層提供者
       zoom:
         help: '從 0 到 18 的任何整數。'
         label: 預設縮放比例
     templates:
-      file_description: '在 flarum 中顯示地圖。原始文件將可供下載。提供者和样式將是在擴展程序設置中定義的。 <b>您必須安裝並啟用 flarum/bbcode 才能運行</b>。'
+      file_description: '在 flarum 中顯示地圖。原始文件將可供下載。提供者和样式將是在擴充套件設置中定義的。 <b>您必須安裝並啟用 flarum/bbcode 才能運行</b>。'
       map: 地圖
   forum:
     text_editor:
