@@ -13,6 +13,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
