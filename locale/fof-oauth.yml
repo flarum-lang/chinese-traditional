@@ -5,6 +5,8 @@
 fof-oauth:
   admin:
     configure_button_label: '配置 FoF OAuth'
+    permissions:
+      moderate_user_providers: 審核用戶關聯的帳號
     settings:
       advanced:
         heading: 進階

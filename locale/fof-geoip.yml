@@ -16,6 +16,8 @@ fof-geoip:
       service_ipdata_label: IPData
       service_iplocation_description: '使用 <b>https://www.iplocation.net/</b> 檢索國家及 ISP 數據。查詢速率限制位置。'
       service_iplocation_label: 'IP 屬地'
+      service_ipsevenex_description: '使用 <b>https://7x.ax</b> 取得每分鐘最多 20 個請求的免費 API 金鑰。 也提供更高使用限制的付費方案。'
+      service_ipsevenex_label: '7x 地理定位 API'
       service_ipstack_description: '<b>https://ipstack.com</b>，每月免費檢索 10,000 次，付費方案包含連線資訊（ISP、組織）以及威脅等級。'
       service_ipstack_label: IPStack
       service_label: 服務
@@ -31,6 +33,7 @@ fof-geoip:
       ip_address: 'IP 地址'
       isp: ISP
       mobile: 蜂窩網路
+      not_enough_data: 數據不足，無法繪製地圖
       organization: 組織
       threat_level: 威脅等級
       threat_types: 威脅類型
