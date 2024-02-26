@@ -15,6 +15,7 @@ CHANGELOG
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
@@ -116,6 +117,7 @@ CHANGELOG
 * [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
