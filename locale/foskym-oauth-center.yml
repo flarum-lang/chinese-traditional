@@ -12,6 +12,7 @@ foskym-oauth-center:
       client_id: 客戶ID
       client_name: 名稱
       client_secret: 客戶密鑰
+      edit_client: 編輯用戶端
       grant_types: 補助類型
       redirect_uri: 重定向URI
       scope: 範圍
@@ -23,6 +24,7 @@ foskym-oauth-center:
       use_oauth: '使用 OAuth'
     scopes:
       add_button: 增加範圍
+      edit_scope: 編輯範圍
       is_default: 預設
       method: 方法
       resource_path: 資源路徑
@@ -33,6 +35,8 @@ foskym-oauth-center:
     settings:
       access_lifetime: 訪問令牌生命週期（秒）
       allow_implicit: 允許隱式授予（response_type=token）
+      authorization_method_fetch: 授權方法提取（不直接重定向到）
+      display_mode: 顯示模式
       enforce_state: 強制狀態驗證（狀態參數）
       require_exact_redirect_uri: '需要精確的重定向 URI'
   forum:
@@ -40,6 +44,10 @@ foskym-oauth-center:
       access: 進入
       agree: 同意
       deny: 否定
+      require_these_scopes: 需要這些範圍
+    authorized:
+      load_more: 載入更多
+      no_more_records: 暫無相關記錄
     page:
       label:
         authorized: 授權日誌
