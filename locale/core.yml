@@ -497,8 +497,8 @@ core:
     admins: 管理員
     guest: 訪客
     guests: 訪客
-    member: 註冊會員
-    members: 註冊會員
+    member: 會員
+    members: 會員
     mod: 板主
     mods: 板主
   lib:
