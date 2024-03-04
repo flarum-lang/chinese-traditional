@@ -4,6 +4,8 @@
 
 ordinaryjellyfish-automod:
   admin:
+    permissions:
+      bypass: 繞過自動調節過濾器
     settings:
       filter_enable: 啟用預構建篩檢程式
       filter_help: 這些是我個人製作的篩檢程式，以幫助確保您的論壇安全。啟用的過濾器將像審核類別一樣自動標記。
