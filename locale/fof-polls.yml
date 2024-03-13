@@ -10,14 +10,25 @@ fof-polls:
       self_edit: 編輯已創建的投票（需要貼文編輯權限）
       self_post_edit: '編輯*所有*自己帖子上的投票（需要帖子編輯權限）'
       start: 發起投票
+      start_global: 開啟全局民意調查
       view_results_without_voting: 無需參與投票直接查看結果
       vote: 參與投票
     settings:
       allow_option_image: 允許圖片選項
+      enable_global_polls: 啟用全局民意調查
+      enable_global_polls_help: 全局民意調查不與特定帖子綁定，可以從專門的民意調查頁面訪問。
       max_options: 每次投票的最大選項數
       options_color_blend: 投票選項中的顏色混合文字
       options_color_blend_help: '使用此功能可以使用顏色混合來使投票選項更具可讀性。 如果此功能導致論壇外觀出現問題，從而降低可讀性，請禁用。'
   forum:
+    answers: 答案
+    compose:
+      add_title: 新增投票
+      continue_editing: 繼續編輯
+      edit_title: 編輯投票
+      polls_manager: 民調管理員
+      polls_preview: 查看投票
+      success: 投票保存成功。
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: 編輯投票
@@ -30,6 +41,7 @@ fof-polls:
       allow_change_vote_label: 允許用戶更改投票
       allow_multiple_votes_label: 允許選擇多個選項
       date_placeholder: 投票結束時間（可選）
+      delete: 刪除
       edit_title: 編輯投票
       hide_votes_label: 隱藏投票直到投票結束
       image_option_placeholder: 圖面連結(可選)
@@ -41,22 +53,59 @@ fof-polls:
       no_voters: 暫無投票
       option_placeholder: 選項
       options_label: 選項
+      poll_image:
+        alt_help_text: 設定圖像時需要此文本，如果圖像載入失敗，則會顯示該文字。
+        alt_label: 圖像替代文字
+        help: 上傳要在投票旁邊顯示的圖像（可選）。
+        label: 投票圖片
       public_poll_label: 允許用戶查看投票人
       question_placeholder: 問題
       submit: 送出
+      subtitle_placeholder: 副標題/描述（可選）
+      tooltip:
+        options:
+          add-button: 添加答案
     moderation:
       add: 增加投票
       delete: 移除投票
       delete_confirm: 你確定要移除這個投票嗎？
       edit: 編輯投票
     no_permission: 您沒有投票權限
+    page:
+      nav: 民調
+      nav-all: 所有全局民意調查
     poll:
       cannot_change_vote: 投票後您無法更改投票。
+      cannot_start_poll_button: 無法開始投票
+      start_poll_button: 開始民意調查
       submit_button: 投票
+    poll_controls:
+      delete_confirmation: 您確定要刪除此投票嗎？
+      delete_error_message: 刪除投票時出現問題。
+      delete_label: 刪除
+      delete_success_message: 投票刪除成功。
+      edit_label: 編輯
+      view_label: 看法
     poll_ended: 該投票已結束。
+    poll_form:
+      delete: 刪除投票
+      error: 儲存投票時出錯，請聯絡管理員。
+    poll_never_ends: 民調永遠不會結束
+    polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
+    polls_list:
+      empty_text: 看起來這裡好像沒有社區範圍內的民調。
+      load_more_button: 加載更多
     public_poll: 查看投票人
+    showcase:
+      active-polls: 活躍民調
+      ended-polls: 民調結束
+      no-active-polls: 目前沒有正在進行的民意調查。
+      no-recent-polls: 目前沒有最近結束的民意調查。
     tooltip:
       badge: 投票
       votes: '{count, plural, one {#} other {#}} 人投票'
+    upload_image:
+      remove_button: 刪除影像
+      upload_button: 選擇影像
     votes_modal:
       title: 投票人
