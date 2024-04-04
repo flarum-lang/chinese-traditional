@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.21.1 (XXXX-XX-XX)
+1.22.0 (XXXX-XX-XX)
 -------------------
+
+**新增翻譯**:
+
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
 
 **更新翻譯**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
-全部變化：[v1.21.0...v1.21.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.21.0...v1.21.1)
+全部變化：[v1.21.0...v1.22.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.21.0...v1.22.0)
 
 
 1.21.0 (2024-03-25)
