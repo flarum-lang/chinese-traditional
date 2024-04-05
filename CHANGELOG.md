@@ -7,6 +7,10 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 
 
