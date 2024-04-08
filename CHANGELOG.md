@@ -17,6 +17,7 @@ CHANGELOG
 **更新翻譯**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 
 
 全部變化：[v1.21.0...v1.22.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.21.0...v1.22.0)
