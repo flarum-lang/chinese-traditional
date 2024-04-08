@@ -48,6 +48,10 @@ ianm-translate:
         translated-updated: '使用 {provider} 最後更新 {time} 的翻譯'
       title:
         detected-language: '{postLang}'
+    manage-translations:
+      button-label: 管理翻譯
+      translations-label: 翻譯
+    refresh-translation: 重新整理翻譯
     translate-button-label: 翻譯
     unknown-language: （未檢測到）
     user:
