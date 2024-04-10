@@ -5,6 +5,7 @@
 ianm-translate:
   admin:
     permission:
+      edit-translation: 手動編輯翻譯
       refresh-translation: 強制重新翻譯緩存的翻譯
       translate-to-all-locales: 在任何論壇語言環境中查看翻譯
       translate-to-locale: 查看目前語言環境的翻譯
@@ -37,6 +38,8 @@ ianm-translate:
       readme-none: 該驅動程式不需要額外的設置。
       translate-all-enabled: 啟用所有翻譯語言
       translate-all-help: 啟用後，管理員使用者和其他獲得許可的人可以將內容翻譯為任何已安裝的論壇語言。
+      translate-polls: 翻譯民意調查
+      translate-polls-help: 啟用後，建立或編輯投票時，投票標題、副標題、圖像替代文字和答案選項將自動翻譯。
       use-native-locale-names: 使用本機區域設置名稱
       use-native-locale-names-help: 啟用後，將使用本機區域設置名稱，而不是名稱的目前區域設置版本。
   forum:
@@ -50,6 +53,14 @@ ianm-translate:
         detected-language: '{postLang}'
     manage-translations:
       button-label: 管理翻譯
+      poll:
+        image-alt: '投票圖像 ALT 文字（如果有）'
+        option: '投票選項 {number}'
+        original-title: 原始語言
+        question: 投票問題
+        subtitle: 投票字幕
+        title: 管理投票翻譯
+      save-changes: '=> core.ref.save_changes'
       translations-label: 翻譯
     refresh-translation: 重新整理翻譯
     translate-button-label: 翻譯

@@ -4,6 +4,24 @@
 
 nodeloc-emoji:
   admin:
+    my_emoji_section:
+      edit_emoji:
+        delete_emoji_button: 刪除表情符號
+        delete_emoji_confirmation: 您確定要刪除此表情符號嗎？
+        emoji_category_label: 類別代碼
+        emoji_title_label: 表情符號標題
+        modal_title: 加入表情符號
+        path_or_url_label: 路徑或網址
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_category_name_label: 分類名稱
+        text_to_replace_label: 要替換的文字
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: '導出 JSON'
+      heading_title: 自訂表情符號
+      import_json_button: '導入 JSON'
+      import_myemoji_message: '這將僅導入表情符號配置。 您需要手動上傳表情符號圖像。'
     settings:
       auto_hide_label: 自動隱藏
       auto_hide_text: 選擇表情符號時隱藏選擇器。
@@ -11,6 +29,7 @@ nodeloc-emoji:
       emoji_categories:
         activities: '=> nodeloc-emoji.ref.emoji_categories.activities'
         animals: '=> nodeloc-emoji.ref.emoji_categories.animals'
+        flags: '=> nodeloc-emoji.ref.emoji_categories.flags'
         food: '=> nodeloc-emoji.ref.emoji_categories.food'
         objects: '=> nodeloc-emoji.ref.emoji_categories.objects'
         people: '=> nodeloc-emoji.ref.emoji_categories.people'
@@ -37,3 +56,34 @@ nodeloc-emoji:
       show_variants_text: '有些表情符號有膚色變體。 當在選擇器中選擇具有變體的表情符號時，將出現一個變體彈出窗口，以便使用者可以選擇所需的變體。'
       specify_categories_label: 指定類別
       specify_categories_text: 您可以在此處指定類別列表，選擇器將僅顯示這些類別。
+  forum:
+    composer:
+      emoji_tooltip: 插入表情符號
+    emoji-button:
+      categories:
+        activities: '=> nodeloc-emoji.ref.emoji_categories.activities'
+        animals: '=> nodeloc-emoji.ref.emoji_categories.animals'
+        custom: '=> nodeloc-emoji.ref.emoji_categories.custom'
+        flags: '=> nodeloc-emoji.ref.emoji_categories.flags'
+        food: '=> nodeloc-emoji.ref.emoji_categories.food'
+        objects: '=> nodeloc-emoji.ref.emoji_categories.objects'
+        people: '=> nodeloc-emoji.ref.emoji_categories.people'
+        recents: '=> nodeloc-emoji.ref.emoji_categories.recents'
+        smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
+        symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
+        travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
+      no_myemoji_found_message: 未找到表情符號
+      search_placeholder: 搜尋表情符號
+  ref:
+    emoji_categories:
+      activities: 活動
+      animals: 動物與自然
+      custom: 風俗
+      flags: 旗幟
+      food: 食物和飲料
+      objects: 物件
+      people: 人與身體
+      recents: 最近的表情符號
+      smileys: 表情與情感
+      symbols: 符號
+      travel: 旅行與地點
