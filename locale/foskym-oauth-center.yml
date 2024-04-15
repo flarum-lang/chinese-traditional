@@ -48,6 +48,7 @@ foskym-oauth-center:
     authorized:
       load_more: 載入更多
       no_more_records: 暫無相關記錄
+      no_records: 暫無紀錄
     page:
       label:
         authorized: 授權日誌

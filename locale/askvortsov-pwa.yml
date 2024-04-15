@@ -22,6 +22,12 @@ askvortsov-pwa:
         heading: 顏色
         theme_color_label: 主題顏色
         theme_color_text: '裝置顯示應用時可能會使用到這個顏色，比如 Android 的任務切換。您可以在管理後台的「外觀設定」中修改主要顏色。'
+      firebase_config:
+        heading: 火力基地
+        help_text: '要在 Apple 應用程式商店中發布應用程式時添加對推播通知的支持，您需要使用 Firebase 將推播通知新增至您的應用程式。 請產生您的 Firebase 服務配置並在此處上傳。'
+        see_documentation_here: 請參閱此處的文檔
+        upload_file: 上傳文件
+        upload_successful: '您的 firebase 設定已成功上傳'
       heading: 'PWA 設定'
       logo_heading: 標誌及圖示
       logo_size_text: '上傳的標誌將被縮放至 {size}x{size}px。'
