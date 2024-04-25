@@ -20,6 +20,7 @@ foskym-oauth-center:
       clients: 管理客戶
       index: 家園
       scopes: 管理範圍
+      tokens: '管理 Tokens'
     permission:
       use_oauth: '使用 OAuth'
     scopes:
@@ -32,6 +33,7 @@ foskym-oauth-center:
       scope_desc: 描述
       scope_icon: 圖示
       scope_name: 名稱
+      visible_fields: 可見區域
     settings:
       access_lifetime: 訪問令牌生命週期（秒）
       allow_implicit: 允許隱式授予（response_type=token）
@@ -39,6 +41,9 @@ foskym-oauth-center:
       display_mode: 顯示模式
       enforce_state: 強制狀態驗證（狀態參數）
       require_exact_redirect_uri: '需要精確的重定向 URI'
+    tokens:
+      add_token: 添加令牌
+      delete_token: 刪除令牌
   forum:
     authorize:
       access: 進入

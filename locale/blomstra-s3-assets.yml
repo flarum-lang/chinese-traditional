@@ -9,6 +9,27 @@ blomstra-s3-assets:
       configured_by_environment: 目前環境已存在存儲桶配置，暫無可設置的內容。
       s3-compatible-section: '以下設置僅用於 S3 相容儲存桶'
       s3-compatible-section-help: '以下設置在使用 AWS S3 時請留空'
+      s3acl:
+        help: '指定該儲存桶的 ACL'
+        label: ACL
+      s3bucket:
+        help: 'S3 bucket'
+        label: Bucket
+      s3endpoint:
+        help: S3端點
+        label: 端點
       s3key:
-        help: 幫助
+        help: 'S3 存取密鑰'
         label: Key
+      s3path-style-endpoint:
+        help: 切換到路徑式存儲
+        label: S3路徑樣式端點
+      s3region:
+        help: S3區域
+        label: 地區
+      s3secret:
+        help: 'S3 訪問秘令'
+        label: 秘密
+      s3url:
+        help: 'S3 URL'
+        label: URL
