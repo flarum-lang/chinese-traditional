@@ -33,9 +33,21 @@ ianm-translate:
         api_key:
           help: '在 {link} 註冊 API 密鑰。此驅動程式使用 V2 API - Basic。'
           label: '=> ianm-translate.lib.settings.api-key'
+      libre:
+        api_key:
+          help: '（可選）如果您的 LibreTranslate 伺服器需要 API 金鑰，請在此輸入。'
+          label: '=> ianm-translate.lib.settings.api-key'
+        port:
+          help: 'LibreTranslate 伺服器的連接埠。 如果您正在運行自己的實例，請在此輸入連接埠。'
+          label: 伺服器連接埠
+        url:
+          help: 'LibreTranslate 伺服器的 URL。 如果您正在運行自己的實例，請在此輸入 URL。 架構應該是“http”或“https”。'
+          label: 伺服器位址
       provider: 翻譯提供商
       readme-info: '有關擴充套件資訊，請參閱 README 檔案。'
       readme-none: 該驅動程式不需要額外的設置。
+      seemless: 無縫翻譯
+      seemless-help: '測試版功能。 啟用後，所有使用者內容將自動翻譯為所有其他可用的論壇語言。 當使用者查看多語言內容時，會自動顯示翻譯。'
       translate-all-enabled: 啟用所有翻譯語言
       translate-all-help: 啟用後，管理員使用者和其他獲得許可的人可以將內容翻譯為任何已安裝的論壇語言。
       translate-polls: 翻譯民意調查
@@ -43,6 +55,8 @@ ianm-translate:
       use-native-locale-names: 使用本機區域設置名稱
       use-native-locale-names-help: 啟用後，將使用本機區域設置名稱，而不是名稱的目前區域設置版本。
   forum:
+    composer:
+      multi-languages: 提示：您可以輸入您選擇的語言，論壇將為您翻譯。
     detected-language: '本帖使用了{postLang}'
     discussion:
       post:
@@ -62,6 +76,9 @@ ianm-translate:
         title: 管理投票翻譯
       save-changes: '=> core.ref.save_changes'
       translations-label: 翻譯
+    original-content:
+      title: 原創內容
+      view: 看原始內容
     refresh-translation: 重新整理翻譯
     translate-button-label: 翻譯
     unknown-language: （未檢測到）
@@ -76,5 +93,6 @@ ianm-translate:
       deepl: DeepL
       google-cloud: 'Google Cloud 翻譯'
       google-free: 'Google 翻譯'
+      libre: 自由翻譯
     settings:
       api-key: 'API Key'

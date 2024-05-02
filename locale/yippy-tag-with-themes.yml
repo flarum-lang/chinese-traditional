@@ -9,9 +9,12 @@ yippy-tag-with-themes:
       banner: '設計主題 {index}'
       data:
         child_background_color: 編輯子背景顏色
+        child_font_class: 編輯子字體
         is_enabled: 啟用設計主題
         outline_background_color: 編輯輪廓顏色
         primary_background_color: 編輯主要背景顏色
+        primary_font_class: 編輯主字體
+        secondary_font_class: 編輯輔助字體
         tags: 選定的主標籤
         tags_help: 為此自訂設計主題選擇一個或多個標籤
         themeName: 選擇主題
