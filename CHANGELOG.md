@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.22.0 (2024-05-04)
+-------------------
+
+**新增翻譯**:
+
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+**更新翻譯**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+全部變化：[v1.21.0...v1.22.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.21.0...v1.22.0)
+
+
 1.21.0 (2024-03-25)
 -------------------
 
