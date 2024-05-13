@@ -10,6 +10,12 @@ CHANGELOG
 * 更新核心翻譯.
 
 
+**更新翻譯**:
+
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+
+
 全部變化：[v1.22.0...v1.22.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.22.0...v1.22.1)
 
 
