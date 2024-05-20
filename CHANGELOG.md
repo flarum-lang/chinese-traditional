@@ -2,12 +2,18 @@ CHANGELOG
 =========
 
 
-1.22.1 (XXXX-XX-XX)
+1.23.0 (XXXX-XX-XX)
 -------------------
 
 **例行更新**:
 
 * 更新核心翻譯.
+
+
+**新增翻譯**:
+
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 
 
 **更新翻譯**:
@@ -16,7 +22,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
-全部變化：[v1.22.0...v1.22.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.22.0...v1.22.1)
+全部變化：[v1.22.0...v1.23.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.22.0...v1.23.0)
 
 
 1.22.0 (2024-05-04)
