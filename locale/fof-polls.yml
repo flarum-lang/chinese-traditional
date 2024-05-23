@@ -11,9 +11,12 @@ fof-polls:
       self_post_edit: '編輯*所有*自己帖子上的投票（需要帖子編輯權限）'
       start: 發起投票
       start_global: 開啟全局民意調查
+      upload_images: 允許用戶上傳圖像進行投票
       view_results_without_voting: 無需參與投票直接查看結果
       vote: 參與投票
     settings:
+      allow_image_uploads: 允許民意調查及其選項上傳圖像
+      allow_image_uploads_help: '如果啟用，用戶將能夠上傳圖像並提供圖像 URL（如果為選項啟用，則始終為投票本身啟用）。'
       allow_option_image: 允許圖片選項
       enable_global_polls: 啟用全局民意調查
       enable_global_polls_help: 全局民意調查不與特定帖子綁定，可以從專門的民意調查頁面訪問。
@@ -61,6 +64,7 @@ fof-polls:
         alt_label: 圖像替代文字
         help: 上傳要在投票旁邊顯示的圖像（可選）。
         label: 投票圖片
+        later_help: 建立投票後，您將能夠上傳圖像。
       poll_option_image:
         help: 上傳要與投票答案一起顯示的圖像（可選）。
         label: 投票答案圖片
