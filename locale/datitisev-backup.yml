@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: '要上傳到 S3儲存桶。'
           label: 桶
+        credentials-key:
+          description: AWS憑證金鑰
+          label: 密鑰
+        credentials-secret:
+          description: AWS憑證秘密
+          label: 秘密
         credentials:
           key:
             description: 'AWS 憑證密鑰'
@@ -96,6 +102,12 @@ datitisev-backup:
           description: '要在 FTP 伺服器上進行身份驗證的用戶名。'
           label: 用戶名
       gdrive:
+        client-id:
+          description: "請依照指示 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 建立 Google 專案並擷取您的客戶ID 和客戶秘密。\n"
+          label: 客戶ID
+        client-secret:
+          description: ' '
+          label: 客戶秘令
         client:
           id:
             description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的指示，創建一個 Google 項目，並取回您的 Client ID 和 Client Secret。\n"
@@ -106,6 +118,9 @@ datitisev-backup:
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Folder ID'
+        help:
+          test_button: 測試連接
+          test_success_alert: '已成功連接至 Google 雲端硬碟！ 儲存變更以儲存設定。'
         refresh-token:
           description: "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程式重整令牌。\n"
           label: 重整令牌
@@ -113,6 +128,7 @@ datitisev-backup:
         target:
           description: 指定用於儲存備份的本地目錄。
           label: 目標路徑
+      name_label: 地點名稱
       title: '配置{adapter}'
     adapters:
       aliyun: 阿里雲（Aliyun）
@@ -128,6 +144,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Zip Archive'
+    create_button: 新增適配器
+    delete_button: 刪除
+    delete_confirmation: '您確定要刪除「{name}」({adapter})嗎？'
     nav:
       description: 儲存您的論壇副本。
       label: 備份
