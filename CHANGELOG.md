@@ -18,6 +18,8 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
