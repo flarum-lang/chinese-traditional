@@ -19,10 +19,10 @@ CHANGELOG
 **更新翻譯**:
 
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
-* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 
 
 全部變化：[v1.22.0...v1.23.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.22.0...v1.23.0)
