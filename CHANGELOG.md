@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+1.23.0 (XXXX-XX-XX)
+-------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+
+
+**新增翻譯**:
+
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+
+
+**更新翻譯**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+
+
+全部變化：[v1.22.0...v1.23.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.22.0...v1.23.0)
+
+
 1.22.0 (2024-05-04)
 -------------------
 
