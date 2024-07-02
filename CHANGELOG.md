@@ -12,8 +12,12 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 
 
 **更新翻譯**:
