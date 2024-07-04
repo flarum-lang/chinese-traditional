@@ -12,6 +12,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
@@ -22,10 +23,16 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 
 
