@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 簽名檔字數上限
       maxLines: 最大顯示行數
   forum:
+    profile:
+      cancel_button: 取消
+      cancel_confirm: 您確定要取消編輯您的個人簡介嗎？您將丟失所做的任何更改。
+      edit_bio_label: 編輯個人簡介
+      save_button: 保存
     userbioPlaceholder: 寫一些關於你自己的介紹…
     userbioPlaceholderOtherUser: '為 {username} 設置簽名檔'

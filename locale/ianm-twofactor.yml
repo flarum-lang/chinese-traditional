@@ -27,6 +27,15 @@ ianm-twofactor:
         title: '2FA 所需組'
       logo_qr: 'QR Code上的圖示'
       logo_qr_help: '如果圖示已上傳，則該圖示將嵌入到QR碼中。 留空以使用論壇圖示。'
+      tokens:
+        also_kill_developer_tokens: 同時殺死開發者令牌
+        also_kill_developer_tokens_help: 同時終止在指定時間內處於非活動狀態的開發人員存取權杖。
+        heading: 訪問令牌
+        help: 為了增強安全性，您可以在此處管理與存取權杖相關的其他行為。
+        kill_inactive_tokens: 殺死不活躍的令牌
+        kill_inactive_tokens_age_days: 在（天）後殺死不活躍的Tokens
+        kill_inactive_tokens_age_days_help: 不活動的天數，超過該天數後訪問令牌將被刪除。
+        kill_inactive_tokens_help: 自動終止在指定時間內不活動的存取權令牌。
   email:
     body:
       status_changed: "您好{recipient_display_name}，\n\n您在 {forum_url} 上的帳戶已採用{type}兩步驟驗證。\n\n如果您發起了此操作，則無需採取進一步的步驟。 如果您未授權此更改，請立即聯繫論壇管理員。\n"

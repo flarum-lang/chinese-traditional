@@ -4,6 +4,21 @@
 
 michaelbelgium-umami:
   admin:
+    settings:
+      domain:
+        help: Umami所在的網域。
+        label: 領域
+      errors:
+        no_connection: '無法取得統計信息，請檢查您的 API 憑證。'
+      password:
+        help: '可選。上面的使用者名稱的密碼。 （用於管理儀表板小工具）'
+        label: 帳戶密碼
+      site_id:
+        help: 'Umami 上此 Flarum 實例的網站 ID。您可以在 Umami 網站設定的詳細資訊中找到這一點。'
+        label: 網站編號
+      username:
+        help: '選修的。上述網域中的 umami 帳戶的使用者名稱。 （用於管理儀表板小工具）'
+        label: 帳戶用戶名
     widget:
       live: Live
       views: 頁面瀏覽量

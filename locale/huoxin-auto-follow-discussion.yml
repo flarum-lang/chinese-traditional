@@ -8,3 +8,6 @@ huoxin-auto-follow-discussion:
     default-follow-after-create-label: 用戶創建的自動關注討論的預設值
     default-follow-after-read-help: 預設值：假
     default-follow-after-read-label: 自動關注用戶閱讀的討論的預設值
+  forum:
+    default-follow-after-create-label: 自動關注我創建的討論
+    default-follow-after-read-label: 自動關注我閱讀的討論
