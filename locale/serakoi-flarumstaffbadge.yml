@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 可以編輯員工徽章
+      canEditTagList:
+        label: 可以編輯標籤列表
     staffBadge:
       help: 'The Staff Badge Text (預設為''STAFF'')'
       label: 員工徽章文字
