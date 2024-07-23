@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.23.1 (XXXX-XX-XX)
+-------------------
+
+**更新翻譯**:
+
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
+
+
+全部變化：[v1.23.0...v1.23.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.23.0...v1.23.1)
+
+
 1.23.0 (2024-07-04)
 -------------------
 
