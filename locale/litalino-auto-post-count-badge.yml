@@ -5,4 +5,6 @@
 justoverclock-auto-post-count-badge:
   admin:
     settings:
+      icon-manager:
+        title: 圖標管理器
       tier: '等級 {tier}：從 {from} 到 {to} 個帖子'

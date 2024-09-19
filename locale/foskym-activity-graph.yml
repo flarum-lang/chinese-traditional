@@ -6,3 +6,4 @@ foskym-activity-graph:
   admin:
     settings:
       count_comments: 統計評論數
+      count_discussions: 計數討論

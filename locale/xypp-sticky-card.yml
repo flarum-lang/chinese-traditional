@@ -4,4 +4,5 @@
 
 xypp-sticky-card:
   forum:
+    default: 預設
     use-sticky-card: 使用置頂卡

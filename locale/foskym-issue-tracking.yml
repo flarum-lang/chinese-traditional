@@ -4,4 +4,5 @@
 
 foskym-issue-tracking:
   admin:
+    enable_comment_sync_label: 建立貼文時在問題追蹤器中建立評論
     provider_heading: 平台提供者

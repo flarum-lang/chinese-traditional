@@ -4,4 +4,5 @@
 
 xypp-forum-quests:
   forum:
+    condition_not_found: '未找到條件 {condition}'
     reward_not_found: '未找到獎勵 {reward}'

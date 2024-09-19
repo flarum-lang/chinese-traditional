@@ -4,4 +4,5 @@
 
 xypp-store-doorman:
   forum:
+    key: 邀請密鑰
     key-not-found: 找不到鑰匙

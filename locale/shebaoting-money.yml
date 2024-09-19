@@ -5,4 +5,5 @@
 shebaoting-money:
   admin:
     settings:
+      initialmoney: 新用戶初始資金
       title: 設置

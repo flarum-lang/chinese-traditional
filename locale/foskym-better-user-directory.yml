@@ -5,4 +5,5 @@
 foskym-better-user-directory:
   admin:
     settings:
+      hide_filter_groups: 隱藏過濾群組
       hide_search: 隱藏搜尋

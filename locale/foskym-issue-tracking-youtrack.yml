@@ -6,3 +6,4 @@ foskym-issue-tracking-youtrack:
   admin:
     fields:
       heading: 問題追蹤：YouTrack
+      url_label: 'YouTrack 連結'

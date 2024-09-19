@@ -6,3 +6,4 @@ mattoid-store:
   admin:
     settings:
       store-name: 店家名稱
+      store-name-requirement: 商店名稱將顯示在首頁選單和標題列中

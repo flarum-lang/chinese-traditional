@@ -6,3 +6,5 @@ xypp-pay-to-read:
   admin:
     permission:
       bypass: 繞過付款。
+  forum:
+    preview: 付費閱讀預覽

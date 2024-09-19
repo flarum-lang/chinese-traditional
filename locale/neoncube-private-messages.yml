@@ -4,5 +4,7 @@
 
 neoncube-private-messages:
   admin:
+    permissions:
+      start_label: 發送私信
     settings:
       return_key: 返回鍵發送訊息

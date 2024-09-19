@@ -4,4 +4,6 @@
 
 xypp-store-group:
   forum:
+    fail:
+      not_found: 沒有這個組
     name: 群組
