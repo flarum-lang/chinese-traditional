@@ -32,6 +32,7 @@ CHANGELOG
 * [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
 * [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
 * [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
 
 
 **更新翻譯**:
