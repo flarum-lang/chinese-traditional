@@ -37,7 +37,9 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 
