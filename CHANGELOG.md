@@ -37,6 +37,7 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 
 
