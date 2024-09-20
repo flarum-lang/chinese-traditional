@@ -5,5 +5,6 @@
 xypp-store-group:
   forum:
     fail:
+      has_own: 你已經在群組裡了
       not_found: 沒有這個組
     name: 群組

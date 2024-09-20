@@ -5,7 +5,8 @@
 foskym-custom-levels:
   admin:
     settings:
-      expDesc: '可用變數：[expTotal]'
+      expDesc: '可用變數：[expTotal] [expPercent] [nextLevel] [expToNextLevel]'
+      expForPost: 每個貼文所獲得的經驗值
       expFormula: '輸入經驗值的計算公式（例如：「[discussionCount] * 40 + [commentCount] / 20”)'
       expFormulaDesc1: 您可以使用以下變數：
       expFormulaDesc2: "您可以使用以下核心變數來計算經驗值：\n\n- [discussionCount]：討論次數\n- [commentCount]：評論次數\n\n請根據這些變數輸入您的經驗值計算公式。"

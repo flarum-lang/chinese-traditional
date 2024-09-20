@@ -4,5 +4,8 @@
 
 xypp-store-doorman:
   forum:
+    create:
+      count: 使用次數
+      select: 選擇數據
     key: 邀請密鑰
     key-not-found: 找不到鑰匙

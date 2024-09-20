@@ -5,4 +5,7 @@
 xypp-forum-quests:
   forum:
     condition_not_found: '未找到條件 {condition}'
+    notification:
+      quest_done: '您剛剛完成任務{name}！'
+      quest_done_label: 任務完成
     reward_not_found: '未找到獎勵 {reward}'

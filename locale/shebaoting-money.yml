@@ -6,4 +6,6 @@ shebaoting-money:
   admin:
     settings:
       initialmoney: 新用戶初始資金
+      moneyfordiscussion: 為新的討論提供資金
+      moneyforpost: 為新職位提供資金
       title: 設置

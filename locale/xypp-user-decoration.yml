@@ -4,5 +4,8 @@
 
 xypp-user-decoration:
   forum:
+    decoration-box:
+      avatar: 頭像風格
+      error: 未知類型
     decoration-no-available: 沒有可用的裝飾品
     decorations: 裝飾

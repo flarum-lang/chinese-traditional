@@ -7,3 +7,6 @@ foskym-better-user-directory:
     settings:
       hide_filter_groups: 隱藏過濾群組
       hide_search: 隱藏搜尋
+      podium_style: 講台風格
+      show_all_items_in_bottom_cards: 顯示底部卡片中的所有項目（或僅顯示與排序相關的一項）
+      show_all_items_in_top_cards: 顯示頂部卡片中的所有項目（或僅顯示與排序相關的一項）

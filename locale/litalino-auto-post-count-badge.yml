@@ -6,5 +6,8 @@ justoverclock-auto-post-count-badge:
   admin:
     settings:
       icon-manager:
+        help_text: '=> core.ref.icon_text'
         title: 圖標管理器
+      label-manager:
+        title: 文字標籤管理器
       tier: '等級 {tier}：從 {from} 到 {to} 個帖子'

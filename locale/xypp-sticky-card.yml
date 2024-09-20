@@ -5,4 +5,6 @@
 xypp-sticky-card:
   forum:
     default: 預設
+    loading: 加載中...
     use-sticky-card: 使用置頂卡
+    used: '用於{0}'

@@ -6,5 +6,7 @@ xypp-invite-user:
   forum:
     page:
       code:
+        code: 邀請碼
         title: 邀請用戶
+        url: 邀請網址
       title: 邀請

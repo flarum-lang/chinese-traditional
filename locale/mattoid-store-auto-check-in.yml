@@ -7,4 +7,6 @@ mattoid-store-auto-check-in:
     settings:
       group-view: 向使用者展示產品
   forum:
+    error:
+      auto-check-in-fail: '使用者[{username}]自動簽入失敗，原因：{message}'
     title: 自動登記卡
