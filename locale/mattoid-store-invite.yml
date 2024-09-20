@@ -9,4 +9,5 @@ mattoid-store-invite:
       calm-down-period-help: 申請被拒絕後，自拒絕之日起N天內不得再申請
       group-admin-view: 審核權限
       group-view: 向使用者展示產品
+      mail: 電子郵件模板
       price: 扣除費用
