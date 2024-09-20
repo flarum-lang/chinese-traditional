@@ -12,3 +12,5 @@ neoncube-private-messages:
   forum:
     dropdown:
       tooltip: 消息
+    modal:
+      help_start: '{username} 主動回覆你前，最多發送 1 則訊息。點選使用者名稱重新選擇對話人。'
