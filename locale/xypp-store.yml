@@ -6,5 +6,6 @@ xypp-store:
   forum:
     create: 創建專案
     purchase-history: 已購買
+    show_case: 展示櫃
     store: 商店
     time_segs: 天|小時|分鐘

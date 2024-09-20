@@ -7,5 +7,6 @@ xypp-store-doorman:
     create:
       count: 使用次數
       select: 選擇數據
+      submit: 確認
     key: 邀請密鑰
     key-not-found: 找不到鑰匙

@@ -6,6 +6,7 @@ ffans-geetest:
   admin:
     settings:
       context_event_label: 情境事件
+      context_event_signup_label: '=> core.ref.sign_up'
       product_service_help_text: GeeTest驗證碼的版本你用什麼。
       product_service_label: 'CAPTCHA 產品'
       product_service_v3_label: 'CAPTCHA (v3)'

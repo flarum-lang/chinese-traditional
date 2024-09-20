@@ -9,4 +9,6 @@ xypp-invite-user:
         code: 邀請碼
         title: 邀請用戶
         url: 邀請網址
+      my:
+        inviter: 您已接受該使用者為您的邀請使用者。
       title: 邀請

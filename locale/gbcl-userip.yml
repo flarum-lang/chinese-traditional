@@ -7,6 +7,8 @@ gbcl-userip:
     permissions:
       view_ip_info_label: '顯示 IP 資訊'
     service:
+      ipinfo:
+        key: 'IpInfo 令牌（必填）'
       ipsb:
         description: '使用<b>https://ip.sb</b>取得免費IP位置資訊（請注意速率限制）'
         label: IP.SB

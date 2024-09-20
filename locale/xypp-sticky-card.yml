@@ -5,6 +5,7 @@
 xypp-sticky-card:
   forum:
     default: 預設
+    giveup: 放棄購買
     loading: 加載中...
     use-sticky-card: 使用置頂卡
     used: '用於{0}'

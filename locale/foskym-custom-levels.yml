@@ -16,6 +16,7 @@ foskym-custom-levels:
       levelFormula: '輸入等級公式（例如「[expTotal] / (100 + 5 * [level])」）'
       levelFormulaDesc: '您可以使用這些變數 [expTotal] [level]'
       levelText: 輸入要為等級顯示的文字（例如排名、等級）
+      postMaxTimes: 每天最多發文數，0表示不限制
   lib:
     defaults:
       exp: '[expTotal] 經驗值'

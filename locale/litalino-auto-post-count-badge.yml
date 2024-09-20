@@ -4,6 +4,7 @@
 
 justoverclock-auto-post-count-badge:
   admin:
+    levelOne: '調整等級 1“潛水”圖標'
     settings:
       icon-manager:
         help_text: '=> core.ref.icon_text'
