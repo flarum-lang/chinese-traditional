@@ -41,6 +41,7 @@ CHANGELOG
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 
 
