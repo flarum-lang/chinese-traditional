@@ -39,6 +39,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
