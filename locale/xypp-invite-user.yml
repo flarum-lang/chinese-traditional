@@ -9,7 +9,15 @@ xypp-invite-user:
         code: 邀請碼
         title: 邀請用戶
         url: 邀請網址
+      invite:
+        avatar: 用戶
+        empty: 您還沒有邀請任何用戶。
+        title: 我邀請的使用者
+        username: 使用者名
       my:
+        accept: 接受
+        code: 輸入邀請碼
         inviter: 您已接受該使用者為您的邀請使用者。
+        no-inviter: 該用戶尚未接受任何邀請用戶。
         title: 我的邀請用戶
       title: 邀請

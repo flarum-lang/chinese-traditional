@@ -10,8 +10,16 @@ neoncube-private-messages:
     settings:
       return_key: 返回鍵發送訊息
   forum:
+    chat:
+      messages_single: 新建會話
     dropdown:
       tooltip: 消息
     modal:
+      already: '您已經與 {username} 進行了對話。'
+      copied: 已複製消息到剪貼板。
+      help: 開始輸入使用者名稱來開始聊天。
       help_start: '{username} 主動回覆你前，最多發送 1 則訊息。點選使用者名稱重新選擇對話人。'
+      more_users: 如果您沒有看到要查找的使用者，則表示他們沒有設置私人消息。
+      search_recipients: 輸入使用者名稱...
+      submit: 發送消息
       title: 創建會話

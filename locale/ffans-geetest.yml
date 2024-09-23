@@ -5,7 +5,15 @@
 ffans-geetest:
   admin:
     settings:
+      config:
+        product_label: 動畫風格
+        standalone_help_text: 在此場景中啟用獨立配置。
+        standalone_label: 獨立
+        title: '設置 {context}'
+      context_event_forgot_label: '=> core.forum.forgot_password.title'
+      context_event_help_text: 允許在不同的上下文事件或業務類型中使用GeeTest驗證碼，您可以為每個上下文設定獨立的配置。
       context_event_label: 情境事件
+      context_event_login_label: '=> core.ref.log_in'
       context_event_signup_label: '=> core.ref.sign_up'
       product_service_help_text: GeeTest驗證碼的版本你用什麼。
       product_service_label: 'CAPTCHA 產品'

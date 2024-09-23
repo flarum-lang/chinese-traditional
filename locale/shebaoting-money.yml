@@ -4,10 +4,19 @@
 
 shebaoting-money:
   admin:
+    autoremove:
+      - 從不移除金錢
+      - 當討論/帖子被隱藏或恢復時（預設）
+    permissions:
+      edit_money_label: 編輯資金
     settings:
+      autoremove: 自動更新資金
+      helpextensionlikes: '需要 <code>flarum/likes</code> 擴展'
       initialmoney: 新用戶初始資金
       moneyfordiscussion: 為新的討論提供資金
+      moneyforlike: 當貼文被按讚時給予金錢
       moneyforpost: 為新職位提供資金
       moneyname: '貨幣名稱（例如：[貨幣]點）'
       noshowzero: 如果值為零則不顯示
+      postminimumlength: '獲得金錢的發布最小長度（0 禁用）'
       title: 設置

@@ -5,9 +5,16 @@
 mattoid-store:
   admin:
     settings:
+      add-store-goods: 添加商品
       decorationStoreTimezone: 時區
       decorationStoreTimezone-requirement: 設定時區。預設為“亞洲/上海”
+      goods-code: 代碼
+      goods-desc: 描述
+      goods-discount: 折扣（％）
+      goods-price: 價格
       goods-status: 地位
+      goods-stock: 庫存
+      goods-title: 標題
       group-view: 允許用戶群組訪問商店
       store-name: 店家名稱
       store-name-requirement: 商店名稱將顯示在首頁選單和標題列中

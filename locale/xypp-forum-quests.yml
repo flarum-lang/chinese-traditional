@@ -5,10 +5,19 @@
 xypp-forum-quests:
   forum:
     condition_not_found: '未找到條件 {condition}'
+    condition_view:
+      button: 查看條件
+      name: 名稱
+      title: 條件視圖
     notification:
       quest_done: '您剛剛完成任務{name}！'
       quest_done_label: 任務完成
     quest:
       done: '[完成]'
+      load_more: 載入更多
       quest: 尋求
+    re_available:
+      day: '前 {value} 天可重複使用'
+      hour: '{value} 小時後重新可用'
+      none: 僅一次
     reward_not_found: '未找到獎勵 {reward}'

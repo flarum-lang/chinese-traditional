@@ -5,10 +5,16 @@
 mattoid-store-invite:
   admin:
     settings:
+      auto-review: 自動審核通過
       calm-down-period: 申請冷靜期（天）
       calm-down-period-help: 申請被拒絕後，自拒絕之日起N天內不得再申請
       group-admin-view: 審核權限
       group-view: 向使用者展示產品
       mail: 電子郵件模板
+      mail-help: 向被邀請者發送電子郵件內容
+      mail-title: 電子郵件標題
+      mail-title-help: 受邀者收到郵件的標題內容
       price: 扣除費用
+      price-help: 經批准后扣除資金
       show-index: 新增到主頁
+      show-index-help: 在主頁上顯示評論選單

@@ -15,7 +15,9 @@ muhammedsaidckr-gemini:
       enabled_tags_label: 啟用的標籤
       model_help: 選擇要使用的型號。
       model_label: 模型
+      prompt_help: '提示詞用於生成回答，[title] 變數應保持不變。'
       prompt_label: 提示詞
+      role_help: 選擇將用於產生答案的角色。
       role_label: 角色
       user_prompt_badge_help: 將顯示在使用者提示旁邊的文字。
       user_prompt_badge_label: 使用者提示徽章

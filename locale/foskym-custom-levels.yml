@@ -5,8 +5,14 @@
 foskym-custom-levels:
   admin:
     settings:
+      discussionMaxTimes: '每天可以進行的最大討論次數，0 表示沒有限制'
       expDesc: '可用變數：[expTotal] [expPercent] [nextLevel] [expToNextLevel]'
+      expForDiscussion: 每次討論獲得的經驗值
+      expForDiscussionDesc: '純數字，沒有小數。或範圍，例如「[1, 10]」表示1到10之間的隨機數'
+      expForLike: 被喜歡時所獲得的exp
+      expForLikeDesc: '需要 flarum/like 擴充。純數字，沒有小數。或範圍，例如「[1, 10]」表示1到10之間的隨機數'
       expForPost: 每個貼文所獲得的經驗值
+      expForPostDesc: '純數字，沒有小數。或範圍，例如「[1, 10]」表示1到10之間的隨機數'
       expFormula: '輸入經驗值的計算公式（例如：「[discussionCount] * 40 + [commentCount] / 20”)'
       expFormulaDesc1: 您可以使用以下變數：
       expFormulaDesc2: "您可以使用以下核心變數來計算經驗值：\n\n- [discussionCount]：討論次數\n- [commentCount]：評論次數\n\n請根據這些變數輸入您的經驗值計算公式。"
@@ -17,6 +23,7 @@ foskym-custom-levels:
       levelFormulaDesc: '您可以使用這些變數 [expTotal] [level]'
       levelText: 輸入要為等級顯示的文字（例如排名、等級）
       postMaxTimes: 每天最多發文數，0表示不限制
+      postMinLength: 貼文的最小長度，0表示不限制
   lib:
     defaults:
       exp: '[expTotal] 經驗值'

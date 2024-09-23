@@ -36,6 +36,7 @@ foskym-oauth-center:
       visible_fields: 可見區域
     settings:
       access_lifetime: 訪問令牌生命週期（秒）
+      allow_delete_records: 允許刪除授權記錄
       allow_implicit: 允許隱式授予（response_type=token）
       authorization_method_fetch: 授權方法提取（不直接重定向到）
       display_mode: 顯示模式

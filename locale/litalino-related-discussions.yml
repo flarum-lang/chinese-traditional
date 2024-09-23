@@ -9,6 +9,12 @@ litalino-related-discussions:
     relatedLimit-help: '需要展示的相關主題量（例如 4）'
     relatedTitle: '“相關討論” 標題'
     relatedTitle-help: 將相關討論的預設標題替換為您自己的標題
+    showExcerpt: 展示摘要
     showTooltip: 顯示摘要提示框
   forum:
+    hasBestAnswer: 已解決
+    participants: 參與者
+    postedOn: 於
+    postnumber: 回帖
     reldiscussion: 推薦主題
+    repliedOn: 已回覆

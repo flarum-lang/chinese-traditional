@@ -7,6 +7,14 @@ xypp-user-decoration:
     decoration-box:
       avatar: 頭像風格
       card: 使用者卡片樣式
+      closed: 關閉
       error: 未知類型
+      loading: 裝載
+      name: 使用者名稱樣式
+      no-login: 登錄預覽
+      post: 貼文樣式
     decoration-no-available: 沒有可用的裝飾品
+    decoration:
+      delete_button: 刪除
+      remove_button: 移除
     decorations: 裝飾

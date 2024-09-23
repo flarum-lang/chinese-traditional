@@ -5,8 +5,16 @@
 xypp-store-doorman:
   forum:
     create:
+      activate: 自動啟用
       count: 使用次數
+      group: 報名後分組
       select: 選擇數據
       submit: 確認
+      title: 選擇數據
     key: 邀請密鑰
     key-not-found: 找不到鑰匙
+    send:
+      cancel: 取消
+      email: 電子郵件
+      submit: 發送
+      title: 發送邀請電子郵件

@@ -5,7 +5,18 @@
 xypp-store:
   forum:
     create: 創建專案
+    edit_button: 編輯
+    price_free: 自由
+    provider:
+      all: 所有
+      error:
+        no-preview: 無預覽
+        title: 未知的提供者
+    purchase: 購買
     purchase-history: 已購買
     show_case: 展示櫃
     store: 商店
     time_segs: 天|小時|分鐘
+    unavailable:
+      common:
+        unknown: 無法購買
