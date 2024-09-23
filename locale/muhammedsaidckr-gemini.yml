@@ -16,6 +16,7 @@ muhammedsaidckr-gemini:
       model_help: 選擇要使用的型號。
       model_label: 模型
       prompt_label: 提示詞
+      role_label: 角色
       user_prompt_badge_help: 將顯示在使用者提示旁邊的文字。
       user_prompt_badge_label: 使用者提示徽章
       user_prompt_help: '輸入將用於產生答案的使用者 ID。 預設是討論發起者。'

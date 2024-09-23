@@ -4,6 +4,9 @@
 
 ianm-translate:
   admin:
+    glossary:
+      create_button: 建立新術語
+      glossary: 詞彙表
     permission:
       edit-translation: 手動編輯翻譯
       refresh-translation: 強制重新翻譯緩存的翻譯

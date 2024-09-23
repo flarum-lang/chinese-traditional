@@ -10,5 +10,6 @@ justoverclock-auto-post-count-badge:
         help_text: '=> core.ref.icon_text'
         title: 圖標管理器
       label-manager:
+        help: 自定義等級名稱
         title: 文字標籤管理器
       tier: '等級 {tier}：從 {from} 到 {to} 個帖子'

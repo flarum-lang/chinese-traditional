@@ -7,6 +7,7 @@ foskym-issue-tracking-youtrack:
     fields:
       heading: 問題追蹤：YouTrack
       project_label: 'YouTrack 項目 ID'
+      state_field_label: 狀態欄
       token_label: 'YouTrack 令牌'
       url_help: '您的 YouTrack 實例的 URL。範例：https://example.youtrack.cloud/'
       url_label: 'YouTrack 連結'
