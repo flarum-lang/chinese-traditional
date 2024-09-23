@@ -40,6 +40,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
