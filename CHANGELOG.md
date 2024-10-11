@@ -5,6 +5,11 @@ CHANGELOG
 1.24.0 (XXXX-XX-XX)
 -------------------
 
+**例行更新**:
+
+* 更新核心翻譯.
+
+
 **新增翻譯**:
 
 * [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
