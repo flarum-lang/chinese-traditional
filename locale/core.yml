@@ -237,6 +237,8 @@ core:
             title: 群組
           join_time:
             title: 註冊時間
+          user_actions:
+            title: 行動
           user_id:
             title: ID
           username:
@@ -508,6 +510,10 @@ core:
       hidden_tooltip: 隱藏
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: 除錯
     dropdown:
       toggle_dropdown_accessible_label: 下拉選單開關
