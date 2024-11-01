@@ -2,6 +2,59 @@ CHANGELOG
 =========
 
 
+1.24.0 (2024-11-01)
+-------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+
+
+**新增翻譯**:
+
+* [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
+* [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
+* [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+* [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
+* [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
+* [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
+* [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
+* [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
+* [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
+* [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
+* [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+
+
+**更新翻譯**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
+
+
+全部變化：[v1.23.0...v1.24.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.23.0...v1.24.0)
+
+
 1.23.0 (2024-07-04)
 -------------------
 
