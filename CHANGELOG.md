@@ -8,6 +8,7 @@ CHANGELOG
 **新增翻譯**:
 
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 
 
 全部變化：[v1.24.0...v1.25.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.24.0...v1.25.0)
