@@ -12,6 +12,8 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 常規設置
       modal:
         always_show_theme_toggle_on_header: 始終在導航欄顯示日夜切換按鈕
         default_theme: 預設模式

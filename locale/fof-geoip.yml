@@ -4,8 +4,16 @@
 
 fof-geoip:
   admin:
+    permissions:
+      see_country: 始終顯示IP地址所屬國家或地區
     settings:
       access_key_label: 'Access Key'
+      general:
+        heading: 常規設置
+        help: 這些設置控制本擴展的一些基本能力。
+      providers:
+        heading: IP查詢服務
+        help: '選擇一個 IP 查詢服務。部分服務有呼叫速率限制，詳情請查看相關服務文件。'
       quota_label: 尋找配額
       security_label: '安全模塊（需要 professional plus）'
       service_ipapi-pro_description: '使用<b>https://members.ip-api.com/#pricing</b>。 專業計劃有無限的使用。'

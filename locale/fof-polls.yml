@@ -20,6 +20,12 @@ fof-polls:
       allow_option_image: 允許圖片選項
       enable_global_polls: 啟用全局民意調查
       enable_global_polls_help: 全局民意調查不與特定帖子綁定，可以從專門的民意調查頁面訪問。
+      general:
+        heading: 常規設置
+        help: 這些設定控制投票擴展的基本功能。
+      global_polls:
+        heading: 全站投票
+        help: 這些設定控制全域投票功能。
       image_height: 調整影像高度
       image_width: 調整影像寬度
       max_options: 每次投票的最大選項數

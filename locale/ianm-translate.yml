@@ -5,8 +5,12 @@
 ianm-translate:
   admin:
     glossary:
+      button: 術語表
       create_button: 建立新術語
       glossary: 詞彙表
+      section:
+        heading: 術語配置
+        help: 定義不應該翻譯的詞彙，如專有名詞、技術術語等。
     permission:
       edit-translation: 手動編輯翻譯
       refresh-translation: 強制重新翻譯緩存的翻譯

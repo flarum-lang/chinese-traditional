@@ -19,3 +19,6 @@ fof-impersonate:
       title: 登入到他人帳戶
     user_controls:
       impersonate_button: 偽裝身分
+  lib:
+    modal:
+      title: 以其他使用者登入
