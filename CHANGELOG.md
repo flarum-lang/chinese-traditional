@@ -10,6 +10,7 @@ CHANGELOG
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
