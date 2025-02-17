@@ -15,13 +15,31 @@ CHANGELOG
 * [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
 * [`ramon/colored`](https://github.com/ram0ng1/colored)
 * [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 **更新翻譯**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 
 
 全部變化：[v1.25.0...v1.26.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.25.0...v1.26.0)
