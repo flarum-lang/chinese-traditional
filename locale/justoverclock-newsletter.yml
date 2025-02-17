@@ -15,3 +15,6 @@ flarum-ext-newsletter:
     prconsent: 隱私政策
     submitbutton: 送出
     subscribe: 開啟郵件訂閱。請輸入郵箱地址並送出。
+justoverclock-newsletter:
+  admin:
+    ctaText: 拜訪我們的社區
