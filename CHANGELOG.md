@@ -7,7 +7,21 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+
+
+**更新翻譯**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 
 
 全部變化：[v1.25.0...v1.26.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.25.0...v1.26.0)
