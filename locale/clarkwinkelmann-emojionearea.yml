@@ -5,12 +5,24 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
-      enableRecent: 啟用最近使用
-      enableSearch: 啟用搜尋
+      closeOnPick: 選定表情符號後關閉選擇器
+      enableRecent: 顯示最近使用
+      enableSearch: 顯示搜尋框
       enableTones: 啟用膚色選取
       filtersPosition: 類別顯示於底部
       hideFlarumButton: '隱藏 Flarum 預設表情按鈕'
       searchPosition: 搜尋和膚色顯示於底部
   forum:
+    filters:
+      activity: 啟用
+      animals_nature: '動物 & 自然'
+      flags: 旗誌
+      food_drink: '食物 & 飲料'
+      objects: 物件
+      recent: 最近
+      smileys_people: '笑臉 & 人物'
+      symbols: 符號
+      tones: 多樣性
+      travel_places: '觀光 & 地點'
     picker_button: 表情
     search_placeholder: 搜尋...

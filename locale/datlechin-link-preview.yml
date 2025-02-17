@@ -18,8 +18,8 @@ datlechin-link-preview:
       open_links_in_new_tab_label: 在新視窗打開連結
       use_google_favicons_help: '如果啟用，將使用 Google 服務來請求相應網站的圖示。'
       use_google_favicons_label: '使用 Google Favicon API'
-      whitelist_help: '輸入以逗號分隔的域名或 URL 列表以允許連結預覽。'
-      whitelist_label: 白名單
+      whitelist_help: '僅為這些域或 URL 生成預覽。留空以允許所有未列入黑名單的域。'
+      whitelist_label: 網域白名單
       whitelist_placeholder: '例如 facebook.com,https://domain.com/path'
   forum:
     site_cannot_be_reached: 無法訪問此網站。

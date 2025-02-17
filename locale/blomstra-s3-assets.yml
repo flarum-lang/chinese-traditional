@@ -19,7 +19,7 @@ blomstra-s3-assets:
         help: S3端點
         label: 端點
       s3key:
-        help: 'S3 存取密鑰'
+        help: 幫助
         label: Key
       s3path-style-endpoint:
         help: 切換到路徑式存儲

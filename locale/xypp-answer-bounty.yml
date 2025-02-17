@@ -4,8 +4,15 @@
 
 xypp-answer-bounty:
   forum:
+    composer:
+      edit: '賞金金{bounty}'
+      set: 設置賞金
+    discussion:
+      edit: '編輯賞金{bounty}'
+      set: 設定賞金
     modal:
       clear: 清除
       label: 數量
       submit: 提交
       title: 設定賞金
+    tip: '本次討論尋求最佳答案，懸賞<span>{money}</span>。'

@@ -26,6 +26,9 @@ fof-polls:
       global_polls:
         heading: 全站投票
         help: 這些設定控制全域投票功能。
+      image:
+        heading: 圖像設置
+        help: 這里可以設置投票的圖示。
       image_height: 調整影像高度
       image_width: 調整影像寬度
       max_options: 每次投票的最大選項數
