@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.26.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+全部變化：[v1.25.0...v1.26.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.25.0...v1.26.0)
+
+
 1.25.0 (2024-12-23)
 -------------------
 
