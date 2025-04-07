@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.27.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+全部變化：[v1.26.0...v1.27.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.26.0...v1.27.0)
+
+
 1.26.0 (2025-02-17)
 -------------------
 
