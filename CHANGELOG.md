@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.28.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+全部變化：[v1.27.0...v1.28.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.27.0...v1.28.0)
+
+
 1.27.0 (2025-04-07)
 -------------------
 
