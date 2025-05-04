@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
