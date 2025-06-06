@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.28.0 (2025-06-06)
+-------------------
+
+**新增翻譯**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+全部變化：[v1.27.0...v1.28.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.27.0...v1.28.0)
+
+
 1.27.0 (2025-04-07)
 -------------------
 
