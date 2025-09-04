@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.29.0 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+全部變化：[v1.28.0...v1.29.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.0...v1.29.0)
+
+
 1.28.0 (2025-06-06)
 -------------------
 
