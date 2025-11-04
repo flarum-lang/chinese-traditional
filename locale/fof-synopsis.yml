@@ -13,7 +13,7 @@ fof-synopsis:
         label: 摘要字元長度上限
       excerpt-type:
         help: 選擇首貼或最新回復作為摘要。
-        label: 摘要內容來源
+        label: 摘要內容顯示來源？
       first-label: 首貼
       last-label: 最新回覆
       rich-excerpts:

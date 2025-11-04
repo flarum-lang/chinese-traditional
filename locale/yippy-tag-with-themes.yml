@@ -6,7 +6,7 @@ yippy-tag-with-themes:
   admin:
     designs:
       add: 新增標籤設計
-      banner: '設計主題 {index}'
+      banner: '設計主題 {index} - [{isEnabled}]'
       data:
         child_background_color: 編輯子背景顏色
         child_font_class: 編輯子字體

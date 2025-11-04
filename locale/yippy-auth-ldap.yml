@@ -8,7 +8,7 @@ yippy-auth-ldap:
       display_detailed_error: '顯示登入嘗試失敗的詳細 LDAP 錯誤'
       domains:
         add: 新增域名
-        banner: '網域 {index}'
+        banner: '網域 {index} - [{isEnabled}]'
         data:
           admin_dn: '可分辨名稱 (DNs)'
           admin_dn_help: 留空以進行匿名綁定
