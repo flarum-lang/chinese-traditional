@@ -5,11 +5,26 @@ CHANGELOG
 1.29.0 (XXXX-XX-XX)
 -------------------
 
+**例行更新**:
+
+* 更新核心翻譯.
+
+
 **新增翻譯**:
 
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
 * [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+**更新翻譯**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 全部變化：[v1.28.0...v1.29.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.0...v1.29.0)
