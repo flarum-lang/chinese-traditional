@@ -12,6 +12,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
 * [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
