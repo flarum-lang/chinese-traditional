@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.29.0 (XXXX-XX-XX)
+1.28.1 (XXXX-XX-XX)
 -------------------
 
 **例行更新**:
@@ -28,7 +28,7 @@ CHANGELOG
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
-全部變化：[v1.28.0...v1.29.0](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.0...v1.29.0)
+全部變化：[v1.28.0...v1.28.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.0...v1.28.1)
 
 
 1.28.0 (2025-06-06)
