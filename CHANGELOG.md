@@ -23,8 +23,10 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
