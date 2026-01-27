@@ -12,6 +12,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
@@ -19,6 +20,7 @@ CHANGELOG
 * [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
 
 
 **更新翻譯**:
