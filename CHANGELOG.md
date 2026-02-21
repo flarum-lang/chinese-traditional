@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+1.28.1 (2026-02-21)
+-------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+
+
+**新增翻譯**:
+
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+
+
+**更新翻譯**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+全部變化：[v1.28.0...v1.28.1](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.0...v1.28.1)
+
+
 1.28.0 (2025-06-06)
 -------------------
 
