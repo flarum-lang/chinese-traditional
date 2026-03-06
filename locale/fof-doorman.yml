@@ -39,6 +39,10 @@ fof-doorman:
         used_times: '{remaining, plural, one {剩餘{remaining} 次} other {剩餘 {remaining} 次}}'
         warning: 此邀請碼已達最大可用次數。
       title: 看門人
+    ref:
+      fields:
+        key:
+          label: 金鑰
   forum:
     email:
       body: "您好，\n\n您被邀請註冊 {forum}。\n\n當您準備好創建帳戶時，只需點擊下方連結並在註冊時輸入邀請碼即可。\n\n網址：{url}\n邀請碼：{code}\n\n如果您錯誤地收到了這封郵件，請忽略郵件內容。\n"
