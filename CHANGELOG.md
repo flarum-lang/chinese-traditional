@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+1.28.2 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+* [`huseyinfiliz/private-profile-plus`](https://github.com/huseyinfiliz/private-profile-plus)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+
+
+**更新翻譯**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+
+
+全部變化：[v1.28.1...v1.28.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.1...v1.28.2)
+
+
 1.28.1 (2026-02-21)
 -------------------
 
