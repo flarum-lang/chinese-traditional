@@ -10,6 +10,7 @@ fof-socialprofile:
       view: 查看社交網路
     settings:
       allow_external_favicons_label: 允許外部網站圖示
+      favicon_provider_label: '外部 Favicon 供應商'
   forum:
     edit:
       add: 增加社交網路

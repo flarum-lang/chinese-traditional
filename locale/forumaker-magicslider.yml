@@ -5,4 +5,8 @@
 capy-magic-slider:
   admin:
     settings:
+      section_behavior: 特徵
+      section_desktop: 桌面
       section_display: 顯示器
+      section_mobile: 行動裝置
+      section_slides: 幻燈片

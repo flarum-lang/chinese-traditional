@@ -6,3 +6,5 @@ fof-categories:
   admin:
     basics:
       categories_label: 分類
+    labels:
+      keep_tags_nav: 還是把標籤頁面連結放在導航側邊欄？

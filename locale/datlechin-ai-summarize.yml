@@ -6,3 +6,6 @@ datlechin-ai-summarize:
   admin:
     permissions:
       ai_summarize_label: '總結與 AI 的討論'
+    settings:
+      enabled_label: '啟用 AI 摘要'
+      title: 'AI 摘要設置'

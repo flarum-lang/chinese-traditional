@@ -5,4 +5,6 @@
 datlechin-ai:
   admin:
     settings:
+      provider_gemini: 'Google Gemini'
       provider_label: 'AI 供應商'
+      provider_openai: OpenAI

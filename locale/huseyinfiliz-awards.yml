@@ -4,4 +4,10 @@
 
 huseyinfiliz-awards:
   admin:
+    nav:
+      description: 管理社區獎項和投票
+      title: 獎勵
+    tabs:
+      awards: 獎勵
+      categories: 分類
     title: 獎勵管理

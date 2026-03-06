@@ -6,3 +6,6 @@ forumaker-magicbb:
   admin:
     settings:
       bb_center: 中心
+      bb_color: 色彩
+      bb_justify: 合法化
+      bb_table: 表格

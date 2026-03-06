@@ -4,6 +4,9 @@
 
 fof-sentry:
   admin:
+    sections:
+      general: 一般設置
+      general_help: '配置您的 Sentry DSN 和 環境設置。'
     sentry_settings: 'Sentry 設置'
     settings:
       dsn_backend_help: 這個DSN將只用於處理後端錯誤。如果你想用一個不同的項目來處理後端錯誤，或者想用一個Relay來發送後端錯誤到Sentry（例如，為了提高性能），這很有用。

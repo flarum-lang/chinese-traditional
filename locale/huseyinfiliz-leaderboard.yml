@@ -6,3 +6,4 @@ huseyinfiliz-leaderboard:
   admin:
     tabs:
       general: 概述
+      points: 積分

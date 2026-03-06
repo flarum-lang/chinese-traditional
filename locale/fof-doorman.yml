@@ -41,7 +41,11 @@ fof-doorman:
       title: 看門人
     ref:
       fields:
+        group:
+          help: 使用者註冊時會加入該群組。
+          label: 群組
         key:
+          help: 用戶註冊時需要輸入的驗證碼。
           label: 金鑰
   forum:
     email:

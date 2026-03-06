@@ -5,4 +5,6 @@
 huseyinfiliz-private-profile-plus:
   admin:
     settings:
+      default_visibility_help: 這是所有使用者設定檔的預設可見性等級。個別使用者可以在設定中覆寫此設定。
       default_visibility_label: 全域預設設定檔可見性
+      option_members: 僅限會員

@@ -5,4 +5,6 @@
 huseyinfiliz-pickem:
   lib:
     common:
+      match: 比賽
       season: 賽季
+      team: 球隊

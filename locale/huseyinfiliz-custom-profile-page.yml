@@ -5,4 +5,6 @@
 huseyinfiliz-custom-profile-page:
   admin:
     settings:
+      tab_icon: 'Tab 標誌（FontAwesome 类）'
+      tab_icon_help: '示例：fas fa-file-alt，fas fa-user，fas fa-star'
       tab_title: 個人資料

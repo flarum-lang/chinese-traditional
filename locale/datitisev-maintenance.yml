@@ -27,6 +27,7 @@ datitisev-maintenance:
       prefer_db_hint: '一般來說，<code>config.php</code> 中的值會覆蓋這裡的值。啟用這個選項可以使這些選項覆蓋配置檔案中的選項——所以這些選項只會在資料庫無法訪問時使用。'
       prefer_db_label: '優先使用資料庫設置覆蓋 <code>config.php</code> 設置'
       settings_notice: '這些設置可能不是目前已生效的設置。請確保它們沒有被 <code>config.php</code> 覆蓋。'
+      status_enabled: 目前已啟用維護模式
       title: 維護模式
       title_label: 錯誤頁面標題
   lib:
