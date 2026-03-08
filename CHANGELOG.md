@@ -2,6 +2,69 @@ CHANGELOG
 =========
 
 
+1.28.2 (XXXX-XX-XX)
+-------------------
+
+**新增翻譯**:
+
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+* [`huseyinfiliz/private-profile-plus`](https://github.com/huseyinfiliz/private-profile-plus)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`import-ai/flarum-oauth-passport`](https://github.com/import-ai/flarum-oauth-passport)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
+* [`xypp/collector`](https://github.com/zxy19/flarum-collector)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+* [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item)
+
+
+**更新翻譯**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+全部變化：[v1.28.1...v1.28.2](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.1...v1.28.2)
+
+
 1.28.1 (2026-02-21)
 -------------------
 
