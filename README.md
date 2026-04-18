@@ -14,7 +14,7 @@ This language pack contains Chinese (Traditional) translations for Flarum (compa
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/chinese-traditional
+composer require "flarum-lang/chinese-traditional:*"
 ```
 
 Then enable extension in admin panel of your Flarum.
