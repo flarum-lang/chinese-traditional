@@ -26,6 +26,7 @@ CHANGELOG
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
 
 **更新或刪除擴充套件的過時翻譯**:
