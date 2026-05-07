@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**新增翻譯**:
+
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+全部變化：[v2.0.1...v2.0.2](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.1...v2.0.2)
+
+
 2.0.1 (2026-05-04)
 ------------------
 
