@@ -7,6 +7,8 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
