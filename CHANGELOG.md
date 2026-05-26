@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
