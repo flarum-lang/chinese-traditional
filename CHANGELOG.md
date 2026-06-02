@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
