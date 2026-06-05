@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+2.0.2 (2026-06-05)
+------------------
+
+**新增翻譯**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+全部變化：[v2.0.1...v2.0.2](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.1...v2.0.2)
+
+
 2.0.1 (2026-05-04)
 ------------------
 
