@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**新增翻譯**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+全部變化：[v2.0.2...v2.0.3](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.2...v2.0.3)
+
+
 2.0.2 (2026-06-05)
 ------------------
 
