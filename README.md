@@ -77,6 +77,7 @@ php flarum cache:clear
 
 | 擴充套件 | 狀態 |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/zh_Hant/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/zh_Hant/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/zh_Hant/) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/zh_Hant/) |
