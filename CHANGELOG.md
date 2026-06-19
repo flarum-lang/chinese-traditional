@@ -7,6 +7,7 @@ CHANGELOG
 
 **新增翻譯**:
 
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
