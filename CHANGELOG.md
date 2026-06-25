@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.28.3 (2026-06-25)
+-------------------
+
+**新增翻譯**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+全部變化：[v1.28.2...v1.28.3](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.2...v1.28.3)
+
+
 1.28.2 (2026-04-25)
 -------------------
 
