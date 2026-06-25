@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-06-25)
+------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+
+
+**新增翻譯**:
+
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+
+
+全部變化：[v2.0.2...v2.0.3](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.2...v2.0.3)
+
+
 2.0.2 (2026-06-05)
 ------------------
 
