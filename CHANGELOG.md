@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**例行更新**:
+
+* 更新驗證翻譯.
+
+
+全部變化：[v2.0.3...v2.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.3...v2.0.4)
+
+
 2.0.3 (2026-06-25)
 ------------------
 
