@@ -5,6 +5,11 @@ CHANGELOG
 2.0.3 (XXXX-XX-XX)
 ------------------
 
+**例行更新**:
+
+* 更新核心翻譯.
+
+
 **新增翻譯**:
 
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
