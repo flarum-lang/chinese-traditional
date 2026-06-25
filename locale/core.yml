@@ -4,7 +4,107 @@
 
 core:
   admin:
+    advanced:
+      description: 高級進階設置
+      fontawesome:
+        cdn_url_help: 'CDN 上 FontAwesome CSS 文件的完整 URL'
+        cdn_url_label: 'CDN URL'
+        config_override:
+          help: 'Font Awesome 設定已於 <code>config.php</code> 檔案中指定，因此無法在此修改。'
+          label: 配置覆蓋
+        kit_url_help: '您的 FontAwesome Kit 脚本 URL（来自 kit.fontawesome.com）'
+        kit_url_label: '套件 URL'
+        preview:
+          button: 預覽圖示
+          fa5_fa6_label: 'FA5/FA6 別名'
+          fa7_label: 'FA7 類名'
+          help: '驗證您的 Font Awesome 設定。顯示正常的圖示代表該等級可用；若顯示為破損方框，則表示尚未載入。'
+          label: 圖示預覽
+          pro_label: 僅限專業版
+        section_label: 'FontAwesome 图标'
+        source_cdn: CDN
+        source_help: '選擇 Font Awesome 圖示的載入方式。「本機」使用隨附的字型檔；「CDN」從 CDN 載入；「Kit」則使用包含自訂圖示的 Font Awesome Kit。'
+        source_kit: 'FontAwesome 套件'
+        source_label: 圖示來源
+        source_local: 本機（隨附）
+      maintenance:
+        bisect:
+          begin_button_text: 二分法除錯
+          continue_button_text: 繼續二分排查
+          help: 協助找出造成問題的擴充套件。執行期間，論壇會自動進入（低層級）維護模式，直到問題定位完成。
+          label: 擴展二分法除錯
+        bisect_modal:
+          description: "此操作會將論壇切換至（低層級）維護模式，直到問題定位完成。系統會在每個步驟暫時停用部分擴充套件，以逐步找出造成問題的擴充套件。因此，在此期間，部分功能可能無法使用，或討論頁面的外觀可能有所變化，這是正常現象。請保持此頁面開啟，並在每個步驟完成後，於另一個獨立的頁面嘗試重現問題。如果不小心關閉此頁面，也可以隨時返回繼續。\n"
+          end_button: 關閉並切換至擴展程序頁面
+          issue_question: 問題仍在存在嗎？
+          issue_question_help: 請在另一個頁面嘗試重現問題，並依照結果回答下列問題。
+          no_button: 不
+          result_description: "論壇已退出維護模式。擴充套件問題定位已完成。根據您在各步驟中的回饋，造成問題的擴充套件如下：\n"
+          start_button: 開始二分法除錯
+          steps_left: '剩餘步數：{steps}'
+          stop_button: 停止二分法除錯
+          title: 擴展二分法除錯
+          total_steps: '這大約需要 {steps} 步。'
+          yes_button: 是
+        config_override:
+          help: '您仍可在此修改這些設定，但在 <code>config.php</code> 檔案中將 <code>offline</code> 設為 <code>0</code> 之前，這些設定都不會生效。'
+          label: '您的 <code>config.php</code> 文件正在覆這些設置。'
+        help: 將論壇切換為維護模式，以防止使用者存取。
+        options:
+          high: '高階維護模式。所有人都無法存取論壇（僅能透過 <code>config.php</code> 啟用）。'
+          low: 低階維護模式。管理員仍可存取論壇。
+          none: 無維護。
+          safe: 安全模式。不載入任何擴充套件，且僅管理員可存取論壇。
+        safe_mode_extensions: 安全模式下允許加載的擴展
+        safe_mode_extensions_override_help: '此設定會由 <code>config.php</code> 檔案中的 <code>safe_mode_extensions</code> 設定覆寫。（<b>{extensions}</b>）'
+        section_label: 維護
+      pgsql:
+        search_configuration: 要使用的搜索配置
+      queue:
+        backoff_help: '工作失敗後，再次嘗試執行前的等待時間。預設為 0 秒。'
+        backoff_label: 重試等待時間（秒）
+        custom_driver: '您的論壇目前使用由擴充套件提供的 {driver} 佇列驅動程式。'
+        memory_help: '佇列工作程序在重新啟動前可使用的最大記憶體。預設為 128 MB。'
+        memory_label: 內存限級(MB)
+        rest_help: '每次處理工作之間的等待時間。預設為 0 秒。'
+        rest_label: 等待時間（秒）
+        retries_help: '工作在標記為失敗前的最大重試次數。預設為 1。'
+        retries_label: 任務重試
+        section_label: 隊列
+        sync_help: 為了提升效能與使用體驗，建議改用資料庫佇列驅動程式。請參閱文件以了解更多資訊。
+        sync_info: 您的論壇目前使用同步佇列驅動程式，所有工作會立即於主程序中執行。
+        timeout_help: '單一工作在逾時前可執行的最長時間。預設為 60 秒。'
+        timeout_label: 工作逾時（秒）
+      search:
+        driver_heading: '搜尋驅動：{model}'
+        driver_options:
+          default: 預設資料庫搜尋
+        driver_text: 選擇此模型使用的搜尋驅動。
+        no_other_drivers: 目前沒有可用的搜尋驅動。請安裝搜尋驅動擴充套件後，再進行設定。
+        section_label: 搜尋驅動
+      title: 進階
+    announcements:
+      about: '來自 Flarum 官方社群 discuss.flarum.org 的最新消息與公告。'
+      comments_label: '{count, plural, one {# 則留言} other {# 則留言}}'
+      description: 'Flarum 團隊的最新消息和公告。'
+      empty: 未發現公告。
+      hide: 隱藏公告
+      load_error: 無法加載公告。請稍候再試。
+      read_more: 閱讀更多
+      refresh: 刷新公告
+      retry: 重試
+      show: 顯示公告
+      title: 公告
+      view_all: '在 discuss.flarum.org 查看全部'
     appearance:
+      allow_user_color_scheme_label: 允許使用者自行選擇配色主題。
+      color_scheme_label: 配色主題（預設）
+      color_schemes:
+        auto_mode_label: 依使用者系統或個人設定
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 導航欄上色
       colors_heading: 顏色
       colors_primary_label: 主色調
@@ -24,13 +124,27 @@ core:
       enter_hex_message: 請輸入十六進位色碼。
       favicon_heading: 網站圖示
       favicon_text: 上傳圖片作為論壇的網站圖示，該圖示將顯示在瀏覽器標籤頁、搜尋引擎結果列表和書籤等多個位置。
+      logo_dark_mode_heading: '深色模式 Logo'
+      logo_dark_mode_text: '上傳在深色模式下顯示的替代 Logo。'
       logo_heading: 網站標誌
       logo_text: 上傳圖片代替論壇名稱，將顯示在導航欄的左側。
       title: 外觀
     basics:
+      abandoned_extensions_heading: 已棄用插件
+      abandoned_extensions_notify_admins_label: 每週例行檢查時，若發現新的已棄用擴充套件，將以電子郵件通知管理員
+      abandoned_extensions_sync_button: 立即檢查
+      abandoned_extensions_sync_error: 已棄用擴充套件清單更新失敗。請稍後再試。
+      abandoned_extensions_sync_success: '已完成更新已棄用擴充套件清單。已安裝的擴充套件中，共有 {count} 個已棄用。'
+      abandoned_extensions_text: 'Flarum 維護了一份<a>已棄用擴充套件清單</a>。若安裝了清單中的擴充套件，管理後台將會標示該擴充套件。'
       all_discussions_label: 全部主題
+      avatar_driver_heading: 用戶頭像
+      avatar_driver_options:
+        default: 預設
+      avatar_driver_text: 選擇使用者未上傳頭像時所使用的頭像驅動。預設情況下，若使用者未上傳頭像，則不會顯示任何頭像。
       default_language_heading: 預設語言
       description: 設置論壇名稱、語言以及其它基本設定。
+      display_name_driver_options:
+        username: 用戶名
       display_name_heading: 使用者顯示名稱
       display_name_text: 選擇外顯名稱的類型，預設為用戶名。
       forum_description_heading: 論壇說明
@@ -40,6 +154,14 @@ core:
       home_page_text: 選擇一個頁面作為論壇首頁。
       show_language_selector_label: 顯示語言選擇選單
       slug_driver_heading: '固定連結驅動：{model}'
+      slug_driver_options:
+        discussions:
+          default: 帶別名的ID
+          utf8: '帶 UTF-8 別名的 ID'
+        users:
+          default: 用戶名
+          id: ID
+          id_with_display_name: 'ID 與顯示名稱'
       slug_driver_text: '選擇此模組的 URL 驅動。'
       title: 一般
       welcome_banner_heading: 歡迎橫幅
@@ -73,7 +195,11 @@ core:
           inactive: 禁用
           never-run: 沒有執行過
       title: 儀表板
+      toggle_advanced_page_button: 切換為進階頁面
       tools_button: 工具
+    database-driver-mismatch-warning:
+      detail: "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => '{actual}'</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n"
+      label: 數據庫驅動不匹配
     debug-warning:
       detail: "啟用 <code>調適</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n"
       label: 除錯模式啟動
@@ -106,21 +232,37 @@ core:
       description: 配置論壇郵件服務
       driver_heading: 驅動模式
       driver_label: 驅動
+      format:
+        html_option: HTML
+        multipart_option: Multipart（建議）
+        plain_option: 純文本
+      format_heading: 'Email 格式'
+      format_help: '選擇寄出電子郵件的格式。建議使用 <code>multipart</code>，因為它可讓收件者的電子郵件用戶端自動選擇最適合的顯示格式。'
       from_label: 發信人
       mail_encryption_label: '加密協議 (小寫ssl或tls)'
+      mail_encryption_none_help: 不使用加密。不建議在正式環境中使用。
+      mail_encryption_ssl_help: '連線一開始即使用 TLS 加密（Implicit TLS）。通常使用連接埠 465。'
+      mail_encryption_tls_help: '連線開始時不使用加密，之後再升級為 TLS（STARTTLS）。通常使用連接埠 587 或 25。'
       mail_host_label: 主機
       mail_mailgun_domain_label: 域名
       mail_mailgun_region_label: 區域
       mail_mailgun_secret_label: 'Secret key'
       mail_password_label: 密碼
       mail_port_label: 通訊埠
+      mail_postmark_message_stream_label: 訊息串流
+      mail_postmark_token_label: 伺服器權杖
+      mail_smtp_verify_peer_help: '使用 TLS 或 SSL 加密時，驗證伺服器的 SSL 憑證。僅當郵件伺服器使用自簽憑證時，才建議停用此選項。'
+      mail_smtp_verify_peer_label: '驗證 SSL 憑證'
       mail_username_label: '用戶名 (部分服務商要求使用完整郵件地址)'
       mailgun_heading: 'Mailgun 設定'
       not_sending_message: 'Flarum 目前無法傳送郵件，請檢查郵件驅動及配置。'
+      postmark_description: '透過 Postmark 的 HTTP API 傳送電子郵件。您也可以指定 Message Stream，以使用預設以外的訊息串流。'
+      postmark_heading: 'Postmark 設置'
       send_test_mail_button: 發送
       send_test_mail_heading: 發送測試郵件
       send_test_mail_success: 測試郵件發送成功！
       send_test_mail_text: '使用上述設置發送測試郵件到您的郵箱：{email}'
+      smtp_description: '設定 SMTP 連線參數。常見設定為連接埠 587（TLS）或連接埠 465（SSL）。'
       smtp_heading: 'SMTP 設定'
       title: 信箱
     extension:
@@ -128,6 +270,7 @@ core:
       abandoned_with_replacement: '此擴充功能已被{replacement}取代。考慮遷移到替換包。'
       configure_scopes: 設置範圍
       confirm_purge: '重置操作會清除資料庫中所有該擴充套件相關的記錄和資源。如要卸載擴充套件，請透過 Composer 操作。確定要重置擴充套件嗎？'
+      database_driver_mismatch: 此擴充套件不支援您目前設定的資料庫驅動。
       deprecated: 已棄用
       disabled: 關閉
       enable_to_see: 開啟擴充套件程式以查看或修改設置。
@@ -149,22 +292,56 @@ core:
         no_readme: 此擴充套件未提供說明檔
         title: '{extName} 檔案'
       replaced: 替換
+      reset_settings:
+        button: 重置設定
+        cancel_button: 取消
+        confirm_button: 重置
+        title: 重置設定
+        title_extension: '重置{extensionTitle}設定'
+        warning: 此操作無法復原。以下設定將從資料庫中永久刪除，並恢復為預設值。擴充套件的資料不會受到影響。
+      safe_mode_warning: 目前已啟用安全模式。擴展未啟動，因為無法訪問該設置。
+    extensions-health-widget:
+      abandoned_no_replacement: 無可用替代方案
+      abandoned_with_replacement: '由 {replacement} 替代'
+      all_healthy: 所有擴展均正常。
+      section_abandoned_empty: 未發現問題。
+      section_abandoned_heading: 需要注意
+      section_abandoned_help: 這些擴展不再維護，或者可能存在兼容性問題，請考慮更新、更換或移除。
+      section_disabled_empty: 所有擴展均已啟用。
+      section_disabled_heading: 已禁用
+      section_disabled_help: 這些擴充套件已安裝，但目前未啟用。請至各自的設定頁面啟用，或於不再需要時將其移除。
+      section_suggested_empty: 無建議。
+      section_suggested_heading: 建議
+      section_suggested_help: 'Flarum 擴充套件可透過指定其他擴充套件或套件，提供額外的選用功能。這些套件可能會增加更多功能或整合能力。'
+      suggested_by: '由 {extension} 建議'
+      title: 擴展運行狀況Q
     header:
       get_help: 幫助
       log_out_button: 登出
+      search_placeholder: 搜索…
+      search_role_label: 搜索
     loading:
       title: 請稍候...
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: 外觀設定
       appearance_title: 自定義論壇色調、圖示以及其他元素
       basics_button: 基本設定
       basics_title: 設置論壇名稱、語言以及其他基本設置
       categories:
+        analytics: 分析
         authentication: 驗證
         core: 核心配置
         discussion: 主題
         feature: 功能
         formatting: 格式化
+        forum-widget: 論譠小組件
+        infrastructure: 基礎
         language: 語言包
         moderation: 內容審核
         other: 其他
@@ -200,6 +377,7 @@ core:
       participate_heading: 操作
       post_without_throttle_label: 頻繁回覆無需等待間隔
       read_heading: 訪問
+      remove_scope_confirmation: '你確定要移除 {scope} 範圍嗎？'
       remove_scope_label: '移除 {scope} 的範圍'
       rename_discussions_label: 更改主題
       reply_to_discussions_label: 新增回覆
@@ -221,8 +399,12 @@ core:
       members_button: 註冊會員
       signup_closed_button: 關閉註冊
       signup_open_button: 開放註冊
+    search_source:
+      general:
+        heading: 通用
     settings:
       saved_message: 您的修改已儲存。
+      select_dropdown_custom_label: 自定義
       submit_button: 儲存更改
     upload_image:
       remove_button: 移除
@@ -244,6 +426,9 @@ core:
           join_time:
             title: 註冊時間
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: '編輯 {username}'
             title: 行動
           user_id:
             title: ID
@@ -264,10 +449,17 @@ core:
       subject: 啟用帳號
     confirm_email:
       subject: 郵箱位址驗證
+    greeting: '嘿 {displayName}，'
+    informational:
+      default_title: 信息
+      footer: '此電子郵件已發送至 {userEmail}，作為您在 {forumTitle} ({forumUrl}) 帳戶相關資訊通知服務的一部分。'
+    notification:
+      default_title: 通知
     reset_password:
       subject: 重設密碼
     send_test:
       subject: 'Flarum 郵件測試'
+    signoff: '{forumTitle} 團隊'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -319,6 +511,7 @@ core:
       empty_text: 因為什麼都沒有，所以什麼都做得到
       load_more_button: 載入更多
       replied_text: '{username} 回覆於 {ago}'
+      skip_discussion_list_pane: 跳過討論列表面版
       started_text: '{username} 發佈於 {ago}'
       total_replies_a11y_label: '{count, plural, one {# 條回覆} other {# 條回覆}}'
       unread_replies_a11y_label: '{count, plural, one {# 條未讀} other {# 條未讀}}，全部標記為已讀。'
@@ -348,19 +541,28 @@ core:
       mark_all_as_read_confirmation: 你確定要標記所有貼文為已讀嗎？
       mark_all_as_read_tooltip: 標記所有為已讀
       meta_title_text: 全部主題
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 跳至主體內容
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 導航欄下拉選單開關
     index_sort:
       latest_button: 最新回覆
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 更改「全部主題」排序
       top_button: 熱門討論
     log_in:
       forgot_password_link: 忘記密碼？
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: 密碼
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: '還沒有帳戶？ <a>立即註冊</a>'
       submit_button: 登入
       title: 登入
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: 您確定要刪除所有通知嗎？此操作不可撒銷
       delete_all_tooltip: 刪除所有通知
       discussion_renamed_text: '{username} 更改了主題'
       empty_text: 暫無通知
@@ -381,6 +583,10 @@ core:
       hide_confirmation: 您確定要刪除這篇貼文嗎？
       restore_button: 還原
       toggle_dropdown_accessible_label: 貼文下拉選單開關
+    post_list:
+      empty_text: 這里似乎沒有任何回覆。
+      in_discussion_text: '在 {discussion} 中'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: 最新回覆
       original_post_link: 最早文章
@@ -392,6 +598,13 @@ core:
       load_more_button: 載入更多
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period}後'
+    posts:
+      meta_title_text: 文章搜索結果
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 更改貼文主題
@@ -431,6 +644,16 @@ core:
       account_heading: 帳戶
       change_email_button: 更改郵箱
       change_password_button: 更改密碼
+      color_scheme_heading: 配色方案
+      color_schemes:
+        auto_mode_label: 系統編好設置
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: 設備
+      haptic_feedback_help: 僅在受支持的移動設備上可用
+      haptic_feedback_label: 啟用觸控反饋
       notification_checkbox_a11y_label_template: '透過 {method} 接收「{description}」通知'
       notifications_heading: 通知
       notify_by_email_heading: 郵箱
@@ -487,14 +710,19 @@ core:
   lib:
     alert:
       dismiss_a11y_label: 忽略警告
+    assets_updated:
+      message: 此頁面有新版本。
+      reload_button: 刷新
     badge:
       hidden_tooltip: 隱藏
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'MMM D日'
       scrubber: 'YYYY年 MMM'
+      userListJoinDate: LLL
     debug_button: 除錯
     dropdown:
       toggle_dropdown_accessible_label: 下拉選單開關
@@ -513,8 +741,10 @@ core:
       username_label: 用戶名
     error:
       circular_dependencies_message: '檢測到循環依賴項：{extensions}。 中止。 請禁用其中一個擴充套件，然後重試。'
+      db_error_message: 資料庫查詢失敗。這可能是因為擴充套件與目前使用的資料庫驅動不相容所導致。
       dependent_extensions_message: '無法停用「{extension}」，請先停用依賴擴充套件「{extensions}」'
       extension_initialiation_failed_message: '初始化「{extension}」失敗，詳細資訊請查看瀏覽器控制台。'
+      extension_runtime_failed_message: '{extension} 執行時發生錯誤。請檢查瀏覽器主控台以取得更多資訊。'
       generic_cross_origin_message: 哎呀！跨來源請求時出現問題；請重新整理頁面，然後再試一次。
       generic_message: 糟糕，出錯啦！請重新整理頁面再試一次。
       missing_dependencies_message: '無法啟用「{extension}」，請先啟用依賴擴充套件「{extensions}」'
@@ -523,6 +753,35 @@ core:
       permission_denied_message: 沒有權限執行此操作。
       rate_limit_exceeded_message: 操作太頻繁，請稍後再試。
       render_failed_message: '抱歉，載入此內容時出錯。如果您是使用者，請稍後再試。如果您是管理員，請查看 Flarum 記錄檔以取得更多資訊。'
+    gambits:
+      discussions:
+        author:
+          hint: 用戶名或以逗號分隔的用戶名列表
+          key: 作者
+        created:
+          hint: '2020-12-31 或 2020-12-31..2021-09-30'
+          key: 創建於
+        hidden:
+          key: 已隱藏
+        unread:
+          key: 未讀
+      group_keys:
+        allows: 允許
+        has: 擁有
+        is: 是
+      posts:
+        discussion:
+          hint: '討論 ID'
+          key: 話題
+      users:
+        email:
+          hint: example@machine.local
+          key: 電子郵箱
+        group:
+          hint: 單數或複數用戶組名稱
+          key: 用戶組
+    input:
+      clear_button: 清除輸入
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -530,15 +789,54 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {第 # 頁 - {forumName}}}'
     modal:
       close: 關閉
+    multi_select:
+      placeholder: 選擇多個選項
     nav:
       drawer_button: 打開導航抽屜
+    notices:
+      bisecting: 正在運行擴展程序的二分法排查，以確定是那個擴展導致了問題。
+      bisecting_continue: 繼續排查
+      maintenance_mode_low: 正在維護。僅管理可訪問論譠。
+      maintenance_mode_safe: 論壇目前處於安全模式維護中。僅管理員可存取論壇，且不會載入任何擴充套件。
     number_suffix:
       kilo_text: K
       mega_text: M
+    pagination:
+      back_button: 上一頁
+      first_button: 返回首頁
+      go_to_page_textbox_a11y_label: 跳轉至頁碼
+      last_button: 前往最後一頁
+      next_button: 下一頁
+      page_counter: '第 {current} 頁 / 共 {total} 頁'
+    search:
+      gambit_minus_button_a11y_label: 添加反向過濾器
+      gambit_plus_button_a11y_label: 添加正向過濾器
+      no_results_text: 這里似乎沒有任何結果。
+      no_search_text: 您還沒有搜索任何內容。
+      options_heading: 搜索選項
+      placeholder: 搜索…
+      preview_heading: 搜索預覽
+      search_clear_button_accessible_label: 清空搜索
+      title: 搜索
+    search_source:
+      discussions:
+        all_button: '搜索“{query}”'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: '在所有文章中搜尋「{query}」'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second} 以及 {third}'
       two_text: '{first} 及 {second}'
+    user_selection_modal:
+      empty_results: 未找到符合搜索條件的用戶。
+      max_items_to_select: '{count, plural, one {最多可選擇 # 位使用者} other {最多可選擇 # 位使用者}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 選擇相關用戶
     username:
       deleted_text: '[已註銷]'
   ref:
@@ -563,6 +861,7 @@ core:
     generic_confirmation_message: '您確定要繼續嗎？ 此操作無法撤銷。'
     icon: 圖示
     icon_text: '輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>。'
+    light_mode_label: 淺色模式
     load_more: 載入更多
     loading: 正在載入…
     log_in: 登入
@@ -570,12 +869,16 @@ core:
     mark_all_as_read: 全部已讀
     never: 從不
     new_token: 新令牌
+    newest: 新鮮出爐
     next_page: 下一頁
     notifications: 通知
     okay: 確認
+    oldest: 陳年舊帖
     password: 密碼
     posts: 貼文
     previous_page: 上一頁
+    relevance: 相關推薦
+    remember_me_label: 記住我的登錄狀態
     remove: 移除
     rename: 重新命名
     reply: 回覆
@@ -589,6 +892,7 @@ core:
     some_others: '{count, plural, one {# 人} other {# 人}}'
     start_a_discussion: 發表文章
     username: 使用者名稱
+    username_or_email_placeholder: 用戶名或郵箱
     users: 使用者
     view: 查看
     write_a_reply: 撰寫回覆...
@@ -621,6 +925,10 @@ core:
       csrf_token_mismatch: 您已長時間沒有動作。
       csrf_token_mismatch_return_link: 返回並再試一下
       invalid_confirmation_token: 驗證連結已使用或無效。
+      maintenance_mode_link: 管理員登錄
+      maintenance_mode_message: 論譠目前正在維護。請稍候再試。
+      maintenance_mode_title: 維護
+      method_not_allowed: 此頁面不支持該請求方法。
       not_authenticated: 您沒有權限訪問此頁面。請登入後再試。
       not_found: 頁面未找到。
       not_found_return_link: '返回 {forum}'
@@ -630,6 +938,15 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 跳至內容
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: '您確定要登出 {forum}？'
@@ -639,3 +956,11 @@ core:
       new_password_label: 新密碼
       submit_button: 儲存更改
       title: 重設密碼
+    unsubscribe_email:
+      confirm_button: 確認
+      confirm_message: '您已要求取消訂閱來自 {forumTitle} 的「{type}」電子郵件通知。'
+      immediate_helptext: 確認後，您將立即取消訂閱。
+      invalid_message: '此取消訂閱連結無效或已失效。如需變更來自 {forumTitle} 的電子郵件通知設定，請檢查您的通知設定({settingsLink})。'
+      return_to_forum: '返回到 {forumTitle}'
+      success_message: '您已成功取消訂閱來自 {forumTitle} 的「{type}」通知。若想再次接收通知，請更新您的通知設定。'
+      title: 確認退訂
