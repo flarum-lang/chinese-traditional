@@ -14,6 +14,7 @@ CHANGELOG
 **新增翻譯**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`anto0102/mailguard`](https://github.com/anto0102/MailGuard)
 * [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum)
 * [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
 * [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
@@ -35,6 +36,9 @@ CHANGELOG
 
 **更新翻譯**:
 
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 
 
