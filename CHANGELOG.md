@@ -28,6 +28,9 @@ CHANGELOG
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
 **更新翻譯**:
