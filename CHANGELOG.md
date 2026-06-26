@@ -13,6 +13,11 @@ CHANGELOG
 **新增翻譯**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
