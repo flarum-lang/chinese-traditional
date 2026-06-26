@@ -2,6 +2,49 @@ CHANGELOG
 =========
 
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**例行更新**:
+
+* 更新核心翻譯.
+* 更新驗證翻譯.
+
+
+**新增翻譯**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`anto0102/mailguard`](https://github.com/anto0102/MailGuard)
+* [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum)
+* [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail)
+* [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways)
+* [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+
+
+**更新翻譯**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+全部變化：[v2.0.3...v2.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.3...v2.0.4)
+
+
 2.0.3 (2026-06-25)
 ------------------
 
