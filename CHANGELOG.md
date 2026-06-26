@@ -7,6 +7,7 @@ CHANGELOG
 
 **例行更新**:
 
+* 更新核心翻譯.
 * 更新驗證翻譯.
 
 
@@ -22,10 +23,16 @@ CHANGELOG
 * [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail)
+* [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways)
 * [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers)
+
+
+**更新翻譯**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 
 
 全部變化：[v2.0.3...v2.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.3...v2.0.4)
