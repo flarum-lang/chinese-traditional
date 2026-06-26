@@ -7,7 +7,7 @@ ernestdefoe-seo:
     meta_seo_modal:
       alerts:
         save_error: '無法儲存 SEO 設定，請稍後再試或檢查伺服器記錄。'
-        saved: 已儲存！
+        saved: 儲存成功！
       auto_update:
         help: '啟用後，當物件內容變更時，將自動更新此項目的 Meta 標籤。'
         switch_label: '物件變更時更新 SEO'
@@ -43,7 +43,7 @@ ernestdefoe-seo:
       not_supported:
         alert_body: '請使用 objectType 與 objectId 屬性開啟此對話框，或先註冊物件關聯。'
         alert_title: '此物件不是受支援的 SeoMeta 物件'
-        documentation_link: 文件
+        documentation_link: 文檔
       open_graph:
         description: 'Open Graph 描述'
         description_placeholder: '自訂 Open Graph 描述'

@@ -82,6 +82,10 @@ fof-best-answer:
     this_best_answer: 設為最佳回覆
     user:
       best-answer-count: '{count, plural, one { {count} 次最佳回覆} other {{count} 次最佳回覆}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: 已解決
 fof-user-directory:
   lib:
     sort:
