@@ -13,6 +13,10 @@ CHANGELOG
 **新增翻譯**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers)
 
 
 全部變化：[v2.0.3...v2.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.3...v2.0.4)
