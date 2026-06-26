@@ -10,6 +10,11 @@ CHANGELOG
 * 更新驗證翻譯.
 
 
+**新增翻譯**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+
+
 全部變化：[v2.0.3...v2.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.3...v2.0.4)
 
 
