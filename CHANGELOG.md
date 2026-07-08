@@ -40,6 +40,7 @@ CHANGELOG
 * [`flarum/approval`](https://github.com/flarum/approval)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 
 
 全部變化：[v2.0.3...v2.0.4](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.3...v2.0.4)
