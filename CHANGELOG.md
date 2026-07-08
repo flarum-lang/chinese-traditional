@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.28.4 (XXXX-XX-XX)
+-------------------
+
+**更新翻譯**:
+
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+
+
+全部變化：[v1.28.3...v1.28.4](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.3...v1.28.4)
+
+
 1.28.3 (2026-06-25)
 -------------------
 
