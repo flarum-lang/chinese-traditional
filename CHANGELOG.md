@@ -27,6 +27,7 @@ CHANGELOG
 * [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways)
 * [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
 * [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers)
