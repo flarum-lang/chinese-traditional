@@ -84,6 +84,7 @@ php flarum cache:clear
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/zh_Hant/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/zh_Hant/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/zh_Hant/) |
+| [`fof/blog`](https://github.com/FriendsOfFlarum/blog) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-blog/zh_Hant/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/zh_Hant/) |
 | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-categories/zh_Hant/) |
 | [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) | [![翻譯狀態](https://weblate.rob006.net/widgets/flarum2/zh_Hant/fof-checklist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-checklist/zh_Hant/) |
