@@ -30,6 +30,7 @@ CHANGELOG
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers)
 * [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
 * [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
