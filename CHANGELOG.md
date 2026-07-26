@@ -5,6 +5,11 @@ CHANGELOG
 1.28.4 (XXXX-XX-XX)
 -------------------
 
+**新增翻譯**:
+
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+
+
 **更新翻譯**:
 
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
