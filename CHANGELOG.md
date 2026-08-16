@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.5 (XXXX-XX-XX)
+------------------
+
+**新增翻譯**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+全部變化：[v2.0.4...v2.0.5](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.4...v2.0.5)
+
+
 2.0.4 (2026-07-26)
 ------------------
 
