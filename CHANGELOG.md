@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.28.5 (XXXX-XX-XX)
+-------------------
+
+**更新翻譯**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+全部變化：[v1.28.4...v1.28.5](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.4...v1.28.5)
+
+
 1.28.4 (2026-07-26)
 -------------------
 
