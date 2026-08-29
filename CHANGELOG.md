@@ -5,6 +5,12 @@ CHANGELOG
 2.0.6 (XXXX-XX-XX)
 ------------------
 
+**新增翻譯**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
 **更新翻譯**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
