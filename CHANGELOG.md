@@ -8,6 +8,7 @@ CHANGELOG
 **新增翻譯**:
 
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
