@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**新增翻譯**:
+
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**更新翻譯**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+全部變化：[v2.0.5...v2.0.6](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.5...v2.0.6)
+
+
 2.0.5 (2026-08-19)
 ------------------
 
