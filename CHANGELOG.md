@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+2.0.6 (2026-09-14)
+------------------
+
+**新增翻譯**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+
+
+**更新翻譯**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+全部變化：[v2.0.5...v2.0.6](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.5...v2.0.6)
+
+
 2.0.5 (2026-08-19)
 ------------------
 
