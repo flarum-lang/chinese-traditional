@@ -47,16 +47,16 @@ fof-webhooks:
             postwasapproved: 發布批准
             title: 'Flarum 批准'
           discussion:
-            deleted: '=> fof-webhooks.ref.delete'
+            deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
-            renamed: '=> fof-webhooks.ref.rename'
-            restored: '=> fof-webhooks.ref.restore'
+            renamed: '=> fof-webhooks.ref.renamed'
+            restored: '=> fof-webhooks.ref.restored'
             started: 已發佈
             title: 'Flarum 主題'
           group:
             created: 創建
-            deleted: '=> fof-webhooks.ref.delete'
-            renamed: '=> fof-webhooks.ref.rename'
+            deleted: '=> fof-webhooks.ref.deleted'
+            renamed: '=> fof-webhooks.ref.renamed'
             title: 'Flarum 群組'
           post:
             deleted: '=> fof-webhooks.ref.deleted'
