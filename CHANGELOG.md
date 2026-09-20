@@ -5,12 +5,12 @@ CHANGELOG
 2.0.7 (XXXX-XX-XX)
 ------------------
 
-**更新翻譯**:
+**Updated translations for extensions**:
 
-* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (5 changed)
 
 
-全部變化：[v2.0.6...v2.0.7](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.6...v2.0.7)
+All changes: [v2.0.6...2.0.7](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.6...2.0.7).
 
 
 2.0.6 (2026-09-14)
