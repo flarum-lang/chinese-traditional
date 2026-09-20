@@ -5,8 +5,22 @@ CHANGELOG
 1.28.6 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (21 added, 9 changed).
+* Updated validation translations (22 changed).
+
+
+**Added support for new extensions**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+
+
 **Updated translations for extensions**:
 
+* [`flarum/akismet`](https://github.com/flarum/akismet) (2 changed)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (5 changed)
 
 
