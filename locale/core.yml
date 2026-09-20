@@ -198,7 +198,7 @@ core:
       toggle_advanced_page_button: 切換為進階頁面
       tools_button: 工具
     database-driver-mismatch-warning:
-      detail: "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => '{actual}'</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n"
+      detail: "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => ''{actual}''</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n"
       label: 數據庫驅動不匹配
     debug-warning:
       detail: "啟用 <code>debug</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的禁用 <code>debug</code> 模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n"

@@ -111,7 +111,6 @@ huseyinfiliz-rewind:
       best_answers_leaderboard: 最佳答案榜
       best_answers_leaderboard_desc: 説明他人最多的成員
       busiest_month: 最忙碌的月份
-      busiest_month_desc: '{month} 是大家最活躍的一個月'
       busiest_month_label: 最忙月份
       discussions: 話題總數
       hot_discussion: 熱門話題
@@ -124,7 +123,6 @@ huseyinfiliz-rewind:
       new_members_slide: 新夥伴
       peak_hour_label: 高峰時段
       peak_hours: 高峰時段
-      peak_hours_desc: '每天 {hour} 點是大家最常在線的時候'
       posts: 帖子總數
       reactions: 互動
       star_post: 明星帖子
