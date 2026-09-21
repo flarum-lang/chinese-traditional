@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+2.0.7 (2026-09-21)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (5 changed)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (2 removed)
+
+
+All changes: [v2.0.6...2.0.7](https://github.com/flarum-lang/chinese-traditional/compare/v2.0.6...2.0.7).
+
+
 2.0.6 (2026-09-14)
 ------------------
 
