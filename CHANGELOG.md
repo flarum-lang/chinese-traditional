@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.28.6 (2026-09-21)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (21 added, 9 changed).
+* Updated validation translations (22 changed).
+
+
+**Added support for new extensions**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet) (2 changed)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (5 changed)
+
+
+All changes: [v1.28.5...1.28.6](https://github.com/flarum-lang/chinese-traditional/compare/v1.28.5...1.28.6).
+
+
 1.28.5 (2026-09-14)
 -------------------
 
