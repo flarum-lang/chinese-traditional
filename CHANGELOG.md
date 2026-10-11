@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.8 (2026-10-11)
+------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (0% complete)
+
+
+All changes: [2.0.7...2.0.8](https://github.com/flarum-lang/chinese-traditional/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-09-21)
 ------------------
 
