@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (100% complete)
 
 
 **Updated translations for extensions**:
