@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+2.0.9 (2026-10-20)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (64 added, 567 changed).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags) (16 added, 100% complete)
+
+
+All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/chinese-traditional/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-10-11)
 ------------------
 
