@@ -27,10 +27,10 @@ ramon-avocado:
       footer_company_description_placeholder: 簡短介紹您的公司或論壇社群…
       footer_company_logo_url: '公司 Logo 網址'
       footer_company_name: '公司 / 品牌名稱'
-      footer_copyright_text: 版權宣告文字
+      footer_copyright_text: 版權訊息
       footer_enabled: 啟用自訂頁尾
-      footer_footer_bottom: 頁尾底部資訊
-      footer_links_config: 頁尾連結設定
+      footer_footer_bottom: 頁腳底部資訊
+      footer_links_config: 頁腳連結設定
       footer_links_help_json: '請以 JSON 格式設定頁尾連結欄位。每個欄位應包含標題 (title) 以及包含標籤名稱 (label) 與網址 (url) 的連結列表。'
       footer_show_social: 顯示社群媒體連結
       footer_social: 社群媒體連結
@@ -390,14 +390,14 @@ ramon-avocado:
       remove_reply: 移除回覆
       resize_handle: '拖曳以調整大小 · 向下拖拉可折疊縮小'
     discussion:
-      hero_image_add: 新增封面圖
-      hero_image_remove: 移除封面圖
-      hero_image_remove_confirm: 確定要移除此討論串的頁首封面圖嗎？
-      hero_image_replace: 替換封面圖
+      hero_image_add: 新增橫幅圖片
+      hero_image_remove: 移除橫幅圖片
+      hero_image_remove_confirm: 確定要移除此討論串的橫幅圖片嗎？
+      hero_image_replace: 替換橫幅圖片
       participant_plural: 位參與者
       participant_singular: 位參與者
-      post_plural: 則回覆
-      post_singular: 則回覆
+      post_plural: 則評論
+      post_singular: 則評論
       view_plural: 次觀看
       view_singular: 次觀看
     discussions:
@@ -415,14 +415,14 @@ ramon-avocado:
       or: 或
       search: 搜尋
     home:
-      all_categories: 所有分類
-      all_title: 所有主題討論
+      all_categories: 所有標籤
+      all_title: 所有主題
       back_home: 首頁
       badge_following: 追蹤中
       badge_sticky: 置頂
       badge_unread_tooltip: '{count} 則未讀文章'
       bypass_tag_requirements: 忽略標籤限制條件
-      categories_heading: 分類看板
+      categories_heading: 標籤看板
       choose_primary_tag_plural: '選擇 {count} 個主標籤'
       choose_primary_tag_singular: '選擇 1 個主標籤'
       choose_secondary_tag_plural: '選擇 {count} 個次標籤'
@@ -473,7 +473,7 @@ ramon-avocado:
       see_other_reply_singular: '查看其他 {count} 則回覆'
       showcase_heading: 作品展示
       sign_up: 註冊
-      sort_trending: 發燒熱議
+      sort_trending: 熱門趨勢
       start_discussion: 和大家分享您最近關注的事吧…
       today_time: '今天 {time}'
       untitled: 無標題
@@ -487,7 +487,7 @@ ramon-avocado:
     link:
       login_to_view: 請登入以檢視連結
     link_cta:
-      placeholder: 請登入以檢視連結
+      placeholder: 登入後檢視連結
     loading: 載入中…
     messages:
       deleted_message: 訊息已刪除
@@ -527,20 +527,20 @@ ramon-avocado:
       no_users_found: '找不到與「{q}」相關的成員。'
       placeholder: 搜尋…
       placeholder_hero: 搜尋論壇…
-      posts_filtered_by: '文章篩選條件:'
-      posts_for: '文章搜尋結果:'
-      posts_title: 搜尋文章內文
+      posts_filtered_by: '評論篩選條件:'
+      posts_for: '評論搜尋結果:'
+      posts_title: 搜尋評論
       results: 搜尋結果
       results_for: 搜尋結果
       search_button: 搜尋
       sort_latest: 最新動態
       sort_newest: 最新發表
-      sort_oldest: 最舊發表
+      sort_oldest: 舊文排序
       sort_relevance: 相關度
-      sort_top: 最熱門
-      tab_discussions: 主題討論
-      tab_posts: 文章內文
-      tab_users: 成員
+      sort_top: 熱門話題
+      tab_discussions: 主題
+      tab_posts: 評論
+      tab_users: 用戶
       tip: '小撇步：在關鍵字前加上 '
       tip_suffix: ' 可依標籤篩選'
       title: 搜尋
@@ -602,6 +602,6 @@ ramon-avocado:
   lib:
     footer:
       default_text: '由 [Flarum](https://flarum.org) 強力驅動。'
-      nav_discussions: 所有討論
+      nav_discussions: 所有主題
       nav_home: 首頁
       nav_tags: 標籤分類
