@@ -46,7 +46,7 @@ ramon-avocado:
       bookmarks_enabled_label: 啟用書籤系統
       bookmarks_fof_notice: '已啟用 FoF Bookmarks 擴充元件，因此 Avocado 將書籤控制權移交給它：主題將顯示單一「已儲存」選單項目和儲存按鈕，並直接寫入 FoF Bookmarks。開啟時暫無法使用備忘錄與提醒功能；您原本儲存於 Avocado 的資料會妥善保留，關閉 FoF 後即可恢復。'
       cakeday_enabled_help: '在帳號註冊週年當天，於使用者名稱旁顯示 🎂 蛋糕圖示（適用於主題卡片、文章與使用者名卡）。'
-      cakeday_enabled_label: 顯示帳號註冊週年徽章
+      cakeday_enabled_label: 顯示註冊週年徽章
       categories_heading_label: 分類區塊標題
       changelog_description_label: 頁面描述
       changelog_description_placeholder: 逐一查看每個版本的最新功能、修復項目與異動紀錄。
@@ -77,17 +77,17 @@ ramon-avocado:
       custom_auth_modal_label: '使用自訂登入 / 註冊彈出視窗'
       custom_default_avatar_help: 為未設定頭像的使用者上傳自訂預設頭像圖片。
       custom_default_avatar_label: 自訂預設頭像
-      custom_hero_enabled_help: '以您自訂的 HTML 取代預設看板內容（圖示、標題、描述、登入/註冊按鈕）。看板外框、背景圖和遮罩將保持不變。僅對訪客顯示 — 與預設看板相同。'
-      custom_hero_enabled_label: 使用自訂看板內容（HTML）
-      custom_hero_html_help: '注入至看板遮罩內部的 HTML（取代 .AvocadoHome-heroBannerContent）。支援行內行內樣式標籤（Inline style）。'
-      custom_hero_html_label: '自訂看板 HTML'
+      custom_hero_enabled_help: '以您自訂的 HTML 取代預設橫幅內容（圖示、標題、描述、登入/註冊按鈕）。橫幅外框、背景圖和遮罩將保持不變。僅對訪客顯示 — 與預設橫幅相同。'
+      custom_hero_enabled_label: 使用自訂橫幅內容（HTML）
+      custom_hero_html_help: '注入至橫幅遮罩內部的 HTML（取代 .AvocadoHome-heroBannerContent）。支援行內行內樣式標籤（Inline style）。'
+      custom_hero_html_label: '自訂橫幅 HTML'
       custom_hero_html_placeholder: "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">歡迎！</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">自訂任何內容 — 連結、圖片或按鈕。</p>\n</div>"
       custom_loading_spinner_help: '以動態 SVG 載入圖示取代預設的文字載入提示。'
       custom_loading_spinner_label: '自訂載入圖示 (Spinner)'
       disc_style_default: 預設
       disc_style_editorial: '期刊風格 (時間軸對話軌跡)'
       disc_style_help: "預設為現行的討論頁樣式。「期刊風格 (Editorial)」會加寬閱讀欄位，並在頭像欄貫穿一條細線時間軸，頭像如同節點般排列，時間間隔則成為站點標籤。兩者的頁首結構相同。僅適用於桌機版 — 手機和平板將保持原樣。\n"
-      disc_style_label: 主題頁面風格
+      disc_style_label: 評論區頁面風格
       featured_tags_empty: 未找到任何標籤。
       featured_tags_help: 所選的分類會在首頁與分類頁面中加上星號徽章高亮顯示。
       featured_tags_label: 精選分類（標籤）
@@ -107,8 +107,8 @@ ramon-avocado:
       footer_copyright_help: '{year} 會自動轉為今年年份，{title} 會轉為論壇標題。清空欄位即可隱藏。'
       footer_copyright_label: 版權宣告
       footer_email_label: 電子郵件
-      footer_enabled_help: '在每個頁面底部顯示簡潔的居中頁尾，內容由下方欄位設定。欄位已預設填入文字，清空即可隱藏該行。這將取代 Flarum 預設的「編輯自訂頁尾」HTML。'
-      footer_enabled_label: 啟用主題頁尾
+      footer_enabled_help: '在每個頁面底部顯示簡潔的居中頁腳，內容由下方欄位設定。欄位已預設填入文字，清空即可隱藏。這將取代 Flarum 預設的「編輯自訂頁腳」HTML。'
+      footer_enabled_label: 啟用主題頁腳
       footer_legal_help: 顯示於版權宣告旁，例如服務條款和隱私權政策。
       footer_legal_label: 法律聲明連結
       footer_links_help: '網址可填寫論壇內部路徑（例如 /tags）或完整的外部 URL。'
@@ -121,20 +121,20 @@ ramon-avocado:
       footer_list_url_placeholder: '/tags 或 https://…'
       footer_phone_label: 電話
       footer_social_add: 新增社群平台
-      footer_social_help: 選擇社群平台並貼上連結，頁尾將顯示該平台的圖示。貼上連結時會自動依網址判斷平台。
+      footer_social_help: 選擇社群平台並貼上連結，頁腳將顯示該平台的圖示。貼上連結時會自動依網址判斷平台。
       footer_social_label: 社群網路
       footer_social_network: 社群平台
       footer_social_other: 其他網站
       footer_social_url: 連結
       footer_text_help: '每一行代表一個段落。連結請寫成 [名稱](網址)。若要隱藏請清空欄位。'
-      footer_text_label: 頁尾文字
-      group_access: 權限與存取
+      footer_text_label: 頁腳文字
+      group_access: 訪問
       group_appearance: 外觀風格
-      group_community: 社群功能
-      group_discussions: 主題討論
-      group_footer: 頁尾設定
-      group_home: 首頁設定
-      groups_aria: 設定分組
+      group_community: 社群
+      group_discussions: 評論
+      group_footer: 頁腳
+      group_home: 首頁
+      groups_aria: 設置分組
       hero_deco_divider_help: '在兩個裝飾圖示之間的空隙顯示圖示（例如體育類網站可使用 "vs" 符號）。'
       hero_deco_divider_icon_help: '分隔圖示的 Font Awesome Class，例如 "fas fa-times" 或 "fas fa-circle"。'
       hero_deco_divider_icon_label: '分隔圖示 Class 名稱'
@@ -148,7 +148,7 @@ ramon-avocado:
       hero_decoration_icon_opacity_help: '設定裝飾圖示的不透明度百分比。100 = 完全不透明，0 = 完全透明/隱藏。'
       hero_decoration_icon_opacity_label: '圖示不透明度 (0-100)'
       hero_image_position_help: 'CSS background-position 數值，例如 ''center top'' 或 ''50% 20%''。'
-      hero_image_position_label: 看板圖片位置
+      hero_image_position_label: 橫幅圖片位置
       hero_image_tags_help: 當使用者發表新主題並選擇這些標籤時，發文框會顯示選填的圖片上傳欄位。上傳的圖片將作為該討論串的頁首背景圖，並顯示於首頁作品展示區的第一張圖片。
       hero_image_tags_label: 需要看板圖片的標籤
       hide_links_for_guests_help: 防止訪客直接點擊文章中的連結。點擊連結時將彈出登入/註冊提示。
@@ -201,39 +201,39 @@ ramon-avocado:
       reply_to_header_label: 在回覆上方顯示「回覆給」資訊
       search_clear: 清除搜尋
       search_empty: 找不到相關設定。
-      search_placeholder: 搜尋設定…
+      search_placeholder: 搜尋設置…
       search_v1_help: '顯示行內搜尋下拉選單，而非 V2 滿版視窗（Modal）。'
       search_v1_label: '啟用 V1 搜尋列樣式'
       section_auth: 登入與註冊
       section_bookmarks: 書籤
-      section_cakeday: '註冊週年（Cake day）'
+      section_cakeday: 註冊週年
       section_changelog: 更新日誌（Changelog）
       section_colored: 主題色彩
-      section_disc_hero_icon: 主題頁首圖示
-      section_discussion: 主題討論頁
+      section_disc_hero_icon: 討論區橫幅圖示
+      section_discussion: 主題頁面
       section_font: 字型
-      section_footer: 頁尾
+      section_footer: 頁腳
       section_footer_contacts: 聯絡資訊與社群
       section_footer_links: 連結
       section_footer_text: 文字
       section_guests: 訪客
-      section_hero_image_tags: '主題看板封面圖（Hero Image）'
+      section_hero_image_tags: '討論區橫幅（Hero Image）'
       section_home_banner: 首頁橫幅（Banner）
       section_home_categories: 精選分類
-      section_home_composer: 發表新主題
+      section_home_composer: 發表主題
       section_home_feed: 主題列表
       section_homepage: 首頁
-      section_logo: 標誌（Logo）
+      section_logo: Logo
       section_online: 線上使用者
-      section_posts: 文章
-      section_presence: 線上狀態
+      section_posts: 主題
+      section_presence: 正在閱讀
       section_search: 搜尋
-      section_showcase: '作品展示 / 櫥窗（Showcase）'
+      section_showcase: 作品展示
       section_tag_icon_svg: '標籤圖示 (SVG)'
       section_team: 團隊頁面
       section_titles_heading: 區塊標題設定
       section_titles_help: 覆蓋首頁各區塊的標題。若欄位留空則使用語言包的預設值。
-      section_user_card: 使用者名卡
+      section_user_card: 用戶卡片
       show_action_icons_help: '在按讚與回覆按鈕上顯示 Font Awesome 圖示。'
       show_action_icons_label: 在按讚和回覆按鈕顯示圖示
       show_auth_buttons_help: 在頁首次要導覽列中為訪客顯示「登入」與「註冊」膠囊按鈕。
@@ -266,7 +266,7 @@ ramon-avocado:
       spinner_option_b2: 旋轉動畫
       spinner_option_css_orbital: '軌道 (Orbital)(CSS)'
       spinner_option_custom: 自訂
-      spinner_option_ditie: ditie.online
+      spinner_option_ditie: 地鐵在線
       spinner_option_flarum: Flarum
       spinner_option_orbital: '軌道 (Orbital)'
       spinner_option_pl3: '脈衝 (Pulse)'
@@ -287,7 +287,7 @@ ramon-avocado:
       threads_style_help: '將發起文章（OP）顯示為獨立卡片，並以左側邊框縮排回覆內容，類似 Threads 應用程式風格。'
       threads_style_label: '啟用 Threads 風格討論排版'
       user_card_enabled_help: '當滑鼠懸停於頭像與使用者名稱時，顯示類似 Discourse 風格的迷你個人資料（簡介、徽章、統計數據、操作按鈕）。'
-      user_card_enabled_label: 啟用使用者懸浮個人卡
+      user_card_enabled_label: 啟用用戶懸浮卡片
   api:
     discussion_not_found: 找不到該主題討論。
     file_not_readable: 上傳的檔案無法讀取。
