@@ -404,7 +404,7 @@ ramon-avocado:
       empty: 未找到任何主題討論。
       home: 返回首頁
       load_more: 載入更多
-      title: 所有主題討論
+      title: 所有主題
     footer:
       contacts: 聯絡資訊
       navigation: 導覽選單
@@ -453,7 +453,7 @@ ramon-avocado:
       log_in: 登入
       more: 更多
       nav_label: 導覽選單
-      nav_more: 更多
+      nav_more: 個更多
       nav_more_label: 顯示更多導覽連結
       new_discussion: 發起討論
       no_tags_found: 未找到相關標籤
@@ -471,7 +471,7 @@ ramon-avocado:
       see_all: 查看全部
       see_other_replies: '查看其他 {count} 則回覆'
       see_other_reply_singular: '查看其他 {count} 則回覆'
-      showcase_heading: 作品展示
+      showcase_heading: 精選文章
       sign_up: 註冊
       sort_trending: 熱門趨勢
       start_discussion: 和大家分享您最近關注的事吧…
@@ -554,7 +554,7 @@ ramon-avocado:
     tag_picker:
       remove: 移除標籤
     tags:
-      all_discussions: 所有主題討論
+      all_discussions: 所有主題
       discussion_plural: 個主題
       discussion_singular: 個主題
       empty: 此分類下尚無主題討論。
@@ -563,7 +563,7 @@ ramon-avocado:
       load_more: 載入更多
       not_found: 找不到該標籤。
       other_tags_label: 其他標籤
-      title: 分類看板
+      title: 分類總覽
     tags_modal:
       cancel: 取消
       save: 儲存
