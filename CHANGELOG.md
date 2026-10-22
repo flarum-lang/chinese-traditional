@@ -13,7 +13,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (2 added, 5 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (59 changed, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (62 changed, 100% complete)
 
 
 All changes: [2.0.9...2.0.10](https://github.com/flarum-lang/chinese-traditional/compare/2.0.9...2.0.10).
