@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.11 (2026-10-25)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+
+
+All changes: [2.0.10...2.0.11](https://github.com/flarum-lang/chinese-traditional/compare/2.0.10...2.0.11).
+
+
 2.0.10 (2026-10-22)
 -------------------
 
