@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.12 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+All changes: [2.0.11...2.0.12](https://github.com/flarum-lang/chinese-traditional/compare/2.0.11...2.0.12).
+
+
 2.0.11 (2026-10-25)
 -------------------
 
