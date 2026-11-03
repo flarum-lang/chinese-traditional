@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.12 (2026-11-03)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+All changes: [2.0.11...2.0.12](https://github.com/flarum-lang/chinese-traditional/compare/2.0.11...2.0.12).
+
+
 2.0.11 (2026-10-25)
 -------------------
 
