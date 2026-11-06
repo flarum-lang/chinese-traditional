@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (8% complete)
 * [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (3% complete)
 
 
