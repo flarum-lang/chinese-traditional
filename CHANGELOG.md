@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+2.0.13 (2026-11-12)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (8% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (3% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (100% complete)
+
+
+All changes: [2.0.12...2.0.13](https://github.com/flarum-lang/chinese-traditional/compare/2.0.12...2.0.13).
+
+
 2.0.12 (2026-11-03)
 -------------------
 
