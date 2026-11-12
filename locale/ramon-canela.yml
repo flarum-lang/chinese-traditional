@@ -5,7 +5,7 @@
 linkrobins-wiki:
   forum:
     show:
-      initial_version: '建立於 {date}'
+      initial_version: 已創建
 ramon-canela:
   admin:
     settings:
@@ -13,7 +13,7 @@ ramon-canela:
         persona_off: 關閉
       stats:
         days_suffix: 天
-        hours_suffix: '{count}h'
+        hours_suffix: 小時
         views_suffix: 瀏覽次數
   forum:
     age:
@@ -26,17 +26,17 @@ ramon-canela:
         member: 成員
         regular: 常客
     categories:
-      tags_sort_count: '{count, plural, =0 {沒有範本} one {# 個範本} other {# 個範本}}'
+      tags_sort_count: 計數
       tags_sort_name: 受敬仰
     chat:
-      deleted_chat_username: '{count, plural, one {訊息已刪除。[查看]} other {# 則訊息已刪除。[全部查看]}}'
+      deleted_chat_username: 已刪除
       edited: 已編輯
       you: 你
     extras:
       gambits:
         bookmarks_key: 書籤
         in_group: 在
-        likes_key: '{count, plural, one {{formatted} 個讚} other {{formatted} 個讚}}'
+        likes_key: 點讚
         title_key: 書籤
       search:
         filter_after: 此版本
