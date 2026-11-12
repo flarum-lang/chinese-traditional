@@ -2,54 +2,3385 @@
 # Use https://weblate.rob006.net/projects/flarum2/ramon-canela/zh_Hant/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-linkrobins-wiki:
-  forum:
-    show:
-      initial_version: 已創建
-ramon-canela:
+ernestdefoe-wardrobe:
   admin:
     settings:
+      flarum_title: 預設
+  forum:
+    theme:
+      flarum: 預設
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        assigned: '已將 {discussion} 指派給 {username}'
+        unassigned: '已取消指派 {discussion}'
+fof-oauth:
+  forum:
+    providers:
+      passkey: 通行密鑰
+forumaker-profile-cover:
+  forum:
+    added:
+      error: 無法上傳圖片
+      success: 個人檔案封面已更新
+    cover: 編輯封面
+    edit_cover: 編輯封面
+    notice: '最大檔案大小：{size}。建議使用 21:9 格式，尺寸至少為 1600×400 像素。'
+    position_label: 封面位置
+    removed:
+      error: 移除封面失敗，請再試一次
+      success: 個人檔案封面已移除
+    save_position_button: 儲存位置
+linkrobins-wiki:
+  api:
+    article_not_found: 找不到此文章。
+    article_required: 必須指定文章。
+    article_soft_delete_first: 必須先刪除文章，才能永久移除。
+    comment_required: 必須提供留言內容。
+    comment_soft_delete_first: 必須先刪除留言，才能永久移除。
+    content_required: 必須提供文章內容。
+    faq_too_many: '每篇文章最多只能有 {max} 個常見問題項目。'
+    report_already_open: 你已經檢舉過此文章，編輯者會進一步查看。
+    slug_invalid: 此網址代稱為保留字，請勿使用純數字作為網址代稱。
+    slug_taken: 已有其他文章使用此網址代稱。
+    title_required: 必須提供文章標題。
+  forum:
+    action:
+      cancel: 取消
+      delete: 刪除
+      delete_forever: 永久刪除
+      edit: 編輯
+      report: 檢舉
+      restore: 還原
+      save_changes: 儲存變更
+    comments:
+      confirm_delete: 確定要刪除此留言嗎？
+      confirm_delete_forever: 確定要永久刪除此留言嗎？此操作無法復原。
+      deleted: 此留言已刪除。
+      discard_confirm: 你有尚未送出的留言，確定要捨棄嗎？
+      empty: 目前還沒有留言。
+      empty_error: 請先輸入留言內容。
+      error_delete: 無法刪除留言。
+      error_edit: 無法儲存留言。
+      error_post: 無法發表留言。
+      heading: '留言（{count}）'
+      load_more: 載入更多留言
+      placeholder: 撰寫留言……
+      post: 發表留言
+    common:
+      date_at_time: '{date} {time}'
+    compose:
+      body_label: 內容
+      body_placeholder: '撰寫文章內容，支援 Markdown。'
+      body_placeholder_click: 點選此處開始撰寫文章……
+      body_placeholder_edit: 點選此處繼續編輯……
+      category_label: 分類
+      discard_confirm: 你有尚未儲存的文章，確定要捨棄嗎？
+      draft_help: '草稿只有你和 Wiki 編輯者能查看，發布後其他會員才能瀏覽。'
+      draft_label: 儲存為草稿
+      faq_add: 新增問題
+      faq_answer_placeholder: '解答，支援 Markdown。'
+      faq_heading: 常見問題
+      faq_help: '可選填的問題與解答，會顯示在文章下方。解答支援 Markdown。'
+      faq_question_placeholder: 問題
+      faq_remove: 移除問題
+      no_category: 未分類
+      position_help: 用來設定文章在分類中的排序位置，數字較小者排在前面。留空時，文章會排在已設定順序的文章之後，並依建立時間由新到舊排列。
+      position_label: 排序位置
+      position_placeholder: 例如：1
+      slug_help: 此代稱會用於文章網址。留空時，系統會根據標題自動產生。
+      slug_label: 網址代稱
+      slug_placeholder: 例如：getting-started
+      submit_create: 發布文章
+      submit_update: 儲存變更
+      title: 新增文章
+      title_edit: 編輯文章
+      title_label: 標題
+      title_placeholder: 文章標題
+    confirm:
+      delete_forever: 確定要永久刪除此文章及其編輯紀錄嗎？此操作無法復原。
+      soft_delete: 確定要刪除此文章嗎？編輯者之後仍可還原。
+    errors:
+      delete_article: 無法刪除文章。
+      delete_article_forever: 無法永久刪除文章。
+      empty_body: 送出前請先撰寫文章內容。
+      load_article: 無法載入此文章。文章可能已遭刪除，或你沒有瀏覽權限。
+      load_articles: 無法載入文章。
+      restore_article: 無法還原文章。
+      submit: 無法儲存文章。
+      title_required: 請輸入文章標題。
+      unknown: 發生非預期的錯誤，請稍後再試。
+      upload: 無法上傳檔案。
+      upload_no_files: 上傳程序未回傳任何檔案，請再試一次。
+    index:
+      deleted_badge: 已刪除
+      draft_badge: 草稿
+      empty: 目前沒有可顯示的文章。
+      empty_own: 目前沒有文章。點選「新增文章」即可開始撰寫。
+      index_label: 索引
+      new_article: 新增文章
+      new_article_tooltip: 撰寫新文章
+      no_categories: 目前沒有分類。
+      see_all_lead: 查看此分類中的所有文章
+      uncategorised: 其他
+      untitled: 未命名
+    nav: Wiki
+    report:
+      detail_label: 還有其他補充嗎？（選填）
+      failed: 無法送出檢舉，請再試一次。
+      intro: 編輯者會一併看到你的檢舉內容與文章。
+      reason_duplicate: 內容與其他文章重複
+      reason_inaccurate: 內容不正確
+      reason_label: 此文章有什麼問題？
+      reason_off_topic: 內容與此處主題無關
+      reason_other: 其他原因
+      reason_outdated: 內容已過時
+      sent: 感謝你的回報，編輯者會進一步查看。
+      submit: 送出檢舉
+      title: 檢舉此文章
+    search:
+      all_button: '在 Wiki 中搜尋「{query}」'
+      empty: '找不到符合「{query}」的文章。'
+      heading: Wiki
+      placeholder: '搜尋 Wiki'
+      results_heading: '「{query}」的搜尋結果'
+    show:
+      by: '作者： '
+      created_tooltip: '建立於 {date}'
+      deleted_notice: 此文章已刪除，只有編輯者可以查看。
+      diff_from_previous: 與上一個版本的差異
+      diff_initial: 初始版本
+      diff_none: 內容沒有變更。
+      diff_title: 標題
+      draft_notice: '此文章目前是草稿，只有你和 Wiki 編輯者可以查看。'
+      faq_heading: 常見問題
+      history: '編輯紀錄（{count}）'
+      initial_version: 已創建
+      last_edited: '最後編輯者： '
+      last_edited_tooltip: '最後由 {name} 於 {date} 編輯'
+      load_more_history: 載入較早的修訂紀錄
+      no_history: 目前沒有修訂紀錄。
+      related_heading: 相關文章
+      toc_heading: 目錄
+ramon-canela:
+  admin:
+    backgrounds:
+      empty: 尚未上傳圖片，在上傳之前將維持一般背景。
+      gradient: 染色漸層（不含圖示）
+      image: 背景圖片
+      image_help: '支援 JPG、PNG、WebP 或 GIF 格式。圖片會自動轉換為最大 2560 × 1600 的 WebP 格式，並以滿版方式顯示於整個視窗，作為內容後方的背景。'
+      plain: 一般背景（無色調）
+      remove: 移除圖片
+      replace: 更換圖片
+      same: 與論壇相同
+      solid: 純色背景
+      tinted: 染色漸層（含模糊圖示，預設）
+      upload: 上傳圖片
+      upload_error: 圖片上傳失敗。
+    preview:
+      apply: 套用變更
+      dirty: 變更尚未套用
+      discard: 捨棄變更
+      preview_forum: 預覽論壇
+      preview_login: 預覽登入頁面
+      preview_signup: 預覽註冊頁面
+    settings:
       ai:
+        access_permissions_help: '誰可以使用 AI 機器人、輔助工具及「詢問 AI」，以及誰可以產生討論摘要，請至「管理」→「權限」設定。所有能查看討論的使用者（包含訪客）都能閱讀已產生的摘要。管理員一律擁有完整權限。'
+        access_title: 使用權限與額度
+        anthropic_key_help: '請至 console.anthropic.com → API Keys 建立。金鑰只會儲存在伺服器上，論壇不會取得此金鑰。'
+        anthropic_key_label: 'Anthropic API 金鑰'
+        anthropic_model_help: '供 AI 機器人、摘要及改寫類輔助功能使用（解釋、自訂提示詞）。Sonnet 在品質與成本之間取得平衡；Opus 則具備最強的能力。'
+        bot_enabled_help: '/ai/conversations 對話頁面：可向 AI 提問，並透過側邊欄查看對話列表、選擇角色設定及接收串流式回覆。若所選角色設定允許，AI 也能搜尋及閱讀論壇內容（僅限提問者有權查看的內容），並在回覆中附上相關討論的引用。'
+        bot_enabled_label: 'AI 機器人（對話功能）'
+        bot_header_icon_help: '點擊後開啟 AI 對話頁面；在對話頁面中再次點擊，則返回使用者原先所在的頁面。'
+        bot_header_icon_label: 頁首顯示機器人圖示
+        bot_sidebar_link_help: 顯示於社群區塊中。
+        bot_sidebar_link_label: '側邊欄中的「AI 機器人」連結'
+        daily_limit_help: '每次向機器人提問、每次使用輔助工具及每次產生摘要，各計為一次請求。設定為 0 表示不限次數。管理員不受此限制。'
+        daily_limit_label: 每位使用者每日請求上限
+        default_persona_help: '在「新增問題」及搜尋中的「詢問 AI」功能中，預先選取的角色設定。'
+        default_persona_label: 預設角色設定
+        embeddings_help: 'Anthropic 沒有提供 Embeddings API，請改用 OpenAI 相容的服務（例如 OpenAI、Voyage、Mistral、Ollama 等）。若要一次為所有內容建立向量，請執行：「php flarum canela:ai-embeddings --all」。'
+        embeddings_key_label: 'API 金鑰'
+        embeddings_model_label: 模型
+        embeddings_title: 向量嵌入（Embeddings）
+        embeddings_url_label: 'Embeddings API 網址'
+        enabled_help: '停用後，論壇中不會顯示任何 AI 功能，AI API 也會回應 404。'
+        enabled_label: '啟用 AI'
+        fast_model_help: 用於較簡短的任務：對話標題、校對、翻譯、標題與標籤建議，以及討論列表摘要。
+        fast_model_label: 快速模型
+        features_title: 功能
+        gists_enabled_help: '針對最活躍的討論，以 AI 產生的一句話摘要取代原本的內容摘錄。由排程器每小時產生一次（需在 cron 中執行「php flarum schedule:run」），每次最多產生 20 則，每則摘要都會使用一次快速模型 API 呼叫。'
+        gists_enabled_label: 討論列表摘要
+        helper_enabled_help: '在編輯器工具列中加入 ✨ 按鈕，提供校對、翻譯、簡化、解釋、產生表格、自訂提示詞、標題建議及標籤建議，並可預覽變更後的內容，再選擇「確認／捨棄」。'
+        helper_enabled_label: '編輯器中的 AI 輔助工具'
+        key_clear: 刪除已儲存的金鑰
+        key_saved: ••••••••（金鑰已儲存；輸入新值即可取代）
+        model_label: 主要模型
+        not_configured: '尚未設定 API 金鑰，因此論壇中的 AI 功能會保持隱藏。請在下方設定服務提供者，並使用「測試連線」確認設定。'
+        openai_fast_help: 留空時會使用主要模型。
+        openai_key_help: '會以「Authorization: Bearer」標頭傳送。若使用本機伺服器，可能不需要 API 金鑰。'
+        openai_key_label: 'API 金鑰'
+        openai_url_help: '填入截至 /v1 的網址；主題會自動在後方加上 /chat/completions。例如：https://api.openai.com/v1、https://openrouter.ai/api/v1、http://localhost:11434/v1。'
+        openai_url_label: 'API 基底網址'
+        persona_add: 新增角色設定
+        persona_description: 說明（顯示於選擇清單）
+        persona_enabled: 啟用
+        persona_id: '識別碼（限英文字母、數字、_ 及 -）'
+        persona_name: 名稱
+        persona_new_name: 新增角色設定
         persona_off: 關閉
+        persona_prompt: 系統提示詞
+        persona_read: 允許閱讀討論
+        persona_remove: 移除角色設定
+        persona_restore: 還原預設設定
+        persona_search: 允許搜尋論壇
+        persona_web: '允許搜尋網頁（僅限 Anthropic；每次搜尋都會計費）'
+        personas_help: 每個角色設定都包含名稱、說明、系統提示詞及允許使用的工具。使用者可以在問題輸入欄位下方選擇角色設定。
+        personas_title: 角色設定
+        provider_anthropic: Anthropic（Claude）
+        provider_help: '預設使用 Anthropic（Claude）。「OpenAI 相容」則適用於 OpenAI，以及其他使用相同 API 格式的服務（例如 OpenRouter、Groq、Mistral、DeepSeek、Ollama、LM Studio 等）。'
+        provider_label: 服務提供者
+        provider_openai: 'OpenAI 相容'
+        provider_title: 服務提供者與模型
+        related_enabled_help: '在討論串底部顯示語意最接近的相關討論。此功能需要設定 Embeddings API，並同時啟用相關討論功能。向量資料會每小時自動產生一次，並在首次造訪各討論時建立。'
+        related_enabled_label: 相關討論（向量嵌入）
+        requires_provider: '請先在「服務提供者與模型」區塊設定服務提供者及 API 金鑰。'
+        requires_related: 請先在「功能」區塊啟用「相關討論」。
+        schema_missing: 'AI 所需的資料表尚未建立，請執行「php flarum migrate」。完成前，相關功能都會保持隱藏。'
+        search_enabled_help: '搜尋欄會變成「搜尋或詢問 AI」，搜尋視窗也會提供「詢問 AI：<query>」選項，點擊後即可開啟 AI 對話。'
+        search_enabled_label: '在搜尋中使用「詢問 AI」'
+        summarize_permission: '產生 AI 討論摘要'
+        summary_enabled_help: 點擊討論摘要區塊中的「產生摘要」按鈕，即可開啟面板並查看串流式摘要。摘要會儲存供所有有權查看該討論的使用者閱讀；當討論出現新回覆時，摘要會標示為過期，並提供「重新產生」選項。
+        summary_enabled_label: 討論摘要
+        summary_min_posts_help: 貼文數未達此門檻的討論不會顯示摘要按鈕。
+        summary_min_posts_label: 產生摘要所需的最少貼文數
+        test_button: 測試連線
+        translation_daily_limit_help: '每篇貼文的翻譯、每批標題翻譯及每批語言偵測，各計為一次 API 呼叫。達到上限後，論壇會改為顯示原文，直到隔日重設。設定為 0 表示不限次數。'
+        translation_daily_limit_label: '每日 API 呼叫上限（全論壇共用）'
+        translation_enabled_help: '當貼文或標題使用的語言與讀者不同時，AI 會在首次閱讀時自動翻譯，並儲存翻譯結果供所有人使用。日期旁的「文A」按鈕可切換翻譯內容與原文。每篇貼文的翻譯都會使用一次快速模型 API 呼叫。'
+        translation_enabled_label: 'AI 自動翻譯'
+        translation_locales_help: 讀者的語言以個人偏好設定為準（訪客則使用論壇的預設語言）。未勾選的語言使用者一律只會看到原文。
+        translation_locales_label: 翻譯目標語言
+        translation_public_only_help: 只翻譯訪客也能查看的內容。停用後，受限制標籤中的內容也會交由模型翻譯（但絕不包含私人訊息或隱藏貼文）。
+        translation_public_only_label: 僅翻譯公開內容
+        translation_titles_help: '也會翻譯討論列表及討論串中的標題，整個頁面的標題會合併為一次 API 呼叫處理。'
+        translation_titles_label: 翻譯討論標題
+        use_permission: '使用 AI 機器人、編輯器輔助工具及「詢問 AI」'
+      assistant:
+        account_help: '用來在討論串中發布 AI 回覆的帳號，與系統帳號分開。'
+        account_title: 'AI 助理帳號'
+        actions_help: 設定助理除了撰寫回覆之外還能執行哪些操作，以及回覆前需要等待多久。
+        actions_title: 操作與回覆時機
+        auto_help: '助理會在勾選的標籤所屬討論串中主動回覆，無須有人先行指派。僅會回覆具備 AI 使用權限的使用者，並計入該使用者的每日 AI 使用額度；助理不會回覆自己的貼文，也不會回覆系統帳號。'
+        auto_label: 在指定標籤的討論中自動回覆
+        delay_help: '設定貼文發布（或討論指派）後，助理等待多久才回覆，讓互動看起來更自然。設定為 0 則立即回覆。若未使用佇列工作程序，等待時間會依賴 Flarum 排程器透過 cron 執行（每分鐘執行一次 php flarum schedule:run）。'
+        delay_label: 回覆前等待時間
+        delay_suffix: 分鐘
+        external_help: 'AI 可以搜尋下方列出的來源論壇，並在回覆中附上相關討論的連結。'
+        external_label: 搜尋其他來源
+        external_sources_help: '可填入公開的 Flarum 論壇網址，每行一個 HTTPS 網址，最多 10 個。留空時會使用 discuss.flarum.org。'
+        external_sources_label: 搜尋來源
+        instructions_help: 僅會加入助理回覆所使用的角色提示詞，可指定語氣、格式，以及必須提及或避免的內容。
+        instructions_label: 額外指示
+        instructions_placeholder: 例如：問題解決後，請在回覆結尾建議發文者將最佳回覆標記為最佳解答。
+        length_help: '系統會將回覆長度要求加入提示詞，並依照要求調整 Token 數量上限。'
+        length_label: 回覆長度
+        length_long: 詳細
+        length_medium: 中等
+        length_short: 簡短
+        like_help: '每次回覆時，AI 會自行判斷是否要對討論串中的貼文按讚，例如它所回答的問題，或提供協助的內容（解決方案、優質說明、感謝訊息等）。'
+        like_label: 對貼文按讚
+        mention_help: 可以提及討論串中的會員，也可以針對特定貼文回覆。若提及討論串以外的會員，只會顯示名稱，不會發送通知。
+        mention_label: 提及會員
+        mode_all: 每有新貼文就回覆
+        mode_first: 僅在建立新討論時回覆
+        mode_help: 設定助理在勾選的標籤所屬討論串中，何時加入對話。
+        mode_label: 回覆模式
+        needs_account: '請先在「AI 助理帳號」區塊建立助理帳號。'
+        no_tags: '自動回覆會依據標籤選取討論串，請先啟用 Tags 擴充套件才能使用。'
+        on_assign_help: '啟用「指派討論」後，助理會顯示為可選的指派對象，並在獲得指派的討論串中回覆。此功能會計入指派者的每日 AI 使用額度，且僅限具備 AI 使用權限的使用者使用。'
+        on_assign_label: 討論被指派給助理時自動回覆
+        persona_default: 機器人的預設角色設定
+        persona_help: 助理的個性、提示詞及工具（論壇搜尋、閱讀討論串、網頁瀏覽）皆由角色設定提供，可在「AI」分頁中編輯。
+        persona_label: 角色設定
+        quote_help: 可以引用整篇貼文，也可以只引用其中重要的段落，類似編輯器中的「引用」功能。
+        quote_label: 引用貼文
+        rename_help: '每次回覆時，AI 會判斷標題是否需要調整，使其更清楚並符合其他討論的命名方式。啟用後，「AI 助理」群組會取得更改標題的權限；停用後則會移除此權限。'
+        rename_label: 調整討論標題
+        retag_help: '每次回覆時，AI 會依據討論內容及論壇的標籤規則，判斷目前標籤是否合適，並選擇正確的標籤。啟用後，「AI 助理」群組會取得管理標籤的權限；停用後則會移除此權限。'
+        retag_label: 變更標籤
+        style_help: 設定助理在收到指派或主動回覆時所使用的風格。
+        style_title: 回覆風格
+        tags_all: 尚未勾選任何標籤
+        tags_clear: 清除
+        tags_help: 勾選支援服務等相關標籤（例如：支援、問題）。若未勾選任何標籤，助理就不會主動回覆。
+        tags_label: 適用標籤
+        tags_loading: 正在載入標籤……
+        tags_some: '{count, plural, one {已選取 # 個} other {已選取 # 個}}'
+      auth:
+        background_help: 分割畫面版型會將背景圖片顯示於左側面板；其他版型則會將背景圖片顯示在表單後方。
+        background_label: 登入與註冊頁面背景
+        layout_card: 表單置於背景上的單一卡片（預設）
+        layout_card_help: 設定登入及註冊頁面的版面配置，以及表單後方顯示的背景。
+        layout_card_title: 版面配置與背景
+        layout_discourse: 左右並排：不使用卡片，社群登入按鈕排列於表單旁
+        layout_help: 所有版型都不會顯示頁首，只保留論壇標誌。若啟用社群帳號登入，登入按鈕會排列在表單之前；左右並排版型則會顯示在表單旁邊。
+        layout_label: 版面配置
+        layout_split: 分割畫面：左側顯示彩色面板
+        pages_help: '點擊頁首的「登入」及「註冊」按鈕時，會開啟 /login 及 /signup 獨立頁面。停用後則改為開啟彈出視窗。'
+        pages_label: 登入與註冊獨立頁面
+        panel_login_text: 登入時顯示的文字
+        panel_login_title: 登入時顯示的標題
+        panel_signup_text: 註冊時顯示的文字
+        panel_signup_title: 註冊時顯示的標題
+        subtitle_label: 副標題（選填）
+        text_default: 留空：使用預設文字
+        texts_card_help: 設定各頁面的標題及副標題。留空則沿用主題預設文字。
+        texts_card_title: 文字內容
+        texts_login: 登入頁面文字
+        texts_panel: 分割畫面面板
+        texts_signup: 註冊頁面文字
+        title_label: 標題
+      auth_pages_modals_help: 啟用後，回覆、按讚、追蹤及其他需要登入的操作，都會導向獨立的登入與註冊頁面，而非彈出視窗。停用後，只有頁首的登入與註冊按鈕會導向獨立頁面。
+      auth_pages_modals_label: 所有登入操作皆導向獨立頁面
+      badges:
+        badges_enabled_help: '啟用自動授予徽章（首次按讚、優質回覆、週年紀念等）、/badges 徽章頁面、個人檔案中的「徽章」分頁，以及「獲得……」通知。停用後，相關功能都不會顯示，API 也會回應 404。'
+        badges_enabled_label: 徽章功能
+        badges_max_likes_per_day_help: 'Flarum 不會限制按讚次數；「Out of Love」、「Higher Love」及「Crazy in Love」會統計使用者每日按讚數達到此門檻的天數（預設為 50 次）。'
+        badges_max_likes_per_day_label: '「Out of Love」系列徽章的每日按讚數門檻'
+        badges_summary_help: 在個人檔案的「摘要」分頁中顯示徽章區塊。
+        badges_summary_label: 在個人檔案摘要中顯示精選徽章
+        badges_user_card_help: 在點擊頭像開啟的會員資訊卡中，最多顯示三枚精選徽章（金、銀、銅）。
+        badges_user_card_label: 在會員資訊卡中顯示徽章
+        col_badge: 徽章
+        col_enabled: 啟用
+        col_granted: 授予次數
+        col_type: 類型
+        create: 建立徽章
+        edit: 編輯
+        edit_title: 編輯徽章
+        field_allow_title: 可作為頭銜使用
+        field_badge: 徽章
+        field_description: 簡短說明
+        field_enabled: 啟用
+        field_enabled_help: 停用後，徽章會從論壇中隱藏、停止授予，且既有的授予紀錄也不會顯示。
+        field_grouping: 分類
+        field_icon: '圖示（Font Awesome）'
+        field_icon_help: '輸入樣式與名稱，例如「fas fa-star」或「far fa-heart」。'
+        field_image: 圖片（網址）
+        field_image_help: '選填：設定後會以圖片取代圖示。請提供正方形圖片的 HTTP 或 HTTPS 網址。'
+        field_listable: 顯示於徽章頁面
+        field_long_description: 詳細說明
+        field_manual: 僅限管理員手動授予
+        field_multiple: 允許同一位會員重複獲得
+        field_name: 名稱
+        field_reason: 授予原因（選填）
+        field_reason_placeholder: 簡短說明或貼文連結
+        field_type: 類型
+        field_user: 會員
+        field_user_placeholder: 使用者帳號
+        grant_badge: 授予徽章
+        grant_done: '已授予 {username}。'
+        grant_none: 目前沒有允許手動授予的徽章。請建立自訂徽章並啟用手動授予選項。
+        grant_submit: 授予
+        grant_title: 授予徽章
+        grants_none: 目前沒有人獲得此徽章。
+        grants_title: '「{badge}」的授予紀錄'
+        grouping_community: 社群參與
+        grouping_getting_started: 新手入門
+        grouping_other: 其他
+        grouping_posting: 發文互動
+        grouping_trust_level: 信任等級
+        level_1: '1 · 基本會員'
+        level_2: '2 · 一般會員'
+        level_3: '3 · 活躍會員'
+        level_4: '4 · 領袖'
+        level_4_help: 此等級不會由系統自動授予，只能由管理員透過個人檔案的管理選單手動設定。手動指定等級後，該等級也會被鎖定，系統不會再自動升級或降級。
+        load_more: 載入更多
+        name_placeholder: 徽章名稱
+        needs_migration: '執行 php flarum migrate 後，才會顯示圖片、「可作為頭銜」、手動授予選項及授予原因。'
+        new_badge: 新增徽章
+        new_title: 新增徽章
+        no_likes: '若未啟用 flarum/likes，按讚相關條件將不列入計算。'
+        remove: 移除
+        remove_custom_confirm: '確定要刪除徽章「{badge}」及其 {count} 筆授予紀錄嗎？此操作無法復原。'
+        remove_system_confirm: '確定要移除系統徽章「{badge}」嗎？此徽章的 {count} 筆授予紀錄也會一併刪除。只有使用「還原系統徽章」才能重新建立，但不會恢復舊的授予紀錄；下一次執行自動授予規則時，符合條件的使用者會重新獲得徽章。'
+        removed: 已移除徽章。
+        request_failed: 操作失敗，請再試一次。
+        requires_badges: 徽章功能已停用（請參閱上方的「徽章與信任等級」區塊）。
+        requires_trust_levels: 信任等級功能已停用（請參閱上方的「徽章與信任等級」區塊）。
+        restore_confirm: 確定要重新建立已移除的系統徽章嗎？現有徽章（無論是否編輯過）都會維持原樣。
+        restore_system: 還原系統徽章
+        restored: '{count, plural, =0 {沒有缺少系統徽章。} one {已還原 # 枚系統徽章。} other {已還原 # 枚系統徽章。}}'
+        revoke: 撤銷
+        revoke_confirm: '確定要撤銷 {username} 的此徽章嗎？'
+        run_done: 已完成。
+        run_help: 'canela:badges 指令會透過 Flarum 排程器每天執行一次（需在 cron 中執行 php flarum schedule:run）。首次執行時會依據論壇過往紀錄授予徽章，但不會發送通知。此按鈕只會立即執行徽章授予作業。'
+        run_now: 立即授予徽章
+        run_queued: 已加入執行佇列，稍後將授予徽章。
+        save: 儲存
+        section_main: 徽章與信任等級
+        section_manager: 徽章管理
+        section_requirements: 信任等級條件
+        section_table: 徽章列表
+        source_core: '若未啟用主題的統計功能，閱讀紀錄將改用 Flarum 的已讀狀態（每位使用者閱讀各討論串的進度）；造訪天數則改以註冊至今的天數計算，且不計算閱讀時間。'
+        source_stats: 使用主題的統計資料計算閱讀紀錄：造訪天數、閱讀時間、瀏覽的討論及閱讀的貼文皆採用實際數據。
+        system_notice: 系統徽章：編輯後，其自動授予規則仍會繼續運作。
+        table_failed: 無法載入徽章。是否已執行主題所需的資料庫遷移？
+        table_help: '停用徽章後，該徽章會從 /badges 頁面及個人檔案中隱藏，並停止授予新徽章。既有的授予紀錄會保留，重新啟用後便會再次顯示。'
+        tag_custom: 自訂
+        tag_manual: 手動授予
+        tag_system: 系統
+        tag_unlisted: 不公開列出
+        tl1_requires_read_posts_label: 閱讀的貼文數
+        tl1_requires_time_spent_mins_label: 閱讀時間
+        tl1_requires_topics_entered_label: 瀏覽的討論數
+        tl2_requires_days_visited_label: 造訪天數
+        tl2_requires_likes_given_label: 送出的按讚數
+        tl2_requires_likes_received_label: 收到的按讚數
+        tl2_requires_read_posts_label: 閱讀的貼文數
+        tl2_requires_time_spent_mins_label: 閱讀時間
+        tl2_requires_topic_reply_count_label: 回覆其他會員的討論數
+        tl2_requires_topics_entered_label: 瀏覽的討論數
+        tl3_promotion_min_duration_label: 降級前的緩衝期間
+        tl3_requires_days_visited_label: 評估期間內的造訪天數
+        tl3_requires_likes_given_label: 評估期間內送出的按讚數
+        tl3_requires_likes_received_label: 評估期間內收到的按讚數
+        tl3_requires_max_flagged_label: 被檢舉貼文數上限
+        tl3_requires_posts_read_all_time_label: 累計閱讀的貼文數
+        tl3_requires_posts_read_cap_label: 貼文閱讀數上限
+        tl3_requires_posts_read_label: 閱讀的貼文數（限評估期間內建立的貼文）
+        tl3_requires_topics_replied_to_label: 評估期間內回覆的討論數
+        tl3_requires_topics_viewed_all_time_label: 累計瀏覽的討論數
+        tl3_requires_topics_viewed_cap_label: 討論瀏覽數上限
+        tl3_requires_topics_viewed_label: 瀏覽的討論數（限評估期間內建立的討論）
+        tl3_time_period_label: 評估期間
+        trust_levels_enabled_help: 包含新手、基本會員、一般會員、活躍會員及領袖，系統會依據下方設定的條件計算等級。等級會顯示於個人檔案，並可獲得對應的信任等級徽章。「領袖」只能由管理員手動授予：進入個人檔案的管理選單，選擇「變更信任等級……」。
+        trust_levels_enabled_label: 信任等級
+        type_bronze: 銅級
+        type_gold: 金級
+        type_silver: 銀級
+        unavailable: 論壇目前缺少此規則所需的統計資料（相關擴充套件已停用，或主題功能尚未提供）。
+        unit_days: 天
+        unit_minutes: 分鐘
+        unit_percent: '%'
+        view_grants: 查看授予紀錄
+      bookmarks:
+        bookmarks_enabled_help: '會員可以將貼文加入書籤，以便日後再次查看，也可以選擇設定名稱及提醒時間。所有書籤都會集中顯示在個人檔案中的「書籤」分頁。停用後，相關按鈕會消失，API 也會如同此功能不存在般回應；既有的書籤資料則會保留。'
+        bookmarks_enabled_label: 書籤功能
+        bookmarks_topic_button_help: 在討論操作選單中（頁尾的「⋯」選單）加入「將討論加入書籤」選項，將第一篇貼文加入書籤。
+        bookmarks_topic_button_label: 將討論加入書籤
+        bookmarks_user_menu_help: 在頭像選單中，於「個人檔案」下方加入「書籤」捷徑。
+        bookmarks_user_menu_label: 會員選單項目
+        reminders_notice: '提醒由 Flarum 排程器每五分鐘檢查並發送一次，因此伺服器必須透過 cron 每分鐘執行一次「php flarum schedule:run」。若未設定 cron，書籤功能仍可正常使用，但不會發送提醒。'
+        title: 書籤
+      bug_reports:
+        ai_help: '複製修復指示，並貼到 ChatGPT、Claude、Gemini，或編輯器中的 AI 助理。指示內容會引導 AI 重現問題、撰寫測試、修正問題並驗證結果，同時附上論壇環境資訊、問題回報內容，以及可在 7 天內免登入開啟的螢幕截圖連結。'
+        ai_title: '使用 AI 修復'
+        browser: 瀏覽器
+        bug_reports_button_help: '啟用後，所有具有回報權限的使用者都會看到浮動回報按鈕。停用後，只有在論壇網址加上 ?bugs=1 開啟時才會顯示（同一瀏覽器會持續啟用，直到網址加上 ?bugs=0），適合用於測試群組。'
+        bug_reports_button_label: 固定顯示回報按鈕
+        bug_reports_console_help: 一併傳送過去一分鐘內的瀏覽器主控台錯誤訊息，有助於找出問題原因，但內容可能包含頁面資料。
+        bug_reports_console_label: 瀏覽器主控台錯誤
+        bug_reports_full_help: 除了標記的區域，也會保留整個螢幕的截圖，以供參考。
+        bug_reports_full_label: 擷取完整畫面
+        console: 主控台錯誤
+        copied: 已複製！
+        copy_all: 複製修復指示（待處理項目）
+        copy_failed: 複製失敗。
+        copy_image: 複製螢幕截圖
+        copy_prompt: '複製給 AI'
+        current_text: 目前文字
+        delete: 刪除
+        delete_confirm: 確定要刪除此筆回報及其螢幕截圖嗎？此操作無法復原。
+        description: 提供一個按鈕，讓使用者標記畫面上的問題區域、描述問題並送出回報。回報內容會附上螢幕截圖、頁面資訊、螢幕尺寸，以及標記區域內的網頁元素。可使用此功能的對象請至「權限」設定（「回報問題」；預設為所有會員）。
+        elements: 標記區域內的網頁元素
+        empty: 目前沒有符合條件的回報。
+        export: 下載（.md）
+        filter_active: 待處理
+        filter_all: 全部
+        full_alt: 完整畫面
+        kind_bug: 功能異常
+        kind_content: 文字或圖片問題
+        kind_design: 介面設計
+        kind_idea: 功能建議
+        load_failed: 無法載入問題回報。是否已執行主題所需的資料庫遷移？
+        next: 下一頁
+        note_label: 回覆回報者
+        page: 頁面
+        page_of: '第 {page} 頁，共 {pages} 頁'
+        permission: 回報問題（標記畫面並送出）
+        previous: 上一頁
+        privacy_notice: '螢幕截圖會儲存在 storage/canela-bug-reports 目錄（位於公開目錄之外），只有管理員和回報者可以查看。截圖中的密碼欄位會自動遮蔽。'
+        region_alt: 標記區域
+        reports_heading: 問題回報
+        route: 路由
+        save_failed: 儲存失敗，請再試一次。
+        save_note: 儲存回覆
+        status_fixed: 已修正
+        status_in_progress: 處理中
+        status_label: 處理狀態
+        status_open: 尚未處理
+        status_reviewed: 已檢視
+        status_wontfix: 不予處理
+        suggested_text: 建議文字
+        title: 問題回報
+        user_gone: 已刪除的帳號
+        viewport: 螢幕
+      categories_layout_boxes: 方塊：以卡片顯示顏色、說明及子標籤
+      categories_layout_help: 設定所有標籤頁面的呈現方式。
+      categories_layout_label: 版面配置
+      categories_layout_list: 列表：以表格顯示標籤及其最新討論
+      category_hero_children_help: 在標籤頁首下方，以可點擊的卡片顯示子標籤。
+      category_hero_children_label: 以卡片顯示子標籤
+      category_hero_help: 進入標籤頁時，在討論列表上方顯示大型頁首，包含標籤圖示、顏色、名稱及說明。
+      category_hero_label: 在標籤頁顯示大型頁首
+      chat:
+        channels_only_title: 聊天頻道
+        channels_title: 頻道與私人訊息
+        chars: 字元
+        chat_dm_enabled_help: 支援兩人或多人群組的私人對話，可透過「新增訊息」或個人檔案中的「聊天」按鈕開啟。
+        chat_dm_enabled_label: 私人訊息
+        chat_dm_max_users_help: 群組聊天最多可容納的人數，包含建立者。
+        chat_dm_max_users_label: 每個對話的參與人數上限
+        chat_dm_retention_days_help: '私人訊息也採用相同的保留規則。設定為 0 則永久保留。'
+        chat_dm_retention_days_label: 私人訊息保留期限
+        chat_enabled_help: '啟用主題內建的聊天功能，包含公開頻道（獨立頻道或綁定標籤）、私人訊息、討論串、表情反應、提及及圖片傳送，並提供頁首圖示、角落側邊面板及 /chat 頁面。停用後，所有聊天功能都會從論壇中隱藏，API 也會如同此功能不存在般回應；既有訊息仍會保留。'
+        chat_enabled_label: 聊天功能
+        chat_max_message_length_help: '以字元數計算，預設為 6000。'
+        chat_max_message_length_label: 訊息字數上限
+        chat_pins_enabled_help: '管理員及版主每個頻道最多可置頂 20 則訊息（私人對話中則由任何參與者皆可置頂），並顯示於對話頂部的工具列。'
+        chat_pins_enabled_label: 置頂訊息
+        chat_poll_seconds_help: '未使用 WebSocket 即時連線時，開啟中的對話每隔幾秒向伺服器查詢一次新訊息。'
+        chat_poll_seconds_label: 非即時模式的查詢間隔
+        chat_retention_days_help: '每天永久刪除超過此天數的公開頻道訊息。設定為 0 則永久保留。'
+        chat_retention_days_label: 公開頻道訊息保留期限
+        chat_sidebar_help: 在側邊欄的標籤下方顯示「頻道」及「私人訊息」區塊，並標示未讀訊息及提及通知。
+        chat_sidebar_label: 側邊欄區塊
+        chat_threads_enabled_help: 回覆訊息時，會在側邊面板中開啟獨立的對話串。各個頻道仍可在自己的設定中個別啟用或停用討論串。
+        chat_threads_enabled_label: 討論串
+        chat_upload_max_kb_help: 單一檔案的大小上限。
+        chat_upload_max_kb_label: 圖片大小上限
+        chat_uploads_enabled_help: '允許透過編輯器的「+」按鈕、貼上或拖放方式傳送圖片（JPG、PNG、GIF 及 WebP），並採用與頭像相同的驗證方式。圖片會儲存在 public/assets/canela-chat。'
+        chat_uploads_enabled_label: 訊息圖片
+        days: 天
+        limits_title: 訊息、圖片上傳與保留期限
+        needs_chat: 請先啟用聊天功能，才能進行相關設定。
+        permission_create_channel: 建立公開聊天頻道
+        permission_direct_message: 發起私人聊天訊息
+        permission_moderate: 管理聊天（刪除訊息、置頂訊息、關閉及封存頻道）
+        permission_use: 使用聊天功能
+        permissions_notice: 聊天使用權限、發起私人訊息、建立公開頻道及管理聊天的權限，請至「權限」設定中的「聊天」項目調整。管理員一律擁有完整權限。
+        realtime_off: '未啟用 flarum/realtime 時，聊天功能會每隔幾秒向伺服器查詢新訊息。功能仍可正常使用，但會有些許延遲，且伺服器請求次數較多。若要即時接收訊息，請啟用 flarum/realtime 並執行「php flarum realtime:serve」。'
+        realtime_on: '透過 flarum/realtime WebSocket 即時接收訊息（必須執行「php flarum realtime:serve」）。若即時連線服務中斷，聊天功能會自動改為每隔幾秒向伺服器查詢新訊息。'
+        replaced_by_ramon_chat: '目前已啟用 ramon/chat，會取代主題內建的聊天功能，因此主題內建聊天將維持停用。主題會配合 ramon/chat 調整外觀及側邊欄。'
+        retention_notice: '資料清理作業會透過 Flarum 排程器執行（需在 cron 中每分鐘執行一次「php flarum schedule:run」），並一併刪除尚未成為訊息附件的已上傳圖片。'
+        title: 聊天
+      colored_accents_help: 在標籤頁面或討論串中，主題的強調色（按鈕、連結、作用中分頁及色調背景）會改用主要標籤的顏色。其他頁面則恢復使用論壇的主要顏色。
+      colors_current: 目前的主要顏色
+      colors_help: '主題本身不設定獨立色彩，整體配色皆取自 Flarum 的主要顏色。淺色與深色模式中的色調背景、選取效果、連結及焦點外框，也都會依據此顏色產生。'
+      colors_link: 前往「外觀」變更顏色
+      community:
+        about_contact_email_help: 顯示於「聯絡我們」區塊。此地址會公開顯示，請使用管理團隊的聯絡信箱。
+        about_contact_email_label: 聯絡電子郵件
+        about_contact_url_help: '聯絡表單或頁面的完整網址（https://…）。'
+        about_contact_url_label: 聯絡頁面
+        about_enabled_help: 提供論壇簡介、自訂文字、聯絡資訊、管理團隊及網站統計資料的頁面，並在側邊欄的「更多」選單中加入連結。
+        about_enabled_label: 關於頁面（/about）
+        about_pages_add: 新增頁面……
+        about_pages_down: 下移
+        about_pages_help: '可新增任意數量的 fof/pages 頁面，作為「關於」及「社群守則」旁的分頁。每個頁面都會採用相同的規範頁面版型，包含標題、章節索引及資訊卡片。'
+        about_pages_icon: 圖示（選填）
+        about_pages_label: 分頁標籤
+        about_pages_list_help: '每個頁面都會依照列表順序，排列在「關於」及「社群守則」之後，網址格式為 /about/id-slug，並採用與社群守則相同的版型。分頁標籤留空時會使用頁面標題；圖示請填入 Font Awesome 類別名稱。fof/pages 中設為隱藏或受限的頁面，只有具備檢視權限的使用者才能看到。'
+        about_pages_missing: '頁面 #{id}（找不到）'
+        about_pages_none_left: '所有 fof/pages 頁面都已加入列表'
+        about_pages_remove: 從關於專區移除
+        about_pages_up: 上移
+        about_show_staff_help: 顯示「管理員」及「版主」名單。無法查看隱藏群組的使用者不會看到該群組。
+        about_show_staff_label: 顯示管理團隊
+        about_show_stats_help: '顯示過去 24 小時、7 天、30 天及累計的討論數、貼文數、註冊人數、活躍使用者及按讚數。'
+        about_show_stats_label: 顯示網站統計資料
+        about_text_help: '顯示於標題下方。支援 Markdown 和 BBCode（依論壇啟用的格式而定）；若內容包含 HTML 標籤，則會直接以 HTML 呈現，不進行格式轉換。'
+        about_text_label: 關於我們的內容
+        directory_enabled_help: 以表格列出每位會員收到及送出的按讚數、討論數、回覆數及最後上線時間，並可依統計期間篩選及按照欄位排序。
+        directory_enabled_label: 會員列表頁面（/u）
+        directory_guests_help: 預設只有具備「檢視會員列表」權限（位於「權限」設定）的使用者，才能查看會員名錄及群組成員。啟用後，訪客也能查看，但私人論壇除外。
+        directory_guests_label: 允許訪客查看
+        directory_notice: '啟用 Likes 擴充套件後才會顯示按讚統計欄位；造訪次數及閱讀貼文數則需要主題的統計功能。最後上線時間的排序會遵循 Flarum 核心的會員上線狀態檢視權限。'
+        groups_activity_help: 在群組頁面中顯示成員近期發布的貼文。
+        groups_activity_label: 動態分頁
+        groups_enabled_help: 每個群組都有獨立資訊卡，顯示圖示、顏色及成員人數，並提供列出群組成員的專屬頁面。隱藏群組只有具備檢視權限的使用者才能看到。
+        groups_enabled_label: 群組頁面（/g）
+        groups_profile_links_help: '個人檔案資訊卡中的群組標籤會變成連結，導向 /g/group-name。'
+        groups_profile_links_label: 個人檔案中的群組連結至群組頁面
+        guidelines_enabled_help: '顯示論壇社群規範，並以分頁形式排列於「關於」旁，也會加入側邊欄的「更多」選單。/faq 會導向相同頁面。只有在有內容時（下方文字或 fof/pages 頁面）才會顯示此頁面。'
+        guidelines_enabled_label: 社群守則頁面（/guidelines）
+        guidelines_page_create: 使用目前的文字建立「社群守則」頁面
+        guidelines_page_help: '選擇頁面後，/guidelines 將顯示該頁面的內容（並遵循 fof/pages 自身的可見性設定），下方文字將不再生效。之後請至 fof/pages 編輯內容。若下方文字留空，建立的頁面會使用主題範本。'
+        guidelines_page_label: 'fof/pages 頁面'
+        guidelines_page_none: 無：使用下方文字
+        guidelines_text_help: '支援 Markdown 和 BBCode；若包含 HTML 標籤，則會直接以 HTML 呈現。若內容留空且未設定 fof/pages 頁面，社群守則頁面將不會顯示。'
+        guidelines_text_label: 社群守則內容
+        legal_notice: '若此處或 FoF Terms 中未設定網址，對應的分頁就不會顯示。FoF Terms 中的其他政策則會使用各自的名稱建立分頁。'
+        legal_tabs_help: '將此區塊及 FoF Terms 中的政策加入「關於」專區，作為分頁顯示。停用後，只會保留「關於專區頁面」中選取的分頁；/tos 和 /privacy 網址仍可正常使用。'
+        legal_tabs_label: 以分頁顯示服務條款與隱私權政策
+        privacy_url_help: '「隱私權政策」分頁及 /privacy 會導向此網址。若 FoF Terms 中有名稱包含「privacy」的政策，則會優先使用該政策。'
+        privacy_url_label: 隱私權政策網址
+        section_about: 關於頁面
+        section_about_pages: 關於專區頁面
+        section_directory: 會員名錄
+        section_groups: 群組
+        section_legal: 社群守則、服務條款與隱私權
+        section_legal_links: 服務條款與隱私權
+        stats_notice: '統計資料僅計算公開內容，並每 30 分鐘重新計算一次。'
+        tos_url_help: '「服務條款」分頁及 /tos 會導向此網址。若 FoF Terms 中有名稱包含「terms」的政策，則會優先使用該政策。'
+        tos_url_label: 服務條款網址
+        view_page: 在論壇中檢視頁面
+      composer:
+        drafts_help: '搭配 FoF Drafts 擴充套件時，主題會以以下方式管理草稿：建立新討論或回覆時，停止輸入兩秒後會自動儲存；回到討論串回覆時會自動載入先前的草稿；關閉含有文字的編輯器時，會詢問要捨棄或保留草稿；「開始新討論」按鈕則會加入 ⌄ 選單，列出所有草稿。草稿也會顯示於會員選單及個人檔案的「草稿」分頁。'
+        drafts_label: 草稿（fof/drafts）
+        drafts_note: '草稿由 fof/drafts 擴充套件儲存於 drafts 資料表，並由該擴充套件負責處理權限及排程功能。編輯既有貼文時不會建立草稿。'
+        emoji_help: '點擊工具列中的表情符號按鈕，即可開啟選擇器，提供搜尋、分類、最近使用及膚色選擇功能。啟用 Emoji 擴充套件後，表情符號會以該擴充套件提供的圖片顯示。'
+        emoji_label: 表情符號選擇器
+        emoji_notice: 'Emoji 擴充套件目前已停用：選擇器會使用系統內建的表情符號，主題則會提供「:名稱」自動完成建議。'
+        enabled_help: '總開關：停用後，編輯器會恢復為 Flarum 原始樣式，不會啟用下方的任何功能。'
+        enabled_label: 主題編輯器功能
+        hashtags_help: '在編輯器中輸入 # 時，會自動建議標籤並插入連結；在貼文中，這些連結（以及 Mentions 擴充套件的標籤提及）會轉換為帶有標籤圖示的膠囊標籤。'
+        hashtags_label: '標籤 Hashtag'
+        hashtags_mentions_notice: '啟用 Mentions 擴充套件後，編輯器中的 # 功能會由該擴充套件接管（標籤提及）；主題只負責將貼文中的標籤提及呈現為 Hashtag。'
+        linked_topic_help: '在回覆編輯器中，點擊「↩ ▾」選單，即可將回覆轉換為新討論，保留相同文字、加入返回原討論的連結，並沿用相同標籤。'
+        linked_topic_label: 以連結討論的方式回覆
+        preview_help: '桌面版會在編輯器右側即時顯示格式化後的貼文預覽。使用者可點擊編輯器角落的 « 按鈕隱藏預覽。'
+        preview_label: 左右並排預覽
+        requires_composer: 主題編輯器功能目前已停用（請參閱上方的「主題編輯器」區塊）。
+        section_drafts: 草稿
+        section_editor: 主題編輯器
+        section_hashtags: '#標籤'
+        similar_help: 建立新討論時，當標題輸入三個或以上的單字，會顯示「你的討論與以下內容相似……」，最多列出五則相關討論。
+        similar_label: 相似討論
+      content_card_help: 討論列表、討論串及個人檔案會以圓角卡片呈現在背景上。停用後，內容將直接延伸至整個區域，不再顯示卡片外框。
+      content_card_label: 內容以卡片方式呈現
+      content_width_90: 90%
+      content_width_caption: '1440px 螢幕'
+      content_width_custom: 自訂
+      content_width_default: 預設
+      content_width_full: 全寬
+      content_width_help: '設定內容卡片（討論列表、討論串及個人檔案）的最大寬度；在討論串中，貼文欄位也會隨之擴展。預設寬度為 1110px；90% 與全寬模式則會依螢幕尺寸調整。預覽會以 1440px 螢幕寬度呈現實際論壇畫面。'
+      content_width_label: 內容寬度
+      content_width_preview_discussion: 討論串
+      content_width_preview_index: 首頁
+      content_width_reset: 恢復預設
+      content_width_wide: 寬版
+      content_width_wider: 特寬版
+      cooked:
+        backend_off: 註腳及目錄語法所需的後端程式（extend/cooked.php）尚未載入伺服器。
+        footnotes_help: '支援註腳語法：在內文中使用「text[^1]」，並在貼文結尾加入「[^1]: 註腳內容」；也可以使用行內註腳「^[註腳內容]」。註腳編號會以較小字體顯示於文字上方，點擊後會透過提示框顯示註腳內容。編輯器的 ⊕ 選單也會新增「註腳」功能。停用後，註腳語法會維持原樣顯示，例如「[1]」及「[1]: 文字」。'
+        footnotes_title: 註腳
+        toc_auto_tags_help: '在這些標籤下的討論中，即使第一篇貼文沒有加入 [toc]，只要標題數量達到門檻，系統仍會自動產生目錄。'
+        toc_auto_tags_label: 自動產生目錄的標籤
+        toc_help: '在第一篇貼文中加入 [toc]（也可以透過編輯器的 ⊕ 選單選擇「插入目錄」），標題就會顯示在時間軸欄位中，並標示目前所在的標題，另外提供「跳至底部」功能。下方按鈕可切換「目錄」與「時間軸」，選擇結果會儲存在瀏覽器中。手機版的目錄則會顯示於時間軸面板內。'
+        toc_min_headings_help: 第一篇貼文中的標題數未達此門檻時，不會顯示目錄。
+        toc_min_headings_label: 最少標題數
+        toc_title: 目錄
+      embedded_replies_help: '點擊每篇貼文的「N 則回覆」即可在下方展開相關回覆，並在回覆內容上方顯示被引用的原始貼文。'
+      embedded_replies_label: 內嵌回覆
+      events:
+        backend_off: 活動功能所需的後端程式（extend/events.php）尚未載入伺服器。
+        events_chat_help: '建立活動時，可選擇啟用「活動聊天室」，自動建立專屬的 ramon/chat 頻道，並綁定活動所屬的討論標籤。標記為「會參加」的使用者會自動加入該頻道。'
+        events_chat_label: 活動聊天室
+        events_docked_chat_help: 桌面版會在討論右側顯示全高度的聊天室欄位；手機及平板版則會在活動資訊卡中提供聊天室連結。
+        events_docked_chat_label: 在討論旁顯示聊天室
+        events_enabled_help: '在編輯器的 ⊕ 選單中選擇「建立活動」，即可在第一篇貼文中加入活動資訊，包含日期、時間、時區、週期性活動、直播網址、地點及參加人數上限。貼文中會顯示活動資訊卡，提供「會參加」、「有興趣」及「不參加」選項、參加者名單，以及「加入行事曆」（Google 行事曆及 .ics）功能。停用後，活動資訊卡會改以一般文字呈現，API 也會如同此功能不存在般回應。'
+        events_list_badge_help: '在討論列表的標題旁及討論串標題列中，顯示活動日期（例如「3 天後」、「2 天前」）。'
+        events_list_badge_label: 在列表及標題列顯示日期
+        events_reminder_minutes_help: '設定每次活動開始前幾分鐘，向標記為「會參加」的使用者發送提醒。設定為 0 則停用提醒。'
+        events_reminder_minutes_label: 活動開始前提醒
+        events_tag_any: 所有標籤
+        events_tag_help: 只有在此標籤下建立新討論時，才會顯示「建立活動」按鈕；只有此標籤下的討論才會顯示活動資訊卡、列入「近期活動」及發送提醒。凡是具備該標籤討論建立權限的使用者，都可以建立活動（依照標籤本身的權限設定）。選擇「所有標籤」則適用於所有討論。
+        events_tag_label: 活動標籤
+        events_upcoming_help: '在側邊欄加入「活動」連結，提供 /events 頁面（列表及行事曆），並在活動標籤的討論列表頂部顯示近期活動日期。'
+        events_upcoming_label: 近期活動
+        minutes: 分鐘
+        reminders_notice: '活動提醒由 Flarum 排程器每五分鐘檢查並發送一次，因此伺服器必須透過 cron 每分鐘執行一次「php flarum schedule:run」。'
+        title: 活動
+      extras:
+        banner_enabled_help: 在每個頁面的內容上方顯示公告橫幅，並提供關閉按鈕。使用者關閉後便不會再次看到，直到公告文字變更為止。
+        banner_enabled_label: 顯示公告橫幅
+        banner_reshow: 重新向已關閉公告的使用者顯示
+        banner_reshow_done: 公告橫幅將重新向所有人顯示。
+        banner_text_help: '支援 Markdown、BBCode 及表情符號，使用方式與一般貼文相同。若要使用 HTML，請以 HTML 標籤（例如 p、div 等）作為內容開頭。留空時不會顯示公告橫幅。'
+        banner_text_label: 公告內容
+        banner_title: 公告橫幅
+        bulk_select_enabled_help: 列表工具列會新增按鈕，啟用後可勾選各個討論，並顯示操作列，提供標記為已讀、置頂、關閉、更改標籤、隱藏及刪除等操作。只有具備列表中至少一則討論管理權限的使用者才會看到此功能，而且每項操作只會套用於其具備相應權限的討論。
+        bulk_select_enabled_label: 版主批次選取功能
+        bulk_title: 批次選取
+        history_notice: 只有啟用此功能期間進行的編輯才會留下紀錄。停用後不會再儲存新紀錄，論壇中也不會顯示編輯紀錄；但已儲存的資料仍會保留在資料庫中。隱藏貼文的歷史版本內容，只有具備該貼文編輯權限的使用者才能查看。
+        history_title: 編輯紀錄
+        post_history_enabled_help: 每次編輯都會保留先前的文字內容。貼文上的「已編輯」標記會改為鉛筆圖示及修訂次數，點擊後即可比較不同版本，並可選擇行內或左右並排方式檢視。
+        post_history_enabled_label: 儲存並顯示編輯紀錄
+        post_history_public_help: '停用後，只有貼文作者及具備編輯權限的使用者能開啟編輯紀錄；其他人則會看到 Flarum 原有的「已編輯」標記。'
+        post_history_public_label: 所有人都能查看編輯紀錄
+        print_title: 列印討論
+        print_topic_enabled_help: '將所有貼文載入精簡的列印版面（不含側邊欄、頁首及時間軸），並開啟瀏覽器的列印視窗，也可以選擇另存為 PDF。'
+        print_topic_enabled_label: 在討論操作選單中加入「列印」
+        search_notice: '這些篩選條件也可以直接作為搜尋語法使用，例如 in:title、in:likes、in:bookmarks 及 min-posts:5，並可搭配 Flarum 原有的搜尋語法（author:、tag:、is:locked 等）。'
+        search_page_enabled_help: '新增 /search 搜尋頁面，提供討論、貼文、標籤及會員分頁，並支援進階篩選條件（作者、主要標籤、標籤、僅搜尋標題、已按讚、狀態、日期、最低貼文數）及排序功能。搜尋彈出視窗也會新增「進階搜尋」連結。'
+        search_page_enabled_label: 進階搜尋頁面
+        search_title: 搜尋頁面
+        text_size_enabled_help: 每位使用者都可以在「設定」中選擇「較小／標準／較大／最大」字體。選擇會套用於目前裝置，並儲存在瀏覽器中。
+        text_size_enabled_label: 文字大小選擇功能
+        text_size_title: 文字大小
+        top_periods_enabled_help: 熱門分頁會提供「不限時間／年度／季度／月份／週／今天」選項，只顯示所選期間內建立的討論。
+        top_periods_enabled_label: 熱門分頁的期間選擇器
+        top_periods_title: 依期間查看熱門討論
+      font_help: '套用於整個論壇的字型。主題內建 Inter 和 Plus Jakarta Sans，適用於拉丁字母；系統字型則不需下載任何字型檔，並支援所有文字系統。'
+      font_inter: Inter：主題預設字型
+      font_jakarta: 'Plus Jakarta Sans'
+      font_label: 論壇字型
+      font_notice: '變更字型會重新編譯論壇 CSS，因此儲存時需要等待幾秒鐘。'
+      font_system: 系統字型
+      forum_background_help: 設定內容區域及側邊欄後方的背景。染色漸層（含或不含模糊圖示）及染色色彩會依據主要顏色呈現；一般背景則維持中性的灰色。
+      forum_background_label: 論壇背景
+      gaps:
+        assign_bot_bio: '論壇的 AI 助理。將討論指派給我，我就會提供回覆。'
+        assign_bot_create: '建立 AI 助理'
+        assign_bot_created_as: 'AI 助理：{name}'
+        assign_bot_help: 請至助理的個人檔案修改名稱、頭像及個人簡介。助理的回覆時機與方式則在下方區塊設定。
+        assign_bot_missing: '請建立 AI 助理帳號：使用獨立於系統帳號的專屬帳號，透過主題的 AI 功能在討論串中回覆。'
+        assign_bot_open_profile: 開啟個人檔案
+        assign_help: '每個討論串可指定一位負責人，類似 Discourse 的指派功能。具備「指派討論」權限的會員可從討論選單中指派負責人（也可以指派給自己），被指派者則隨時可以自行取消指派。'
+        assign_label: 討論指派
+        assign_permission: 指派討論給其他人
+        backend_off: 這些功能所需的後端程式（extend/gaps.php）尚未載入伺服器。
+        code_buttons_help: 將滑鼠移至程式碼區塊上方時，會顯示「複製」及「全螢幕」按鈕。
+        code_buttons_label: 程式碼區塊操作按鈕
+        cooked_title: 貼文內容
+        heading_anchors_help: '貼文中的標題在滑鼠游標移至上方時，會顯示連結圖示（#），方便直接連結至該段內容。'
+        heading_anchors_label: 標題錨點連結
+        inline_title_editor_help: '具備更改標題權限的使用者會在討論標題旁看到鉛筆圖示。點擊後標題會轉換為可編輯欄位，並提供標籤按鈕及 ✓／✕，用來儲存或取消變更。'
+        inline_title_editor_label: 在標題列編輯討論標題
+        invite_permission: 邀請會員（邀請連結）
+        invites_enabled_help: 具備「邀請」權限（位於「權限」設定）的使用者，可以在「分享」及「更多」選單中建立邀請連結，並設定有效期限及使用次數。透過邀請連結加入的會員會標記為受邀加入，邀請者則會收到「有人接受了你的邀請」通知。此功能需要開放會員註冊。
+        invites_enabled_label: 邀請連結
+        invites_expire_days_help: '可設定 1 至 90 天。'
+        invites_expire_days_label: 預設有效期限（天）
+        lightbox_help: 點擊貼文中的圖片即可在深色背景上放大檢視，並提供同一篇貼文內的圖片切換箭頭、縮放、「原始圖片」及「下載」功能。
+        lightbox_label: 放大檢視圖片（燈箱效果）
+        list_dismiss_help: 在「未讀」及「最新」列表中，提供將列表內討論全部標記為已讀的按鈕，分別位於列表右上角及列表底部。
+        list_dismiss_label: 「標記為已讀」按鈕
+        list_last_visit_help: 在最新討論列表中，以紅線區分上次造訪後有更新的討論，以及當時就已經是目前狀態的討論。上次造訪時間會儲存在讀者的裝置中。
+        list_last_visit_label: 「上次造訪」分隔線
+        list_title: 上次造訪與標記為已讀
+        local_dates_help: '[date=2026-10-20 time=14:00 timezone="America/Sao_Paulo"] 會依照讀者所在時區顯示日期及時間。清除快取後才會生效。'
+        local_dates_label: 依照當地時區顯示日期
+        mention_cards_help: '點擊 @提及 時會開啟會員資訊卡，而不是前往對方的個人檔案。'
+        mention_cards_label: 提及會員時顯示會員資訊卡
+        not_found_page_help: 以「找不到此頁面。」、「返回首頁」及搜尋功能取代一般錯誤頁面。下方選擇的版型會決定頁面的設計，以及要顯示哪些討論。
+        not_found_page_label: '404 錯誤頁面'
+        not_found_template_classic: 經典
+        not_found_template_classic_help: 標題旁顯示放大鏡圖示，並提供搜尋區塊、熱門討論及近期討論。
+        not_found_template_label: 版型
+        not_found_template_minimal: 簡約
+        not_found_template_minimal_help: 以醒目的「404」及標題為主，搜尋欄與按鈕排列在同一行，不顯示討論列表。
+        not_found_template_signpost: 路標
+        not_found_template_signpost_help: 中央顯示路標，下方提供搜尋區塊及精簡的討論列表。
+        not_found_template_split: 左右分欄
+        not_found_template_split_help: 左側顯示文字、搜尋欄及近期討論；右側面板則顯示地圖。
+        not_found_template_view: 檢視頁面
+        notifications_title: 通知貼文作者
+        notify_post_edited_help: 當其他人（例如管理員或版主）修改你的貼文內容時，作者會收到「有人編輯了你的貼文」通知。
+        notify_post_edited_label: 有人編輯你的貼文時通知
+        notify_topic_linked_help: 當其他貼文中包含指向你所建立討論的連結時，會收到「有人連結了你的討論」通知。
+        notify_topic_linked_label: 有人連結你的討論時通知
+        post_notice_months_help: 設定會員多久沒有發文後，下一篇貼文才會顯示回歸提示。
+        post_notice_months_label: 「歡迎回來」提示的月份門檻
+        post_notices_help: '在會員首次發布貼文時，於內容上方顯示歡迎提示；當會員長時間未活動後再次發文時，則顯示回歸提示（例如「他上次發文是在 8 個月前」）。提示內容會在貼文建立時決定。'
+        post_notices_label: 貼文提示
+        post_read_state_help: 每篇新貼文的角落會顯示「未讀貼文」提示點，閱讀後便會消失；此外，也會在上次造訪時最後閱讀的貼文下方，以紅線標示「上次造訪」的位置。
+        post_read_state_label: 貼文已讀標記
+        post_shortcuts_help: '使用 j/k 在貼文之間移動，並以 l、b、s、e、r、q、d、! 對選取的貼文執行操作；使用 # 跳至指定貼文。其他快速鍵包括 Home/End、shift+L、shift+R、shift+S、shift+P、f、m w/m r/m m，以及 g n、g u、g b、g m、g d、g j、g k 等組合鍵。按下「?」即可查看完整快捷鍵列表。'
+        post_shortcuts_label: 貼文快速鍵
+        push_help: '即使論壇已關閉，手機及電腦仍可收到通知。每位會員都必須在「設定」→「通知」中自行啟用，通知類型表格也會新增「推播」欄位供選擇。此功能需要 HTTPS，並且必須啟動佇列工作程序，避免通知延遲送達。'
+        push_label: 瀏覽器推播通知
+        pwa_help: '使用者可以將論壇安裝為手機或電腦上的應用程式，名稱、顏色及圖示會沿用「外觀」設定。若要讓瀏覽器提供「安裝」選項，請使用 512px 的 PNG 網站圖示。'
+        pwa_label: 可安裝的應用程式（PWA）
+        reading_title: 討論串閱讀與導覽
+        share_modal_help: 點擊「分享」按鈕會開啟視窗，顯示連結、複製按鈕及各分享平台按鈕。停用後，點擊只會複製連結。手機版則會使用系統內建的分享面板。
+        share_modal_label: 「分享討論」視窗
+        share_networks_help: 以逗號分隔，並依照顯示順序填入：x、facebook、linkedin、whatsapp、telegram、reddit、email。
+        share_networks_label: 分享平台
+        sidebar_category_dots_help: 當某個標籤下有新討論或未讀討論時，會在標籤旁顯示提示點，類似「所有討論」旁的提示點。
+        sidebar_category_dots_label: 標籤未讀提示點
+        sidebar_custom_links_help: '每行輸入一個連結，格式為：標籤 | 網址 | 圖示（選填，使用 Font Awesome 類別名稱）。以 / 開頭的網址代表論壇內的路徑。若未設定任何連結，則不會顯示此區塊。'
+        sidebar_custom_links_label: 自訂區塊連結
+        sidebar_custom_title_help: 連結區塊的名稱（預設為「連結」）。
+        sidebar_custom_title_label: 自訂區塊標題
+        sidebar_faq_url_help: 常見問題頁面或社群守則頁面的網址。
+        sidebar_faq_url_label: 常見問題／社群守則
+        sidebar_help: 常見問題、服務條款及隱私權政策連結只要設定網址，就會加入「更多」選單。版主則會自動看到「審核」連結，並可進入檢舉佇列。
+        sidebar_home_categories: 標籤
+        sidebar_home_index: 討論列表（首頁）
+        sidebar_home_label: 導向頁面
+        sidebar_home_link_help: 側邊欄中的第一個連結。若此連結導向討論列表，「所有討論」就會改為開啟「最新」列表，避免兩個連結同時呈現作用中狀態。
+        sidebar_home_link_label: 「首頁」連結
+        sidebar_home_url_help: '可填入論壇內的網址（例如 /p/welcome），也可以是其他網站的網址。'
+        sidebar_home_url_label: 首頁網址
+        sidebar_home_url_option: 其他網址
+        sidebar_privacy_url_help: 隱私權政策頁面的網址。
+        sidebar_privacy_url_label: 隱私權政策
+        sidebar_title: 額外連結
+        sidebar_tos_url_help: 服務條款頁面的網址。
+        sidebar_tos_url_label: 服務條款
+        spoiler_blur_help: '劇透內容（||文字|| 及以 >! 開頭的行）會先以模糊效果隱藏，點擊後才會顯示，而非使用深色遮蔽條。'
+        spoiler_blur_label: 模糊處理劇透內容
+        table_expand_help: 當表格寬度超出貼文可用空間時，會顯示「展開表格」按鈕，點擊後即可在大型視窗中檢視。
+        table_expand_label: 展開寬版表格
+        tables_notice: '若要使用 Markdown 表格（| a | b |），請在 FoF Formatting 中啟用 PipeTables。'
+        timeline_back_help: 當使用者捲動至已讀進度較遠的位置時，時間軸上會出現返回按鈕，點擊後即可回到最後一篇未讀貼文。
+        timeline_back_label: 時間軸上的「返回」按鈕
+      group_ai: AI
+      group_appearance: 外觀
+      group_community: 社群
+      group_composer: 編輯器與搜尋
+      group_header: 頁首與快捷功能
+      group_home: 首頁
+      group_list: 討論列表
+      group_profile: 個人檔案
+      group_sidebar: 側邊欄
+      group_topic: 討論串
+      groups_aria: 設定分類
+      header_search_help: '在頁首中央顯示膠囊形搜尋欄。停用後，將恢復使用 Flarum 預設的搜尋功能。'
+      header_search_label: 頁首中央的搜尋欄
+      hot_days_help: '設定熱門討論的統計期間，範圍為 {min} 至 {max} 天。'
+      hot_days_label: 熱門討論的統計天數
+      integrations:
+        audit_help: '讓 flarum/audit 稽核紀錄採用主題外觀：在頭像上顯示代表變更內容的圖示，並依操作類型（建立、隱藏、編輯）以不同顏色的標籤呈現操作項目。紀錄會依日期分組，按下 Enter 即可套用篩選條件。'
+        audit_label: 採用主題樣式的稽核紀錄
+        links_sidebar_help: '將 FoF Links 的連結從頁首移至側邊欄區塊。'
+        links_sidebar_label: 側邊欄連結
+        marketplace_help: '讓商店頁面（商店首頁、商品、購物車、結帳、訂單、下載、賣家控制台、課程及方案）採用主題卡片版面，並使用類似頁首主視覺區塊的標題、主題按鈕、欄位、分頁及對話視窗。介面顏色會依主要顏色調整，圖示則使用 Lucide。'
+        marketplace_label: 採用主題外觀的商店（ramon/marketplace）
+        marketplace_sidebar_help: 將商店連結（市集、購物車、訂單、下載、願望清單等）整合至可收合的側邊欄區塊，取代滑鼠移至「商店」時才會開啟的選單。
+        marketplace_sidebar_label: 側邊欄中的「商店」區塊
+        messages_help: '在 flarum/messages 原有功能上增加個人檔案訊息區塊（最新、已傳送、新訊息、未讀、封存）、個別會員的封存功能、訊息標題、表情反應及「留言」功能。'
+        messages_label: 強化私人訊息
+        polls_help: 以網格版面呈現投票，包含結果長條及旁邊醒目的投票數。
+        polls_label: 投票
+        profile_cover_help: 使用此擴充套件提供的封面，取代主題內建封面。封面會顯示於個人檔案橫幅、會員資訊卡後方（有縮圖時使用縮圖），以及擴充套件編輯器所選擇的位置。編輯器可從個人檔案的「⋯」選單及「設定」開啟。主題原有的封面圖片仍會保留；停用此選項後便會恢復使用。
+        profile_cover_label: 個人檔案封面（forumaker/profile-cover）
+        ramon_chat_help: '讓 ramon/chat 擴充套件採用主題的聊天介面，包括不含第二欄的頁面、側邊面板、訊息、編輯器、討論串及頻道畫面。啟用此擴充套件後，主題內建的聊天功能會自動讓位。'
+        ramon_chat_label: 採用主題樣式的聊天（ramon/chat）
+        ramon_chat_notifications_help: 在會員選單中新增獨立的「聊天」分頁，集中顯示聊天通知（邀請、提及及管理操作）。
+        ramon_chat_notifications_label: 會員選單中的「聊天」分頁
+        ramon_chat_sidebar_help: 在主題側邊欄中顯示「頻道」及「私人訊息」區塊，並包含「我的討論串」、「搜尋」及「已儲存」項目；聊天頁面則會隱藏自身的頻道欄。
+        ramon_chat_sidebar_label: 側邊欄中的頻道
+        ramon_chat_user_button_help: '在會員資訊卡及個人檔案中顯示「聊天」按鈕，點擊即可開啟私人對話，取代「⋯」選單中的項目。啟用 flarum/messages 時，此選項不會生效，因為私人對話會改由其中的「訊息」功能提供。'
+        ramon_chat_user_button_label: 會員資訊卡及個人檔案中的「聊天」按鈕
+        reactions_help: 在貼文操作列中顯示表情符號反應摘要。
+        reactions_label: 表情反應
+        solved_help: '在貼文操作列中顯示「✓ 解答」按鈕，並在第一篇貼文正下方顯示已採納的解答。'
+        solved_label: 最佳解答
+        thumbnails_help: '在討論列表的標題旁顯示 FoF Discussion Thumbnail 提供的圖片縮圖。'
+        thumbnails_label: 討論列表縮圖
+        upload_progress_help: '透過 FoF Upload 傳送檔案時，在編輯器中顯示「上傳中……」進度列。'
+        upload_progress_label: 上傳進度
+        verified_help: '在名稱後方顯示 ramon/verified 的徽章，並沿用文字行的尺寸，呈現方式類似會員圖示。適用於貼文標題列、內嵌貼文、「回覆對象」、會員資訊卡及個人檔案。'
+        verified_label: 已驗證徽章
+        widgets_help: 將此擴充套件的小工具以卡片形式呈現，外觀比照主題內建小工具，排列於討論列表右側的欄位。原本配置在頁面側邊欄的小工具（主題會隱藏該側邊欄）也會移至相同欄位。停用後，則恢復使用擴充套件原有的外觀及位置。
+        widgets_label: 小工具（fof/forum-widgets-core）
+        widgets_width_help: '設定桌面版討論列表旁的小工具欄寬度，範圍為 200 至 480 px。討論列表會使用剩餘空間。'
+        widgets_width_label: 欄位寬度
+        wiki_help: '讓 linkrobins/wiki Wiki 採用主題外觀：索引頁使用討論列表版面，文章頁以第一篇貼文的形式呈現（包含摘要及歷史紀錄），並使用討論編輯器撰寫內容（支援草稿、進階選項及常見問題）。側邊欄的社群區塊也會加入「Wiki」連結。'
+        wiki_label: '採用主題樣式的 Wiki'
+      keyboard_shortcuts_help: '鍵盤快捷鍵：/ 開啟搜尋、c 發起新討論、r 回覆、j 和 k 瀏覽列表、g h 返回首頁、= 展開或收合側邊欄、? 顯示完整快捷鍵列表。在輸入欄位中打字時，這些快捷鍵不會生效。'
+      keyboard_shortcuts_label: 啟用鍵盤快捷鍵
+      list_excerpts_help: 在標題下方顯示置頂討論第一篇貼文的開頭內容。
+      list_excerpts_label: 顯示置頂討論摘要
+      list_header_help: 在討論列表上方顯示包含「討論」、「回覆」、「瀏覽」及「活動」的欄位標題列。
+      list_header_label: 欄位標題列
+      list_heat_help: 當數值明顯高於其他討論時，以橘色或紅色標示，呈現類似熱度圖的效果。
+      list_heat_label: 醒目標示高數值
+      list_infinite_scroll_help: '當捲動至列表底部附近時，自動載入下一頁內容。停用後，則恢復使用 Flarum 預設的「載入更多」按鈕。'
+      list_infinite_scroll_label: 無限捲動
+      list_posters_help: 在每則討論旁新增參與者欄位，顯示發起者及最後一位回覆者的頭像。
+      list_posters_label: 參與者頭像
+      list_status_icons_colored: 彩色：各圖示使用專屬顏色
+      list_status_icons_help: 在討論列表及討論串中，於標題旁顯示置頂圖釘、追蹤星號及其他狀態圖示。
+      list_status_icons_label: 在標題前顯示狀態圖示
+      list_status_icons_muted: 目前：灰色
+      list_views_help: 顯示每則討論的瀏覽次數，數據由「討論瀏覽次數」資訊卡統計。
+      list_views_label: 瀏覽次數欄位
+      loader:
+        color_help: 若未指定顏色，將使用主題的強調色（主要顏色，或標籤頁面上的標籤顏色）。在按鈕中，載入指示器會自動跟隨按鈕文字顏色。
+        color_label: 顏色
+        color_primary: 使用主題顏色
+        custom_apply: '套用 SVG'
+        custom_clear: 移除
+        custom_empty: '請貼上或上傳 SVG，以使用此樣式。在設定完成之前，論壇將繼續使用 Flarum 預設的載入動畫。'
+        custom_help: '貼上 SVG 動畫程式碼，或上傳 .svg 檔案（最大 64 KB）。儲存前會由伺服器清理程式碼，移除指令碼、事件及外部連結，但會保留 CSS 與 SMIL 動畫。'
+        custom_label: 'SVG 程式碼'
+        custom_not_svg: '此檔案並非有效的 SVG 格式。'
+        custom_too_big: '檔案大小超過 64 KB。'
+        custom_upload: '上傳 SVG 檔案'
+        help: '設定各處載入內容時顯示的動畫，包括討論列表、貼文、個人檔案、彈出視窗、選單、按鈕、編輯器、擴充套件及首次載入頁面。可將 Flarum 預設的灰色圓環替換為 SVG 動畫。'
+        keywords: 載入、載入動畫、旋轉圖示、載入指示器、SVG、動畫
+        notice: '變更載入指示器會重新編譯論壇 CSS，因此儲存時需要等待幾秒鐘。'
+        preview: 預覽
+        size_help: '相對於 Flarum 預設載入動畫的大小，範圍為 {min}% 至 {max}%。在按鈕中，載入指示器會自動配合文字大小。'
+        size_label: 尺寸
+        style_avocado: 酪梨
+        style_bars: 線條
+        style_custom: '自訂 SVG'
+        style_default: 'Flarum 預設'
+        style_dots: 圓點
+        style_label: 樣式
+        style_orbital: 軌道環
+        style_pulse: 脈動
+        style_ring: 細圓環
+        tint_help: 'SVG 會轉換為僅保留外型的圖案，並套用下方設定的顏色（在按鈕中則使用按鈕文字顏色）。停用後，SVG 將保留原本的顏色。'
+        tint_label: 套用載入指示器顏色
+        title: 載入指示器
+      loading_slider_help: '切換頁面時，畫面頂部會顯示細長的載入進度條，直到新頁面載入完成，取代 Flarum 預設的「載入中…」提示。'
+      loading_slider_label: 頁面頂部載入進度條
+      logo_colored_help: '上傳的標誌會轉換為僅保留外型的圖案，並套用強調色（在標籤頁及討論串中則使用標籤顏色）。建議使用 SVG，或具有透明背景的 PNG。'
+      logo_colored_label: 為標誌套用強調色
+      lucide_icons_help: '介面圖示（搜尋、通知鈴鐺、回覆、按讚、選單等）改用 Lucide 的細線條風格繪製。停用後會恢復使用 Font Awesome 的實心圖示。沒有 Lucide 對應圖示的項目（品牌圖示，以及部分標籤和群組所選用的圖示）仍會使用 Font Awesome。'
+      lucide_icons_label: 'Lucide 圖示'
+      metoo:
+        enabled_help: '在第一篇貼文下方顯示「✋ 我也一樣」按鈕，遇到相同問題的會員可以點擊表示認同，按鈕旁會以括號顯示人數，並自動開始追蹤該討論。貼文作者及已鎖定的討論會顯示唯讀按鈕；訪客則會被引導至登入頁面。停用後，按鈕會消失，API 也會回應 404；既有的標記紀錄會保留。'
+        enabled_label: 在第一篇貼文下方顯示「我也一樣」按鈕
+        follow_help: '點擊「我也一樣」後，使用者會自動追蹤該討論（透過 Subscriptions 擴充套件），以便收到解決方案的相關通知。已經追蹤討論的使用者不受影響；取消標記也不會自動取消追蹤。'
+        follow_label: 點擊後自動追蹤討論
+        hide_solved_help: '當討論被選定最佳解答（FoF Best Answer）後，按鈕便會隱藏；若最佳解答遭到移除，按鈕就會重新顯示。停用後，即使討論已解決，按鈕仍會繼續顯示（「多重解答」模式）。'
+        hide_solved_label: 討論已解決後隱藏按鈕
+        no_best_answer_notice: '若未安裝 FoF Best Answer 擴充套件，系統就無法判定討論是否已解決，因此按鈕會持續顯示於所有符合條件的討論中。'
+        tags_all: 所有標籤
+        tags_clear: 清除（全部）
+        tags_help: 勾選適用的支援標籤（例如：支援、錯誤回報等）。若未勾選任何標籤，則適用於所有討論。勾選父層標籤時，也會包含其子標籤。
+        tags_label: 按鈕顯示範圍
+        tags_loading: 正在載入標籤……
+        tags_some: '{count, plural, one {已選取 # 個} other {已選取 # 個}}'
+        title: 我也一樣
+      nav_categories_link_help: 新增一個可前往所有標籤頁面的分頁。
+      nav_categories_link_label: 標籤分頁
+      nav_dropdowns_help: 顯示於分頁左側的下拉選單，可依主要標籤及次要標籤篩選討論列表。
+      nav_dropdowns_label: 標籤下拉選單
+      nav_hot_help: 顯示最近幾天內建立，且回覆數最多的討論。
+      nav_hot_label: 熱門分頁
+      nav_sticky_help: 捲動討論列表時，分頁列會固定在頁首下方。
+      nav_sticky_label: 固定分頁列
+      nav_unread_help: 顯示會員尚未閱讀回覆的討論。僅已登入的會員可以使用。
+      nav_unread_label: 未讀分頁
+      new_replies_bar_help: '當使用者正在閱讀討論串時，若即時收到新回覆，畫面會顯示「有 N 則新回覆」提示列，點擊即可前往新回覆的位置。'
+      new_replies_bar_label: 新回覆提示
+      onebox:
+        formats: '支援的格式：檔案（可包含或不包含 #L10-L20）、Issue、Pull Request、Commit、Release（/releases/tag/… 或 /releases/latest）及 Repository。連結必須單獨占據一行。'
+        github_description: '單獨占據一行的 GitHub 連結會自動轉換為資訊卡，內容包括指定行數的檔案（#L10-L20）、Issue、Pull Request 及其狀態、Commit、Release 或 Repository。伺服器會負責擷取並快取資料，讀者不需要直接連線至 GitHub。'
+        github_help: '停用後，GitHub 連結將維持一般連結，不會轉換為資訊卡。'
+        github_label: 'GitHub 連結資訊卡'
+        github_title: GitHub
+        test_button: 顯示資訊卡
+        test_description: '貼上 GitHub 連結，預覽它在貼文中呈現的資訊卡。'
+        test_none: '此連結無法轉換為資訊卡：可能是不支援的連結格式、Repository 為私人或不存在，或 GitHub 未能正常回應。'
+        test_placeholder: 'https://github.com/owner/repository/blob/main/file.php#L10-L20'
+        test_title: 測試連結
+        token_clear: '移除 Token'
+        token_help: '未設定 Token 時，此伺服器每小時可向 GitHub API 發出 60 次請求（適用於 Issue、Pull Request、Commit 及 Repository；檔案不計入）。請使用不額外授予權限的個人存取權杖。資訊卡只會顯示公開 Repository，即使 Token 能存取私人 Repository 也不例外。'
+        token_label: 'GitHub Token（選填）'
+        token_saved: 'Token 已儲存（輸入新值即可取代）'
+      palette_accent: 強調色
+      palette_accent_low: 淡色強調
+      palette_background: 染色背景
+      palette_dark: 深色模式
+      palette_light: 淺色模式
+      palette_link: 連結
+      palette_ring: 焦點外框
+      palette_selected: 選取效果
+      pill_buttons_help: 啟用後，按鈕兩端會呈現完整圓弧。停用後則改為輕微圓角。
+      pill_buttons_label: 膠囊形按鈕
+      post_actions_help: '在每篇貼文的操作列中顯示按讚、複製連結、加入書籤、回覆，以及展開其他操作的「⋯」按鈕。停用後，則恢復使用 Flarum 預設的操作選單。'
+      post_actions_label: 主題貼文操作列
+      post_style_direct: '搭配時間軸（Avocado 樣式）'
+      post_style_discourse: 預設樣式
+      post_style_help: '啟用時間軸後，貼文維持預設樣式，但會加入類似 Avocado 主題的垂直連線，串連各篇貼文的作者頭像。連線會延伸穿過系統事件通知，並以圓點標示時間間隔（例如「一個月後」）。此樣式適用於平板及更寬的螢幕，手機版則維持原有貼文樣式。'
+      post_style_label: 貼文樣式
+      post_username_first_help: 啟用後，貼文會先以粗體顯示使用者帳號，再顯示暱稱。停用後則優先顯示暱稱。
+      post_username_first_label: 優先顯示使用者帳號
+      profile:
+        blocked_by_master: 請先至「延伸個人檔案」區塊啟用額外欄位。
+        characters_suffix: 個字元
+        cover_forumaker_notice: '目前已啟用 forumaker/profile-cover：個人檔案封面將由該擴充套件提供（整合設定 → 個人檔案封面）。會員資訊卡背景仍由主題管理；若未設定主題自己的背景，資訊卡會使用該封面的縮圖。透過此處上傳的封面仍會保留，但在該擴充套件接管期間不會顯示。'
+        cover_notice: '外部圖片網址必須使用 HTTPS。訪客的瀏覽器會直接從外部網站載入圖片。'
+        profile_bio_help: '顯示於個人檔案及會員資訊卡中的簡短文字。支援連結、**粗體**、*斜體* 及 `程式碼`；不支援 HTML。'
+        profile_bio_label: 關於我（個人簡介）
+        profile_bio_max_length_help: '可設定範圍為 {min} 至 {max} 個字元。'
+        profile_bio_max_length_label: 個人簡介字數上限
+        profile_birthday_help: 選填生日日期。除非會員選擇公開年份，否則其他人只能看到月日。
+        profile_birthday_label: 生日
+        profile_cover_help: 可設定顯示於個人檔案頂部的橫幅封面，以及會員資訊卡的背景圖片。若未設定圖片，封面會使用會員的專屬顏色。
+        profile_cover_label: 個人檔案圖片
+        profile_cover_upload_help: '圖片會自動縮小尺寸（封面最大 2000px、資訊卡最大 900px）、轉換為 WebP 格式，並儲存於 assets/canela-covers。停用後，只能使用其他網站的圖片（若下方允許外部圖片）。'
+        profile_cover_upload_label: 允許上傳圖片
+        profile_enabled_help: '提供個人檔案欄位，讓每位會員介紹自己、所在地及目前的近況。停用後，這些欄位會從論壇及 API 中隱藏，但已填寫的資料會保留。'
+        profile_enabled_label: 額外個人檔案欄位
+        profile_external_images_help: '允許使用 HTTPS 圖片網址作為封面及會員資訊卡背景。訪客的瀏覽器會直接從外部網站載入圖片，因此外部網站可能追蹤誰曾查看個人檔案。'
+        profile_external_images_label: 允許使用外部網站圖片
+        profile_location_help: 填寫城市或地區，並在個人檔案中搭配地圖圖示顯示。
+        profile_location_label: 所在地
+        profile_status_help: '可設定表情符號及簡短文字（例如「🌴 休假中，週五回來」），顯示於貼文名稱旁、會員資訊卡及頁首頭像旁。會員也可以自行設定狀態的自動清除時間。'
+        profile_status_label: 含表情符號的狀態
+        profile_title_help: '可設定最多 60 個字元的簡短頭銜，顯示於個人檔案、會員資訊卡，以及貼文中的名稱旁。'
+        profile_title_label: 名稱下方的頭銜
+        profile_title_self_help: 停用後，只有具備會員編輯權限的人員（版主）才能設定頭銜，作為管理團隊授予會員的特殊識別。
+        profile_title_self_label: 允許所有會員自行設定頭銜
+        profile_website_help: '填寫 http 或 https 網址，點擊後會在新分頁開啟，並加上 nofollow 屬性。'
+        profile_website_label: 個人網站
+        section_cover: 封面與資訊卡背景
+        section_main: 延伸個人檔案
+        section_status: 會員狀態
+        section_title: 會員頭銜
+      ramon_chat_features:
+        auto_join_help: 之後才取得存取權限的使用者，也會自動加入設有「自動新增使用者」的頻道（每位使用者每天最多執行一次）。
+        auto_join_label: 延後自動加入頻道
+        backend_off: '主題的「ramonchat」功能尚未載入（請檢查 PHP 錯誤記錄）。'
+        bell_help: '提及通知（@here 僅通知過去 5 分鐘內有活動的使用者），以及已追蹤頻道中的新訊息，都會轉換為通知；閱讀頻道後，相關通知便會標記為已讀。'
+        bell_label: 通知鈴鐺
+        collapse_deleted_help: '將連續刪除的訊息合併為單行提示，例如「已有 N 則訊息遭刪除」，並提供「查看全部」選項。'
+        collapse_deleted_label: 合併連續的已刪除訊息
+        delete_confirm_help: 刪除頻道時，必須輸入頻道名稱確認，而非僅點擊「確定」。
+        delete_confirm_label: 刪除頻道前須輸入頻道名稱
+        description: '補足 ramon/chat 尚未提供的功能，包括通知鈴鐺、單擊反應、建立新訊息、收藏頻道、訊息連結、無需 WebSocket 的輸入中狀態等，無須修改原擴充套件。'
+        dm_guard_help: 拒絕與無法使用聊天功能或已停用聊天功能的使用者建立私人對話，並套用下方設定的參與人數上限。
+        dm_guard_label: 私人訊息限制
+        dm_max_help: '包含發起對話的人。ramon/chat 最多支援 20 人。'
+        dm_max_label: 每個私人對話的參與人數上限
+        drawer_shortcut_help: 使用快捷鍵開啟或關閉聊天側邊面板。
+        drawer_shortcut_label: 開啟側邊面板的「-」快捷鍵
+        group_channels: 頻道與私人訊息
+        group_messages: 訊息
+        group_moderation: 內容管理
+        group_name_help: 任何參與者都可以重新命名群組對話。
+        group_name_label: 群組聊天名稱
+        group_reader: 讀取體驗
+        header_indicator_help: 每位使用者可以選擇聊天按鈕要統計的內容：所有新訊息、私人訊息與提及、僅提及，或不顯示提示。
+        header_indicator_label: 可自訂的頁首提示
+        long_press_help: 在手機上長按訊息時，會從畫面底部開啟操作選單。
+        long_press_label: 手機版長按操作
+        mention_warning_help: '在編輯器的 @ 提及清單中，頻道外的使用者會標示「不是此頻道的成員」。'
+        mention_warning_label: 非頻道成員提醒
+        new_message_help: 提供私人訊息及群組私人訊息視窗（搜尋使用者、參與人數計數及群組名稱），並在「私人訊息」區塊加入「+」按鈕。
+        new_message_label: 「新增訊息」功能
+        paste_upload_help: 貼上或拖放至編輯器中的圖片及檔案，會自動上傳為附件。
+        paste_upload_label: 貼上及拖放圖片
+        permalink_help: 在訊息操作選單中提供「複製連結」，點擊連結後會直接開啟對話並跳至指定訊息。
+        permalink_label: 訊息連結
+        pin_bar_help: 置頂訊息列會隨著目前檢視的對話內容移動，並在有多則置頂訊息時顯示提示。點擊可依序切換置頂訊息；點擊「×」則只會對目前使用者隱藏此訊息列。面板會依照訊息在對話中的順序列出所有置頂訊息，並顯示置頂者。
+        pin_bar_label: 置頂訊息列
+        pin_indicator_help: 當有尚未開啟查看的置頂訊息時，會在置頂訊息列上顯示提示圓點。
+        pin_indicator_label: 尚未查看的置頂訊息
+        preferences_help: 提供啟用聊天、音效、頁首提示、傳送快捷鍵、單擊反應、側邊面板、提及電子郵件通知，以及「忽略頻道全體提及」等設定。
+        preferences_label: 設定中的「聊天」區塊
+        quick_reactions_help: '在 👍 旁顯示使用者最常使用的三種反應，或由使用者自行選擇的三種反應。'
+        quick_reactions_label: 單擊反應
+        restore_help: 在已刪除訊息的提示中，為具備還原權限的使用者顯示還原按鈕。
+        restore_label: 還原已刪除的訊息
+        retention_help: 在頻道資訊中顯示訊息的保留期限。
+        retention_label: 訊息保留期限提醒
+        review_flags_help: 遭檢舉的聊天訊息會依日期排序，與貼文一同顯示於主題的審核佇列（審核頁面、側邊欄及會員選單），供具備檢視檢舉或聊天管理權限的使用者處理。
+        review_flags_label: 在「審核」中顯示聊天檢舉
+        self_dm_help: 建立專屬於自己的對話，可用來記錄備忘事項。
+        self_dm_label: 與自己進行私人對話（「記下想法」）
+        starred_help: 在頁首及頻道資訊中加入星號按鈕；已收藏的頻道會優先顯示於側邊欄頂部。
+        starred_label: 收藏頻道
+        tag_cleanup_help: 刪除標籤時，也會一併刪除與該標籤相關的頻道。
+        tag_cleanup_label: 刪除標籤時一併刪除頻道
+        title: 聊天擴充功能（ramon/chat）
+        typing_poll_help: '未啟用 flarum/realtime 時，開啟對話的使用者會每隔 3 秒向伺服器查詢一次輸入狀態。'
+        typing_poll_label: '無需 WebSocket 的「輸入中」狀態'
+      requires_fof_drafts: '需要 FoF Drafts 擴充套件，但目前尚未啟用。'
+      requires_sidebar: 側邊欄目前已關閉（請參閱上方的「側邊欄」設定）。
+      requires_tags: '需要 Tags 擴充套件，但目前尚未啟用。'
+      search_clear: 清除搜尋
+      search_empty: 找不到符合條件的設定。
+      search_placeholder: 搜尋設定…
+      section_buttons: 按鈕
+      section_categories_page: 標籤頁面
+      section_category_hero: 標籤頁首
+      section_colored: 強調色設定
+      section_colors: 色彩
+      section_font: 字型
+      section_header_search: 頁首搜尋
+      section_icons: 圖示
+      section_list_columns: 列表欄位
+      section_logo: 標誌
+      section_nav: 列表分頁
+      section_nav_categories: 標籤篩選
+      section_shortcuts: 鍵盤快捷鍵
+      section_sidebar: 側邊欄
+      section_sidebar_tags: 標籤
+      section_suggested: 推薦討論
+      section_surfaces: 背景與卡片
+      section_topic_footer: 討論串底部
+      section_topic_map: 討論摘要
+      section_topic_timeline: 時間軸
+      section_user_card: 會員資訊卡
+      section_user_page: 個人檔案頁面
+      section_welcome_banner: 歡迎橫幅
+      shell:
+        active_count: '已啟用 {active}／{total} 項功能'
+        auth_backend_off: '伺服器尚未載入 /login 與 /signup 頁面（extend/auth.php），因此相關按鈕仍會開啟彈出視窗。'
+        autosave: 所有變更都會自動儲存
+        depends_on: '需要先啟用「{name}」。'
+        extension_disabled: '需要 {name} 擴充套件，但該套件已安裝但尚未啟用。'
+        extension_missing: '需要 {name} 擴充套件，但尚未安裝。'
+        go_enable: 前往啟用
+        group_ai_desc: 'AI 服務提供者、機器人、編輯器輔助工具、摘要及相關討論。'
+        group_appearance_desc: 色彩、字型、背景、按鈕、圖示、橫幅及提示訊息。
+        group_assistant: 'AI 助理'
+        group_assistant_desc: 'AI 助理設定：帳號、參與討論的時機，以及回覆的呈現方式。'
+        group_auth: 登入與註冊
+        group_auth_desc: 登入及註冊頁面的顯示時機、版面配置、背景與文字。
+        group_bugreports: 問題回報
+        group_bugreports_desc: 標記畫面並回報問題的按鈕，以及收到的問題回報。
+        group_community_desc: 關於我們、使用規範、會員、群組、徽章、信任等級及邀請。
+        group_composer_desc: 主題編輯器、草稿、標籤標記及進階搜尋。
+        group_integrations: 整合功能
+        group_integrations_desc: 第三方擴充套件的主題外觀整合。各項功能僅在對應的擴充套件啟用時生效。
+        group_list_desc: 首頁、分頁、欄位、標籤，以及討論列表的計數資訊。
+        group_messages: 訊息與聊天
+        group_messages_desc: 私人訊息及即時聊天。
+        group_moderation: 內容管理
+        group_moderation_desc: 管理團隊工具：批次操作、編輯紀錄及作者通知。
+        group_navigation: 頁首與側邊欄
+        group_navigation_desc: 頁首搜尋與選單、鍵盤快捷鍵及側邊欄。
+        group_onebox: 'Onebox 連結預覽'
+        group_onebox_desc: '將貼文中的連結轉換為卡片，類似 Discourse 的呈現方式。例如，單獨一行的 GitHub 連結會顯示對應的檔案、問題、提取請求、提交紀錄、版本發布或儲存庫資訊。'
+        group_people: 個人檔案與會員
+        group_people_desc: 個人檔案頁面、會員資訊卡、自訂欄位及動態。
+        group_system: 自動化訊息
+        group_system_desc: 系統帳號及其自動發送的訊息，包括歡迎訊息、信任等級、管理團隊、檢舉及停權通知。
+        group_templates: 發文範本
+        group_templates_desc: 設定建立新主題時預先帶入的文字，可依分類設定，也可設為可自由編輯的內容，或僅允許填寫指定欄位的表單。
+        group_topic_desc: 貼文、時間軸、討論摘要、底部操作區及閱讀功能。
+        hidden_title: 因相依功能尚未啟用，因此隱藏此設定
+        locked: 無法使用
+        needs: '需要「{name}」'
+        'off': 停用
+        'on': 啟用
+        open_extension: 開啟擴充套件設定
+        requires_extension: '需要 {name} 擴充套件'
+        save_error: 儲存失敗
+        saved: 已儲存
+        saved_all: 所有變更皆已儲存
+        saving: 儲存中…
+        search_results: '「{query}」的搜尋結果'
+      show_title_with_logo_help: 在「外觀」上傳標誌後，只有啟用此選項才會在標誌旁顯示論壇名稱。若未上傳標誌，論壇名稱則一律顯示。
+      show_title_with_logo_label: 在標誌旁顯示論壇名稱
+      sidebar_categories_help: 顯示主要標籤及其顏色或圖示，並提供前往所有標籤的連結。
+      sidebar_categories_label: 主要標籤區塊
+      sidebar_enabled_help: '顯示包含導覽選單及標籤的左側欄位。停用後，論壇將恢復使用 Flarum 預設的導覽方式。'
+      sidebar_enabled_label: 顯示側邊欄
+      sidebar_footer_help: 顯示於側邊欄底部的按鈕，包括淺色／深色模式切換、新增討論及鍵盤快捷鍵。
+      sidebar_footer_label: 側邊欄底部按鈕
+      sidebar_new_topic_help: 顯示於側邊欄頂部的按鈕，點擊後可開啟編輯器並建立新討論。
+      sidebar_new_topic_label: 「發起討論」按鈕
+      sidebar_open_default_help: 設定尚未透過頁首按鈕開啟或收合側邊欄的使用者，初次進入論壇時的預設顯示狀態。之後會以各使用者的選擇為準，並儲存在其瀏覽器中。
+      sidebar_open_default_label: 預設展開側邊欄
+      sidebar_tags_help: 顯示次要標籤，並提供前往所有標籤的連結。
+      sidebar_tags_label: 次要標籤區塊
+      sidebar_tags_limit_help: '設定在「所有標籤」連結之前，要顯示多少個次要標籤，範圍為 {min} 至 {max}。'
+      sidebar_tags_limit_label: 側邊欄顯示的次要標籤數量
       stats:
+        activity_notice: 只有當分頁處於可見狀態，且使用者正在操作頁面時，才會計算閱讀時間。啟用此功能當天起，所有統計數值都會從零開始；討論瀏覽數則取決於是否啟用「瀏覽次數」統計功能。
         days_suffix: 天
+        heat_help: 設定討論列表中「瀏覽次數」欄位的熱度色彩（熱度圖）。只有在「討論列表」中啟用「強調較高數值」時才會生效。
+        heat_title: 瀏覽次數欄位強調效果
         hours_suffix: 小時
+        links_notice: '同一位使用者（訪客則依 IP）每 24 小時對同一連結只計算一次點擊；不計入機器人的點擊。僅統計貼文內的外部連結。'
+        section_activity: 個人檔案動態統計
+        section_counts: 新討論與未讀數量
+        section_links: 連結點擊統計
+        section_views: 討論瀏覽次數
+        stats_activity_enabled_help: '在個人檔案摘要中顯示造訪天數、閱讀時間（累計及最近 60 天）、已閱讀貼文數、瀏覽討論數，以及送出和收到的按讚數。'
+        stats_activity_enabled_label: 記錄使用者動態
+        stats_counts_enabled_help: 適用於已登入的使用者：在列表分頁顯示「新討論（3）」及「未讀（2）」等數量；有新內容時，也會在側邊欄的「所有討論」旁顯示提示圓點。
+        stats_counts_enabled_label: 顯示數量
+        stats_links_enabled_help: 統計貼文中每個外部連結的點擊次數：點擊數會顯示在連結旁，也會列入討論摘要中的「熱門連結」及個人檔案摘要中的「熱門連結」。
+        stats_links_enabled_label: 統計連結點擊次數
+        stats_new_days_help: '統計此期間內建立、且使用者尚未開啟過的討論。設定為 0 時，會計算自註冊或上次「全部標記為已讀」以來的所有討論。可設定範圍為 {min} 至 {max}，預設為 2 天。'
+        stats_new_days_label: 討論維持為新討論的天數
+        stats_view_window_hours_help: '同一個 IP／使用者每隔 N 小時才會再次計算一次討論瀏覽次數，且跨日後一定會重新計算。可設定範圍為 {min} 至 {max} 小時，預設為 8 小時。'
+        stats_view_window_hours_label: 同一位使用者再次計算瀏覽次數的間隔
+        stats_views_enabled_help: 統計每則討論被開啟的次數。瀏覽次數會顯示於討論列表的「瀏覽次數」欄位，並可依瀏覽次數由高至低排序。
+        stats_views_enabled_label: 統計瀏覽次數
+        topic_views_heat_high_help: '瀏覽次數達到此數值後，欄位會以較強烈的顏色強調顯示。預設為 3500。'
+        topic_views_heat_high_label: 強烈強調門檻
+        topic_views_heat_low_help: '瀏覽次數達到此數值後，欄位會以較淺的顏色強調顯示。預設為 1000。'
+        topic_views_heat_low_label: 淺色強調門檻
+        topic_views_heat_medium_help: '瀏覽次數達到此數值後，欄位會以中度強調色顯示。預設為 2000。'
+        topic_views_heat_medium_label: 中度強調門檻
+        views_notice: '同一帳號（訪客則依 IP）每天對同一則討論只計算一次瀏覽，並受上述小時數間隔限制。只有具備該討論檢視權限的使用者才會列入統計，爬蟲則不計算。已登入使用者的 IP 不會儲存；訪客的 IP 只會以加入 Salt 的代碼形式保存，不會儲存 IP 本身。每日統計資料會保留，供討論摘要中的「近期瀏覽」圖表使用。'
         views_suffix: 瀏覽次數
+      suggested_count_help: '設定要推薦的討論數量，範圍為 {min} 至 {max}。'
+      suggested_count_label: 推薦討論數量
+      suggested_topics_help: 在討論串底部顯示其他值得繼續閱讀的討論，優先推薦相同標籤下的內容。
+      suggested_topics_label: 顯示推薦討論
+      templates:
+        badge_required: 僅限填寫欄位
+        body_help: '支援 Markdown。以雙大括號標示的欄位，例如 {{example}}，在啟用「僅限填寫欄位」後會轉換為可填寫欄位；其餘文字則會原樣發布。'
+        body_label: 內容
+        cancel: 取消
+        count: '{count, plural, =0 {尚無範本} other {# 個範本}}'
+        delete: 刪除
+        delete_confirm: '確定要刪除範本「{name}」嗎？已發布的主題不會受到影響。'
+        description: '設定建立新主題時，編輯器預先帶入的文字，可依分類或標籤設定，也可以套用至所有主題。啟用「僅限填寫欄位」後，發文者只能填寫以雙大括號標示的欄位，其餘文字會固定不變，適合用於支援論壇等情境。停用後，範本文字會直接帶入編輯器，發文者可以自由修改。同一分類有多個範本時，可透過編輯器中的 ⊕ 選單切換。'
+        edit: 編輯
+        editing: '正在編輯「{name}」'
+        empty: 目前尚無範本，請點選「新增範本」建立第一個範本。
+        example_field: 版本
+        example_field_2: 問題描述
+        field_description: 欄位下方的說明文字
+        field_label: 欄位標籤
+        field_options: 選項
+        field_options_help: 每行輸入一個選項。
+        field_placeholder: 欄位內的提示文字
+        field_required: 必填
+        field_type: 欄位類型
+        field_type_select: 選項清單
+        field_type_text: 短文字
+        field_type_textarea: 長文字
+        fields_empty: '目前尚無欄位，請在文字中使用雙大括號輸入欄位名稱，例如 {{example}}。'
+        fields_heading: 欄位設定
+        fields_help: 依照欄位在文字中出現的順序列出，每個雙大括號標示的欄位各佔一項。修改範本文字即可新增或移除欄位。
+        kind_form: 僅限填寫欄位
+        kind_text: 可自由編輯文字
+        load_failed: 無法載入範本。是否已執行主題所需的資料庫遷移？
+        name_label: 名稱
+        name_placeholder: 例如：問題回報
+        new: 新增範本
+        notice: '範本僅適用於新主題。請使用 Markdown 撰寫內容，並以雙大括號標示各個填寫欄位，例如 {{example}}。啟用「僅限填寫欄位」後，發文者只能填寫這些欄位。每個欄位的標籤、類型及選項可在下方設定。'
+        position_help: 數字越小，越優先顯示於選單中。
+        position_label: 排序
+        required_help: '啟用後，發文者只能填寫以雙大括號標示的欄位，其餘文字將保持固定，且「自由輸入」選項會從 ⊕ 選單中移除。停用後，範本文字會帶入編輯器，發文者可以自由修改。'
+        required_label: 僅限填寫欄位
+        save: 儲存
+        save_failed: 無法儲存範本。
+        tags_all: 所有分類
+        tags_help: 勾選範本適用的分類及標籤。若未勾選任何項目，則適用於所有新主題。
+        tags_label: 適用範圍
+        tags_missing: '未安裝 Tags 擴充套件時，此範本將適用於所有新主題。'
+        title: 發文範本
+      tinted_background_help: 內容區域及側邊欄後方的背景會帶有淡淡的主要顏色色調。停用後則維持中性的灰色。
+      tinted_background_label: 使用主要顏色為背景添加色調
+      toast_auto_close_help: 角落提示訊息（例如「已儲存」、「連結已複製」等）會在幾秒後自動消失，並顯示倒數進度條。停用後，提示訊息會持續顯示，直到手動關閉。
+      toast_auto_close_label: 提示訊息自動關閉
+      topic_event_posts_help: '在討論串中顯示 Flarum 的系統通知，例如「鎖定了討論」及「置頂了討論」。'
+      topic_event_posts_label: 系統事件貼文
+      topic_footer_help: '在最後一篇貼文後方顯示回覆、分享及追蹤按鈕。追蹤功能需要 Subscriptions 擴充套件。'
+      topic_footer_label: 在討論串底部顯示操作按鈕
+      topic_footer_notifications_help: 在討論串底部的按鈕區顯示「追蹤中」按鈕及通知層級說明。桌面版的時間軸鈴鐺已提供相同功能；手機及平板則會固定顯示底部按鈕，因為這是唯一可用的追蹤入口。
+      topic_footer_notifications_label: 在底部顯示追蹤設定（桌面版）
+      topic_map_help: 在第一篇貼文下方顯示摘要，包含建立日期、最後回覆時間、回覆數量及參與者。
+      topic_map_label: 顯示討論摘要
+      topic_reply_to_style_avocado: '在名稱下方顯示（Avocado 樣式）'
+      topic_reply_to_style_discourse: '預設：在標題右側顯示 ↩ 名稱'
+      topic_reply_to_style_help: '設定回覆其他貼文時，如何顯示回覆對象。預設樣式會在貼文標題右側顯示「↩ 名稱」，但只有在回覆對象不是上一則貼文時才會顯示。Avocado 樣式則會在名稱下方顯示「↳ 回覆給 [頭像] 名稱」，每篇回覆皆會顯示。點擊後可跳轉至被回覆的貼文。'
+      topic_reply_to_style_label: 貼文中的「回覆對象」顯示方式
+      topic_sticky_avatar_help: '閱讀較長的貼文時，作者頭像會隨著捲動保持在可視範圍內，直到該篇貼文結束，呈現類似 Avocado 主題的效果。僅適用於桌面版。'
+      topic_sticky_avatar_label: 貼文頭像固定顯示
+      topic_timeline_help: 在右側顯示導覽列，標示目前閱讀位置，並可快速跳轉至討論串中的任一篇貼文。
+      topic_timeline_label: 在貼文旁顯示時間軸
+      user_activity_reactions_help: 在「動態」下方以單一列表顯示會員給予的按讚及其他反應，取代原本的「按讚」分頁，並附上表情符號及貼文摘要。只有具備查看反應者權限的人才能看到反應內容。
+      user_activity_reactions_label: 反應分頁
+      user_activity_read_help: 在「動態」下方顯示會員已閱讀的討論，依最近閱讀時間排序。僅該會員本人及管理員可以查看。
+      user_activity_read_label: 已讀分頁
+      user_activity_solved_help: 在「動態」下方顯示會員獲選為最佳解答的回覆。
+      user_activity_solved_label: 最佳解答分頁
+      user_activity_votes_help: 在「動態」下方顯示會員曾參與投票的貼文。其他人只能看到允許公開投票者名單的投票。
+      user_activity_votes_label: 投票分頁
+      user_card_help: 以精簡資訊卡顯示會員照片、統計數據及個人檔案連結。點擊會員頭像或名稱即可開啟，無須離開目前頁面。
+      user_card_label: 會員資訊卡
+      user_cover_help: 在大型頭像及名稱後方顯示橫幅背景。
+      user_cover_label: 在個人檔案頂部顯示封面
+      user_default_tab_activity: '動態（貼文），與 Flarum 相同'
+      user_default_tab_help: 當有人點擊頭像或名稱時，個人檔案預設開啟的分頁。
+      user_default_tab_label: 開啟個人檔案時
+      user_default_tab_summary: 摘要
+      user_menu_help: '點擊頁首頭像會開啟整合式面板，並提供通知、回覆、按讚、訊息、書籤、聊天、審核及個人檔案等分頁，取代 Flarum 預設的通知鈴鐺與帳號選單。'
+      user_menu_label: 主題會員選單
+      user_stats_help: '在名稱下方顯示加入日期、最後上線時間、貼文數及討論數。按讚數僅在安裝 Likes 擴充套件時顯示。'
+      user_stats_label: 會員統計資訊
+      user_summary_help: 新增摘要分頁，顯示會員統計數據，以及其熱門討論與回覆。
+      user_summary_label: 摘要分頁
+      welcome_banner_guests_only_help: 已登入的會員會直接進入討論列表，歡迎橫幅僅供首次造訪的訪客瀏覽。
+      welcome_banner_guests_only_label: 僅對訪客顯示
+      welcome_banner_help: 在染色背景上方顯示「外觀」中設定的歡迎標題及訊息。停用後，首頁將直接顯示討論列表。
+      welcome_banner_label: 顯示歡迎橫幅
+      welcome_banner_search_help: 在歡迎橫幅中央顯示大型搜尋欄，點擊後可開啟論壇搜尋。
+      welcome_banner_search_label: 在歡迎橫幅中顯示搜尋欄
+    sysmsg:
+      custom:
+        add: 新增訊息
+        anniversary_help: '由 Flarum 排程器在會員註冊週年紀念日發送，且只適用於建立此訊息之後的週年紀念日。'
+        choose: 請選擇……
+        delay_help: '由 Flarum 排程器負責發送（需透過 cron 執行 php flarum schedule:run），且只會發送給建立此訊息之後註冊的會員。'
+        delay_label: 延遲天數
+        delay_suffix: '天後發送（0 = 立即發送）'
+        empty: 目前尚無自訂訊息。
+        enabled: 啟用
+        help: 除了內建訊息之外，也可以建立自己的自動化訊息，並設定每則訊息的發送時機（帳號啟用、經過指定天數、加入群組、達到信任等級、取得徽章、首次發文、帳號週年紀念日、帳號完成驗證）。每位會員每則訊息只會收到一次。
+        level_1: '1 - 基礎'
+        level_2: '2 - 會員'
+        level_3: '3 - 活躍會員'
+        level_4: '4 - 領導者'
+        remove: 刪除
+        remove_confirm: 確定要刪除此自動化訊息嗎？
+        title: 自訂訊息
+        title_label: 訊息名稱（僅管理員可見）
+        trigger_activated: 帳號已啟用
+        trigger_anniversary: 帳號週年紀念日
+        trigger_badge: 取得指定徽章
+        trigger_first_post: 發布第一篇貼文
+        trigger_group: 加入指定群組
+        trigger_trust_level: 達到指定信任等級
+        trigger_verified: 帳號已完成驗證（ramon/verified）
+        when: 發送時機
+        which: 條件
+        years_label: 帳號年資
+        years_suffix: 年帳號年資
+      fields:
+        body: 內文
+        default_hint: 留空時會使用預設文字（欄位中以灰色顯示的文字），並依照收件者的語言顯示。
+        restore_default: 還原為預設內容
+        subject: 主旨
+        use_default: 以預設內容為基礎編輯
+        variables: '可用變數：{list}'
+      flags_agreed_and_post_deleted:
+        body: "您好，\n\n這是來自 %{site_name} 的自動通知，告知您[先前發布的貼文](%{base_url}%{url}) 已遭移除。\n\n%{flag_reason}\n\n此貼文經社群成員檢舉後，已由管理團隊成員決定移除。\n\n```\n%{flagged_post_raw_content}\n```\n\n詳情請參閱我們的[社群守則](%{guidelines_url})。"
+        help: '管理團隊隱藏或刪除遭檢舉的貼文時發送。需要啟用 Flags 擴充套件（flarum/flags）。'
+        reason_other: 其他
+        subject: 管理團隊已移除遭檢舉的貼文
+        title: 遭檢舉的貼文已移除
+      silenced_by_staff:
+        body: "您好，\n\n這是來自 %{site_name} 的自動通知，告知您帳號已遭停權，停權期限至 %{suspended_till}。\n\n%{reason}\n\n停權期間您仍可瀏覽論壇，但在停權結束前無法參與討論。如有任何疑問，請聯絡[管理團隊](%{base_url}/about)。"
+        help: '管理團隊停權會員帳號時發送。需要啟用 Suspend 擴充套件（flarum/suspend）。'
+        subject: 帳號已遭停權
+        title: 帳號已遭停權
+      tl2_promotion_message:
+        body: "你的信任等級又提升了一級！\n\n達到信任等級 2，代表你已經投入足夠的時間閱讀內容並積極參與討論，成為社群中的正式一員。\n\n歡迎繼續參與社群活動！有你的加入，讓我們的社群更加精彩。"
+        help: '會員升級至信任等級 2（會員）時發送。需要啟用信任等級功能。'
+        subject: 恭喜你提升信任等級！
+        title: '信任等級 2'
+      unsilenced:
+        body: "您好，\n\n這是來自 %{site_name} 的自動通知，告知您帳號的停權狀態已解除。\n\n現在你可以再次建立新討論及發布回覆。感謝你的耐心等候。"
+        help: '會員帳號的停權狀態解除時發送。需要啟用 Suspend 擴充套件（flarum/suspend）。'
+        subject: 你的帳號已解除停權
+        title: 帳號停權已解除
+      user_added_to_group_as_member:
+        body: '你已成為 [%{group_name}](%{base_url}%{group_path}) 群組的成員。'
+        help: 會員加入其他群組（管理員及版主群組除外）時發送。預設停用。
+        subject: '你已加入 %{group_name} 群組'
+        title: 加入群組
+      welcome_invite:
+        body: "感謝你接受邀請加入 %{site_name}，歡迎你的到來！\n\n- 我們已為你建立新帳號 **%{username}**。你可以前往[個人設定](%{user_preferences_url})修改名稱或密碼。\n\n我們始終重視並致力於維護[友善且理性的社群交流](%{guidelines_url})。\n\n祝你在這裡度過愉快的時光！"
+        help: 取代一般的歡迎訊息，專門發送給透過邀請連結加入的會員。
+        subject: '歡迎加入 %{site_name}！'
+        title: 受邀加入歡迎訊息
+      welcome_staff:
+        body: "你已由另一位管理團隊成員授予 %{role} 身分。\n\n這代表你將取得管理團隊專用工具。權力越大，責任也越大。如果你是初次擔任管理工作，請先閱讀[社群守則](%{guidelines_url})。"
+        help: 會員加入管理員或版主群組時發送。
+        subject: '恭喜你獲得 %{role} 身分！'
+        title: 加入管理團隊
+      welcome_tl1_user:
+        body: "嗨！我們發現你最近花了不少時間閱讀社群內容，這真的很棒！因此，我們已將你的信任等級提升一級！\n\n很高興你願意花時間參與我們的社群，也希望能進一步認識你。歡迎花點時間[完善個人檔案](%{user_url})，或是[開始一則新討論](%{base_url})。"
+        help: '會員升級至信任等級 1（基礎）時發送。需要啟用信任等級功能。'
+        subject: 感謝你花時間參與我們的社群
+        title: '信任等級 1'
+      welcome_user:
+        body: "感謝你加入 %{site_name}，歡迎你的到來！\n\n我們始終重視並致力於維護[友善且理性的社群交流](%{guidelines_url})。\n\n祝你在這裡度過愉快的時光！"
+        help: 會員啟用帳號時發送（已確認電子郵件，或註冊時已完成確認）。每位會員只會收到一次。
+        subject: '歡迎加入 %{site_name}！'
+        title: 歡迎加入
+    system_user:
+      bio: 這不是真實使用者，而是專門用於發送系統通知及執行其他系統工作的共用帳號。
+      create: 建立系統帳號
+      created_as: '系統帳號：{name}'
+      help: 系統專用帳號：用來發送自動通知（書籤提醒及徽章通知），以及下方設定的自動化訊息。這是一個論壇中的一般會員帳號，具有個人檔案、頭像及個人簡介，但不會登入系統：沒有登入功能、密碼、密碼重設或使用者工作階段。其他人無法傳送訊息給此帳號，而且此帳號不會出現在會員目錄中。
+      messages_notice: '自動化訊息會以私人訊息的形式傳送，因此必須啟用 Messages 擴充套件（flarum/messages）。'
+      missing: 尚未建立系統帳號。若沒有系統帳號，自動通知將不會有發送者，也不會傳送任何自動化訊息。
+      needs_user: 請先建立系統帳號（請見上方區塊）。
+      no_replies_notice: 與系統帳號的對話是單向的：收件者無法回覆，因為沒有人會查看此帳號的收件匣。
+      open_profile: 開啟個人檔案
+      profile_hint: 如同其他會員，可直接在此帳號的個人檔案中修改頭像、名稱及個人簡介。
+      title: 系統帳號
+      unlink: 解除連結
+      unlink_confirm: 確定要解除系統帳號的連結嗎？帳號本身會保留，但通知將恢復為不指定發送者；自動化訊息也會停止傳送，直到你建立或連結其他系統帳號為止。
+  api:
+    ai:
+      errors:
+        aborted: 回覆已中斷。
+        auth: 'AI API 金鑰遭拒絕。請通知論壇管理員。'
+        bad_request: 'AI 服務拒絕了此請求。若問題持續發生，請通知論壇管理員。'
+        generic: 'AI 目前無法回答，請稍後再試。'
+        invalid_mode: '未知的 AI 操作。'
+        invalid_title: '名稱長度必須介於 1 至 120 個字元之間。'
+        limit_reached: '你已達到今日的 AI 請求上限，請明天再試。'
+        message_length: '訊息長度必須介於 {min} 至 {max} 個字元之間。'
+        network: '無法連線至 AI 服務，請再試一次。'
+        no_content: '請先在編輯器中輸入內容，再使用 AI 功能。'
+        no_prompt: '請輸入你希望 AI 執行的指示。'
+        not_configured: '此論壇尚未設定 AI 功能。'
+        overloaded: 'AI 服務目前負載過高，請稍後再試。'
+        rate_limit: 'AI 目前收到太多請求，請稍候再試。'
+        refused: 'AI 無法協助處理此請求。'
+        server: 'AI 服務發生錯誤，請再試一次。'
+        truncated: 回覆內容過長，已遭截斷。
+      personas:
+        creative_description: '不使用外部整合服務，專門處理創意任務的 AI 助理'
+        creative_name: 創意助理
+        creative_prompt: 你是一位創意助理，擅長協助撰寫、發想、修改文字及探索各種可能性，並以豐富的想像力與良好的品味提供協助。
+        forum_researcher_description: '專門針對論壇內容進行深入研究的 AI 助理'
+        forum_researcher_name: 論壇研究員
+        forum_researcher_prompt: 你是一位嚴謹的論壇研究員。針對每個問題，請使用不同關鍵字進行多次搜尋，閱讀最相關的討論，並撰寫完整且有條理的回答，整理研究結論，並附上所有引用討論的連結。如果論壇中沒有相關資訊，請明確說明。
+        general_description: '能夠執行各種任務的通用型 AI 助理'
+        general_name: 論壇小幫手
+        general_prompt: 你是一位樂於助人、友善且直接的助理。請協助回答各種問題。當問題與論壇、討論內容或社群有關時，請先搜尋論壇，再提供回答。
+        researcher_description: '能夠搜尋網頁並閱讀網頁內容的 AI 助理'
+        researcher_name: 網頁研究員
+        researcher_prompt: 你是一位研究員。請搜尋網路，使用最新資訊回答問題，並附上來源連結作為引用。
+    badges:
+      first_like:
+        description: 為貼文點讚
+        long_description: 首次對貼文按讚即可獲得此徽章。按讚是讓其他社群成員知道你覺得他們發布的內容有趣、實用、精彩或好玩的一種好方式。別吝嗇你的讚美！
+        name: 首次點讚
+      first_quote:
+        description: 引用貼文
+        long_description: 首次在回覆中引用其他貼文即可獲得此徽章。在回覆中引用先前貼文的相關內容，有助於讓討論保持連貫並聚焦主題。盡情引用吧！
+        name: 初次引用
+    bug_reports:
+      description_required: 送出前請先描述遇到的問題。
+      image_invalid: 缺少螢幕截圖，或提供的檔案不是有效的圖片。請再試一次。
+      too_many: 你在過去一小時內已送出太多問題回報。請稍候再試。
+    loader:
+      invalid_svg: '此檔案不是有效的 SVG，或清理後的檔案大小超過 64 KB。'
   forum:
     age:
+      days: '{count}d'
+      hours: '{count}h'
+      minutes: '{count}m'
       now: 現在
+    ai:
+      bot:
+        back_to_forum: 'Back to forum'
+        cancel_streaming: 'Stop reply'
+        conversation_menu: 'Conversation options'
+        delete: Delete
+        delete_confirm: 'Delete this conversation? This cannot be undone.'
+        disclaimer: 'Generative AI can make mistakes. Verify important information.'
+        exit: 'exit the AI bot'
+        header: 'How can I help you?'
+        last_30_days: 'Last 30 days'
+        last_7_days: 'Last 7 days'
+        load_more: 'Load more'
+        log_in: 'Log in to talk to the AI bot.'
+        new: 'New question'
+        not_allowed: 'The AI bot isn''t available for your account.'
+        page_title: 'AI conversations'
+        persona_label: 'Agent:'
+        placeholder: 'Ask a question…'
+        remaining: '{count, plural, =0 {You have used all of today''s requests.} one {# request left today.} other {# requests left today.}}'
+        rename: Rename
+        rename_prompt: 'New conversation name:'
+        scroll_to_bottom: 'Scroll to bottom'
+        shortcut_link: 'AI bot'
+        shortcut_title: 'Start a conversation with the AI bot'
+        sidebar_empty: 'Bot conversation history will appear here.'
+        submit: 'Submit question'
+        title: 'AI bot'
+        today: Today
+        untitled: 'AI conversation'
+      errors:
+        generic: 'The AI could not answer right now. Please try again.'
+      helper:
+        changes: 'Suggested edits'
+        confirm: Confirm
+        copied: Copied
+        copy: Copy
+        custom_prompt_placeholder: 'Tell the AI what to do with the text…'
+        custom_prompt_submit: Apply
+        discard: Discard
+        explain: Explain
+        explain_title: 'AI explanation'
+        generate_titles: 'Suggest discussion title'
+        loading: 'AI is generating'
+        markdown_table: 'Generate Markdown table'
+        no_content_error: 'Write something in the editor to use AI.'
+        no_suggestions: 'No suggestions available'
+        proofread: 'Proofread text'
+        regen: 'Try again'
+        simplify: Simplify
+        suggest_tags: 'Suggest tags'
+        translate: 'Translate to {language}'
+        trigger: 'Ask AI'
+      related:
+        activity: Activity
+        replies: Replies
+        title: 'Related discussions'
+        topic: Discussion
+      search:
+        ask_prefix: 'Ask AI:'
+        badge: AI
+        placeholder: 'Search or Ask AI'
+      summary:
+        close: 'Close summary panel'
+        empty: 'There is no summary for this discussion yet.'
+        generate: Summarize
+        in_progress: 'Summarizing discussion using AI'
+        model_used: 'AI used: {model}'
+        outdated: 'Summary is outdated'
+        outdated_posts: '{count, plural, one {(# post missing)} other {(# posts missing)}}'
+        regenerate: Regenerate
+        summarized_on: 'Summarized with AI on {date}'
+        title: 'Discussion summary'
+      tools:
+        read: 'Read the discussion'
+        read_missing: 'Tried to read a discussion that is not available'
+        searched: 'Searched for "{query}": {count, plural, =0 {no results} one {# result} other {# results}}'
+      translation:
+        click_to_show_original: 'Click to show the original.'
+        click_to_show_translation: 'Click to show the translation.'
+        disclaimer: 'AI-generated translations may be inaccurate.'
+        original_language: 'This post was originally written in {language}.'
+        original_mixed: 'This post mixes more than one language.'
+        prefs:
+          auto_translate: 'Automatically translate topics and posts in other languages'
+          cancel: Cancel
+          interface_language: 'Interface language'
+          remove: 'Remove {language}'
+          save: 'Save changes'
+          title: 'Content language preferences'
+          understood_help: 'Topics and posts in these languages won''t be translated. Your interface language is always considered understood.'
+          understood_label: 'Languages I understand'
+          understood_placeholder: Select…
+        show_original_all: 'Show original content'
+        show_translated_all: 'Show translated content'
+        title_original_language: 'This title was originally written in {language}.'
+        translating: Translating…
+    assign:
+      action: Assign…
+      assign_self: 'Assign to me'
+      assigned_to: 'Assigned to {username}'
+      assistant: 'AI assistant: replies in the discussion'
+      change: 'Change assignment…'
+      current: 'Currently assigned'
+      empty: 'Nobody found with that name.'
+      label: 'Assigned to'
+      nav: 'Assigned to me'
+      notification: '{username} assigned a discussion to you'
+      placeholder: 'Search by username…'
+      remove: 'Remove {username}’s assignment'
+      remove_short: Remove
+      setting: 'Someone assigns a discussion to me'
+      suggestions: Suggestions
+      title: 'Assign discussion'
+      unassign_self: 'Remove my assignment'
     auth:
+      back_to_login: 'Back to log in'
+      forgot_heading: 'Reset password'
+      forgot_page_title: 'Reset password'
+      login_page_title: 'Log In'
       or: 或
+      panel_login_text: 'Log in to keep up with the conversations, reply and follow what matters to you.'
+      panel_login_title: 'Good to see you again'
+      panel_signup_text: 'Create your account to take part in discussions, follow topics and get notifications.'
+      panel_signup_title: 'Join the community'
+      reset_confirm_password: 'Confirm new password'
+      reset_heading: 'Reset password'
+      reset_help: 'Choose a new password for your account (at least 8 characters).'
+      reset_new_password: 'New password'
+      reset_submit: 'Save new password'
+      signup_page_title: 'Sign Up'
     badges:
+      all_badges: 'All badges'
+      awarded: '{count, plural, one {{number} awarded} other {{number} awarded}}'
+      granted_ago: 'Granted {ago}'
+      granted_on: 'Granted {date}'
+      groupings:
+        community: Community
+        getting_started: 'Getting Started'
+        other: Other
+        posting: Posting
+        trust_level: 'Trust Level'
+      load_more: 'Load more'
+      more: '+{count}'
+      more_badges: 'More badges'
+      multiple_grant: 'Can be earned multiple times'
+      nav: Badges
+      no_recipients: 'Nobody has earned this badge yet.'
+      none: 'No badges here yet.'
+      not_found: 'This badge does not exist or has been turned off.'
+      notification: 'Earned "{badge}"'
+      notification_setting: 'When I earn a badge'
+      owned: 'You have this badge'
+      page_title: Badges
+      recipients: 'Granted to'
+      summary_heading: 'Top badges'
+      trust_level: 'Trust level'
+      trust_level_label: 'Trust level: {level}'
+      trust_level_modal:
+        control: 'Change trust level…'
+        level_label: Level
+        locked_help: 'The trust level is locked: the system will not promote or demote this user.'
+        locked_label: 'Lock trust level'
+        submit: Save
+        title: 'Trust level of {username}'
+        unlocked_help: 'The trust level is unlocked: the system may promote or demote this user based on the requirements.'
       trust_levels:
+        basic: 'basic user'
         leader: 領袖
         member: 成員
+        newuser: 'new user'
         regular: 常客
+      types:
+        bronze: Bronze
+        gold: Gold
+        silver: Silver
+      unavailable: 'Badges are turned off on this forum.'
+      user_none: '{username} hasn''t earned any badges yet.'
+    bookmarks:
+      alerts:
+        added: 'Post bookmarked.'
+        removed: 'Bookmark deleted.'
+        set_reminder: 'Set a reminder'
+      modal:
+        cancel: Cancel
+        context: 'Post by {author} in {title}'
+        context_deleted_user: 'deleted user'
+        create_title: 'Create bookmark'
+        custom_date: 'Reminder date'
+        custom_time: 'Reminder time'
+        delete: Delete
+        edit_title: 'Edit bookmark'
+        existing_reminder: 'You will be reminded about this bookmark on {date}.'
+        invalid_date: 'Choose a date and time in the future.'
+        name_label: Name
+        name_placeholder: 'E.g. read later, reply properly…'
+        reminder_label: 'Remind me'
+        save: Save
+      notification:
+        text: 'Bookmark reminder: {title}'
+      page:
+        actions: 'Bookmark actions'
+        clear_reminder: 'Clear reminder'
+        column_date: Bookmarked
+        column_topic: Discussion
+        delete: Delete
+        delete_confirm: 'This bookmark has a reminder set. Delete it anyway?'
+        edit: Edit
+        empty: 'You don''t have any bookmarks yet.'
+        empty_help: 'Use the bookmark icon on any post to save it here, with a name and a reminder if you like.'
+        load_more: 'Load more'
+        nav: Bookmarks
+        no_results: 'No bookmarks found for “{query}”.'
+        private: 'Bookmarks are private: only the owner of this profile can see theirs.'
+        reminder_future: 'Reminder: {date}'
+        reminder_past: 'Reminder sent: {date}'
+        search_placeholder: 'Search bookmarks…'
+        title: Bookmarks
+      post:
+        add: 'Bookmark this post'
+        edit: 'Edit bookmark'
+        reminder: 'reminder: {date}'
+      presets:
+        custom: 'Pick date and time'
+        later_today: 'Later today'
+        next_month: 'Next month'
+        next_week: 'Next week'
+        none: 'No reminder'
+        tomorrow: Tomorrow
+      settings:
+        notify_reminder_label: 'Remind me about my bookmarks at the time I choose'
+      topic:
+        add: 'Bookmark discussion'
+        edit: 'Edit discussion bookmark'
+    bug_reports:
+      another_area: 'Mark another area'
+      button: 'Report a problem'
+      cancel: Cancel
+      capture_failed: 'The screen could not be captured. Please try again.'
+      capturing: 'Capturing the screen…'
+      context_help: 'The screenshot, page address, screen size and browser are sent along. Password fields are covered.'
+      current_text: 'Current text'
+      description_label: Description
+      hint_bug: 'Say what happened and what you expected.'
+      hint_content: 'Describe the text or image that should change.'
+      hint_design: 'Describe how to improve the look or the experience.'
+      hint_idea: 'Describe the idea and who it would help.'
+      kind_bug: 'Something is broken'
+      kind_content: 'Change text or image'
+      kind_design: 'Improve the design'
+      kind_idea: 'Suggest something new'
+      kind_label: 'What would you like to report?'
+      menu_mine: 'My reports'
+      menu_off: 'Hide this button'
+      menu_report: 'Report a problem on this page'
+      mine_empty: 'You have not sent any reports yet.'
+      mine_title: 'My reports'
+      modal_title: 'Report a problem'
+      preview_alt: 'Marked area'
+      select_hint: 'Drag to mark what is wrong'
+      select_too_small: 'Drag a bigger area or choose Whole screen.'
+      send: 'Send report'
+      send_failed: 'The report could not be sent. Your description was kept; please try again.'
+      sent: 'Report sent. Thank you! Follow it in "My reports".'
+      status_fixed: Fixed
+      status_in_progress: 'In progress'
+      status_open: Sent
+      status_reviewed: Reviewed
+      status_wontfix: 'Won''t be done'
+      suggested_text: 'Suggested text'
+      team_note: 'Team reply:'
+      whole_screen: 'Whole screen'
     categories:
+      category: Tag
+      latest: Latest
+      tags_all: 'All Tags'
+      tags_none: 'No secondary tags yet.'
+      tags_sort_by: 'Sort by'
       tags_sort_count: 計數
       tags_sort_name: 受敬仰
+      tags_title: 'Secondary tags'
+      topics: Discussions
     chat:
+      about_view:
+        associated_category: 'Associated tag'
+        description: Description
+        name: Name
+      ago:
+        days: '{count}d'
+        hours: '{count}h'
+        minutes: '{count}m'
+        now: now
+      all_loaded: 'Showing all messages'
+      aria_roles:
+        composer: 'Write a message'
+      browse:
+        filter_all: All
+        filter_archived: Archived
+        filter_closed: Closed
+        filter_input_placeholder: 'Search channel by name'
+        filter_open: Open
+        title: Channels
+      browse_all_channels: 'Browse all channels'
+      cancel: Cancel
+      cancel_reply: 'Cancel reply'
+      channel:
+        empty_state:
+          direct_message_title: 'Start the conversation with {name}'
+          joined_tip: 'Be the first to post and start the conversation.'
+          members_here: '{count, plural, one {# member here} other {# members here}}'
+          title: 'This is the start of {channelName}'
+        memberships_count: '{count, plural, one {# member} other {# members}}'
+        no_memberships: 'This channel has no members'
+        no_memberships_found: 'No members found'
+        preview_card:
+          guest_title: 'Join {channelName} to start chatting'
+          join_body: 'You’ll be able to post and reply, and it’ll show up in your channel list.'
+          no_access_body: 'This channel isn’t open to new members right now.'
+          no_access_title: 'You can’t join {channelName}'
+      channel_archive:
+        confirm: 'Archive the {channelTitle} channel? It becomes read-only: no new messages, and existing ones can no longer be edited or deleted.'
+        instructions_plain: 'Archiving a channel puts it into read-only mode. No new messages can be sent, and no existing messages can be edited or deleted.'
+      channel_close:
+        instructions: 'Closing the channel prevents non-staff users from sending new messages or editing existing messages.'
+      channel_delete:
+        confirm: 'I understand the consequences, delete the channel'
+        confirm_channel_name: 'Enter channel name'
+        instructions: 'Deletes the {name} channel and chat history. All messages and related data, such as reactions and uploads, will be permanently deleted. If you want to preserve the channel history and decommission it, you may want to archive the channel instead. To confirm, type the name of the channel in the box below.'
+        process_started: 'The channel was deleted.'
+        title: 'Delete channel'
+      channel_edit_description_modal:
+        description: 'Tell people what this channel is all about'
+        input_placeholder: 'Add a description'
+      channel_edit_name_slug_modal:
+        input_placeholder: 'Add a name'
+        slug_description: 'The part of the channel link used instead of its name. Use lowercase letters, numbers and hyphens.'
+        slug_label: Address
+      channel_info:
+        back_to_channel: Back
+        tabs:
+          members: Members
+          settings: Settings
+      channel_list:
+        title: Channels
+      channel_open:
+        instructions: 'Reopens the channel, all users will be able to send messages and edit their existing messages.'
+      channel_settings:
+        archive_channel: 'Archive channel'
+        close_channel: 'Close channel'
+        delete_channel: 'Delete channel'
+        edit: Edit
+        join: Join
+        leave: Leave
+        leave_channel: 'Leave channel'
+        leave_groupchat_info: 'By leaving this group chat, you will no longer have access to it and will not receive any notifications related to it. To rejoin, you will need to be re-invited by a group chat member.'
+        open_channel: 'Open channel'
+        star_channel: 'Star channel'
+      channel_status:
+        archived_header: 'Channel is archived'
+        closed_header: 'Channel is closed'
+        open_header: 'Channel is open'
+        read_only_header: 'Channel is read only'
+      chat_channels: Channels
+      chat_message_separator:
+        today: Today
+        yesterday: Yesterday
+      close: Close
+      close_full_page: 'Close full screen chat'
+      collapse: 'Collapse chat drawer'
+      composer:
+        send: Send
+        toggle_toolbar: 'Show or hide formatting'
+      copy_link: 'Copy link'
+      copy_text: 'Copy text'
+      create_channel:
+        choose_category:
+          hint: 'Optional. With a tag, only people who can see the tag can see the channel.'
+          label: 'Choose a tag'
+          none: 'select one...'
+        create: 'Create channel'
+        description: Description
+        name: 'Channel name'
+        threading:
+          label: 'Enable threading'
+        title: 'New channel'
+      delete: Delete
+      deleted: '{count, plural, one {A message was deleted. [view]} other {# messages were deleted. [view all]}}'
+      deleted_by: 'Deleted by {username} at {time}'
       deleted_chat_username: 已刪除
+      deleted_message: 'Deleted message'
+      direct_message_creator:
+        add_to_channel: 'Add to channel'
+        selected_user_title: 'Deselect {username}'
+        title: 'New message'
+      direct_messages:
+        close: 'Close channel'
+        new_group: 'Start a conversation'
+        sidebar_title: 'Direct messages'
+        title: DMs
+      disabled_for_you: 'Chat is disabled for you. Turn it back on in Settings → Chat.'
+      edit: Edit
       edited: 已編輯
+      emoji: 'Insert emoji'
+      empty_state:
+        my_threads: 'You don’t have any threads yet. Threads you participate in will be displayed here.'
+        title: 'No channels found'
+      enable: 'Enable chat'
+      errors:
+        cannot_dm: 'Direct messages aren''t available for your account.'
+        description_too_long: 'The description can have at most {count} characters.'
+        invalid_emoji: 'This reaction isn''t available. Pick another one.'
+        invalid_status: 'This channel can’t go back to that status.'
+        message_empty: 'The message is empty.'
+        message_too_long: 'Message is too long, messages must be a maximum of {count} characters.'
+        name_required: 'Give the channel a name.'
+        name_too_long: 'The name can have at most {count} characters.'
+        reply_not_found: 'The message you replied to no longer exists.'
+        send_failed: 'Couldn''t send. Check your connection and try again.'
+        slug_taken: 'A channel already uses this address. Pick another one.'
+        tag_not_found: 'Tag not found.'
+        thread_not_found: 'This thread no longer exists.'
+        too_fast: 'Wait a few seconds before sending the next message.'
+        too_many_pins: 'A channel accepts at most {count} pinned messages.'
+        too_many_reactions: 'A message accepts at most {count} different reactions.'
+        too_many_users: 'A conversation accepts at most {count} participants.'
+        user_cannot_chat: '{username} has disabled chat'
+        user_not_found: 'User not found.'
+      expand: 'Expand chat drawer'
+      header_indicator_preference:
+        all_new: 'All New Messages'
+        dm_and_mentions: 'Direct Messages, Mentions and Watched Threads'
+        never: Never
+        only_mentions: 'Only Mentions'
+        title: 'Show activity indicator in header'
+      heading: Chat
+      ignore_channel_wide_mention:
+        description: '@here and @all mentions don’t notify you.'
+        title: 'Ignore channel wide mentions'
+      invalid_access: 'This channel is restricted. Ask the channel''s admins for access.'
+      join: Join
+      last_visit: 'last visit'
+      link_copied: 'Link copied to clipboard'
+      load_more: 'Load more'
+      log_in_to_chat: 'Log in to use chat.'
+      members_view:
+        add_member: 'Add member'
+        back_to_settings: 'Back to settings'
+        filter_placeholder: 'Find members'
+      mention_all: 'notify everyone in the channel'
+      mention_here: 'notify everyone active right now'
+      mention_warning:
+        invitations_sent: '{count, plural, one {Invitation sent} other {Invitations sent}}'
+        not_member: 'not in the channel'
+      message_actions: 'Message actions'
+      message_too_long: 'Message is too long, messages must be a maximum of {count} characters.'
+      more_message_actions: 'More actions'
+      my_threads:
+        title: 'My threads'
+      new_message_modal:
+        add_user_long: 'Shift + click or Shift + Enter: add @{username}'
+        create_group_placeholder: 'Group chat name (optional)'
+        create_new_group_chat: 'Create group chat'
+        default_search_placeholder: '#a-channel, @somebody or anything'
+        new_group_chat: 'New group chat'
+        no_items: 'No items'
+        participants_counter: '{selection_count}/{max} participants'
+        user_search_placeholder: '...add more members'
+      no_direct_message_channels: 'You haven’t joined any direct message channels.'
+      no_direct_message_channels_cta: 'Start a conversation'
+      no_pinned_messages: 'There are no pinned messages in this channel.'
+      no_public_channels: 'You haven’t joined any channels.'
+      no_public_channels_cta: 'Browse channels'
+      notification_levels:
+        always: 'For all activity'
+        mention: 'Only for mentions'
+        never: Never
+      notifications:
+        direct_message: 'a direct message'
+        direct_message_from: '{username} sent you a direct message'
+        mention: '{username} mentioned you in {channel}'
+        mention_all: '{username} used @all in {channel}'
+        mention_here: '{username} used @here in {channel}'
+        message_in: '{username} posted in {channel}'
+        settings_mention: 'Someone mentions me in chat'
+        settings_message: 'I receive a chat direct message'
+      open: 'Open chat'
+      open_full_page: 'Open chat in full screen'
+      pin_message: 'Pin message'
+      pinned: Pinned
+      pinned_bar:
+        jump_to_pinned: 'Jump to pinned message'
+        title: Pinned
+      pinned_messages:
+        close: 'Close pinned messages'
+        dismiss: 'Hide the pinned bar for me'
+        pinned_by_user: 'Pinned by {username}'
+        pinned_by_you: 'Pinned by you'
+        show: 'Show the pinned bar'
+        title: 'Pinned messages'
+      placeholder_channel: 'Chat in {channelName}'
+      placeholder_group: 'Chat in group'
+      placeholder_new_message_disallowed:
+        archived: 'Channel is archived, you cannot send new messages right now.'
+        closed: 'Channel is closed, you cannot send new messages right now.'
+        read_only: 'Channel is read only, you cannot send new messages right now.'
+      placeholder_self: 'Jot something down'
+      placeholder_silenced: 'Sending messages is paused for your account.'
+      placeholder_thread: 'Chat in thread'
+      placeholder_users: 'Chat with {commaSeparatedNames}'
+      quick_reaction_type:
+        options:
+          custom: 'Custom reactions'
+          frequent: 'Frequently used reactions'
+        title: 'Quick reactions type'
+      react: 'React with emoji'
+      reactions:
+        add: 'React with {emoji}'
+        counted: '{count, plural, one {Reaction {emoji}, # person} other {Reaction {emoji}, # people}}'
+        multiple_users: '{commaSeparatedUsernames} and {username} reacted with {emoji}'
+        multiple_users_and_more: '{count, plural, one {{commaSeparatedUsernames} and # other reacted with {emoji}} other {{commaSeparatedUsernames} and # others reacted with {emoji}}}'
+        only_you: 'You reacted with {emoji}'
+        remove: 'Remove {emoji} reaction'
+        single_user: '{username} reacted with {emoji}'
+        you_and_multiple_users: 'You, {commaSeparatedUsernames} and {username} reacted with {emoji}'
+        you_and_single_user: 'You and {username} reacted with {emoji}'
+        you_multiple_users_and_more: '{count, plural, one {You, {commaSeparatedUsernames} and # other reacted with {emoji}} other {You, {commaSeparatedUsernames} and # others reacted with {emoji}}}'
+      remove_upload: 'Remove file'
+      reply: Reply
+      replying_indicator:
+        many_users: '{commaSeparatedUsernames} and {count} others are typing'
+        multiple_users: '{commaSeparatedUsernames} and {lastUsername} are typing'
+        single_user: '{username} is typing'
+      restore: 'Restore deleted message'
+      retention_reminders:
+        indefinitely_long_plain: 'Messages in this channel are kept indefinitely.'
+        long: '{count, plural, one {Messages in this channel are kept for # day.} other {Messages in this channel are kept for # days.}}'
+      retry_staged_message:
+        action: 'Try again'
+        title: 'Not sent'
+      save: Save
+      scroll_to_bottom: 'Scroll to bottom'
+      scroll_to_new_messages: 'See new messages'
+      search:
+        no_results: 'No results found'
+        short_title: Search
+        sort:
+          latest: Latest
+          relevance: Relevance
+        title: 'Search chat'
+      search_view:
+        filter_placeholder: 'Search messages'
+        results_list_label: 'Chat message search results'
+      send_shortcut:
+        enter: 'Enter (Shift + Enter for new line)'
+        meta_enter: 'Ctrl/⌘ + Enter (Enter for new line)'
+        title: 'Send messages with'
+      settings:
+        admin_title: Admin
+        auto_join_users_info: 'People who can see the {category} tag join the channel by themselves when they open the forum.'
+        auto_join_users_info_no_category: 'People who can see the channel join it by themselves when they open the forum.'
+        auto_join_users_label: 'Automatically add users'
+        channel_threading_description: 'When threading is enabled, replies to a chat message will create a separate conversation, which will exist alongside the main channel.'
+        channel_threading_label: Threading
+        channel_wide_mentions_description: 'Allow users to notify all members of #{channel} with @all or only those who are active in the moment with @here'
+        channel_wide_mentions_label: 'Allow @all and @here mentions'
+        history_label: History
+        info_title: 'Channel info'
+        mute: 'Mute channel'
+        notification_level: 'Send notifications'
+        saved: Saved
+        settings_title: Settings
+      sound:
+        title: 'Chat notification sound'
+      sounds:
+        bell: Bell
+        ding: Ding
+        none: None
+      start_conversation: Chat
+      text_copied: 'Text copied to clipboard'
+      thread:
+        close: 'Close thread'
+        label: Thread
+        notifications:
+          regular:
+            description: 'You will be notified if someone mentions your @name in this thread.'
+            title: Normal
+          tracking:
+            description: 'A count of new replies for this thread will be shown in the thread list and the channel. You will be notified if someone mentions your @name in this thread.'
+            title: Tracking
+          watching:
+            description: 'You will be notified of every new reply in this thread, and a count of new replies will be shown.'
+            title: Watching
+        participants_other_count: '+{count}'
+        replies: '{count, plural, one {# reply} other {# replies}}'
+        settings: Settings
+      threads:
+        list: Threads
+        none: 'You are not participating in any threads in this channel.'
+        open: 'Open thread'
+      title_capitalized: Chat
+      unpin_message: 'Unpin message'
+      upload: 'Attach a file'
+      upload_errors:
+        failed: 'Couldn''t upload. Try again.'
+        too_large: 'File too large. Choose a smaller one.'
+      upload_to_channel: 'Upload to {title}'
       you: 你
+    community:
+      about:
+        activity:
+          activeUsers: '{count, plural, one {{formatted} active user} other {{formatted} active users}}'
+          likes: '{count, plural, one {{formatted} like} other {{formatted} likes}}'
+          posts: '{count, plural, one {{formatted} post} other {{formatted} posts}}'
+          topics: '{count, plural, one {{formatted} discussion} other {{formatted} discussions}}'
+          users: '{count, plural, one {{formatted} sign-up} other {{formatted} sign-ups}}'
+        activity_title: 'Site activity'
+        admin_count: '{count, plural, one {# Admin} other {# Admins}}'
+        contact_text: 'In the event of a critical issue or urgent matter affecting this site, please contact us:'
+        contact_title: 'Contact us'
+        created: 'Created {date}'
+        created_ago: 'Created {ago}'
+        last_7_days: 'in the last 7 days'
+        members: '{count, plural, one {# Member} other {# Members}}'
+        moderator_count: '{count, plural, one {# Moderator} other {# Moderators}}'
+        our_admins: 'Our admins'
+        our_moderators: 'Our moderators'
+        period:
+          all: 'All time'
+          day: 'Last 24 hours'
+          month: 'Last 30 days'
+          week: 'Last 7 days'
+        stat:
+          activeUsers: 'Active users'
+          likes: Likes
+          posts: Posts
+          topics: Discussions
+          users: Users
+        stats_title: 'Site statistics'
+        title: About
+      groups:
+        back: 'All groups'
+        closed: Closed
+        empty: 'No groups to show.'
+        filter_placeholder: 'All groups'
+        hidden: Hidden
+        members: '{count, plural, one {# member} other {# members}}'
+        members_forbidden: 'You don''t have permission to view group members.'
+        members_login: 'Log in to view the members of this group.'
+        no_activity: 'The members of this group haven''t posted anything yet.'
+        no_members: 'This group has no members yet.'
+        not_found: 'This group doesn''t exist or you can''t see it.'
+        tab_activity: Activity
+        tab_members: Members
+        tabs_label: 'Group sections'
+        title: Groups
+      guidelines:
+        title: Guidelines
+      legal:
+        privacy: 'Privacy Policy'
+        tos: 'Terms of Service'
+      load_error: 'This page could not be loaded. Please try again in a moment.'
+      load_more: 'Load more'
+      unavailable: 'This page is not available.'
+      users:
+        column:
+          daysVisited: Visits
+          lastSeenAt: 'Last seen'
+          likesGiven: Given
+          likesReceived: Received
+          postCount: Replies
+          postsRead: Read
+          topicCount: 'Discussions created'
+          username: Username
+        empty: 'There are no users to show yet.'
+        forbidden: 'You don''t have permission to view the user list.'
+        login_required: 'Log in to view the user list.'
+        no_results: 'No users found with that name.'
+        period:
+          all: 'All time'
+          daily: Today
+          monthly: Month
+          quarterly: Quarter
+          weekly: Week
+          yearly: Year
+        period_label: Period
+        search_placeholder: 'Filter by username'
+        title: Users
+        total: '{count, plural, one {# user} other {# users}}'
+    composer:
+      drafts:
+        close_text: 'What you wrote can be kept as a draft to pick up later, on this or another device.'
+        close_title: 'What would you like to do with your post?'
+        delete: 'Delete draft'
+        discard: Discard
+        empty: 'You have no drafts.'
+        keep_editing: 'Keep editing'
+        load_more: 'Load more'
+        menu_label: 'Open drafts'
+        nav: Drafts
+        reply_title: 'RE: {title}'
+        resume: Resume
+        save_for_later: 'Save draft for later'
+        sidebar: 'My drafts'
+        status_error: 'Could not save the draft'
+        status_saved: 'Draft saved'
+        status_saving: Saving…
+        type_message: Message
+        type_new_topic: 'New discussion'
+        type_reply: Reply
+        unavailable: 'Discussion unavailable'
+        untitled: (untitled)
+        view_all: 'View all ({count})'
+      emoji:
+        autocomplete_header: 'Type to search emoji'
+        button: Emoji
+        close: Close
+        groups:
+          activities: Activities
+          flags: Flags
+          food: 'Food & drink'
+          nature: 'Animals & nature'
+          objects: Objects
+          people: People
+          recent: 'Recently used'
+          smileys: 'Smileys & emotion'
+          symbols: Symbols
+          travel: 'Travel & places'
+        hint: 'Pick an emoji'
+        no_results: 'No emoji found.'
+        search_placeholder: 'Search emoji…'
+        title: 'Emoji picker'
+        tone_label: 'Skin tone'
+        tones:
+          - Default
+          - 'Light skin tone'
+          - 'Medium-light skin tone'
+          - 'Medium skin tone'
+          - 'Medium-dark skin tone'
+          - 'Dark skin tone'
+      hashtags:
+        autocomplete_header: Tags
+        tag_count: '(x{count})'
+      linked_topic:
+        continuation: 'Continuing the discussion from {link}'
+        menu_label: 'Reply actions'
+        new_topic: 'Reply as linked discussion'
+        reply: 'Reply to discussion'
+      preview:
+        hide: 'Hide preview'
+        label: Preview
+        show: 'Show preview'
+      shell:
+        action_create_topic: 'Start a Discussion'
+        action_edit: 'Editing post'
+        action_new_topic: 'Start a Discussion'
+        action_reply: Discussion
+        add_poll: 'Build poll'
+        body_placeholder: 'Type here.'
+        body_placeholder_bbcode: 'Type here. Use BBCode to format.'
+        body_placeholder_formats: 'Type here. Use {formats} to format.'
+        body_placeholder_markdown: 'Type here. Use the toolbar or Markdown to format.'
+        body_placeholder_markdown_bbcode: 'Type here. Use Markdown or BBCode to format.'
+        body_placeholder_markdown_upload: 'Type here. Use the toolbar or Markdown to format. Drag or paste images.'
+        body_placeholder_upload: 'Type here. Drag or paste images.'
+        bold_label: B
+        cancel_edit: 'Cancel edit'
+        category_placeholder: 'Primary tag…'
+        create_topic_desc: 'Create a new discussion'
+        discard: Discard
+        drag_images: 'Drag or paste images.'
+        edit_poll: 'Edit poll'
+        max_primary_tags: '{count, plural, one {Limit of 1 primary tag reached. Remove the chosen one to change it.} other {Limit of # primary tags reached. Remove one to choose another.}}'
+        max_secondary_tags: '{count, plural, one {Limit of 1 secondary tag reached (child tags count too).} other {Limit of # secondary tags reached (child tags count too).}}'
+        more_options: Options
+        no_category: '(no tag)'
+        no_results: 'No matches found.'
+        no_tags: 'No tags available.'
+        or: or
+        remove_tag: 'Remove tag'
+        reply_as_new_topic_desc: 'Create a new discussion related to this discussion'
+        reply_to_topic_desc: 'Reply to the discussion, not any specific post'
+        save_and_close: 'Save and close'
+        saved_draft: 'Post draft in progress. Tap to resume.'
+        search_placeholder: Search…
+        submit_edit: 'Save edit'
+        submit_new_topic: 'Post Discussion'
+        submit_reply: Reply
+        switch_to_markdown: 'Switch to the Markdown editor'
+        switch_to_rich: 'Show formatted text'
+        tags_placeholder: 'Optional tags…'
+        title_placeholder: 'Type title, or paste a link here'
+        toggle_direction: 'Toggle direction'
+      similar:
+        close: Close
+        title: 'Your discussion is similar to…'
+    events:
+      add_google: 'Add to Google Calendar'
+      add_ics: 'Download for your calendar (.ics)'
+      all_events: 'All events'
+      builder:
+        chat: 'Event chat'
+        chat_help: 'Creates a chat channel just for the event; whoever marks "Going" joins it, and on desktop it sits beside the topic.'
+        create: 'Insert event'
+        create_title: 'Create event'
+        description: Description
+        edit_title: 'Edit event'
+        end: Ends
+        error_end: 'The end must be after the start.'
+        error_start: 'Pick a start date.'
+        location: Location
+        max: 'Attendee limit'
+        max_placeholder: 'No limit'
+        name: 'Event name'
+        name_placeholder: 'The discussion title, if left empty'
+        recurrence: Repeat
+        recurrence_every_day: 'Every day'
+        recurrence_every_four_weeks: 'Every four weeks'
+        recurrence_every_month: 'Every month (same weekday)'
+        recurrence_every_two_weeks: 'Every two weeks'
+        recurrence_every_week: 'Every week'
+        recurrence_every_weekday: 'Every weekday (Mon–Fri)'
+        recurrence_none: 'Does not repeat'
+        remove: 'Remove event'
+        save: 'Save event'
+        start: Starts
+        status: Type
+        status_public: 'Public (with RSVP)'
+        status_public_help: 'Anyone who can see the discussion answers going, interested or not going.'
+        status_standalone: 'Announcement (no RSVP)'
+        status_standalone_help: 'Only the date and details, without the RSVP buttons.'
+        time: Time
+        timezone: 'Time zone'
+        until: Until
+        url: 'Stream or meeting address'
+      capacity: '{going} of {max} spots'
+      created_by: 'Created by'
+      ended_notice: 'This event has ended.'
+      full: Full
+      going: Going
+      happening_now: 'Happening now'
+      interested: Interested
+      invitees_title: 'Attendees: {title}'
+      join_livestream: 'Join the stream ({host})'
+      local_time: 'In your time zone'
+      login_to_rsvp: 'Log in to respond'
+      more: 'More options'
+      next_month: 'Next month'
+      no_invitees: 'Nobody here yet.'
+      no_upcoming: 'No events scheduled.'
+      not_going: 'Not going'
+      notification:
+        setting: 'When an event I am going to is about to start'
+        text: '{name} starts {when}'
+      open_chat: 'Chat in the event channel'
+      page_title: Events
+      previous_month: 'Previous month'
+      recurrence:
+        every_day: 'Every day'
+        every_four_weeks: 'Every four weeks on {weekday}'
+        every_month: 'Every month on {weekday} #{position}'
+        every_two_weeks: 'Every two weeks on {weekday}'
+        every_week: 'Every {weekday}'
+        every_weekday: 'Every weekday'
+      remove_answer: 'Undo answer'
+      see_invitees: 'See attendees'
+      sidebar: Events
+      status:
+        ended: Ended
+        public: Public
+        standalone: Announcement
+      tabs:
+        going: Going
+        interested: Interested
+        not_going: 'Not going'
+      today: Today
+      upcoming_title: 'Upcoming events'
+      view_calendar: Calendar
+      view_list: List
     extras:
+      banner:
+        dismiss: 'Dismiss the announcement'
+        label: Announcement
+      bulk:
+        bar_label: 'Actions for the selected discussions'
+        clear: Clear
+        delete: 'Delete forever'
+        delete_confirm: '{count, plural, one {Delete # discussion forever?} other {Delete # discussions forever?}} This cannot be undone.'
+        done: '{count, plural, =0 {No discussions changed.} one {# discussion changed.} other {# discussions changed.}}'
+        failed: '{count, plural, one {# failed.} other {# failed.}}'
+        hide: Delete
+        hide_confirm: '{count, plural, one {Delete # discussion?} other {Delete # discussions?}} It can be restored later.'
+        hint: 'Tick the discussions (shift+click selects a range).'
+        lock: Close
+        mark_read: 'Mark as read'
+        restore: Restore
+        select_all: 'Select all ({count})'
+        select_one: 'Select “{title}”'
+        selected: '{count, plural, =0 {No discussions selected} one {# selected} other {# selected}}'
+        skipped: '{count, plural, one {# skipped (no permission or already that way).} other {# skipped (no permission or already that way).}}'
+        sticky: Pin
+        tags: 'Change tags'
+        toggle_off: 'Exit selection'
+        toggle_on: 'Select discussions'
+        unlock: Open
+        unsticky: Unpin
       gambits:
         bookmarks_key: 書籤
         in_group: 在
         likes_key: 點讚
+        min_posts_hint: 'minimum number of posts in the discussion'
+        min_posts_key: min-posts
         title_key: 書籤
+      history:
+        added: '{count, plural, one {+# word} other {+# words}}'
+        after: 'This version'
+        before: 'Previous version'
+        content_hidden: 'This post is hidden; the text of its versions is only shown to those who can edit it.'
+        created_by: 'Written by {name} on {date}'
+        deleted_user: 'deleted user'
+        edited_by: 'Edited by {name} on {date}'
+        failed: 'The history of this post could not be loaded.'
+        first: 'First version'
+        last: 'Current version'
+        mode_inline: Inline
+        mode_label: 'Comparison mode'
+        mode_side: 'Side by side'
+        next: 'Next revision'
+        open: '{count, plural, one {# revision} other {# revisions}}: view history'
+        original: 'Original version (of {total})'
+        pager_label: 'Browse revisions'
+        position: 'Version {from} → {to} (of {total})'
+        previous: 'Previous revision'
+        removed: '{count, plural, one {−# word} other {−# words}}'
+        title: History
+      print:
+        button: Print
+        close: Close
+        preparing: 'Preparing the discussion for printing…'
+        print_again: Print
       search:
+        advanced: 'Advanced filters'
+        clear: 'Clear search'
+        failed: 'The search could not be completed. Please try again in a moment.'
         filter_after: 此版本
+        filter_author: 'Posted by'
         filter_author_placeholder: 使用者名稱
         filter_before: 上一個版本
+        filter_bookmarked: 'Bookmarked by me'
+        filter_category: 'In primary tag'
+        filter_category_any: 'Any primary tag'
+        filter_in_title: 'Title only'
+        filter_liked: 'Liked by me'
+        filter_min_posts: 'Minimum posts'
+        filter_mine: 'Posted by me'
+        filter_posted: Posted
+        filter_status: Status
+        filter_tag_remove: 'Remove tag {name}'
+        filter_tags: 'With tags'
+        filter_tags_add: 'Add a tag…'
+        filter_unread: Unread
+        filter_where: Where
+        input_label: 'Search term'
+        input_placeholder: Search
+        load_more: 'More results'
+        meta_title: Search
+        meta_title_query: 'Search: {query}'
+        modal_link: 'Advanced search →'
+        need_more: 'Type a search term.'
+        no_results: 'No results found.'
+        posts_filters_note: 'Post search only uses the author, one tag, likes and bookmarks; the other filters apply to discussions.'
+        result_count: '{count}{more} {count, plural, one {result} other {results}}'
+        result_for: for
+        sort_by: 'Sort by'
+        sort_latest_post: 'Latest post'
+        sort_latest_topic: 'Latest discussion'
+        sort_likes: 'Most liked'
+        sort_relevance: Relevance
+        sort_views: 'Most viewed'
+        start: 'Type what you are looking for, or open the advanced filters.'
+        status_any: Any
+        status_closed: Closed
+        status_open: Open
+        status_sticky: Pinned
+        submit: Search
+        tab_categories: Tags
+        tab_posts: Posts
+        tab_topics: Discussions
+        tab_users: Users
+        tabs_label: 'What to search'
+        title: Search
+        too_short: '{count, plural, one {Type at least # character.} other {Type at least # characters.}}'
+      text_size:
+        heading: Interface
+        help: 'Applies to this device only.'
+        label: 'Text size'
+        larger: Larger
+        largest: Largest
+        normal: Normal
+        smaller: Smaller
+      top_periods:
+        all: 'All time'
+        daily: Today
+        label: Period
+        monthly: Month
+        quarterly: Quarter
+        weekly: Week
+        yearly: Year
+    footnotes:
+      add: Footnote
+      placeholder: Footnote
+    gaps:
+      category_notifications:
+        hidden: 'Muted and hidden'
+        hidden_description: 'On top of no notifications, discussions in this tag leave the Latest list.'
+        muted: Muted
+        muted_description: 'You will never be notified of anything about discussions in this tag.'
+        normal: Normal
+        normal_description: 'You will be notified if someone mentions your @name or replies to you.'
+        toggle: 'Tag notifications: {level}'
+        watching: Watching
+        watching_description: 'You will automatically watch all discussions in this tag and be notified of every new post.'
+        watching_first_post: 'Watching first post'
+        watching_first_post_description: 'You will be notified of the first post in each new discussion in this tag.'
+      code:
+        copied: copied!
+        copy: 'copy code to clipboard'
+        fullscreen: 'show code in full screen'
+        view_code: 'View code'
+      dismiss:
+        confirm_new: 'Mark the new discussions in this list as read?'
+        confirm_unread: 'Mark every discussion in this list as read?'
+        new: Dismiss
+        unread: Dismiss
+      heading_anchor: 'Heading link'
+      invites:
+        cannot_create: 'You can no longer generate invitations, but you can still revoke the ones below.'
+        create: 'Generate link (and copy)'
+        delete: 'Delete the invitation'
+        expires: 'valid until {date}'
+        expires_days: 'Valid for how many days'
+        help: 'Generate a link and send it to whoever you want to bring in. People who sign up with it show as invited by you, and you get notified.'
+        invited_by: '{username} invited you to the forum.'
+        max_redemptions: 'How many people can use it'
+        none: 'You haven''t generated invitations yet.'
+        share_button: Invite
+        sidebar: Invite
+        sign_up_closed: 'Sign up is closed on this forum; the link only works once the admins open sign up.'
+        title: 'Invite to the forum'
+        uses: '{used} of {max} uses'
+        yours: 'Your invitations'
+      jump:
+        of: 'of {count, plural, one {# post} other {# posts}}'
+        post_label: Post
+        submit: Go
+        title: 'Jump to…'
+      last_visit: 'last visit'
+      lightbox:
+        close: 'Close (Esc)'
+        counter: '{current} of {total}'
+        download: Download
+        next: 'Next (right arrow)'
+        open: 'Original image'
+        previous: 'Previous (left arrow)'
+        title: Image
+        zoom: 'Zoom (Z key)'
+      notifications:
+        invite_accepted: '{username} accepted your invitation'
+        invite_accepted_setting: 'Someone joined through my invitation'
+        post_edited: '{username} edited your post'
+        post_edited_setting: 'Someone edited one of my posts'
+        topic_linked: '{username} linked your discussion'
+        topic_linked_setting: 'Someone linked to one of my discussions'
+      read_state:
+        last_visit: 'last visit'
+        unread: 'Post is unread'
+      share:
+        copied: 'Link copied.'
+        copy: Copy
+        instructions: 'Share a link to this discussion:'
+        link_label: Link
+        networks:
+          email: 'Send via email'
+          facebook: 'Share on Facebook'
+          linkedin: 'Share on LinkedIn'
+          reddit: 'Share on Reddit'
+          telegram: 'Share on Telegram'
+          whatsapp: 'Share on WhatsApp'
+          x: 'Share on X'
+        post_instructions: 'Share a link to this post:'
+        post_title: 'Share post #{number}'
+        title: 'Share discussion'
+      sidebar:
+        custom_title: Links
+        faq: FAQ
+        home: Home
+        my_messages: 'My messages'
+        new_in_category: 'This tag has new or unread discussions'
+        privacy: Privacy
+        review: Review
+        tos: 'Terms of service'
+      spoiler:
+        reveal: 'Spoiler: click to reveal'
+      table:
+        expand: 'Expand table'
+        view_table: 'View table'
+      timeline:
+        back: Back
+        back_description: 'Go back to your last unread post'
+      title_editor:
+        cancel: Cancel
+        edit: 'Edit the title'
+        label: 'Discussion title'
+        save: Save
+        tags: Tags
+    header:
+      advanced_search: 'Open advanced search'
+      language: 'Language: {name}'
+    hero:
+      subcategories: 'Child tags'
+    links:
+      clicks: '{count, plural, one {# click} other {# clicks}}'
+    list:
+      activity: Activity
+      created_at: 'Created: {date}'
+      last_reply_at: 'Latest reply: {date}'
+      mark_read: 'click to mark as read'
+      most_recent_poster: 'Most recent poster'
+      new_topic: 'New discussion'
+      original_poster: 'Original poster'
+      read_more: 'read more'
+      relevant_poster: 'Most relevant post'
+      replies: Replies
+      replies_a11y: '{count, plural, one {# reply} other {# replies}}'
+      topic: Discussion
+      typing: 'Someone is typing…'
+      unread_count: '{count, plural, one {# unread reply} other {# unread replies}}'
+      views: Views
+      views_a11y: '{count, plural, one {# view} other {# views}}'
+    marketplace:
+      all: All
+      categories: 'Store categories'
+      shop_messages: 'Store messages'
+    messages:
+      composer:
+        action_new: 'Create message'
+        action_new_desc: 'Create a new personal message'
+        action_reply: Message
+        action_topic: 'Start a Discussion'
+        action_topic_desc: 'Create a new discussion'
+        actions_label: 'Composer actions'
+        no_results: 'No matches found'
+        recipients_missing: 'Add at least one recipient.'
+        remove_recipient: 'Remove {username}'
+        reply_as_message: 'Reply as personal message'
+        reply_as_message_desc: 'Create a new personal message to the discussion author'
+        searching: Searching…
+        staff_keyword: staff
+        submit: 'Send Message'
+        submit_reply: Reply
+        title_placeholder: Title
+        type_to_search: 'Type to search'
+        users_placeholder: 'Add users or groups'
+      empty:
+        body_1: 'Need to have a direct personal conversation with someone, outside the normal conversational flow? Message them by selecting their avatar and using the {icon} message button.'
+        body_2: 'If you need help, you can <a>message a staff member</a>.'
+        title: 'You don’t have any messages'
+      events:
+        invited_group: 'Invited {who} {when}'
+        invited_user: 'Invited {who} {when}'
+        removed_user: 'Removed {who} {when}'
+        user_left: '{who} removed themselves from this message {when}'
+      invite:
+        help: 'Enter the username of the person you''d like to invite to this discussion.'
+        placeholder: Select…
+        submit: 'Send Invite'
+        success: 'We''ve invited that user to participate in this message.'
+        success_group: 'We''ve invited that group to participate in this message.'
+        title: Invite
+      list:
+        new_message: 'New message'
+        unread_count: '{count, plural, one {# unread message} other {# unread messages}}'
+      nav:
+        all: 'all inboxes'
+        archive: Archive
+        inbox: Latest
+        inbox_box: Inbox
+        label: 'Message inboxes'
+        new: New
+        new_message: 'New Message'
+        new_with_count: 'New ({count})'
+        sent: Sent
+        unread: Unread
+        unread_with_count: 'Unread ({count})'
+      notifications:
+        muted: Muted
+        muted_description: 'You will never be notified of anything about this message.'
+        muted_reason: 'You are ignoring all notifications on this discussion.'
+        regular: Normal
+        regular_description: 'You will be notified if someone mentions your @name or replies to you.'
+        regular_reason: 'You will be notified if someone mentions your @name or replies to you.'
+        tracking: Tracking
+        tracking_description: 'A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you.'
+        tracking_reason: 'You will see a count of new replies because you are tracking this discussion.'
+        watching: Watching
+        watching_description: 'You will be notified of every new reply in this message, and a count of new replies will be shown.'
+        watching_reason: 'You will receive notifications because you are watching this discussion.'
+      page:
+        nav: Messages
+        title: Messages
+      reactions:
+        notification: '{username} reacted to your message'
+        react: React
+        reactors_title: Reactions
+        unreact: 'Remove reaction'
+      sidebar:
+        my_messages: 'My messages'
+        unread: '{count, plural, one {# new or unread message} other {# new or unread messages}}'
+      topic:
+        archive: Archive
+        archive_help: 'Move message to your archive'
+        copy_link: 'copy a link to this post to clipboard'
+        defer: Defer
+        defer_help: 'Mark as unread'
+        footer_label: 'Message actions'
+        glyph: 'This is a personal message'
+        leave: Leave
+        leave_confirm: 'Are you sure you want to leave this message?'
+        map_label: 'Message participants'
+        move_to_inbox: 'Move to Inbox'
+        move_to_inbox_help: 'Move message back to Inbox'
+        remove_confirm: 'Are you sure you want to remove {name} from this message?'
+        remove_user: 'Remove User'
+        replies: '{count, plural, one {reply} other {replies}}'
+        reply: Reply
+        share: 'Share a link to this discussion'
+        views: '{count, plural, one {# view} other {# views}}'
+      untitled: Message
+      user:
+        message: Message
+    metoo:
+      author_title: 'You started this discussion'
+      closed_title: 'This discussion is closed'
+      label: 'Me too'
+      label_with_count: '{label} ({count})'
+      title: 'I am also experiencing this issue'
+    modals:
+      flag_off_topic: 'It''s Off-Topic'
+      flag_other: 'Something Else'
+      flag_submit: 'Flag Post'
+      flag_title: 'Thanks for keeping our community civil!'
+      forgot_password: 'I forgot my password'
+      forgot_submit: 'Reset Password'
+      forgot_title: 'Reset Password'
+      identification: 'Email / Username'
+      login_title: 'Welcome back'
+      no_account: 'Don''t have an account?'
+      sign_up: 'Sign Up'
+      signup_title: 'Create your account'
+    motion:
+      link_copied: 'Link copied!'
     nav:
+      all_categories: 'All tags'
+      all_subcategories: 'All in {name}'
+      all_tags: 'All secondary tags'
       categories: 變更標籤
+      categories_link: Tags
+      filter_for_more: 'Filter for more...'
+      hot: Hot
+      label: 'Discussion list navigation'
+      latest: Latest
+      more: 'More sorts'
+      new_topic: 'Start a Discussion'
+      newest: New
+      no_results: 'No results found.'
+      no_subcategory: 'no child tag'
+      no_tags: 'no secondary tags'
+      remove_filter: 'remove filter'
+      search_placeholder: Search...
+      sort_label: 'Choose the list'
+      subcategories: 'child tags'
+      tags: 'secondary tags'
+      top: Top
+      unread: Unread
+    preview:
+      banner: 'Preview: nothing has been applied yet. Only you see this version, in this tab.'
+      close: Close
+    profile:
+      birthday:
+        today: 'Birthday today!'
+      moderation:
+        clear_images: 'Remove cover and card background'
+        clear_status: 'Clear status'
+      settings:
+        bio_help: 'Supports links, **bold**, *italic* and `code`.'
+        bio_label: 'About me'
+        bio_placeholder: 'Tell us a little about yourself.'
+        birthday_help: 'Others only see the day and month unless you show the year.'
+        birthday_label: Birthday
+        birthday_show_year: 'Show the year (and, with it, your age)'
+        card_help: 'Shown behind your name on the card that opens when someone clicks your avatar.'
+        card_label: 'User card background'
+        cover_edit: 'Edit cover'
+        cover_forumaker_help: 'A wide image at the top of your profile, also shown behind your user card when you do not pick a background of its own. The editor lets you upload, remove and pick which part of the image stays visible.'
+        cover_help: 'A wide image at the top of your profile. Upload a file or paste the https address of an image.'
+        cover_label: 'Profile cover'
+        discard: 'Discard changes'
+        heading: Profile
+        image_too_large: 'The image is larger than {max}. Please choose a smaller one.'
+        location_label: Location
+        location_placeholder: 'E.g. Lisbon, Portugal'
+        no_image: 'No image'
+        remove_image: 'Remove image'
+        save: 'Save profile'
+        saved: 'Your profile has been saved.'
+        status_clear: 'Clear status'
+        status_clear_after: 'Clear after'
+        status_custom_required: 'Pick the date and time when the status should disappear.'
+        status_label: Status
+        status_placeholder: 'E.g. On vacation, In a meeting, Slow to reply'
+        title_badge_help: 'Pick one of your badges that can be used as a title.'
+        title_help: 'Shown below your name on your profile and next to it on your posts.'
+        title_label: Title
+        title_locked: 'Your title is set by the moderators.'
+        title_none: 'No title'
+        title_placeholder: 'E.g. Moderator, Photographer, Developer'
+        upload: 'Upload image'
+        upload_failed: 'Couldn''t upload the image. Try again.'
+        upload_limits: 'JPG, PNG, GIF or WebP, up to {max}.'
+        website_label: Website
+      status:
+        choose_emoji: 'Choose emoji'
+        clear_1h: 'In 1 hour'
+        clear_30m: 'In 30 minutes'
+        clear_4h: 'In 4 hours'
+        clear_custom: 'Pick date and time'
+        clear_never: 'Don''t clear'
+        clear_today: Today
+        clear_week: 'This week'
+        custom_emoji: 'Other emoji'
+        label: Status
+        no_emoji: 'No emoji'
+        until: 'until {when}'
+    push:
+      column: Push
+      disable: 'Turn off for this device'
+      enable: 'Turn on for this device'
+      error: 'Could not change notifications for this device.'
+      generic: '{username} has something new for you'
+      state_denied: 'Notifications are blocked in this browser''s permissions for this site.'
+      state_error: 'Could not set up notifications on this device. Reload the page and try again.'
+      state_loading: 'Checking this device…'
+      state_off: 'Get your notifications on this device even with the forum closed.'
+      state_on: 'On for this device. Pick the types in the Push column.'
+      state_unsupported: 'This browser does not support push notifications.'
+      title: 'Browser notifications'
+      types:
+        canelaAssigned: '{username} assigned this discussion to you'
+        canelaPostEdited: '{username} edited your post'
+        canelaTopicLinked: '{username} linked your discussion'
+        discussionLocked: '{username} locked the discussion'
+        discussionRenamed: '{username} renamed the discussion'
+        groupMentioned: '{username} mentioned your group'
+        newPost: '{username} replied'
+        postLiked: '{username} liked your post'
+        postMentioned: '{username} replied to your post'
+        userMentioned: '{username} mentioned you'
+    ramon_chat:
+      group_name:
+        help: 'Every participant sees the new name. Leave it empty to go back to the participants'' names.'
+      new_message:
+        open: 'Open conversation'
+        search_placeholder: 'Search people'
+      notifications:
+        settings_message: 'A chat conversation I watch gets a new message'
+      pins:
+        unseen: 'There is a pinned message you have not seen yet'
+      preferences:
+        email_mentions: 'E-mail me when I am mentioned in chat'
+        open_in_drawer: 'Open the chat in the drawer'
+        open_in_drawer_help: 'When off, the chat button opens the full page.'
+        quick_custom_help: 'Emoji names separated by spaces (heart, tada, eyes…). 👍 already has its own button.'
+        sound_default: 'Forum sound'
+      review:
+        delete_confirm: 'Delete this chat message? Its reports also leave the queue.'
+        delete_message: 'Delete message'
+        dismiss: 'Dismiss report'
+        done_deleted: 'Message deleted.'
+        done_dismissed: 'Report dismissed.'
+        filter_chat: Chat
+        message_deleted: 'The message was deleted.'
+        type: 'Reported chat message'
+        view_in_chat: 'View in chat'
+      star:
+        remove: 'Remove channel from starred'
+    review:
+      agree: Agree…
+      agree_and_hide: 'Agree and hide post'
+      agree_and_keep: 'Agree and keep post'
+      agree_and_keep_hidden: 'Agree and keep hidden'
+      approve_post: 'Approve post'
+      delete_confirm: 'Delete this post? This cannot be undone.'
+      delete_post: 'Delete post'
+      disagree: Disagree
+      disagree_and_restore: 'Disagree and restore post'
+      done_agreed: 'Flags agreed. The post was kept.'
+      done_agreed_hidden: 'Flags agreed. The post was hidden.'
+      done_approved: 'Post approved.'
+      done_deleted: 'Post deleted.'
+      done_disagreed: 'Flags disagreed.'
+      done_ignored: 'Flags ignored.'
+      done_rejected: 'Post rejected.'
+      empty: 'Nothing to review.'
+      filter_all: All
+      filter_flagged: 'Flagged posts'
+      filter_label: Type
+      filter_queued: 'Queued posts'
+      flag_date: When
+      flag_type: Reason
+      flagged_by: 'Flagged by'
+      hidden_label: Hidden
+      ignore: Ignore
+      load_more: 'Load more'
+      queued_reason: 'This post is waiting for a moderator''s approval before everyone can see it.'
+      reason_inappropriate: Inappropriate
+      reason_off_topic: Off-topic
+      reason_other: 'Something else'
+      reason_spam: Spam
+      reject_confirm: 'Reject this post? It will be deleted.'
+      reject_post: 'Reject post'
+      show_less: 'Show less'
+      show_more: 'Show more'
+      status_pending: Pending
+      title: Review
+      type_flagged: 'Flagged post'
+      type_queued: 'Queued post'
+      view_post: 'view post'
     search_menu:
+      clear_recent: 'Clear Recent Searches'
+      clear_search: 'Clear search'
+      close: 'Close search'
+      enter_hint: 'or press Enter'
+      in: in
+      in_topics_posts: 'in all discussions and posts'
+      mobile_enter_hint: 'or tap Search'
+      more: More
+      no_results: 'No results found.'
+      open_advanced: 'Open advanced search'
       results: 結果
+      tips:
+        author: 'filters by post author'
+        category_tag: 'filters by tag'
+        full_search: 'launches full page search'
+        in: 'filters by metadata (e.g. {examples})'
+      title: Search
+      too_short: 'Your search term is too short.'
+    shortcuts:
+      actions:
+        back: 'Go back'
+        bookmark_post: 'Bookmark the post'
+        bookmark_topic: 'Bookmark the discussion'
+        bookmarks: Bookmarks
+        bulk_item: 'Select the discussion (bulk select)'
+        bulk_toggle: 'Toggle bulk select'
+        categories: Tags
+        create: 'Start a new discussion'
+        delete_post: 'Delete the post'
+        dismiss: 'Dismiss new or unread'
+        drafts: Drafts
+        edit_post: 'Edit the post'
+        first_last_post: 'First / last post'
+        first_unread: 'First unread post'
+        flag_post: 'Flag the post'
+        focus_composer: 'Return to the composer'
+        help: 'Show keyboard shortcuts'
+        home: Home
+        jump_to_post: 'Jump to post'
+        latest: Latest
+        like_post: 'Like the post'
+        log_out: 'Log out'
+        messages: Messages
+        mute_topic: 'Mute the discussion'
+        new: New
+        next_prev_section: 'Next / previous section'
+        next_prev_topic: 'Next / previous discussion'
+        next_prev_topic_jump: 'Next / previous discussion in the list'
+        notifications: Notifications
+        open_topic: 'Open selected discussion'
+        pin_topic: 'Pin / unpin the discussion'
+        print: 'Print the discussion'
+        profile: Profile
+        quote_post: 'Quote the post'
+        regular_topic: 'Normal notifications for the discussion'
+        reply: 'Reply to discussion'
+        reply_linked: 'Reply as linked discussion'
+        reply_post: 'Reply to the post'
+        reply_topic: 'Reply to the discussion'
+        search: Search
+        search_global: 'Search (even while typing)'
+        settings: Settings
+        share_post: 'Share the post'
+        share_topic: 'Share the discussion'
+        show_incoming: 'Show new or updated discussions'
+        sidebar: 'Toggle sidebar'
+        suggested: 'First suggested discussion'
+        top: Top
+        topic_menu: 'Open the discussion menu'
+        unread: Unread
+        user_menu: 'Open the user menu'
+        watch_topic: 'Watch the discussion'
+      groups:
+        actions: Actions
+        application: Application
+        jump_to: 'Jump to'
+        navigation: Navigation
+      no_results: 'No shortcuts found.'
+      or: or
+      search_placeholder: 'Search shortcut by key combination or description'
+      title: 'Keyboard shortcuts'
+    sidebar:
+      admin: Admin
+      all_categories: 'All tags'
+      all_tags: 'All secondary tags'
+      categories: Tags
+      color_mode:
+        auto: Auto
+        dark: Dark
+        light: Light
+        title: 'Color mode'
+      customize_categories: 'Customize tags'
+      customize_community: Customize
+      customize_community_help: 'Uncheck the items that should move into "More" and drag them by the handle to change the order. The choice applies to this browser.'
+      customize_drag: 'Reorder {item}: drag, or use the arrow keys'
+      customize_filter: Filter…
+      customize_reset: 'Reset to default'
+      customize_save: Save
+      customize_tags: 'Customize secondary tags'
+      keyboard_shortcuts: 'Keyboard shortcuts'
+      label: Sidebar
+      more: More
+      my_messages: 'My messages'
+      my_posts: 'My posts'
+      new_topic: 'Start a Discussion'
+      notifications: Notifications
+      palette:
+        default: Default
+        high_contrast: 'High contrast'
+        title: 'Color palette'
+      settings: Settings
+      tags: 'Secondary tags'
+      theme:
+        save_failed: 'Could not switch theme. Please try again.'
+        title: Theme
+      toggle: 'Toggle sidebar'
+      topics: 'All Discussions'
+    stats:
+      activity:
+        days_visited: 'Days visited'
+        likes_given: 'Likes given'
+        likes_received: 'Likes received'
+        posts_read: 'Posts read'
+        time_read: 'Read time'
+        topics_viewed: 'Discussions viewed'
+      duration:
+        days: '{count} d'
+        hours: '{count} h'
+        minutes: '{count} min'
+        seconds: '{count} s'
+      new_count: '{count, plural, one {# new discussion} other {# new discussions}}'
+      sidebar_dot: 'There is something new: {new} new and {unread} unread'
+      unread_count: '{count, plural, one {# discussion with unread replies} other {# discussions with unread replies}}'
+      views:
+        chart_error: 'Error rendering chart, please try again.'
+        menu_title: 'Recent views'
+        no_views: 'No view stats yet, check back later.'
+        predicted_views: 'Predicted Views'
+        short_millions: '{number}M'
+        short_thousands: '{number}k'
+        view_explainer: 'One view per unique visitor every {hours} hours.'
+        views: Views
+        views_long: '{count, plural, one {this discussion has been viewed {number} time} other {this discussion has been viewed {number} times}}'
+        views_lowercase: '{count, plural, one {view} other {views}}'
+      views_sort: 'Most viewed'
+    system_user:
+      conversation_note: 'Automated system messages. Replies are not possible.'
+      no_replies: 'This is an automated system conversation: replies are not delivered.'
+    tag_modal:
+      edit_title: 'Edit tags'
+      primary_heading: 'Primary tags'
+      secondary_heading: 'Secondary tags'
+    templates:
+      choose_required: 'Choose a template before posting.'
+      field_required: 'This field is required.'
+      form_hint: 'Template "{name}": fill in the fields below. The rest of the text is fixed and shows in the preview.'
+      free_text: 'Free text'
+      load_failed: 'Could not load the template. Try again.'
+      replace_confirm: 'Replace what you wrote with the template text?'
+      select_placeholder: Choose…
     thirdparty:
+      audit:
+        today: Today
+        yesterday: Yesterday
+      polls:
+        votes: '{count, plural, =0 {votes} one {vote} other {votes}}'
+      ramon_chat:
+        continue_in: 'Continue in'
+      reactions:
+        like_reaction: Like
+        picker: 'Pick a reaction'
+        react_with: 'React with {reaction}'
+        remove: 'Remove your reaction'
+        summary: '{count, plural, one {# reaction: see who reacted} other {# reactions: see who reacted}}'
+      solved:
+        accepted: Solution
+        accepted_bar: Solution
+        accepted_by: 'Accepted as the solution by {username} {ago}'
+        accepted_title: 'Accepted as the solution'
+        collapse: 'Collapse the answer'
+        expand: 'Show the whole answer'
+        jump: 'Go to the answer'
+        mark: 'Mark as solution'
+        title: Solution
+        unmark: 'click to unmark'
+      upload:
+        uploading: '{count, plural, one {Uploading the file…} other {Uploading # files…}}'
       wiki:
+        advanced: 'Advanced options'
+        all_categories: 'All categories'
+        author_role: Author
+        back_to_wiki: 'Back to the wiki'
         categories: 商店分類
+        category_placeholder: Category…
+        clear_search: 'Clear search'
+        close: Close
+        column_article: Article
+        comment_action: Comment
+        comment_edit: 'Editing comment'
+        created: created
+        edited_by: 'edited by {name}'
+        edits_title: 'Last edited on {date}'
+        empty_category: 'This category has no articles yet'
+        empty_error: 'Check your connection and try again.'
+        empty_search: 'Try other words or browse by category.'
+        empty_title: 'No articles here'
+        hero_articles: '{count, plural, one {# article} other {# articles}}'
+        hero_categories: '{count, plural, one {# category} other {# categories}}'
+        hero_description: 'Guides, references and answers written and kept up to date by the community.'
+        history_failed: 'Could not load this article''s revisions.'
+        history_title: 'Revision history'
+        more: 'More actions'
+        next: Next
+        not_found: 'Article unavailable'
+        pager_label: 'Articles in the same category'
+        previous: Previous
+        retry: 'Try again'
+        revisions: '{count, plural, one {revision} other {revisions}}'
+        see_all: 'See all'
+        share: 'Share article'
         updated: 已更新
+    toc:
+      insert: 'Insert table of contents'
+      jump_end: 'Jump to end'
+      show_timeline: Timeline
+      show_toc: Contents
+      title: Contents
+    topic:
+      author_filter:
+        show_all: 'Show all'
+        showing: 'Showing {count, plural, one {# post} other {# posts}} by @{username}'
+      embedded:
+        go_to_post: 'Go to post'
+      footer:
+        aria_label: 'Discussion actions'
+        bookmark: Bookmark
+        bookmarked: Bookmarked
+        flag: Flag
+        mark_unread: 'Mark unread'
+        more: 'More discussion actions'
+        reply: Reply
+        share: Share
+      link_copied: 'Link copied to clipboard.'
+      map:
+        aria_label: 'Discussion summary'
+        frequent_posters: 'Frequent posters'
+        likes: '{count, plural, one {like} other {likes}}'
+        links: '{count, plural, one {link} other {links}}'
+        most_liked: 'Most liked replies'
+        popular_links: 'Popular links'
+        posts: '{count, plural, one {# post} other {# posts}}'
+        replies: '{count, plural, one {reply} other {replies}}'
+        show_more_links: 'Show more'
+        users: '{count, plural, one {user} other {users}}'
+        views: '{count, plural, one {view} other {views}}'
+      new_replies: '{count, plural, one {There is # new reply} other {There are # new replies}}'
+      notifications:
+        muted: Muted
+        muted_description: 'You will never be notified of anything about this discussion, and it will not appear in latest.'
+        muted_reason: 'You will never be notified of anything about this discussion.'
+        normal: Normal
+        normal_description: 'You will be notified if someone mentions your @name or replies to you.'
+        normal_reason: 'You will be notified if someone mentions your @name or replies to you.'
+        toggle: 'Discussion notifications: {level}'
+        watching: Watching
+        watching_description: 'You will be notified of every new reply in this discussion, and a count of new replies will be shown.'
+        watching_reason: 'You will receive notifications because you are watching this discussion.'
+      post:
+        cannot_like: 'Liking isn''t available on this post'
+        go_to_quoted: 'Go to the quoted post'
+        hide_hidden: 'Hide the deleted post content'
+        in_reply_to: 'In reply to: click to show the post'
+        like: 'Like this post'
+        like_guest: 'Sign up or log in to like this post'
+        mention_unavailable: 'post unavailable'
+        more_replies: '{count, plural, one {Show # more reply} other {Show # more replies}}'
+        more_short: 'More actions'
+        notice_first: 'This is the first time {username} has posted. Let’s welcome them to the community!'
+        notice_returning: 'Welcome back, {username}! Their last post was {ago}.'
+        remove_reply: 'Remove the reply'
+        replies: '{count, plural, one {# reply} other {# replies}}'
+        reply: Reply
+        reply_to_label: 'In reply to'
+        share: 'Copy a link to this post to clipboard'
+        share_short: 'Copy link'
+        show_hidden: 'View the deleted post content'
+        show_less: 'Show less'
+        show_more: 'Show more'
+        unlike: 'Undo like'
+        who_liked: 'Who liked this'
+      suggested:
+        activity: Activity
+        related_title: 'Related discussions'
+        replies: Replies
+        tab_related: Related
+        tab_suggested: Suggested
+        title: 'Suggested discussions'
+        topic: Discussion
+        views: Views
+      tagged_post: '{count, plural, one {the {tags} tag} other {the {tags} tags}}'
+      timeline:
+        ago: '{age} ago'
+        unread: '{count, plural, one {# unread} other {# unread}}'
+      user_card:
+        discussions: Discussions
+        joined: Joined
+        last_seen: Seen
+        likes_received: Likes
+        more: 'More actions'
+        online: 'Online now'
+        posts: Posts
+        posts_in_topic: '{count, plural, one {# post in discussion} other {# posts in discussion}}'
+        read: Read
+        read_recently: '{time} recently'
+        solutions: Solutions
+        view_profile: 'View profile'
     user:
+      age_ago:
+        days: '{count, plural, one {# day ago} other {# days ago}}'
+        hours: '{count, plural, one {# hour ago} other {# hours ago}}'
+        minutes: '{count, plural, one {# minute ago} other {# minutes ago}}'
+        now: 'just now'
+      nav:
+        activity: Activity
+        discussions: Discussions
+        posts: Posts
+        reactions: Reactions
+        reactions_empty: 'No reactions yet.'
+        read: Read
+        scroll_left: 'Scroll tabs left'
+        scroll_right: 'Scroll tabs right'
+        solved: Solved
+        votes: Votes
+      preferences:
+        auto_track_heading: 'Automatic tracking'
+        avatar: 'Profile picture'
+        avatar_change: 'Change picture'
+        avatar_help: 'A square image works best. You can also drag the file onto the picture.'
+        email: Email
+        email_confirmed: confirmed
+        email_help: 'Stays between you and the staff; it never shows on your profile.'
+        email_primary: primary
+        email_resend: 'Send confirmation again'
+        email_resent: 'Confirmation sent'
+        email_unconfirmed: unconfirmed
+        empty: 'Nothing to adjust on this tab yet.'
+        nav: Preferences
+        nav_menu_default: 'Forum default'
+        nav_menu_edit: Customize
+        nav_menu_heading: Sidebar
+        nav_menu_help: 'Pick which tags show in your sidebar. Applies to this device only.'
+        nav_menu_picked: '{count, plural, one {# picked} other {# picked}}'
+        password_heading: Password
+        password_help: 'You get an email with a link to pick the new password.'
+        tabs:
+          account: Account
+          chat: Chat
+          interface: Interface
+          navigation-menu: 'Navigation menu'
+          notifications: Notifications
+          other: Other
+          profile: Profile
+          security: Security
+          tracking: Tracking
+          users: 'Ignored users'
+        username: Username
+        username_help: 'It is the name in your profile address; to call you in a post, people write @{username}.'
+      stats:
+        groups: Groups
+        joined: Joined
+        last_post: 'Last post'
+        online: 'online now'
+        posts: Posts
+        seen: Seen
+        topics: Discussions
       summary:
+        days_member: '{count, plural, one {day as member} other {days as member}}'
+        days_visited: '{count, plural, one {day visited} other {days visited}}'
+        empty_likes: 'No likes yet.'
+        empty_links: 'No clicked links yet.'
+        empty_replied: 'No replies yet.'
+        likes_given_short: given
+        likes_received_short: received
+        more_replies: 'More replies'
+        more_topics: 'More discussions'
+        most_liked: 'Most Liked'
+        most_liked_by: 'Most Liked By'
+        most_replied_to: 'Most Replied To'
+        nav: Summary
+        no_replies: 'No replies yet.'
+        no_topics: 'No discussions yet.'
+        posts_created: 'posts created'
+        posts_read: 'posts read'
+        recent_time_read: 'recent read time'
+        replies: '{count, plural, =0 {no replies} one {# reply} other {# replies}}'
+        replies_column: Replies
         solutions: 解決方案
+        stats_heading: Stats
+        time_read: 'read time'
+        top_categories: 'Top Tags'
+        top_links: 'Top Links'
+        top_replies_heading: 'Top replies'
+        top_topics_heading: 'Top discussions'
+        topics: Discussions
+        topics_created: 'discussions created'
+        topics_viewed: 'discussions viewed'
+    usermenu:
+      badge:
+        new_messages: '{count, plural, one {# new personal message} other {# new personal messages}}'
+        new_reviewables: '{count, plural, one {# new reviewable} other {# new reviewables}}'
+        unread: '{count, plural, one {# unread item} other {# unread items}}'
+      dismiss: Dismiss
+      dismiss_bookmarks_tooltip: 'Mark all unread bookmark reminders as read'
+      dismiss_messages_tooltip: 'Mark all unread personal message notifications as read'
+      dismiss_notifications_tooltip: 'Mark all unread notifications as read'
+      empty:
+        bookmarks_body: 'Start bookmarking posts with the {icon} button and they will be listed here for easy reference. You can schedule a reminder too!'
+        bookmarks_title: 'You haven''t bookmarked anything yet'
+        chat_body_1: 'You will be notified in this panel when someone directly messages you or <b>@mentions</b> you in chat. Notifications will also be sent to your email when you haven''t logged in for a while.'
+        chat_body_2: 'Click on the title at the top of any chat channel to configure which notifications you receive in that channel. For more, see your <a>notification preferences</a>.'
+        chat_title: 'You don''t have any chat notifications yet'
+        generic: 'There are no items in this list.'
+        likes_body_1: 'You will be notified here any time someone likes one of your posts so you can see what others are finding valuable. Others will see the same when you like their posts too!'
+        likes_body_2: 'Notifications for likes are never sent to your email, but you can tune how you receive notifications about likes on the site in your <a>notification preferences</a>.'
+        likes_title: 'You haven''t received any likes yet'
+        messages_body_1: 'Need to have a direct personal conversation with someone, outside the normal conversational flow? Message them by selecting their avatar and using the {icon} message button.'
+        messages_body_2: 'If you need help, you can <a>message a staff member</a>.'
+        messages_title: 'You don''t have any messages'
+        notifications_body_1: 'You will be notified in this panel about activity directly relevant to you, including replies to your discussions and posts, when someone <b>@mentions</b> you or quotes you, and replies to discussions you are watching. Notifications will also be sent to your email when you haven''t logged in for a while.'
+        notifications_body_2: 'Look for the {icon} to decide which specific discussions and tags you want to be notified about. For more, see your <a>notification preferences</a>.'
+        notifications_title: 'You don''t have any notifications yet'
+        other_body: 'You will be notified in this panel about other kinds of activity that may be relevant to you – for example, when someone links to or edits one of your posts.'
+        other_title: 'You don''t have any other notifications yet'
+        page_body_1: 'You will be notified about activity directly relevant to you, including replies to your discussions and posts, when someone <b>@mentions</b> you or quotes you, and replies to discussions you are watching. Notifications will also be sent to your email when you haven''t logged in for a while.'
+        page_title: 'You don''t have any notifications yet'
+      page:
+        all: All
+        chat: Chat
+        likes: Likes
+        other: Other
+        private: 'Notifications are personal: they only show on your own profile.'
+        replies: Replies
+        title: Notifications
+      profile:
+        activity: Activity
+        dark_mode: 'Dark mode'
+        light_mode: 'Light mode'
+        messages: Messages
+        set_custom_status: 'Set custom status'
+        summary: Summary
+      sr_menu_tabs: 'User menu tabs'
+      tabs:
+        all_notifications: 'All notifications'
+        bookmarks: Bookmarks
+        bookmarks_with_unread: '{count, plural, one {Bookmarks - # unread bookmark} other {Bookmarks - # unread bookmarks}}'
+        chat_notifications: 'Chat notifications'
+        chat_notifications_with_unread: '{count, plural, one {Chat notifications - # unread notification} other {Chat notifications - # unread notifications}}'
+        likes: Likes
+        likes_with_unread: '{count, plural, one {Likes - # unread like} other {Likes - # unread likes}}'
+        messages: 'Personal messages'
+        messages_with_unread: '{count, plural, one {Personal messages - # unread message} other {Personal messages - # unread messages}}'
+        other_notifications: 'Other notifications'
+        other_notifications_with_unread: '{count, plural, one {Other notifications - # unread notification} other {Other notifications - # unread notifications}}'
+        profile: Profile
+        replies: Replies
+        replies_with_unread: '{count, plural, one {Replies - # unread reply} other {Replies - # unread replies}}'
+        review_queue: 'Review queue'
+        review_queue_with_unread: '{count, plural, one {Review queue - # item needs review} other {Review queue - # items need review}}'
+      toggle: 'User menu'
+      view_all: 'View all'
+      view_all_bookmarks: 'view all bookmarks'
+      view_all_messages: 'view all personal messages'
+      view_all_notifications: 'view all notifications'
+      view_all_reviewables: 'view all review items'
