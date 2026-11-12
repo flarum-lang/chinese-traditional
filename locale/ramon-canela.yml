@@ -231,7 +231,7 @@ ramon-canela:
         persona_id: '識別碼（限英文字母、數字、_ 及 -）'
         persona_name: 名稱
         persona_new_name: 新增角色設定
-        persona_off: 關閉
+        persona_off: 停用
         persona_prompt: 系統提示詞
         persona_read: 允許閱讀討論
         persona_remove: 移除角色設定
@@ -1224,7 +1224,7 @@ ramon-canela:
         topic_views_heat_medium_help: '瀏覽次數達到此數值後，欄位會以中度強調色顯示。預設為 2000。'
         topic_views_heat_medium_label: 中度強調門檻
         views_notice: '同一帳號（訪客則依 IP）每天對同一則討論只計算一次瀏覽，並受上述小時數間隔限制。只有具備該討論檢視權限的使用者才會列入統計，爬蟲則不計算。已登入使用者的 IP 不會儲存；訪客的 IP 只會以加入 Salt 的代碼形式保存，不會儲存 IP 本身。每日統計資料會保留，供討論摘要中的「近期瀏覽」圖表使用。'
-        views_suffix: 瀏覽次數
+        views_suffix: 次瀏覽
       suggested_count_help: '設定要推薦的討論數量，範圍為 {min} 至 {max}。'
       suggested_count_label: 推薦討論數量
       suggested_topics_help: 在討論串底部顯示其他值得繼續閱讀的討論，優先推薦相同標籤下的內容。
@@ -1453,26 +1453,181 @@ ramon-canela:
         researcher_name: 網頁研究員
         researcher_prompt: 你是一位研究員。請搜尋網路，使用最新資訊回答問題，並附上來源連結作為引用。
     badges:
+      admired:
+        description: '300 篇貼文各獲得至少 5 個讚'
+        long_description: '有 300 篇不同的貼文各獲得至少五個讚，即可取得此徽章。太棒了！社群成員都很欣賞你持續分享的優質內容。'
+        name: 令人敬佩
+      aficionado:
+        description: '連續造訪 100 天'
+        long_description: '連續造訪社群 100 天即可取得此徽章。這已經超過三個月了！'
+        name: 忠實愛好者
+      anniversary:
+        description: 成為活躍會員滿一年，且至少發布過一篇貼文
+        long_description: 成為會員滿一年，且在這一年內至少發布過一篇貼文，即可獲得此徽章。感謝你持續留在社群並貢獻心力，這個社群不能沒有你！
+        name: 週年紀念
+      appreciated:
+        description: '20 篇貼文各獲得至少 1 個讚'
+        long_description: '有 20 篇不同的貼文各獲得至少一個讚，即可取得此徽章。社群成員很喜歡你在這裡分享的內容！'
+        name: 備受肯定
+      autobiographer:
+        description: 填寫個人檔案資料
+        long_description: 填寫個人檔案資料並設定個人頭像即可獲得此徽章。讓社群成員多認識你，以及了解你的興趣，能讓社群建立更緊密的連結。歡迎加入我們！
+        name: 自我介紹
+      basic_user:
+        description: 取得社群所有基本功能的使用權限
+        long_description: '達到信任等級 1 即可取得此徽章。感謝你花了一些時間留在社群，並閱讀幾則討論，逐漸了解我們的社群文化。'
+        name: 基礎會員
+      crazy_in_love:
+        description: '在 20 個不同日期，各單日送出 {max} 個讚'
+        long_description: '在 20 個不同日期，各自於單日送出 {max} 個讚，即可取得此徽章。太棒了！你是持續鼓勵社群成員的最佳典範！'
+        name: 按讚狂熱者
+      devotee:
+        description: '連續造訪 365 天'
+        long_description: '連續造訪社群 365 天即可取得此徽章。太厲害了！你已經持續陪伴我們整整一年！'
+        name: 忠實支持者
+      editor:
+        description: 首次編輯貼文
+        long_description: 首次編輯自己的貼文即可獲得此徽章。我們鼓勵大家適時修改貼文，例如改善排版、修正小錯誤，或補充發布時遺漏的內容。透過編輯，讓你的貼文更加完善！
+        name: 編輯達人
+      empathetic:
+        description: '有 500 篇貼文獲得按讚，並送出 1000 個讚'
+        long_description: '有 500 篇貼文獲得按讚，且自己也送出至少 1000 個讚，即可取得此徽章。太棒了！你是樂於分享、懂得相互欣賞的最佳典範。'
+        name: 充滿同理心
+      enthusiast:
+        description: '連續造訪 10 天'
+        long_description: '連續造訪社群 10 天即可取得此徽章。感謝你持續陪伴我們，參與時間已經超過一週了！'
+        name: 熱情參與者
+      first_emoji:
+        description: 在貼文中使用表情符號
+        long_description: 首次在貼文中加入表情符號即可獲得此徽章。表情符號能幫助你在貼文中傳達各種情緒，從開心、難過到生氣，以及介於其中的各種心情。
+        name: 初次使用表情符號
+      first_flag:
+        description: 檢舉貼文
+        long_description: 首次檢舉貼文即可獲得此徽章。檢舉功能能幫助我們共同維護友善的社群環境。如果你發現任何需要版主關注的貼文，請隨時提出檢舉。
+        name: 初次檢舉
       first_like:
-        description: 為貼文點讚
+        description: 對貼文按讚
         long_description: 首次對貼文按讚即可獲得此徽章。按讚是讓其他社群成員知道你覺得他們發布的內容有趣、實用、精彩或好玩的一種好方式。別吝嗇你的讚美！
-        name: 首次點讚
+        name: 初次按讚
+      first_link:
+        description: 加入其他討論的連結
+        long_description: 首次在貼文中加入其他討論的連結即可獲得此徽章。透過互相連結不同討論，可以幫助其他讀者找到有趣的相關對話，並了解各討論之間的關聯。歡迎多多分享連結！
+        name: 初次分享連結
+      first_mention:
+        description: 在貼文中提及會員
+        long_description: '首次在貼文中使用 @使用者帳號 提及其他會員即可獲得此徽章。每次提及都會向對方發送通知，讓對方知道你的貼文。只要輸入 @ 符號，就能開始提及其他會員。'
+        name: 初次提及
       first_quote:
         description: 引用貼文
         long_description: 首次在回覆中引用其他貼文即可獲得此徽章。在回覆中引用先前貼文的相關內容，有助於讓討論保持連貫並聚焦主題。盡情引用吧！
         name: 初次引用
+      gives_back:
+        description: '有 100 篇貼文獲得按讚，並送出 100 個讚'
+        long_description: '有 100 篇貼文獲得按讚，且自己也送出至少 100 個讚，即可取得此徽章。感謝你將這份善意傳遞下去！'
+        name: 樂於回饋
+      good_post:
+        description: '一篇回覆獲得 25 個讚'
+        long_description: '你的回覆獲得 25 個讚即可取得此徽章。你的回覆表現出色，讓每個人的討論都更加精彩！'
+        name: 精彩回覆
+      good_topic:
+        description: '一則討論獲得 25 個讚'
+        long_description: '你建立的討論獲得 25 個讚即可取得此徽章。你發起了一場熱烈的交流，吸引社群成員熱情參與並深受大家喜愛！'
+        name: 精彩討論
+      great_post:
+        description: '一篇回覆獲得 50 個讚'
+        long_description: '你的回覆獲得 50 個讚即可取得此徽章。太棒了！你的回覆可能令人深受啟發、感到驚奇、捧腹大笑，或獲得深刻見解，深受社群成員喜愛。'
+        name: 傑出回覆
+      great_topic:
+        description: '一則討論獲得 50 個讚'
+        long_description: '你建立的討論獲得 50 個讚即可取得此徽章。你開啟了一場引人入勝的交流，社群成員也熱烈參與，讓後續討論更加精彩！'
+        name: 傑出討論
+      higher_love:
+        description: '在 5 個不同日期，各單日送出 {max} 個讚'
+        long_description: '在 5 個不同日期，各自於單日送出 {max} 個讚，即可取得此徽章。感謝你每天花時間支持並鼓勵優質的社群交流！'
+        name: 熱情不間斷
+      leader:
+        description: 由管理團隊選為社群典範
+        long_description: '達到信任等級 4 即可取得此徽章。管理團隊認可你是社群中的領袖，而你在這裡的言行也為其他成員樹立了正面的榜樣。'
+        name: 社群領袖
+      member:
+        description: 取得長期參與社群數週者的信任
+        long_description: '達到信任等級 2 即可取得此徽章。感謝你持續參與數週，逐漸成為我們社群的一份子。'
+        name: 正式會員
+      new_user_of_the_month:
+        description: 加入首月便有傑出貢獻
+        long_description: 每個月會選出兩位新會員，表揚他們在加入社群首月的優異表現，評選依據為其貼文獲得的按讚數。
+        name: 本月最佳新人
+      nice_post:
+        description: '一篇回覆獲得 10 個讚'
+        long_description: '你的回覆獲得 10 個讚即可取得此徽章。你的回覆讓社群成員留下深刻印象，也幫助討論持續向前推進！'
+        name: 優質回覆
+      nice_topic:
+        description: '一則討論獲得 10 個讚'
+        long_description: '你建立的討論獲得 10 個讚即可取得此徽章。恭喜！你發起了一場讓社群成員感興趣的精彩討論！'
+        name: 優質討論
+      out_of_love:
+        description: '單日送出 {max} 個讚'
+        long_description: '單日送出 {max} 個讚即可取得此徽章。別忘了花點時間為喜歡的貼文按讚，鼓勵其他社群成員持續創作更多精彩內容，讓未來的討論更加豐富。'
+        name: 按讚不手軟
+      reader:
+        description: '閱讀一則回覆超過 100 篇的討論中的所有回覆'
+        long_description: '首次完整閱讀一則回覆超過 100 篇的長篇討論即可獲得此徽章。仔細閱讀討論內容，有助於掌握對話脈絡、理解不同觀點，並促成更有深度的交流。'
+        name: 深度讀者
+      regular:
+        description: 取得持續貢獻者的信任
+        long_description: '達到信任等級 3 即可取得此徽章。感謝你在數個月間持續參與社群。你現在已是最活躍的讀者之一，也是讓社群更加精彩、值得信賴的重要貢獻者。'
+        name: 活躍會員
+      respected:
+        description: '100 篇貼文各獲得至少 2 個讚'
+        long_description: '有 100 篇不同的貼文各獲得至少兩個讚，即可取得此徽章。你在社群中的眾多貢獻，正逐漸贏得大家的尊重。'
+        name: 深受尊重
+      thank_you:
+        description: '有 20 篇貼文獲得按讚，並送出 10 個讚'
+        long_description: '有 20 篇貼文獲得按讚，且自己也送出至少 10 個讚，即可取得此徽章。當別人喜歡你的貼文時，你也願意花時間欣賞其他人的分享。'
+        name: 感謝回饋
+      welcome:
+        description: 收到一個讚
+        long_description: 首次有貼文獲得按讚即可取得此徽章。恭喜你！你發布的內容受到其他社群成員肯定，讓他們覺得有趣、精彩或實用！
+        name: 初次獲得讚賞
+    badges_admin:
+      already_granted: 此會員已經取得這個徽章，且每人只能獲得一次。
+      badge_not_found: 找不到此徽章。
+      badge_not_grantable: 此徽章無法手動授予（系統徽章會依照自動授予規則發放）。
+      first_backfill_cli: '首次載入徽章只能透過命令列執行：請先執行一次 php flarum canela:badges，之後即可使用此按鈕。'
+      invalid_reason: '原因最多只能有 500 個字元；連結必須以 http:// 或 https:// 開頭。'
+      name_taken: 已經有徽章使用此名稱。
+      user_not_found: 找不到使用此帳號名稱的會員。
     bug_reports:
       description_required: 送出前請先描述遇到的問題。
       image_invalid: 缺少螢幕截圖，或提供的檔案不是有效的圖片。請再試一次。
       too_many: 你在過去一小時內已送出太多問題回報。請稍候再試。
+    events:
+      full: 此活動已達到參加人數上限。
+      invalid_status: 請選擇「會參加」、「有興趣」或「不參加」。
+    invites:
+      too_many: 你已達到有效邀請的數量上限，請先撤銷一個邀請，再建立新的邀請。
     loader:
       invalid_svg: '此檔案不是有效的 SVG，或清理後的檔案大小超過 64 KB。'
+    messages:
+      invite_empty: 請選擇要邀請的對象。
+      invite_group_already: '{group} 已經在這則訊息中。'
+      invite_group_invalid: 此群組無法接收訊息。
+      invite_unavailable: 這些使用者都無法接受邀請：他們無法接收或回覆訊息。
+      recipients_limit: '每則訊息最多只能有 {max} 位收件者，請移除部分收件者後再傳送。'
+    profile:
+      external_image_disabled: 此論壇僅接受上傳的圖片，已停用外部網站圖片網址。
+      invalid_birthday: '請選擇 1900 年至昨天之間的出生日期。'
+      invalid_image_url: '圖片網址必須使用 HTTPS，且不得包含空格、引號或括號。'
+      invalid_status_emoji: 狀態只能使用一個表情符號。
+      invalid_status_until: 狀態清除日期必須設定為未來的時間。
+      invalid_title: 頭銜必須是你已取得且可用作頭銜的徽章名稱。
+      invalid_website: '個人網站必須是以 http:// 或 https:// 開頭的網址。'
   forum:
     age:
       days: '{count}d'
       hours: '{count}h'
       minutes: '{count}m'
-      now: 現在
+      now: now
     ai:
       bot:
         back_to_forum: 'Back to forum'
@@ -1593,7 +1748,7 @@ ramon-canela:
       forgot_heading: 'Reset password'
       forgot_page_title: 'Reset password'
       login_page_title: 'Log In'
-      or: 或
+      or: or
       panel_login_text: 'Log in to keep up with the conversations, reply and follow what matters to you.'
       panel_login_title: 'Good to see you again'
       panel_signup_text: 'Create your account to take part in discussions, follow topics and get notifications.'
@@ -1641,10 +1796,10 @@ ramon-canela:
         unlocked_help: 'The trust level is unlocked: the system may promote or demote this user based on the requirements.'
       trust_levels:
         basic: 'basic user'
-        leader: 領袖
-        member: 成員
+        leader: leader
+        member: member
         newuser: 'new user'
-        regular: 常客
+        regular: regular
       types:
         bronze: Bronze
         gold: Gold
@@ -1751,8 +1906,8 @@ ramon-canela:
       tags_all: 'All Tags'
       tags_none: 'No secondary tags yet.'
       tags_sort_by: 'Sort by'
-      tags_sort_count: 計數
-      tags_sort_name: 受敬仰
+      tags_sort_count: count
+      tags_sort_name: name
       tags_title: 'Secondary tags'
       topics: Discussions
     chat:
@@ -1861,7 +2016,7 @@ ramon-canela:
       delete: Delete
       deleted: '{count, plural, one {A message was deleted. [view]} other {# messages were deleted. [view all]}}'
       deleted_by: 'Deleted by {username} at {time}'
-      deleted_chat_username: 已刪除
+      deleted_chat_username: deleted
       deleted_message: 'Deleted message'
       direct_message_creator:
         add_to_channel: 'Add to channel'
@@ -1874,7 +2029,7 @@ ramon-canela:
         title: DMs
       disabled_for_you: 'Chat is disabled for you. Turn it back on in Settings → Chat.'
       edit: Edit
-      edited: 已編輯
+      edited: edited
       emoji: 'Insert emoji'
       empty_state:
         my_threads: 'You don’t have any threads yet. Threads you participate in will be displayed here.'
@@ -2079,7 +2234,7 @@ ramon-canela:
         failed: 'Couldn''t upload. Try again.'
         too_large: 'File too large. Choose a smaller one.'
       upload_to_channel: 'Upload to {title}'
-      you: 你
+      you: you
     community:
       about:
         activity:
@@ -2379,12 +2534,12 @@ ramon-canela:
         unlock: Open
         unsticky: Unpin
       gambits:
-        bookmarks_key: 書籤
-        in_group: 在
-        likes_key: 點讚
+        bookmarks_key: bookmarks
+        in_group: in
+        likes_key: likes
         min_posts_hint: 'minimum number of posts in the discussion'
         min_posts_key: min-posts
-        title_key: 書籤
+        title_key: title
       history:
         added: '{count, plural, one {+# word} other {+# words}}'
         after: 'This version'
@@ -2416,10 +2571,10 @@ ramon-canela:
         advanced: 'Advanced filters'
         clear: 'Clear search'
         failed: 'The search could not be completed. Please try again in a moment.'
-        filter_after: 此版本
+        filter_after: after
         filter_author: 'Posted by'
-        filter_author_placeholder: 使用者名稱
-        filter_before: 上一個版本
+        filter_author_placeholder: username
+        filter_before: before
         filter_bookmarked: 'Bookmarked by me'
         filter_category: 'In primary tag'
         filter_category_any: 'Any primary tag'
@@ -2737,7 +2892,7 @@ ramon-canela:
       all_categories: 'All tags'
       all_subcategories: 'All in {name}'
       all_tags: 'All secondary tags'
-      categories: 變更標籤
+      categories: tags
       categories_link: Tags
       filter_for_more: 'Filter for more...'
       hot: Hot
@@ -2920,7 +3075,7 @@ ramon-canela:
       more: More
       no_results: 'No results found.'
       open_advanced: 'Open advanced search'
-      results: 結果
+      results: results
       tips:
         author: 'filters by post author'
         category_tag: 'filters by tag'
@@ -3102,7 +3257,7 @@ ramon-canela:
         all_categories: 'All categories'
         author_role: Author
         back_to_wiki: 'Back to the wiki'
-        categories: 商店分類
+        categories: categories
         category_placeholder: Category…
         clear_search: 'Clear search'
         close: Close
@@ -3130,7 +3285,7 @@ ramon-canela:
         revisions: '{count, plural, one {revision} other {revisions}}'
         see_all: 'See all'
         share: 'Share article'
-        updated: 已更新
+        updated: updated
     toc:
       insert: 'Insert table of contents'
       jump_end: 'Jump to end'
@@ -3306,7 +3461,7 @@ ramon-canela:
         recent_time_read: 'recent read time'
         replies: '{count, plural, =0 {no replies} one {# reply} other {# replies}}'
         replies_column: Replies
-        solutions: 解決方案
+        solutions: solutions
         stats_heading: Stats
         time_read: 'read time'
         top_categories: 'Top Tags'
@@ -3384,3 +3539,28 @@ ramon-canela:
       view_all_messages: 'view all personal messages'
       view_all_notifications: 'view all notifications'
       view_all_reviewables: 'view all review items'
+  lib:
+    onebox:
+      assets: '{count, plural, one {# 個資源} other {# 個資源}}'
+      comments: '{count, plural, one {# 則留言} other {# 則留言}}'
+      commits: '{count, plural, one {# 次提交} other {# 次提交}}'
+      files: '{count, plural, one {變更了 # 個檔案} other {變更了 # 個檔案}}'
+      lines_of: '第 {from}–{to} 行，共 {total} 行 · 前往 GitHub 查看'
+      state_closed: 已關閉
+      state_draft: 草稿
+      state_merged: 已合併
+      state_open: 開啟
+      state_prerelease: 預先發行版本
+      state_release: 正式版本
+  views:
+    not_found:
+      hint: 連結可能不完整，或內容已被移除，或僅部分會員可使用。
+      home: 返回首頁
+      page_title: 未找到頁面
+      placeholder: 按標題或關鍵詞搜索討論…
+      popular_topics: 熱門討論
+      recent_topics: 最近的討論
+      search_button: 搜尋
+      search_title: 不妨試試搜尋？
+      see_more: 更多
+      title: 未找到頁面。
