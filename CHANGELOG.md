@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.28.8 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.28.7...1.28.8](https://github.com/flarum-lang/chinese-traditional/compare/1.28.7...1.28.8).
+
+
 1.28.7 (2026-10-22)
 -------------------
 
