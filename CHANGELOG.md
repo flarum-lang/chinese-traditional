@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.28.8 (2026-11-23)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (371 changed).
+* Updated Day.js translations.
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags) (1 added, 89% complete)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (2 added, 5 changed, 100% complete)
+
+
+All changes: [1.28.7...1.28.8](https://github.com/flarum-lang/chinese-traditional/compare/1.28.7...1.28.8).
+
+
 1.28.7 (2026-10-22)
 -------------------
 
