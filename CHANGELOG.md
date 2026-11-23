@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.14 (2026-11-23)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [2.0.13...2.0.14](https://github.com/flarum-lang/chinese-traditional/compare/2.0.13...2.0.14).
+
+
 2.0.13 (2026-11-12)
 -------------------
 
